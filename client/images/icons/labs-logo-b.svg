@@ -1,0 +1,128 @@
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>labs-logo-b</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(140 240)">
+<g id="labs-logo-b">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-140 -240)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-140 -240)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-122 -222)" fill="#F0ADFF"/>
+</g>
+<g id="Group">
+<g id="Polygon">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path3_fill" fill="white" transform="translate(-41 -150)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path4_stroke_2x" transform="translate(-41 -150)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path5_fill" transform="translate(-41 -150)" fill="#1C1C1C"/>
+<use xlink:href="#path6_fill" transform="translate(-41 -150)" fill="#1C1C1C"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path5_fill" fill="white" transform="translate(-41 -150)"/>
+<use xlink:href="#path6_fill" fill="white" transform="translate(-41 -150)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path7_stroke_2x" transform="translate(-41 -150)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Polygon">
+<mask id="mask3_outline_ins">
+<use xlink:href="#path8_fill" fill="white" transform="translate(-71 -177)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path9_stroke_2x" transform="translate(-71 -177)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path10_fill" transform="translate(-71 -177)" fill="#1C1C1C"/>
+<use xlink:href="#path11_fill" transform="translate(-71 -177)" fill="#1C1C1C"/>
+<mask id="mask4_outline_ins">
+<use xlink:href="#path10_fill" fill="white" transform="translate(-71 -177)"/>
+<use xlink:href="#path11_fill" fill="white" transform="translate(-71 -177)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path12_stroke_2x" transform="translate(-71 -177)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Polygon">
+<mask id="mask5_outline_ins">
+<use xlink:href="#path13_fill" fill="white" transform="translate(-53 -234)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path14_stroke_2x" transform="translate(-53 -234)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path15_fill" transform="translate(-53 -234)" fill="#1C1C1C"/>
+<use xlink:href="#path16_fill" transform="translate(-53 -234)" fill="#1C1C1C"/>
+<mask id="mask6_outline_ins">
+<use xlink:href="#path15_fill" fill="white" transform="translate(-53 -234)"/>
+<use xlink:href="#path16_fill" fill="white" transform="translate(-53 -234)"/>
+</mask>
+<g mask="url(#mask6_outline_ins)">
+<use xlink:href="#path17_stroke_2x" transform="translate(-53 -234)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+<g id="Group">
+<g id="Polygon">
+<mask id="mask7_outline_ins">
+<use xlink:href="#path18_fill" fill="white" transform="translate(-125 -200)"/>
+</mask>
+<g mask="url(#mask7_outline_ins)">
+<use xlink:href="#path19_stroke_2x" transform="translate(-125 -200)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path20_fill" transform="translate(-125 -200)" fill="#1C1C1C"/>
+<use xlink:href="#path21_fill" transform="translate(-125 -200)" fill="#1C1C1C"/>
+<mask id="mask8_outline_ins">
+<use xlink:href="#path20_fill" fill="white" transform="translate(-125 -200)"/>
+<use xlink:href="#path21_fill" fill="white" transform="translate(-125 -200)"/>
+</mask>
+<g mask="url(#mask8_outline_ins)">
+<use xlink:href="#path22_stroke_2x" transform="translate(-125 -200)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 160 0L 160 160L 0 160L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 160 0L 161 0L 161 -1L 160 -1L 160 0ZM 160 160L 160 161L 161 161L 161 160L 160 160ZM 0 160L -1 160L -1 161L 0 161L 0 160ZM 0 1L 160 1L 160 -1L 0 -1L 0 1ZM 159 0L 159 160L 161 160L 161 0L 159 0ZM 160 159L 0 159L 0 161L 160 161L 160 159ZM 1 160L 1 0L -1 0L -1 160L 1 160Z"/>
+<path id="path2_fill" d="M 125 62.5C 125 97.0178 97.0178 125 62.5 125C 27.9822 125 0 97.0178 0 62.5C 0 27.9822 27.9822 0 62.5 0C 97.0178 0 125 27.9822 125 62.5Z"/>
+<path id="path3_fill" d="M 14.5 0L 29 47.006L 14.5 53L 0 47.006L 14.5 0Z"/>
+<path id="path4_stroke_2x" d="M 15.5 53L 15.5 0L 13.5 0L 13.5 53L 15.5 53ZM 14.5 0L 16.4111 -0.589532L 14.5 -6.78504L 12.5889 -0.589532L 14.5 0ZM 29 47.006L 29.7641 48.8543L 31.4484 48.158L 30.9111 46.4164L 29 47.006ZM 0 47.006L -1.91114 46.4164L -2.44836 48.158L -0.764056 48.8543L 0 47.006ZM 14.5 53L 13.7359 54.8483L 14.5 55.1641L 15.2641 54.8483L 14.5 53ZM 12.5889 0.589532L 27.0889 47.5955L 30.9111 46.4164L 16.4111 -0.589532L 12.5889 0.589532ZM 1.91114 47.5955L 16.4111 0.589532L 12.5889 -0.589532L -1.91114 46.4164L 1.91114 47.5955ZM 28.2359 45.1576L 13.7359 51.1517L 15.2641 54.8483L 29.7641 48.8543L 28.2359 45.1576ZM 15.2641 51.1517L 0.764056 45.1576L -0.764056 48.8543L 13.7359 54.8483L 15.2641 51.1517Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 14.5 0L 0 47.006L 14.5 53L 14.5 0Z"/>
+<path id="path6_fill" d="M 14.5 0L 0 47.006L 14.5 53L 14.5 0Z"/>
+<path id="path7_stroke_2x" d="M 14.5 0L 15.4556 -0.294766L 14.5 -3.39252L 13.5444 -0.294766L 14.5 0ZM 29 47.006L 29.382 47.9301L 30.2242 47.582L 29.9556 46.7112L 29 47.006ZM 0 47.006L -0.955569 46.7112L -1.22418 47.582L -0.382028 47.9301L 0 47.006ZM 14.5 53L 14.118 53.9242L 14.5 54.0821L 14.882 53.9242L 14.5 53ZM 13.5444 0.294766L 28.0444 47.3007L 29.9556 46.7112L 15.4556 -0.294766L 13.5444 0.294766ZM 0.955569 47.3007L 15.4556 0.294766L 13.5444 -0.294766L -0.955569 46.7112L 0.955569 47.3007ZM 28.618 46.0818L 14.118 52.0758L 14.882 53.9242L 29.382 47.9301L 28.618 46.0818ZM 14.882 52.0758L 0.382028 46.0818L -0.382028 47.9301L 14.118 53.9242L 14.882 52.0758ZM 15.5 53L 15.5 0L 13.5 0L 13.5 53L 15.5 53Z"/>
+<path id="path8_fill" d="M 11.5 0L 23 36.3631L 11.5 41L 0 36.3631L 11.5 0Z"/>
+<path id="path9_stroke_2x" d="M 12.5 41L 12.5 0L 10.5 0L 10.5 41L 12.5 41ZM 11.5 0L 13.4069 -0.603069L 11.5 -6.63274L 9.59309 -0.603069L 11.5 0ZM 23 36.3631L 23.7479 38.218L 25.4653 37.5255L 24.9069 35.76L 23 36.3631ZM 0 36.3631L -1.90691 35.76L -2.46526 37.5255L -0.74791 38.218L 0 36.3631ZM 11.5 41L 10.7521 42.8549L 11.5 43.1565L 12.2479 42.8549L 11.5 41ZM 9.59309 0.603069L 21.0931 36.9662L 24.9069 35.76L 13.4069 -0.603069L 9.59309 0.603069ZM 1.90691 36.9662L 13.4069 0.603069L 9.59309 -0.603069L -1.90691 35.76L 1.90691 36.9662ZM 22.2521 34.5082L 10.7521 39.1451L 12.2479 42.8549L 23.7479 38.218L 22.2521 34.5082ZM 12.2479 39.1451L 0.74791 34.5082L -0.74791 38.218L 10.7521 42.8549L 12.2479 39.1451Z"/>
+<path id="path10_fill" fill-rule="evenodd" d="M 11.5 0L 0 36.3631L 11.5 41L 11.5 0Z"/>
+<path id="path11_fill" d="M 11.5 0L 0 36.3631L 11.5 41L 11.5 0Z"/>
+<path id="path12_stroke_2x" d="M 11.5 0L 12.4535 -0.301535L 11.5 -3.31637L 10.5465 -0.301535L 11.5 0ZM 23 36.3631L 23.374 37.2905L 24.2326 36.9443L 23.9535 36.0616L 23 36.3631ZM 0 36.3631L -0.953455 36.0616L -1.23263 36.9443L -0.373955 37.2905L 0 36.3631ZM 11.5 41L 11.126 41.9274L 11.5 42.0782L 11.874 41.9274L 11.5 41ZM 10.5465 0.301535L 22.0465 36.6646L 23.9535 36.0616L 12.4535 -0.301535L 10.5465 0.301535ZM 0.953455 36.6646L 12.4535 0.301535L 10.5465 -0.301535L -0.953455 36.0616L 0.953455 36.6646ZM 22.626 35.4356L 11.126 40.0726L 11.874 41.9274L 23.374 37.2905L 22.626 35.4356ZM 11.874 40.0726L 0.373955 35.4356L -0.373955 37.2905L 11.126 41.9274L 11.874 40.0726ZM 12.5 41L 12.5 0L 10.5 0L 10.5 41L 12.5 41Z"/>
+<path id="path13_fill" d="M 18 0L 36 60.3095L 18 68L 0 60.3095L 18 0Z"/>
+<path id="path14_stroke_2x" d="M 19 68L 19 0L 17 0L 17 68L 19 68ZM 18 0L 19.9165 -0.571988L 18 -6.99315L 16.0835 -0.571988L 18 0ZM 36 60.3095L 36.7858 62.1487L 38.4268 61.4476L 37.9165 59.7375L 36 60.3095ZM 0 60.3095L -1.91646 59.7375L -2.42684 61.4476L -0.785783 62.1487L 0 60.3095ZM 18 68L 17.2142 69.8392L 18 70.1749L 18.7858 69.8392L 18 68ZM 16.0835 0.571988L 34.0835 60.8815L 37.9165 59.7375L 19.9165 -0.571988L 16.0835 0.571988ZM 1.91646 60.8815L 19.9165 0.571988L 16.0835 -0.571988L -1.91646 59.7375L 1.91646 60.8815ZM 35.2142 58.4704L 17.2142 66.1608L 18.7858 69.8392L 36.7858 62.1487L 35.2142 58.4704ZM 18.7858 66.1608L 0.785783 58.4704L -0.785783 62.1487L 17.2142 69.8392L 18.7858 66.1608Z"/>
+<path id="path15_fill" fill-rule="evenodd" d="M 18 0L 0 60.3095L 18 68L 18 0Z"/>
+<path id="path16_fill" d="M 18 0L 0 60.3095L 18 68L 18 0Z"/>
+<path id="path17_stroke_2x" d="M 18 0L 18.9582 -0.285994L 18 -3.49658L 17.0418 -0.285994L 18 0ZM 36 60.3095L 36.3929 61.2291L 37.2134 60.8785L 36.9582 60.0235L 36 60.3095ZM 0 60.3095L -0.958231 60.0235L -1.21342 60.8785L -0.392891 61.2291L 0 60.3095ZM 18 68L 17.6071 68.9196L 18 69.0874L 18.3929 68.9196L 18 68ZM 17.0418 0.285994L 35.0418 60.5955L 36.9582 60.0235L 18.9582 -0.285994L 17.0418 0.285994ZM 0.958231 60.5955L 18.9582 0.285994L 17.0418 -0.285994L -0.958231 60.0235L 0.958231 60.5955ZM 35.6071 59.3899L 17.6071 67.0804L 18.3929 68.9196L 36.3929 61.2291L 35.6071 59.3899ZM 18.3929 67.0804L 0.392891 59.3899L -0.392891 61.2291L 17.6071 68.9196L 18.3929 67.0804ZM 19 68L 19 0L 17 0L 17 68L 19 68Z"/>
+<path id="path18_fill" d="M 29 0L 58 94.0119L 29 106L 0 94.0119L 29 0Z"/>
+<path id="path19_stroke_2x" d="M 30 106L 30 0L 28 0L 28 106L 30 106ZM 29 0L 30.9111 -0.589532L 29 -6.78504L 27.0889 -0.589532L 29 0ZM 58 94.0119L 58.7641 95.8602L 60.4484 95.1639L 59.9111 93.4224L 58 94.0119ZM 0 94.0119L -1.91114 93.4224L -2.44836 95.1639L -0.764056 95.8602L 0 94.0119ZM 29 106L 28.2359 107.848L 29 108.164L 29.7641 107.848L 29 106ZM 27.0889 0.589532L 56.0889 94.6014L 59.9111 93.4224L 30.9111 -0.589532L 27.0889 0.589532ZM 1.91114 94.6014L 30.9111 0.589532L 27.0889 -0.589532L -1.91114 93.4224L 1.91114 94.6014ZM 57.2359 92.1636L 28.2359 104.152L 29.7641 107.848L 58.7641 95.8602L 57.2359 92.1636ZM 29.7641 104.152L 0.764056 92.1636L -0.764056 95.8602L 28.2359 107.848L 29.7641 104.152Z"/>
+<path id="path20_fill" fill-rule="evenodd" d="M 29 0L 0 94.0119L 29 106L 29 0Z"/>
+<path id="path21_fill" d="M 29 0L 0 94.0119L 29 106L 29 0Z"/>
+<path id="path22_stroke_2x" d="M 29 0L 29.9556 -0.294766L 29 -3.39252L 28.0444 -0.294766L 29 0ZM 58 94.0119L 58.382 94.9361L 59.2242 94.5879L 58.9556 93.7171L 58 94.0119ZM 0 94.0119L -0.955569 93.7171L -1.22418 94.5879L -0.382028 94.9361L 0 94.0119ZM 29 106L 28.618 106.924L 29 107.082L 29.382 106.924L 29 106ZM 28.0444 0.294766L 57.0444 94.3067L 58.9556 93.7171L 29.9556 -0.294766L 28.0444 0.294766ZM 0.955569 94.3067L 29.9556 0.294766L 28.0444 -0.294766L -0.955569 93.7171L 0.955569 94.3067ZM 57.618 93.0878L 28.618 105.076L 29.382 106.924L 58.382 94.9361L 57.618 93.0878ZM 29.382 105.076L 0.382028 93.0878L -0.382028 94.9361L 28.618 106.924L 29.382 105.076ZM 30 106L 30 0L 28 0L 28 106L 30 106Z"/>
+</defs>
+</svg>

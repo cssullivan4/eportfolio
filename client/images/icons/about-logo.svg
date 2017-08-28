@@ -1,0 +1,83 @@
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>about-logo (Canvas)</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(246 325)">
+<g id="logo">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(-246 -325)" fill="#F0ADFF"/>
+</g>
+<g id="id">
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(1 -3.95561e-18 3.04303e-18 1 -221.629 -278.731)" fill="#1C1C1C"/>
+</g>
+<g id="Group">
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-109.311 -257.185)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-109.311 -250.151)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-109.311 -243.057)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Group">
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-233.638 -257.185)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-233.638 -250.151)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-233.638 -243.057)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="Group">
+<g id="Union">
+<use xlink:href="#path3_fill" transform="translate(-208.243 -271)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path4_fill" transform="translate(-173.564 -267.468)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path4_fill" transform="translate(-173.795 -256.166)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path4_fill" transform="translate(-173.795 -244.863)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path5_fill" transform="translate(-213 -233.561)" fill="#F0ADFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Group">
+<g id="Rectangle 2">
+<use xlink:href="#path6_fill" transform="translate(-207.689 -222.925)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path7_fill" transform="translate(-201.493 -217.274)" fill="#F0ADFF"/>
+</g>
+</g>
+<g id="Group">
+<g id="Rectangle 2">
+<use xlink:href="#path6_fill" transform="translate(-142.633 -222.925)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path7_fill" transform="translate(-136.437 -217.274)" fill="#F0ADFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 160 80C 160 124.183 124.183 160 80 160C 35.8172 160 0 124.183 0 80C 0 35.8172 35.8172 0 80 0C 124.183 0 160 35.8172 160 80Z"/>
+<path id="path1_fill" d="M 0 10C 0 4.47715 4.47715 0 10 0L 100.905 0C 106.428 0 110.905 4.47715 110.905 10L 110.905 57.4614C 110.905 62.9842 106.428 67.4614 100.905 67.4614L 10 67.4614C 4.47715 67.4614 0 62.9842 0 57.4614L 0 10Z"/>
+<path id="path2_fill" d="M 0 2.50184C 0 1.12011 1.12011 0 2.50184 0L 8.09419 0C 9.47591 0 10.596 1.12011 10.596 2.50184L 10.596 2.50184C 10.596 3.88357 9.47591 5.00368 8.09419 5.00368L 2.50184 5.00368C 1.12011 5.00368 0 3.88357 0 2.50184L 0 2.50184Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 14.5715 19.6111C 18.8484 19.0782 20.1229 16.329 20.1229 10.596C 20.1229 4.15881 18.516 0 12.8563 0C 7.19661 0 5.77602 4.15881 5.77602 10.596C 5.77602 16.2323 6.86508 18.9846 10.9351 19.5822C 9.18109 21.6635 6.66643 22.1081 4.49071 22.4927C 2.02827 22.928 0 23.2865 0 25.8543C 0 31.7884 5.68881 31.7883 12.7318 31.7881L 12.8563 31.7881L 12.9808 31.7881C 20.0238 31.7883 25.7126 31.7884 25.7126 25.8543C 25.7126 23.2945 23.5842 22.9302 21.0517 22.4967C 18.8094 22.113 16.2505 21.675 14.5715 19.6111Z"/>
+<path id="path4_fill" d="M 0 2.11921C 0 0.9488 0.9488 0 2.11921 0L 52.7495 0C 53.9199 0 54.8687 0.948801 54.8687 2.11921L 54.8687 2.11921C 54.8687 3.28961 53.9199 4.23841 52.7495 4.23841L 2.11921 4.23841C 0.9488 4.23841 0 3.28961 0 2.11921L 0 2.11921Z"/>
+<path id="path5_fill" d="M 0 2.11921C 0 0.9488 0.9488 0 2.11921 0L 92.1854 0C 93.3558 0 94.3046 0.948801 94.3046 2.11921L 94.3046 2.11921C 94.3046 3.28961 93.3558 4.23841 92.1854 4.23841L 2.11921 4.23841C 0.9488 4.23841 0 3.28961 0 2.11921L 0 2.11921Z"/>
+<path id="path6_fill" d="M 0 2.82561C 0 1.26507 1.26507 0 2.82561 0L 15.452 0C 17.0126 0 18.2777 1.26507 18.2777 2.82561L 18.2777 2.82561C 18.2777 4.38615 17.0126 5.65121 15.452 5.65121L 2.82561 5.65121C 1.26507 5.65121 0 4.38615 0 2.82561L 0 2.82561Z"/>
+<path id="path7_fill" d="M 0 0L 5.88602 0L 5.88602 6.00442L 0 6.00442L 0 0Z"/>
+</defs>
+</svg>

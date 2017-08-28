@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <base href="/">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i" rel="stylesheet">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css" type="text/css" rel="stylesheet"/>
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body ng-controller="PageUp" class="no-touch">
+       <!-- <nav id="menu"><h1>Test</h1></nav> -->
+    <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <div id="header" class="container-fluid row" ng-controller="HeaderCtrl" data-ng-init="load();">
+            <div class="col-md-6 col-sm-7">
+                <p class="opener"><em><span class="white" ng-if="currentPath === '/'" style="color: black">/WELCOME!&nbsp;</span></em></p>
+                <p class="opener"><em><span class="blue" ng-if="currentPath === '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em></p>
+                <p class="opener"><em><span class="purple" ng-if="currentPath === '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em></p>
+                <p class="opener"><em><span class="red" ng-if="currentPath === '/a_politi'">/PRACTICED POLITI&nbsp;</span></em></p>
+                <p class="opener"><em><span class="yellow" ng-if="currentPath === '/a_designer'">/EMERGING DESIGNER&nbsp;</span></em></p>
+                <p class="opener"><em><span class="green" ng-if="currentPath === '/a_developer'">/FRESH DEVELOPER&nbsp;</span></em></p>
+                <p class="opener"><em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'"><small>//MCKAMEY VOLUNTEER PORTAL&nbsp;</small></span></em></p>
+                <p class="opener"><em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'"><small>>>>PRINT WORK&nbsp;</small></span></em></p>
+            </div>
+            <div class="col-md-2 col-md-push-4 col-sm-push-1 col-sm-4">
+                <a href="/" ng-click="reload();"><img src="/images/csamandme.svg" class="brand-logo"/></a>
+                
+            </div>
+
+            <!-- <div class="col-md-5"><p>blank</p></div> -->
+        </div>
+    </nav>
+    <!-- <main id="panel" style="position: fixed"><button class="toggle-button">☰</button></button> -->
+    <!-- <nav class="navbar custom-top charl-grn" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="nav navbar-nav navbar-right" href="/"><img src="/images/artboard.png" class="brand-logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li><a class="nav-text" href="/a_social_entrepreneur">Aspiring</a></li>
+                    <li><a class="nav-text" href="/a_scientist">Trained</a></li>
+                    <li><a class="nav-text" href="/a_politi">Practiced</a></li>
+                    <li><a class="nav-text" href="/a_designer">Emerging</a></li>
+                    <li><a class="nav-text" href="/a_developer">Fresh</a></li>
+
+                </ul>
+            </div>
+            </div>
+    </nav> -->
+    <!-- <div class="container">  -->
+    <img src="/images/b2t-btn.svg" id="btn" alt="Back to top" title="Back to top" ng-click="scroll()"/>
+    <div ng-view id="content" class="buffer">
+    </div>
+    <!-- </div>  -->
+    <!-- <div class="footer"> -->
+    <nav class="navbar-footer" role="navigation">
+        <div id="footer" class="container-fluid col-md-12 fixed-bottom custom-bottom black">
+        <div class="col-md-4 col-sm-4">
+            <!-- <h3 class="white">SITE MAP</h3>
+            <ul>
+                <li><a href="/a_social_entrepreneur">/ASPIRING SOCIAL ENTREPRENEUR</a></li>
+                <li><a href="/a_scientist">/TRAINED SCIENTIST</a></li>
+                <li><a href="/a_politi">/PRACTICED POLITI</a></li>
+                <li><a href="/a_designer">/EMERGING DESIGNER</a></li>
+                <li><a href="/a_developer">/FRESH DEVELOPER</a></li>
+            </ul> -->
+        </div>
+        <div class="col-md-4 col-sm-4">
+        </div>
+        <div class="col-md-4 col-sm-4">
+        </div>
+            <ul class="nav navbar-nav">
+                <li><a class="nav-text" href="/read_all_about_me">ABOUT</a></li>
+                <li><a class="nav-text" href="/reaching_out">CONTACT</a></li>
+            </ul>
+    </nav>
+    </div>
+    <!-- </div> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-touch.js"></script>
+    
+    <script src="app.js"></script>
+    <script src="controllers.js"></script>
+    <!-- <script src="directives.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.3/ui-bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    <!-- <script src="dist/slideout.min.js"></script> -->
+    <!-- <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+    </script> -->
+</body>
+
+</html>

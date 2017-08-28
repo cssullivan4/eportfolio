@@ -1,0 +1,32 @@
+<svg width="500" height="33" viewBox="0 0 500 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>block-spacer</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(242 81)">
+<g id="block-spacer">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(-242 -65)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path1_fill" transform="matrix(0.707107 -0.707107 0.707107 0.707107 -8 -64.7365)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(1 -5.55112e-17 5.55112e-17 1 -145 -72)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle">
+<use xlink:href="#path2_fill" transform="matrix(1 -5.55112e-17 5.55112e-17 1 148 -72)" fill="#1C1C1C"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path3_fill" transform="translate(-82 -77)" fill="#1C1C1C"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path3_fill" transform="translate(74 -77)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 1.5L 500 1.5L 500 -1.5L 0 -1.5L 0 1.5Z"/>
+<path id="path1_fill" d="M 0 0L 23 0L 23 23L 0 23L 0 0Z"/>
+<path id="path2_fill" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+<path id="path3_fill" d="M 25 12.5C 25 19.4036 19.4036 25 12.5 25C 5.59644 25 0 19.4036 0 12.5C 0 5.59644 5.59644 0 12.5 0C 19.4036 0 25 5.59644 25 12.5Z"/>
+</defs>
+</svg>
