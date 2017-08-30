@@ -1,0 +1,24 @@
+<svg width="94" height="94" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>alert-yellow</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(75 184)">
+<g id="alert-yellow">
+<g id="Polygon 2">
+<use xlink:href="#path0_fill" transform="translate(-78 -187)" fill="#F2CD3C"/>
+</g>
+<g id="Group">
+<g id="Ellipse 2">
+<use xlink:href="#path1_fill" transform="translate(-35 -127)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path2_fill" transform="translate(-34 -164)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 44.3431 5.65685C 47.4673 2.53266 52.5327 2.53266 55.6569 5.65685L 94.3431 44.3431C 97.4673 47.4673 97.4673 52.5327 94.3431 55.6569L 55.6569 94.3431C 52.5327 97.4673 47.4673 97.4673 44.3431 94.3431L 5.65685 55.6569C 2.53266 52.5327 2.53266 47.4673 5.65685 44.3431L 44.3431 5.65685Z"/>
+<path id="path1_fill" d="M 14 7C 14 10.866 10.866 14 7 14C 3.13401 14 0 10.866 0 7C 0 3.13401 3.13401 0 7 0C 10.866 0 14 3.13401 14 7Z"/>
+<path id="path2_fill" d="M 0 6C 0 2.68629 2.68629 0 6 0L 6 0C 9.31371 0 12 2.68629 12 6L 12 25.3846C 12 28.6983 9.31371 31.3846 6 31.3846L 6 31.3846C 2.68629 31.3846 0 28.6983 0 25.3846L 0 6Z"/>
+</defs>
+</svg>
