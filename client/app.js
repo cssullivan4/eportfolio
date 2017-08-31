@@ -35,6 +35,10 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.directives',*/ 'ngRoute'/
             templateUrl: 'views/proj-mvp.html',
             controller: 'PagesCtrl'
         })
+        .when('/a_developer/presenting_project/covalence_store', {
+            templateUrl: 'views/proj-cov-store.html',
+            controller: 'PagesCtrl'
+        })
         .when('/a_designer/showing/print', {
             templateUrl: 'views/portfolio/print.html',
             controller: 'PagesCtrl'

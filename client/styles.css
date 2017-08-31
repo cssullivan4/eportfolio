@@ -13,6 +13,7 @@ body {
     padding-top: 8%;
     /* background-image: url('/images/whiterhombus.jpg');
     background-repeat: repeat; */
+    -webkit-font-smoothing: antialiased;
 }
 a {
     text-decoration: none;
@@ -49,16 +50,16 @@ a:visited, a:link, a:active, a:focus {
     background-color: white;
 }
 .blue-shadow {
-    box-shadow: -8.5px 7.5px 0px 0px #01BAEF;
+    box-shadow: 8.5px 7.5px 0px 0px #01BAEF;
 }
 .red-shadow {
-    box-shadow: -8.5px 7.5px 0px 0px #FF4F79;
+    box-shadow: 8.5px 7.5px 0px 0px #FF4F79;
 }
 .purple-shadow {
-    box-shadow: -8.5px 7.5px 0px 0px #F0ADFF;
+    box-shadow: 8.5px 7.5px 0px 0px #F0ADFF;
 }
 .green-shadow {
-    box-shadow: -8.5px 7.5px 0px 0px #0cce6b;
+    box-shadow: 8.5px 7.5px 0px 0px #0cce6b;
 }
 .gray-shadow {
     box-shadow: -8.5px 7.5px 0px 0px #ACACAC;
@@ -70,10 +71,10 @@ a:visited, a:link, a:active, a:focus {
     box-shadow: -8.5px 7.5px 0px 0px rgb(28, 28, 28);
 }
 .yellow-shadow {
-    box-shadow: -8.5px 7.5px 0px 0px #F2CD3C;
+    box-shadow: 8.5px 7.5px 0px 0px #F2CD3C;
 }
 .yellow-shadow:hover {
-    box-shadow: -8.5px 7.5px 0px 0px white;
+    box-shadow: 8.5px 7.5px 0px 0px white;
 }
 .white-type {
     color: white;
@@ -263,9 +264,10 @@ a:visited, a:link, a:active, a:focus {
     margin-top: 1em;
     /* min-height: 7.5em; */
 }
-@media only screen and (max-width:)
+@media only screen and (max-width:450px) {
 .footer {
   padding: 20px;
+}
 }
 /* WELCOME WELCOME WELCOME WELCOME WELCOME WELCOME */
 
@@ -311,6 +313,12 @@ a:visited, a:link, a:active, a:focus {
     text-align: center;
     margin: auto;
     border-radius: 50%;
+}
+.circle-icons {
+    border-radius: 50%;
+    margin: auto;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .yellow-border {
     border: 4px solid #F2CD3C;
@@ -358,10 +366,28 @@ a:visited, a:link, a:active, a:focus {
     left: -15px;
 }
 /* SOCIAL ENTREPRENEUR SOCIAL ENTREPRENEUR SOCIAL ENTREPRENEUR */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-.img-size {
-    height: 160px;
-    width: auto;
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+@media only screen and (min-width: 1000px) {
+    .img-size {
+        height: 160px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img-size {
+        min-height: 40px;
+        width: auto;
+    }
 }
 .img-screen {
     height: 50%;
@@ -494,6 +520,19 @@ img:focus {
     object-position: center;
     height: 200px;
     width: 200px;
+}
+.soc {
+display: block;
+font-size: 0;
+list-style: none;
+margin: 0;
+/* padding: 48px; */
+padding: 4.8rem;
+text-align: center;
+}
+.soc svg {
+    height: 3rem;
+    width: 3rem;
 }
 .thumbnail {
     position: relative;

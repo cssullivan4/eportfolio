@@ -21,7 +21,7 @@
 <use xlink:href="#path3_fill" fill="white" transform="matrix(-0.987497 -0.15764 0.15764 -0.987497 55.8572 -42.2585)"/>
 </mask>
 <g mask="url(#mask1_outline_ins)">
-<use xlink:href="#path4_stroke_2x" transform="matrix(-0.987497 -0.15764 0.15764 -0.987497 55.8572 -42.2585)"/>
+<use xlink:href="#path4_stroke_2x" transform="matrix(-0.987497 -0.15764 0.15764 -0.987497 55.8572 -42.2585)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
