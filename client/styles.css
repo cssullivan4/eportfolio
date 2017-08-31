@@ -477,8 +477,10 @@ a:visited, a:link, a:active, a:focus {
     cursor: pointer;
     transition: 0.3s;
 }*/
-.img-tile:hover {
-    opacity: 0.7;
+.img-tile:hover, .img-tile:hover a {
+    background-color: rgba(28, 28, 28, 0.9);
+    color: #F2CD3C;
+    /* opacity: 0.7; */
 }
 /*
 .img-tile:focus {
