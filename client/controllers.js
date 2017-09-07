@@ -43,6 +43,7 @@ angular.module('myApp.controllers', [])
     //      }
     // })
     .controller('HeaderCtrl', function ($scope, $window, $location) {
+        console.log("I'm here, and I'm working.")
         // $window.onload = pageSet();
 
         // pageSet = function () {
@@ -79,18 +80,7 @@ angular.module('myApp.controllers', [])
         //     return $scope.myBoolean;
         //   };
     })
-//     .directive('scrollNav', function ($window) {
-//   return function($scope, $element, $attrs) {
-//     angular.element($window).bind("scroll", function() {
-//       if (this.pageYOffset >= 50) {
-//         scope.scrollDown = true;
-//       } else {
-//         scope.scrollDown = false;
-//       }
-//       scope.$apply();
-//     });
-//   };
-// })
+
 .controller('PageUp', ['$scope', '$window', function ($scope,  $window) {
     console.log($window);
     $(window).scroll(function() {
@@ -111,6 +101,7 @@ angular.module('myApp.controllers', [])
     };
 }])
 .controller('NavShrink', function($window) {
+    console.log("Do you see the shrinking?")
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
           $('.navbar').addClass('shrink');
@@ -123,34 +114,7 @@ angular.module('myApp.controllers', [])
         }
       });
 })
-// .controller('RiseUp', function($window) {
-//     $(window).scroll(function() {
-//         if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-//             $('#btmbtn').fadeIn(200);    // Fade in the arrow
-//         } else {
-//             $('#btmbtn').fadeOut(200);   // Else fade out the arrow
-//         }
-//     });
-    // $('#btmbtn').click(function() {      // When arrow is clicked
-    //     $('body,html').animate({
-    //         scrollTop : 0                       // Scroll to top of body
-    //     }, 500);
-    // })
-    // window.onscroll = function() {scrollFunction()};
-    
-    // function scrollFunction() {
-    //     $scope.scroll(function () {
-    //         if ($(this).scrollTop() > 100) {
-    //             $('#btmbtn').fadeIn();
-    //         } else {
-    //             $('#btmbtn').fadeOut();
-    //         }
-    //     });
-    //     // $('#btmbtn').click(function () {
-        //     $("html, body").animate({ scrollTop: 0 }, 1000);
-        //     return false;
-// })
-.controller('Popover', function ($scope, $sce) {
+// .controller('Popover', function ($scope, $sce) {
     // $scope.dynamicPopover = {
     //   content: 'Hello, World!',
     //   templateUrl: 'myPopoverTemplate.html',
@@ -193,30 +157,8 @@ angular.module('myApp.controllers', [])
             $("#showImg").append("<img class='img-responsive' src='" + image + "' />")
             var alt = $(this).attr("alt");
             $("#caption").append(alt);
-            // captionText.append(attr("alt"));
         })
     })
-    //   jquery translate & maybe bind or add this
-        // Get the modal
-    // var modal = document.getElementById('myModal');
-    
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    // var img = document.getElementById('myImg');
-    // var modalImg = document.getElementsByClassName("modalify");
-    // var captionText = document.getElementById("caption");
-    // img.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    // }
-    
-    // Get the <span> element that closes the modal
-    // var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on <span> (x), close the modal
-    // span.onclick = function() { 
-    //   modal.style.display = "none";
-    // }
   })
   .controller('DesignMenu', ['$scope', '$compile', function($scope, $compile) {
       console.log('Design Menu reporting for duty.');
@@ -241,5 +183,36 @@ angular.module('myApp.controllers', [])
 		nextIcon: '&#9654;',         /* Code that is used as next icon */
 		galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
-	});
-  });
+    });
+  })
+.controller('ContactCtrl', ['$scope', 'SEOService', '$location', function($scope, $SEOService, $location) {
+    console.log("I'm here");
+    var myform = $("form#myform");
+    myform.submit(function(event){
+        event.preventDefault();
+    
+      // Change to your service ID, or keep using the default service
+      var service_id = "default_service";
+      var template_id = "template_cPjrhCwn";
+    
+      myform.find("button").text("Sending...");
+      emailjs.sendForm(service_id,template_id,"myform")
+          .then(function(){ 
+            alert("Sent!");
+            console.log("I'm working");
+           myform.find("button").text("Send");
+        }, function(err) {
+           alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+           myform.find("button").text("Send");
+           console.log("I'm not working");
+        });
+      return false;
+      console.log("I'm not sure");
+    });
+    SEOService.setSEO({
+        title: 'Contact Me',
+        image: 'http://' + $location.host() + '/images/contact-icon-b.svg',
+        url: $location.url(),
+        description: 'Please contact me if you would like to talk, conect, or discuss working together.'
+});
+}]);

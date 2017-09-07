@@ -1,0 +1,38 @@
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>contact-icon-b</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(225 228)">
+<g id="contact-icon-b">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-225 -228)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-225 -228)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-208 -211)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path3_fill" transform="translate(-192 -179)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(-166 -153)" fill="#1C1C1C"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(-151 -153)" fill="#1C1C1C"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(-136 -153)" fill="#1C1C1C"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 160 0L 160 160L 0 160L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 160 0L 161 0L 161 -1L 160 -1L 160 0ZM 160 160L 160 161L 161 161L 161 160L 160 160ZM 0 160L -1 160L -1 161L 0 161L 0 160ZM 0 1L 160 1L 160 -1L 0 -1L 0 1ZM 159 0L 159 160L 161 160L 161 0L 159 0ZM 160 159L 0 159L 0 161L 160 161L 160 159ZM 1 160L 1 0L -1 0L -1 160L 1 160Z"/>
+<path id="path2_fill" d="M 125 62.5C 125 97.0178 97.0178 125 62.5 125C 27.9822 125 0 97.0178 0 62.5C 0 27.9822 27.9822 0 62.5 0C 97.0178 0 125 27.9822 125 62.5Z"/>
+<path id="path3_fill" d="M 2.6551 5.63334C 2.8489 2.46795 5.47257 0 8.64389 0L 84.4698 0C 87.5943 0 90.1957 2.39776 90.4499 5.51183L 93.5454 43.4312C 93.8015 46.5688 91.5918 49.3885 88.4871 49.9094C 84.7965 50.5286 81.6197 51 77.5 51C 75.6345 55.1042 77.3884 59.4868 81.723 61.6547C 82.7176 62.1522 82.7415 63.9912 81.6333 64.0842C 72.2111 64.8746 67.5 58.6621 67.5 51C 51.2652 51.9277 34.1698 52.4251 6.63293 49.6977C 2.91976 49.33 0.179077 46.0751 0.407099 42.3507L 2.6551 5.63334Z"/>
+<path id="path4_fill" d="M 10 5C 10 7.76142 7.76142 10 5 10C 2.23858 10 0 7.76142 0 5C 0 2.23858 2.23858 0 5 0C 7.76142 0 10 2.23858 10 5Z"/>
+</defs>
+</svg>

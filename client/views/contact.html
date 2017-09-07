@@ -1,1 +1,32 @@
-<h1>Hi!</h1>
+<div class="container-fluid white">
+<div class="row col-md-offset-2 col-md-3 col-sm-3 padding">
+    <br><br><img src="/images/icons/contact-icon-b.svg"/>
+</div>
+<div class="col-md-5 col-sm-5 text-center text-type buffer padding">
+    <h2><strong>PUT ME TO WORK</strong></h2>
+    <p class="lead">Maybe you want to collaborate? Maybe you are interested in work? Did you want to hire me? Or maybe you just want to reach out and say hi. For whatever you need, you can reach me below!</p>
+    <!-- <p>If <em>requesting</em> a resume or CV, please note in the area below.</p> -->
+</div>
+</div>
+<div class="container-fluid" ng-controller="ContactCtrl">
+    <div class="row col-md-5 col-sm-7 white gray-shadow pull-left card-left text-right buffer padding">
+        <h1>#CONTACT</h1>
+    </div>
+    <div class="row col-md-8 col-sm-8 white gray-shadow pull-right card-right type-text buffer padding">
+    <form id="myform" method="post" class="my-form">
+        <div class="form-group center-block">
+            <p class="lead">Your Name*</p>
+            <input class="form-control ask" type="text" name="from_name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <p class="lead">What's your Email?*</p>
+            <input class="form-control ask" type="email" name="reply_to" name="from_name" placeholder="Email Address">
+        </div>
+        <div class="form-group">
+            <p class="lead">What do you want to say?*</p>
+            <textarea class="form-control ask" type="text" name="message_html" placeholder="Message" rows="4"></textarea>
+        </div>
+        <div class="center-block"><input class="gray btn btn-lg" type="submit" value="Submit"></div>
+    </form>
+</div>
+</div>

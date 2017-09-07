@@ -49,6 +49,9 @@ a:visited, a:link, a:active, a:focus {
 .white {
     background-color: white;
 }
+.gray {
+    background-color: #ACACAC;
+}
 .blue-shadow {
     box-shadow: 8.5px 7.5px 0px 0px #01BAEF;
 }

@@ -4,8 +4,8 @@
   "description": "ePortfolio",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "test": "source .env && nodemon",
+    "start": "source .env && node server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "angular-ui-bootstrap": "^2.5.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
+    "prerender-node": "^2.7.2",
     "slideout": "^1.0.1"
   }
 }
