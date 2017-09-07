@@ -4,8 +4,8 @@
   "description": "ePortfolio",
   "main": "server/index.js",
   "scripts": {
-    "test": "source .env && nodemon",
-    "start": "source .env && node server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
   "author": "",
   "license": "ISC",
