@@ -100,7 +100,7 @@ angular.module('myApp.controllers', [])
       $window.scrollTo(0, 0);  
     };
 }])
-.controller('NavShrink', function($window) {
+.controller('NavShrink', function($scope, $window) {
     console.log("Do you see the shrinking?")
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
