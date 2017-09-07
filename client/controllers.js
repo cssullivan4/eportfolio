@@ -113,32 +113,7 @@ angular.module('myApp.controllers', [])
           $('.brand-logo').removeClass('shrink-img');
         }
       });
-})
-// .controller('Popover', function ($scope, $sce) {
-    // $scope.dynamicPopover = {
-    //   content: 'Hello, World!',
-    //   templateUrl: 'myPopoverTemplate.html',
-    //   title: 'Title'
-    // };
-  
     $scope.placement = 'right';
-    // {
-    //   options: [
-    //     'top',
-    //     'top-left',
-    //     'top-right',
-    //     'bottom',
-    //     'bottom-left',
-    //     'bottom-right',
-    //     'left',
-    //     'left-top',
-    //     'left-bottom',
-    //     'right',
-    //     'right-top',
-    //     'right-bottom'
-    //   ],
-    //   selected: 'right'
-    // };
   })
   .controller('Modal', function($scope) {
     // $(document).ready(function () {
