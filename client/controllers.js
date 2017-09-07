@@ -185,7 +185,7 @@ angular.module('myApp.controllers', [])
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
     });
   })
-.controller('ContactCtrl', ['$scope', 'SEOService', '$location', function($scope, $SEOService, $location) {
+.controller('ContactCtrl', ['$scope', /*'SEOService',*/ '$location', function($scope, /*$SEOService,*/ $location) {
     console.log("I'm here");
     var myform = $("form#myform");
     myform.submit(function(event){
@@ -209,10 +209,10 @@ angular.module('myApp.controllers', [])
       return false;
       console.log("I'm not sure");
     });
-    SEOService.setSEO({
-        title: 'Contact Me',
-        image: 'http://' + $location.host() + '/images/contact-icon-b.svg',
-        url: $location.url(),
-        description: 'Please contact me if you would like to talk, conect, or discuss working together.'
-});
+//     SEOService.setSEO({
+//         title: 'Contact Me',
+//         image: 'http://' + $location.host() + '/images/contact-icon-b.svg',
+//         url: $location.url(),
+//         description: 'Please contact me if you would like to talk, conect, or discuss working together.'
+// });
 }]);
