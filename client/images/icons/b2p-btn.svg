@@ -1,0 +1,18 @@
+<svg width="244" height="274" viewBox="0 0 244 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>b2p-btn</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(324 367)">
+<g id="b2p-btn">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(-324 -103)" fill="#0CCE6B"/>
+</g>
+<g id="b2p-btn">
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -324 -123)" fill="#0CCE6B"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 10L 244 10L 244 -10L 0 -10L 0 10Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 122 244C 189.379 244 244 189.379 244 122C 244 54.6212 189.379 -4.12576e-15 122 0C 54.6213 4.12576e-15 -4.12576e-15 54.6212 0 122C 4.12576e-15 189.379 54.6213 244 122 244ZM 132.354 41.9362L 121.684 29.3756L 111.014 41.9362L 44.3301 120.436L 65.6699 138.564L 107.684 89.1051L 107.684 200L 135.684 200L 135.684 89.1051L 177.698 138.564L 199.038 120.436L 132.354 41.9362Z"/>
+</defs>
+</svg>

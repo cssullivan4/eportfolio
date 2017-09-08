@@ -100,6 +100,21 @@ angular.module('myApp.controllers', [])
       $window.scrollTo(0, 0);  
     };
 }])
+.controller('PageBack', ['$scope', '$window', function ($scope,  $window) {
+    console.log("I am here to navigate back to portfolio.");
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 75) {
+            // $('#btn').removeClass('btn-there');
+            // $('#btn').addClass('btn-here');
+            $('#btn-back').show();
+        } else {
+            $('#btn-back').hide();
+            // $('#btn').removeClass('btn-here');
+            // $('#btn').addClass('btn-there');
+            // animate fade in later
+        }
+    })
+}])
 .controller('NavShrink', function($scope, $window) {
     console.log("Do you see the shrinking?")
     $(window).scroll(function() {
