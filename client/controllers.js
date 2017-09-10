@@ -175,6 +175,12 @@ angular.module('myApp.controllers', [])
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
     });
   })
+  .controller('PageSlider', ['$scope', function($scope) {
+    $(document).ready(function() {
+        $('#fullpage').fullpage();
+    });
+    console.log("Slider, get sliding!");
+  }])
 .controller('ContactCtrl', ['$scope', /*'SEOService',*/ '$location', function($scope, /*$SEOService,*/ $location) {
     console.log("I'm here");
     var myform = $("form#myform");

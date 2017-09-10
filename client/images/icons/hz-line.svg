@@ -1,0 +1,26 @@
+<svg width="900" height="7" viewBox="0 0 900 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hz-line</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(681 -114)">
+<g id="hz-line">
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(-681 114)" fill="#01BAEF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(-481 114)" fill="#FD3B68"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(-281 114)" fill="#F0ADFF"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(-81 114)" fill="#0BF8AB"/>
+</g>
+<g id="Rectangle 3">
+<use xlink:href="#path0_fill" transform="translate(119 114)" fill="#FFF901"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 3.125C 0 1.39911 1.39911 0 3.125 0L 96.875 0C 98.6009 0 100 1.39911 100 3.125L 100 3.125C 100 4.85089 98.6009 6.25 96.875 6.25L 3.125 6.25C 1.39911 6.25 0 4.85089 0 3.125L 0 3.125Z"/>
+</defs>
+</svg>

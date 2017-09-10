@@ -1,42 +1,42 @@
 <svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>code-icon-b</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(0 21)">
+<g id="Canvas" transform="translate(277 383)">
 <g id="code-icon-b">
 <g id="Rectangle 5">
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(0 -21)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(-277 -383)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(0 -21)" fill="#FFFFFF"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(-277 -383)" fill="#FFFFFF"/>
 </g>
 </g>
 <g id="Ellipse">
-<use xlink:href="#path2_fill" transform="translate(17 -1)" fill="#0CCE6B"/>
+<use xlink:href="#path2_fill" transform="translate(-260 -363)" fill="#0BF8AB"/>
 </g>
 <g id="Group">
 <g id="Polygon">
-<use xlink:href="#path3_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 40 79)" fill="#1C1C1C"/>
+<use xlink:href="#path3_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -237 -283)" fill="#1C1C1C"/>
 <mask id="mask1_outline_out">
-<rect id="mask1_outline_inv" fill="white" x="-4" y="-4" width="43" height="27" transform="matrix(6.12323e-17 -1 1 6.12323e-17 40 79)"/>
-<use xlink:href="#path3_fill" fill="black" transform="matrix(6.12323e-17 -1 1 6.12323e-17 40 79)"/>
+<rect id="mask1_outline_inv" fill="white" x="-4" y="-4" width="43" height="27" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -237 -283)"/>
+<use xlink:href="#path3_fill" fill="black" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -237 -283)"/>
 </mask>
 <g mask="url(#mask1_outline_out)">
-<use xlink:href="#path4_stroke_2x" transform="matrix(6.12323e-17 -1 1 6.12323e-17 40 79)" fill="#1C1C1C"/>
+<use xlink:href="#path4_stroke_2x" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -237 -283)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Polygon">
-<use xlink:href="#path3_fill" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 119 79)" fill="#1C1C1C"/>
+<use xlink:href="#path3_fill" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 -158 -283)" fill="#1C1C1C"/>
 <mask id="mask2_outline_out">
-<rect id="mask2_outline_inv" fill="white" x="-4" y="-4" width="43" height="27" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 119 79)"/>
-<use xlink:href="#path3_fill" fill="black" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 119 79)"/>
+<rect id="mask2_outline_inv" fill="white" x="-4" y="-4" width="43" height="27" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 -158 -283)"/>
+<use xlink:href="#path3_fill" fill="black" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 -158 -283)"/>
 </mask>
 <g mask="url(#mask2_outline_out)">
-<use xlink:href="#path4_stroke_2x" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 119 79)" fill="#1C1C1C"/>
+<use xlink:href="#path4_stroke_2x" transform="matrix(-6.12323e-17 -1 -1 6.12323e-17 -158 -283)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="matrix(0.945519 0.325568 -0.325568 0.945519 88.1051 22.687)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="matrix(0.945519 0.325568 -0.325568 0.945519 -188.895 -339.313)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>

@@ -4,10 +4,10 @@
 <g id="Canvas" transform="translate(324 367)">
 <g id="b2p-btn">
 <g id="Vector">
-<use xlink:href="#path0_stroke" transform="translate(-324 -103)" fill="#0CCE6B"/>
+<use xlink:href="#path0_stroke" transform="translate(-324 -103)" fill="#0BF8AB"/>
 </g>
 <g id="b2p-btn">
-<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -324 -123)" fill="#0CCE6B"/>
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -324 -123)" fill="#0BF8AB"/>
 </g>
 </g>
 </g>

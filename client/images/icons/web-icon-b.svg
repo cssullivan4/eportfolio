@@ -1,160 +1,154 @@
 <svg width="135" height="125" viewBox="0 0 135 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>web-icon-b</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(98 223)">
+<g id="Canvas" transform="translate(9 562)">
 <g id="web-icon-b">
 <g id="backing">
-<g id="Ellipse">
-<use xlink:href="#path0_fill" transform="translate(-98 -223)" fill="#F2CD3C"/>
+<g id="Subtract">
+<use xlink:href="#path0_fill" transform="translate(-9 -562)" fill="#FFF901"/>
 </g>
 </g>
 <g id="Ellipse 2">
-<use xlink:href="#path1_fill" transform="translate(-96 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path1_fill" transform="translate(-7 -538)" fill="#1C1C1C"/>
 </g>
 <g id="plus">
 <g id="Ellipse 2">
-<use xlink:href="#path1_fill" transform="translate(-94 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path1_fill" transform="translate(-5 -538)" fill="#1C1C1C"/>
 </g>
 <g id="plus">
 <g id="Ellipse 2">
-<use xlink:href="#path1_fill" transform="translate(-92 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path1_fill" transform="translate(-3 -538)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(-95 -195)" fill="#1C1C1C"/>
-<use xlink:href="#path3_stroke" transform="translate(-95 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path2_fill" transform="translate(-6 -534)" fill="#1C1C1C"/>
+<use xlink:href="#path3_stroke" transform="translate(-6 -534)" fill="#1C1C1C"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="matrix(-1 0 0 1 -91 -195)" fill="#1C1C1C"/>
-<use xlink:href="#path3_stroke" transform="matrix(-1 0 0 1 -91 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path2_fill" transform="matrix(-1 0 0 1 -2 -534)" fill="#1C1C1C"/>
+<use xlink:href="#path3_stroke" transform="matrix(-1 0 0 1 -2 -534)" fill="#1C1C1C"/>
 </g>
 <g id="plus">
 <g id="Ellipse 2">
-<use xlink:href="#path1_fill" transform="translate(-89 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path1_fill" transform="translate(0 -534)" fill="#1C1C1C"/>
 <mask id="mask0_outline_ins">
-<use xlink:href="#path1_fill" fill="white" transform="translate(-89 -195)"/>
+<use xlink:href="#path1_fill" fill="white" transform="translate(0 -534)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path4_stroke_2x" transform="translate(-89 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path4_stroke_2x" transform="translate(0 -534)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <g id="Rectangle 3">
-<use xlink:href="#path5_fill" transform="translate(-87 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(2 -534)" fill="#1C1C1C"/>
 <mask id="mask1_outline_ins">
-<use xlink:href="#path5_fill" fill="white" transform="translate(-87 -195)"/>
+<use xlink:href="#path5_fill" fill="white" transform="translate(2 -534)"/>
 </mask>
 <g mask="url(#mask1_outline_ins)">
-<use xlink:href="#path6_stroke_2x" transform="translate(-87 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path6_stroke_2x" transform="translate(2 -534)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 3">
-<use xlink:href="#path7_fill" transform="translate(-84 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path7_fill" transform="translate(5 -534)" fill="#1C1C1C"/>
 <mask id="mask2_outline_ins">
-<use xlink:href="#path7_fill" fill="white" transform="translate(-84 -195)"/>
+<use xlink:href="#path7_fill" fill="white" transform="translate(5 -534)"/>
 </mask>
 <g mask="url(#mask2_outline_ins)">
-<use xlink:href="#path8_stroke_2x" transform="translate(-84 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path8_stroke_2x" transform="translate(5 -534)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Polygon">
-<use xlink:href="#path9_fill" transform="translate(14.5 -195.15)" fill="#1C1C1C"/>
+<use xlink:href="#path9_fill" transform="translate(103.5 -534.15)" fill="#1C1C1C"/>
 <mask id="mask3_outline_ins">
-<use xlink:href="#path9_fill" fill="white" transform="translate(14.5 -195.15)"/>
+<use xlink:href="#path9_fill" fill="white" transform="translate(103.5 -534.15)"/>
 </mask>
 <g mask="url(#mask3_outline_ins)">
-<use xlink:href="#path10_stroke_2x" transform="translate(14.5 -195.15)" fill="#1C1C1C"/>
+<use xlink:href="#path10_stroke_2x" transform="translate(103.5 -534.15)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 3">
-<use xlink:href="#path11_fill" transform="translate(18 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path11_fill" transform="translate(107 -534)" fill="#1C1C1C"/>
 <mask id="mask4_outline_ins">
-<use xlink:href="#path11_fill" fill="white" transform="translate(18 -195)"/>
+<use xlink:href="#path11_fill" fill="white" transform="translate(107 -534)"/>
 </mask>
 <g mask="url(#mask4_outline_ins)">
-<use xlink:href="#path12_stroke_2x" transform="translate(18 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path12_stroke_2x" transform="translate(107 -534)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 3">
-<use xlink:href="#path11_fill" transform="translate(21 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path11_fill" transform="translate(110 -534)" fill="#1C1C1C"/>
 <mask id="mask5_outline_ins">
-<use xlink:href="#path11_fill" fill="white" transform="translate(21 -195)"/>
+<use xlink:href="#path11_fill" fill="white" transform="translate(110 -534)"/>
 </mask>
 <g mask="url(#mask5_outline_ins)">
-<use xlink:href="#path12_stroke_2x" transform="translate(21 -195)" fill="#1C1C1C"/>
+<use xlink:href="#path12_stroke_2x" transform="translate(110 -534)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path13_fill" transform="translate(-87 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path13_fill" transform="translate(2 -538)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path13_fill" transform="translate(-73 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path13_fill" transform="translate(16 -538)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path13_fill" transform="translate(-66 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path13_fill" transform="translate(23 -538)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
 <mask id="mask6_outline_ins">
-<use xlink:href="#path13_fill" fill="white" transform="translate(-80 -199)"/>
+<use xlink:href="#path13_fill" fill="white" transform="translate(9 -538)"/>
 </mask>
 <g mask="url(#mask6_outline_ins)">
-<use xlink:href="#path14_stroke_2x" transform="translate(-80 -199)" fill="#1C1C1C"/>
+<use xlink:href="#path14_stroke_2x" transform="translate(9 -538)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Subtract">
-<use xlink:href="#path15_fill" transform="translate(-98 -201)" fill="#1C1C1C"/>
+<use xlink:href="#path15_fill" transform="translate(-9 -540)" fill="#1C1C1C"/>
 </g>
 <g id="box-pop">
 <g id="Subtract">
-<use xlink:href="#path16_fill" transform="translate(-39.25 -173)" fill="#1C1C1C"/>
+<use xlink:href="#path16_fill" transform="translate(49.75 -512)" fill="#1C1C1C"/>
 </g>
 <g id="Subtract">
-<use xlink:href="#path17_fill" transform="translate(-34 -178)" fill="#1C1C1C"/>
+<use xlink:href="#path17_fill" transform="translate(55 -517)" fill="#1C1C1C"/>
 <mask id="mask7_outline_ins">
-<use xlink:href="#path17_fill" fill="white" transform="translate(-34 -178)"/>
+<use xlink:href="#path17_fill" fill="white" transform="translate(55 -517)"/>
 </mask>
 <g mask="url(#mask7_outline_ins)">
-<use xlink:href="#path18_stroke_2x" transform="translate(-34 -178)" fill="#1C1C1C"/>
+<use xlink:href="#path18_stroke_2x" transform="translate(55 -517)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 5">
 <mask id="mask8_outline_ins">
-<use xlink:href="#path19_fill" fill="white" transform="translate(-26 -182)"/>
+<use xlink:href="#path19_fill" fill="white" transform="translate(63 -521)"/>
 </mask>
 <g mask="url(#mask8_outline_ins)">
-<use xlink:href="#path20_stroke_2x" transform="translate(-26 -182)" fill="#1C1C1C"/>
+<use xlink:href="#path20_stroke_2x" transform="translate(63 -521)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path21_stroke" transform="translate(-94 -189)" fill="#1C1C1C"/>
+<use xlink:href="#path21_stroke" transform="translate(-5 -528)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 8">
-<use xlink:href="#path22_fill" transform="translate(-89 -184)" fill="#1C1C1C"/>
+<use xlink:href="#path22_fill" transform="translate(0 -523)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 8">
-<use xlink:href="#path22_fill" transform="translate(-86 -187)" fill="#F2CD3C"/>
+<use xlink:href="#path22_fill" transform="translate(3 -526)" fill="#FFF901"/>
 <mask id="mask9_outline_ins">
-<use xlink:href="#path22_fill" fill="white" transform="translate(-86 -187)"/>
+<use xlink:href="#path22_fill" fill="white" transform="translate(3 -526)"/>
 </mask>
 <g mask="url(#mask9_outline_ins)">
-<use xlink:href="#path23_stroke_2x" transform="translate(-86 -187)" fill="#1C1C1C"/>
+<use xlink:href="#path23_stroke_2x" transform="translate(3 -526)" fill="#1C1C1C"/>
 </g>
 </g>
-<g id="Polygon 2">
-<use xlink:href="#path24_fill" transform="matrix(0.544821 -0.838552 0.838552 0.544821 14.3905 -167.4)" fill="#1C1C1C"/>
-<mask id="mask10_outline_ins">
-<use xlink:href="#path24_fill" fill="white" transform="matrix(0.544821 -0.838552 0.838552 0.544821 14.3905 -167.4)"/>
-</mask>
-<g mask="url(#mask10_outline_ins)">
-<use xlink:href="#path25_stroke_2x" transform="matrix(0.544821 -0.838552 0.838552 0.544821 14.3905 -167.4)" fill="#FFFFFF"/>
-</g>
+<g id="Vector 3">
+<use xlink:href="#path24_fill" transform="translate(107.5 -508.8)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 125 62.5C 125 97.0178 97.0178 125 62.5 125C 27.9822 125 0 97.0178 0 62.5C 0 27.9822 27.9822 0 62.5 0C 97.0178 0 125 27.9822 125 62.5Z"/>
+<path id="path0_fill" fill-rule="evenodd" d="M 62.5 125C 97.0178 125 125 97.0178 125 62.5C 125 61.3608 124.97 60.2286 124.909 59.1044L 123.016 64.4537L 112.618 50.6316L 124.332 53.3313C 119.897 23.1601 93.9031 0 62.5 0C 27.9822 0 0 27.9822 0 62.5C 0 97.0178 27.9822 125 62.5 125Z"/>
 <path id="path1_fill" d="M 1.5 0.75C 1.5 1.16421 1.16421 1.5 0.75 1.5C 0.335786 1.5 0 1.16421 0 0.75C 0 0.335786 0.335786 0 0.75 0C 1.16421 0 1.5 0.335786 1.5 0.75Z"/>
 <path id="path2_fill" d="M 0 0.625L 1.25 0L 1.25 1.25L 0 0.625Z"/>
 <path id="path3_stroke" d="M 1.25 0L 1.375 0L 1.375 -0.202254L 1.1941 -0.111803L 1.25 0ZM 0 0.625L -0.0559017 0.513197L -0.279508 0.625L -0.0559017 0.736803L 0 0.625ZM 1.25 1.25L 1.1941 1.3618L 1.375 1.45225L 1.375 1.25L 1.25 1.25ZM 1.1941 -0.111803L -0.0559017 0.513197L 0.0559017 0.736803L 1.3059 0.111803L 1.1941 -0.111803ZM -0.0559017 0.736803L 1.1941 1.3618L 1.3059 1.1382L 0.0559017 0.513197L -0.0559017 0.736803ZM 1.125 0L 1.125 1.25L 1.375 1.25L 1.375 0L 1.125 0Z"/>
@@ -178,7 +172,6 @@
 <path id="path21_stroke" d="M 1 0.75L 116 0.75L 116 -0.75L 1 -0.75L 1 0.75ZM 116 68.25L 1 68.25L 1 69.75L 116 69.75L 116 68.25ZM 0.75 68L 0.75 1L -0.75 1L -0.75 68L 0.75 68ZM 116.25 1L 116.25 7.5L 117.75 7.5L 117.75 1L 116.25 1ZM 116.25 37L 116.25 68L 117.75 68L 117.75 37L 116.25 37ZM 1 -0.75C 0.0335017 -0.75 -0.75 0.0335017 -0.75 1L 0.75 1C 0.75 0.861929 0.861929 0.75 1 0.75L 1 -0.75ZM 116 0.75C 116.138 0.75 116.25 0.861929 116.25 1L 117.75 1C 117.75 0.0335014 116.966 -0.75 116 -0.75L 116 0.75ZM 116 69.75C 116.966 69.75 117.75 68.9665 117.75 68L 116.25 68C 116.25 68.1381 116.138 68.25 116 68.25L 116 69.75ZM 1 68.25C 0.861929 68.25 0.75 68.1381 0.75 68L -0.75 68C -0.75 68.9665 0.0335014 69.75 1 69.75L 1 68.25Z"/>
 <path id="path22_fill" d="M 0 0L 22 0L 22 59L 0 59L 0 0Z"/>
 <path id="path23_stroke_2x" d="M 0 0L 0 -1.5L -1.5 -1.5L -1.5 0L 0 0ZM 22 0L 23.5 0L 23.5 -1.5L 22 -1.5L 22 0ZM 22 59L 22 60.5L 23.5 60.5L 23.5 59L 22 59ZM 0 59L -1.5 59L -1.5 60.5L 0 60.5L 0 59ZM 0 1.5L 22 1.5L 22 -1.5L 0 -1.5L 0 1.5ZM 20.5 0L 20.5 59L 23.5 59L 23.5 0L 20.5 0ZM 22 57.5L 0 57.5L 0 60.5L 22 60.5L 22 57.5ZM 1.5 59L 1.5 0L -1.5 0L -1.5 59L 1.5 59Z"/>
-<path id="path24_fill" d="M 5.19615 0L 10.3923 14.25L 5.19615 13L 0 14.25L 5.19615 0Z"/>
-<path id="path25_stroke_2x" d="M 5.19615 0L 5.90077 -0.256933L 5.19615 -2.18928L 4.49154 -0.256933L 5.19615 0ZM 10.3923 14.25L 10.2169 14.9792L 11.5757 15.3061L 11.0969 13.9931L 10.3923 14.25ZM 0 14.25L -0.704617 13.9931L -1.1834 15.3061L 0.175418 14.9792L 0 14.25ZM 5.19615 13L 5.37157 12.2708L 5.19615 12.2286L 5.02074 12.2708L 5.19615 13ZM 4.49154 0.256933L 9.68769 14.5069L 11.0969 13.9931L 5.90077 -0.256933L 4.49154 0.256933ZM 0.704617 14.5069L 5.90077 0.256933L 4.49154 -0.256933L -0.704617 13.9931L 0.704617 14.5069ZM 10.5677 13.5208L 5.37157 12.2708L 5.02074 13.7292L 10.2169 14.9792L 10.5677 13.5208ZM 5.02074 12.2708L -0.175418 13.5208L 0.175418 14.9792L 5.37157 13.7292L 5.02074 12.2708Z"/>
+<path id="path24_fill" d="M 6.23333 8.5L 0 0L 10.2 2.26667L 7.36667 4.53333L 6.23333 8.5Z"/>
 </defs>
 </svg>

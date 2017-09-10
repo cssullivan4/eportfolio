@@ -1,65 +1,65 @@
 <svg width="141" height="125" viewBox="0 0 141 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>print-icon-b</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-204 230)">
+<g id="Canvas" transform="translate(-204 470)">
 <g id="print-icon-b">
 <g id="backing">
 <g id="Ellipse 6">
-<use xlink:href="#path0_fill" transform="translate(208 -230)" fill="#F2CD3C"/>
+<use xlink:href="#path0_fill" transform="translate(208 -470)" fill="#FFF901"/>
 </g>
 </g>
 <g id="pad">
 <g id="Rectangle 10">
-<use xlink:href="#path1_fill" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -197.193)" fill="#1C1C1C"/>
+<use xlink:href="#path1_fill" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -437.193)" fill="#1C1C1C"/>
 <mask id="mask0_outline_ins">
-<use xlink:href="#path1_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -197.193)"/>
+<use xlink:href="#path1_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -437.193)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path2_stroke_2x" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -197.193)" fill="#1C1C1C"/>
+<use xlink:href="#path2_stroke_2x" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.71 -437.193)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask1_outline_ins">
-<use xlink:href="#path3_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
-<use xlink:href="#path4_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
-<use xlink:href="#path5_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
-<use xlink:href="#path6_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
-<use xlink:href="#path7_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
-<use xlink:href="#path8_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)"/>
+<use xlink:href="#path3_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
+<use xlink:href="#path4_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
+<use xlink:href="#path5_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
+<use xlink:href="#path6_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
+<use xlink:href="#path7_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
+<use xlink:href="#path8_fill" fill="white" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)"/>
 </mask>
 <g mask="url(#mask1_outline_ins)">
-<use xlink:href="#path9_stroke_2x" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -198)" fill="#1C1C1C"/>
+<use xlink:href="#path9_stroke_2x" transform="matrix(0.988927 0.1484 -0.148247 0.98895 208.831 -438)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Vector 4">
-<use xlink:href="#path10_fill" transform="translate(215.847 -187.5)" fill="#F2CD3C"/>
-<use xlink:href="#path11_stroke" transform="translate(215.847 -187.5)" fill="#1C1C1C"/>
+<use xlink:href="#path10_fill" transform="translate(215.847 -427.5)" fill="#FFF901"/>
+<use xlink:href="#path11_stroke" transform="translate(215.847 -427.5)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="pencil">
 <g id="Rectangle 11">
-<use xlink:href="#path12_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#F2CD3C"/>
-<use xlink:href="#path13_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#F2CD3C"/>
-<use xlink:href="#path14_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#F2CD3C"/>
-<use xlink:href="#path15_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#F2CD3C"/>
-<use xlink:href="#path16_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#F2CD3C"/>
+<use xlink:href="#path12_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#FFF901"/>
+<use xlink:href="#path13_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#FFF901"/>
+<use xlink:href="#path14_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#FFF901"/>
+<use xlink:href="#path15_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#FFF901"/>
+<use xlink:href="#path16_fill" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#FFF901"/>
 <mask id="mask2_outline_ins">
-<use xlink:href="#path12_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)"/>
-<use xlink:href="#path13_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)"/>
-<use xlink:href="#path14_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)"/>
-<use xlink:href="#path15_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)"/>
-<use xlink:href="#path16_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)"/>
+<use xlink:href="#path12_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)"/>
+<use xlink:href="#path13_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)"/>
+<use xlink:href="#path14_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)"/>
+<use xlink:href="#path15_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)"/>
+<use xlink:href="#path16_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)"/>
 </mask>
 <g mask="url(#mask2_outline_ins)">
-<use xlink:href="#path17_stroke_2x" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -171.297)" fill="#1C1C1C"/>
+<use xlink:href="#path17_stroke_2x" transform="matrix(0.955772 -0.294107 0.298456 0.954423 287 -411.297)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="eraser">
 <mask id="mask3_outline_ins">
-<use xlink:href="#path18_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 334.701 -184.671)"/>
+<use xlink:href="#path18_fill" fill="white" transform="matrix(0.955772 -0.294107 0.298456 0.954423 334.701 -424.671)"/>
 </mask>
 <g mask="url(#mask3_outline_ins)">
-<use xlink:href="#path19_stroke_2x" transform="matrix(0.955772 -0.294107 0.298456 0.954423 334.701 -184.671)" fill="#1C1C1C"/>
+<use xlink:href="#path19_stroke_2x" transform="matrix(0.955772 -0.294107 0.298456 0.954423 334.701 -424.671)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>

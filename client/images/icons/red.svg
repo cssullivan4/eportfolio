@@ -1,0 +1,24 @@
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>red</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(181 191)">
+<g id="red">
+<g id="Rectangle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-181 -191)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-181 -191)" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path2_fill" transform="translate(-151 -161)" fill="#FD3B68"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 160 0L 160 160L 0 160L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 160 0L 161 0L 161 -1L 160 -1L 160 0ZM 160 160L 160 161L 161 161L 161 160L 160 160ZM 0 160L -1 160L -1 161L 0 161L 0 160ZM 0 1L 160 1L 160 -1L 0 -1L 0 1ZM 159 0L 159 160L 161 160L 161 0L 159 0ZM 160 159L 0 159L 0 161L 160 161L 160 159ZM 1 160L 1 0L -1 0L -1 160L 1 160Z"/>
+<path id="path2_fill" d="M 100 50C 100 77.6142 77.6142 100 50 100C 22.3858 100 0 77.6142 0 50C 0 22.3858 22.3858 0 50 0C 77.6142 0 100 22.3858 100 50Z"/>
+</defs>
+</svg>

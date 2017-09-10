@@ -10,24 +10,24 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1,
     maximum-scale=1, minimum-scale=1, width=device-width">
 
-
+    <!-- <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400i,700" rel="stylesheet">
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css" type="text/css" rel="stylesheet"/>
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body ng-controller="PageUp" class="no-touch">
-       <!-- <nav id="menu"><h1>Test</h1></nav> -->
     <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
         <div id="header" class="container-fluid row" ng-controller="HeaderCtrl" data-ng-init="load();">
             <div class="col-md-6 col-sm-7">
-                <p class="opener"><em><span class="white" ng-if="currentPath === '/'" style="color: black">/WELCOME!&nbsp;</span></em></p>
-                <p class="opener"><em><span class="white" ng-if="currentPath === '/reaching_out'" style="color: black">/REACH OUT&nbsp;</span></em></p>
+                <p class="opener"><em><span class="cut-out" ng-if="currentPath === '/'" style="color: black">/WELCOME&nbsp;</span></em></p>
+                <p class="opener"><em><span class="cut-out" ng-if="currentPath === '/reaching_out'" style="color: black">/REACH OUT&nbsp;</span></em></p>
                 <p class="opener"><em><span class="blue" ng-if="currentPath === '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em></p>
                 <p class="opener"><em><span class="purple" ng-if="currentPath === '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em></p>
                 <p class="opener"><em><span class="red" ng-if="currentPath === '/a_politi'">/PRACTICED POLITI&nbsp;</span></em></p>
@@ -113,11 +113,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-resource.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-touch.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
     <script src="app.js"></script>
     <script src="controllers.js"></script>
     <!-- <script src="directives.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.3/ui-bootstrap.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.3/ui-bootstrap.js"></script> -->
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -131,6 +131,8 @@
           emailjs.init("user_miXYIfUIEw2n9MSLEh3kC");
        })();
     </script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <!-- <script src="angular-fullpage.min.js"></script> -->
     <!-- <script src="dist/slideout.min.js"></script> -->
     <!-- <script>
       var slideout = new Slideout({

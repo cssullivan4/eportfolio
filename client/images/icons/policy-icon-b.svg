@@ -1,32 +1,32 @@
 <svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>policy-icon-b</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(117 171)">
+<g id="Canvas" transform="translate(-51 145)">
 <g id="policy-icon-b">
 <g id="Rectangle">
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(-117 -171)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(51 -145)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(-117 -171)" fill="#FFFFFF"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(51 -145)" fill="#FFFFFF"/>
 </g>
 </g>
 <g id="Ellipse 2">
-<use xlink:href="#path2_fill" transform="translate(-100 -154)" fill="#FF4F79"/>
+<use xlink:href="#path2_fill" transform="translate(68 -128)" fill="#FD3B68"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path3_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -96.9532 -153.081)" fill="#1C1C1C"/>
+<use xlink:href="#path3_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 71.0468 -127.081)" fill="#1C1C1C"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path4_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
-<use xlink:href="#path5_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
+<use xlink:href="#path4_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
+<use xlink:href="#path5_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path6_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
-<use xlink:href="#path7_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
-<use xlink:href="#path8_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
-<use xlink:href="#path9_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
-<use xlink:href="#path10_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 -92.7401 -152.302)" fill="#1C1C1C"/>
+<use xlink:href="#path6_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
+<use xlink:href="#path7_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
+<use xlink:href="#path8_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
+<use xlink:href="#path9_fill" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
+<use xlink:href="#path10_stroke" transform="matrix(0.983303 0.181978 -0.181978 0.983303 75.2599 -126.302)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>

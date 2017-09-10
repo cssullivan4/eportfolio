@@ -1,360 +1,360 @@
 <svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>civic-icon-b</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(1357 925)">
+<g id="Canvas" transform="translate(130 43)">
 <g id="civic-icon-b">
 <g id="backing">
 <g id="Rectangle 2">
 <mask id="mask0_outline_ins">
-<use xlink:href="#path0_fill" fill="white" transform="translate(-1357 -925)"/>
+<use xlink:href="#path0_fill" fill="white" transform="translate(-130 -43)"/>
 </mask>
 <g mask="url(#mask0_outline_ins)">
-<use xlink:href="#path1_stroke_2x" transform="translate(-1357 -925)" fill="#FFFFFF"/>
+<use xlink:href="#path1_stroke_2x" transform="translate(-130 -43)" fill="#FFFFFF"/>
 </g>
 </g>
 <g id="Ellipse 2">
-<use xlink:href="#path2_fill" transform="translate(-1339 -908)" fill="#FF4F79"/>
+<use xlink:href="#path2_fill" transform="translate(-112 -26)" fill="#FD3B68"/>
 </g>
 </g>
 <g id="city hall">
 <g id="building">
 <g id="building">
 <mask id="mask1_outline_ins">
-<use xlink:href="#path3_fill" fill="white" transform="translate(-1349 -871.725)"/>
+<use xlink:href="#path3_fill" fill="white" transform="translate(-122 10.2754)"/>
 </mask>
 <g mask="url(#mask1_outline_ins)">
-<use xlink:href="#path4_stroke_2x" transform="translate(-1349 -871.725)" fill="#1C1C1C"/>
+<use xlink:href="#path4_stroke_2x" transform="translate(-122 10.2754)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1266.77 -843.673)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-39.7703 38.3267)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1296.49 -858.526)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-69.4917 23.4741)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1296.49 -843.673)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-69.4917 38.3267)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1281.63 -858.526)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-54.631 23.4741)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1281.63 -843.673)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-54.631 38.3267)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1266.77 -858.526)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-39.7703 23.4741)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1242.87 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-15.8672 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1231.2 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-4.19976 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1231.2 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-4.19976 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1331.75 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-104.747 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1219.53 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(7.46783 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1242.87 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-15.8672 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1219.53 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(7.46783 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1343.41 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-116.414 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1320.08 -858.333)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-93.0792 23.6667)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1331.49 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-104.494 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1343.16 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-116.162 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1319.83 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-92.8266 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1231.4 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-4.39928 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1243.07 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-16.0667 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1219.73 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(7.26831 57.3968)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1331.75 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-104.747 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1343.41 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-116.414 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path5_fill" transform="translate(-1320.08 -843.481)" fill="#1C1C1C"/>
+<use xlink:href="#path5_fill" transform="translate(-93.0792 38.5193)" fill="#1C1C1C"/>
 </g>
 <g id="column-top">
 <g id="Rectangle 3">
-<use xlink:href="#path6_fill" transform="translate(-1286.91 -859.443)" fill="#1C1C1C"/>
+<use xlink:href="#path6_fill" transform="translate(-59.912 22.5572)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path7_fill" transform="translate(-1287.96 -862)" fill="#1C1C1C"/>
-</g>
-</g>
-<g id="column-top">
-<g id="Rectangle 3">
-<use xlink:href="#path8_fill" transform="translate(-1302.15 -859.448)" fill="#1C1C1C"/>
-</g>
-<g id="Rectangle 4">
-<use xlink:href="#path9_fill" transform="translate(-1303.2 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path7_fill" transform="translate(-60.9561 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="column-top">
 <g id="Rectangle 3">
-<use xlink:href="#path10_fill" transform="translate(-1347.97 -859.35)" fill="#1C1C1C"/>
+<use xlink:href="#path8_fill" transform="translate(-75.1513 22.5517)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path11_fill" transform="translate(-1349.04 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path9_fill" transform="translate(-76.1954 20)" fill="#1C1C1C"/>
+</g>
+</g>
+<g id="column-top">
+<g id="Rectangle 3">
+<use xlink:href="#path10_fill" transform="translate(-120.973 22.65)" fill="#1C1C1C"/>
+</g>
+<g id="Rectangle 4">
+<use xlink:href="#path11_fill" transform="translate(-122.035 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Group">
 <g id="Rectangle 3">
-<use xlink:href="#path12_fill" transform="translate(-1250 -859.56)" fill="#1C1C1C"/>
+<use xlink:href="#path12_fill" transform="translate(-23 22.44)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path13_fill" transform="translate(-1250.69 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path13_fill" transform="translate(-23.6875 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="column-top">
 <g id="Rectangle 3">
-<use xlink:href="#path14_fill" transform="translate(-1209.45 -859.56)" fill="#1C1C1C"/>
+<use xlink:href="#path14_fill" transform="translate(17.55 22.44)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path15_fill" transform="translate(-1210.47 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path15_fill" transform="translate(16.5312 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Group">
 <g id="Rectangle 3">
-<use xlink:href="#path16_fill" transform="translate(-1310 -859.45)" fill="#1C1C1C"/>
+<use xlink:href="#path16_fill" transform="translate(-83 22.55)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path9_fill" transform="translate(-1311.02 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path9_fill" transform="translate(-84.0156 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="doors">
 <g id="Rectangle">
-<use xlink:href="#path17_fill" transform="translate(-1281.63 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path17_fill" transform="translate(-54.6309 57.3969)" fill="#1C1C1C"/>
 </g>
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="translate(-1276.38 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="translate(-49.3828 64.9566)" fill="#FF4F79"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -1278.06 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -51.0586 64.9566)" fill="#FF4F79"/>
 </g>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path17_fill" transform="translate(-1296.49 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path17_fill" transform="translate(-69.4917 57.3969)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle">
-<use xlink:href="#path17_fill" transform="translate(-1266.28 -824.603)" fill="#1C1C1C"/>
+<use xlink:href="#path17_fill" transform="translate(-39.2789 57.3969)" fill="#1C1C1C"/>
 </g>
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="translate(-1291.19 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="translate(-64.1855 64.9566)" fill="#FF4F79"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -1292.86 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -65.8613 64.9566)" fill="#FF4F79"/>
 </g>
 </g>
 <g id="Group">
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="translate(-1261.02 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="translate(-34.0215 64.9566)" fill="#FF4F79"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -1262.7 -817.043)" fill="#FF4F79"/>
+<use xlink:href="#path18_stroke" transform="matrix(-1 0 0 1 -35.6973 64.9566)" fill="#FF4F79"/>
 </g>
 </g>
 <g id="lightpost">
 <g id="Rectangle 8">
-<use xlink:href="#path19_fill" transform="translate(-1285.32 -820.215)" fill="#1C1C1C"/>
+<use xlink:href="#path19_fill" transform="translate(-58.3177 61.7848)" fill="#1C1C1C"/>
 </g>
 <g id="Ellipse">
 <mask id="mask2_outline_ins">
-<use xlink:href="#path20_fill" fill="white" transform="translate(-1286.18 -822.769)"/>
+<use xlink:href="#path20_fill" fill="white" transform="translate(-59.1752 59.2305)"/>
 </mask>
 <g mask="url(#mask2_outline_ins)">
-<use xlink:href="#path21_stroke_2x" transform="translate(-1286.18 -822.769)" fill="#1C1C1C"/>
+<use xlink:href="#path21_stroke_2x" transform="translate(-59.1752 59.2305)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <g id="lightpost">
 <g id="Ellipse">
 <mask id="mask3_outline_ins">
-<use xlink:href="#path20_fill" fill="white" transform="translate(-1271.31 -822.769)"/>
+<use xlink:href="#path20_fill" fill="white" transform="translate(-44.3143 59.2305)"/>
 </mask>
 <g mask="url(#mask3_outline_ins)">
-<use xlink:href="#path21_stroke_2x" transform="translate(-1271.31 -822.769)" fill="#1C1C1C"/>
+<use xlink:href="#path21_stroke_2x" transform="translate(-44.3143 59.2305)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 8">
-<use xlink:href="#path22_fill" transform="translate(-1270.46 -820.261)" fill="#1C1C1C"/>
+<use xlink:href="#path22_fill" transform="translate(-43.4574 61.7393)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 <g id="column-top">
 <g id="Rectangle 3">
-<use xlink:href="#path6_fill" transform="translate(-1271.99 -859.443)" fill="#1C1C1C"/>
+<use xlink:href="#path6_fill" transform="translate(-44.99 22.5572)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path23_fill" transform="translate(-1273.02 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path23_fill" transform="translate(-46.0166 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="column-top">
 <g id="Rectangle 3">
-<use xlink:href="#path8_fill" transform="translate(-1256.36 -859.448)" fill="#1C1C1C"/>
+<use xlink:href="#path8_fill" transform="translate(-29.364 22.5517)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 4">
-<use xlink:href="#path24_fill" transform="translate(-1257.36 -862)" fill="#1C1C1C"/>
+<use xlink:href="#path24_fill" transform="translate(-30.3554 20)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 5">
-<use xlink:href="#path25_fill" transform="translate(-1308.47 -871.362)" fill="#FF4F79"/>
+<use xlink:href="#path25_fill" transform="translate(-81.4661 10.6384)" fill="#FF4F79"/>
 <mask id="mask4_outline_ins">
-<use xlink:href="#path25_fill" fill="white" transform="translate(-1308.47 -871.362)"/>
+<use xlink:href="#path25_fill" fill="white" transform="translate(-81.4661 10.6384)"/>
 </mask>
 <g mask="url(#mask4_outline_ins)">
-<use xlink:href="#path26_stroke_2x" transform="translate(-1308.47 -871.362)" fill="#1C1C1C"/>
+<use xlink:href="#path26_stroke_2x" transform="translate(-81.4661 10.6384)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 5">
-<use xlink:href="#path25_fill" transform="translate(-1255.38 -871.362)" fill="#FF4F79"/>
+<use xlink:href="#path25_fill" transform="translate(-28.3797 10.6384)" fill="#FF4F79"/>
 <mask id="mask5_outline_ins">
-<use xlink:href="#path25_fill" fill="white" transform="translate(-1255.38 -871.362)"/>
+<use xlink:href="#path25_fill" fill="white" transform="translate(-28.3797 10.6384)"/>
 </mask>
 <g mask="url(#mask5_outline_ins)">
-<use xlink:href="#path26_stroke_2x" transform="translate(-1255.38 -871.362)" fill="#1C1C1C"/>
+<use xlink:href="#path26_stroke_2x" transform="translate(-28.3797 10.6384)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 12">
-<use xlink:href="#path27_fill" transform="translate(-1311 -871)" fill="#FF4F79"/>
+<use xlink:href="#path27_fill" transform="translate(-84 11.0001)" fill="#FF4F79"/>
 </g>
 <g id="Rectangle 12">
-<use xlink:href="#path27_fill" transform="translate(-1256 -871)" fill="#FF4F79"/>
+<use xlink:href="#path27_fill" transform="translate(-29 11.0001)" fill="#FF4F79"/>
 </g>
 <g id="buildingtop">
 <g id="Rectangle 6">
-<use xlink:href="#path28_fill" transform="translate(-1310.62 -881.012)" fill="#FF4F79"/>
+<use xlink:href="#path28_fill" transform="translate(-83.6155 0.987841)" fill="#FF4F79"/>
 <mask id="mask6_outline_out">
-<rect id="mask6_outline_inv" fill="white" x="-2" y="-2" width="72" height="14" transform="translate(-1310.62 -881.012)"/>
-<use xlink:href="#path28_fill" fill="black" transform="translate(-1310.62 -881.012)"/>
+<rect id="mask6_outline_inv" fill="white" x="-2" y="-2" width="72" height="14" transform="translate(-83.6155 0.987841)"/>
+<use xlink:href="#path28_fill" fill="black" transform="translate(-83.6155 0.987841)"/>
 </mask>
 <g mask="url(#mask6_outline_out)">
-<use xlink:href="#path29_stroke_2x" transform="translate(-1310.62 -881.012)" fill="#1C1C1C"/>
+<use xlink:href="#path29_stroke_2x" transform="translate(-83.6155 0.987841)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1296.47 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-69.4713 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1291.24 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-64.2439 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1281.59 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-54.5891 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1276.36 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-49.3617 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1266.71 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-39.707 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 7">
-<use xlink:href="#path30_fill" transform="translate(-1261.48 -876.566)" fill="#1C1C1C"/>
+<use xlink:href="#path30_fill" transform="translate(-34.4796 5.43404)" fill="#1C1C1C"/>
 </g>
 <g id="Rectangle 9">
-<use xlink:href="#path31_fill" transform="translate(-1313.04 -884.36)" fill="#FF4F79"/>
+<use xlink:href="#path31_fill" transform="translate(-86.04 -2.35999)" fill="#FF4F79"/>
 <mask id="mask7_outline_out">
-<rect id="mask7_outline_inv" fill="white" x="-2" y="-2" width="76" height="8" transform="translate(-1313.04 -884.36)"/>
-<use xlink:href="#path31_fill" fill="black" transform="translate(-1313.04 -884.36)"/>
+<rect id="mask7_outline_inv" fill="white" x="-2" y="-2" width="76" height="8" transform="translate(-86.04 -2.35999)"/>
+<use xlink:href="#path31_fill" fill="black" transform="translate(-86.04 -2.35999)"/>
 </mask>
 <g mask="url(#mask7_outline_out)">
-<use xlink:href="#path32_stroke_2x" transform="translate(-1313.04 -884.36)" fill="#1C1C1C"/>
+<use xlink:href="#path32_stroke_2x" transform="translate(-86.04 -2.35999)" fill="#1C1C1C"/>
 </g>
 </g>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask8_outline_ins">
-<use xlink:href="#path33_fill" fill="white" transform="translate(-1348 -834)"/>
+<use xlink:href="#path33_fill" fill="white" transform="translate(-121 48)"/>
 </mask>
 <g mask="url(#mask8_outline_ins)">
-<use xlink:href="#path34_stroke_2x" transform="translate(-1348 -834)" fill="#1C1C1C"/>
+<use xlink:href="#path34_stroke_2x" transform="translate(-121 48)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask9_outline_ins">
-<use xlink:href="#path35_fill" fill="white" transform="translate(-1349 -816)"/>
+<use xlink:href="#path35_fill" fill="white" transform="translate(-122 66)"/>
 </mask>
 <g mask="url(#mask9_outline_ins)">
-<use xlink:href="#path36_stroke_2x" transform="translate(-1349 -816)" fill="#1C1C1C"/>
+<use xlink:href="#path36_stroke_2x" transform="translate(-122 66)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask10_outline_ins">
-<use xlink:href="#path37_fill" fill="white" transform="translate(-1247.34 -833.783)"/>
+<use xlink:href="#path37_fill" fill="white" transform="translate(-20.336 48.2174)"/>
 </mask>
 <g mask="url(#mask10_outline_ins)">
-<use xlink:href="#path38_stroke_2x" transform="translate(-1247.34 -833.783)" fill="#1C1C1C"/>
+<use xlink:href="#path38_stroke_2x" transform="translate(-20.336 48.2174)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask11_outline_ins">
-<use xlink:href="#path35_fill" fill="white" transform="translate(-1248 -816)"/>
+<use xlink:href="#path35_fill" fill="white" transform="translate(-21 66)"/>
 </mask>
 <g mask="url(#mask11_outline_ins)">
-<use xlink:href="#path36_stroke_2x" transform="translate(-1248 -816)" fill="#1C1C1C"/>
+<use xlink:href="#path36_stroke_2x" transform="translate(-21 66)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
-<use xlink:href="#path39_fill" transform="translate(-1299.84 -834)" fill="#FF4F79"/>
+<use xlink:href="#path39_fill" transform="translate(-72.8438 48)" fill="#FF4F79"/>
 <mask id="mask12_outline_ins">
-<use xlink:href="#path39_fill" fill="white" transform="translate(-1299.84 -834)"/>
+<use xlink:href="#path39_fill" fill="white" transform="translate(-72.8438 48)"/>
 </mask>
 <g mask="url(#mask12_outline_ins)">
-<use xlink:href="#path40_stroke_2x" transform="translate(-1299.84 -834)" fill="#1C1C1C"/>
+<use xlink:href="#path40_stroke_2x" transform="translate(-72.8438 48)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 11">
 <mask id="mask13_outline_ins">
-<use xlink:href="#path41_fill" fill="white" transform="translate(-1349 -879)"/>
+<use xlink:href="#path41_fill" fill="white" transform="translate(-122 3.00006)"/>
 </mask>
 <g mask="url(#mask13_outline_ins)">
-<use xlink:href="#path42_stroke_2x" transform="translate(-1349 -879)" fill="#1C1C1C"/>
+<use xlink:href="#path42_stroke_2x" transform="translate(-122 3.00006)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 11">
 <mask id="mask14_outline_ins">
-<use xlink:href="#path41_fill" fill="white" transform="translate(-1214 -879)"/>
+<use xlink:href="#path41_fill" fill="white" transform="translate(13 3.00006)"/>
 </mask>
 <g mask="url(#mask14_outline_ins)">
-<use xlink:href="#path42_stroke_2x" transform="translate(-1214 -879)" fill="#1C1C1C"/>
+<use xlink:href="#path42_stroke_2x" transform="translate(13 3.00006)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="Rectangle 10">
 <mask id="mask15_outline_ins">
-<use xlink:href="#path43_fill" fill="white" transform="translate(-1349 -872)"/>
+<use xlink:href="#path43_fill" fill="white" transform="translate(-122 10)"/>
 </mask>
 <g mask="url(#mask15_outline_ins)">
-<use xlink:href="#path44_stroke_2x" transform="translate(-1349 -872)" fill="#1C1C1C"/>
+<use xlink:href="#path44_stroke_2x" transform="translate(-122 10)" fill="#1C1C1C"/>
 </g>
 </g>
 <g id="MUNICIPAL BUILDING">
-<use xlink:href="#path45_fill" transform="translate(-1316 -870)"/>
+<use xlink:href="#path45_fill" transform="translate(-89 12)"/>
 </g>
 </g>
 </g>
