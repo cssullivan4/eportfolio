@@ -1,0 +1,52 @@
+<div ng-controller="DesignMenu">
+        <div ng-include="stu"></div>
+</div>
+<div class="container" ng-controller="PageBack">
+    <a href="/a_developer#projects"><img src="/images/icons/b2p-btn.svg" id="btn-back" alt="Back to Fresh Developer" title="Back to Fresh Developer" ng-click="reload();"/></a>
+    
+    <div class="container-fluid row">
+        <div class="col-md-5 col-md-7 green white-shadow padding buffer pull-left text-right">
+            <h1>#TYPEWRITER</h1>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row col-md-6 col-sm-6 buffer padding text-type white pull-right card-right" ng-controller="GalleryCtrl">
+        <div class="auto" data-featherlight-gallery data-featherlight-filter="a">
+            <a class="gallery img-tile" href="/images/projects/stu/type-1.png">
+                <img src="/images/projects/stu/type-1.png" class="buffer-img center-cropped-b" alt="Typing"/>
+            </a>
+            <a class="gallery img-tile" href="/images/projects/stu/type-2.png">
+                <img src="/images/projects/stu/type-2.png" class="buffer-img center-cropped-b" alt="End of Game: Words Per Minute Calculation"/>
+            </a>
+            <a class="gallery img-tile" href="/images/projects/stu/type-3.png">
+                <img src="/images/projects/stu/type-3.png" class="buffer-img center-cropped-b" alt="Game Over"/>
+            </a>
+        </div>
+        </div>
+        <div class="row col-md-6 col-sm-6 buffer padding text-type white pull-left card-left">
+            <dl>
+                <dt>
+                    <h3><span class="green-type">>>>&nbsp;</span>IDEA</h3>
+                </dt>
+                <dd>
+                    Create a typewriting game using keyboard to loop through sentences noting corrections while calculating time & accuracy.
+                </dd>
+                <dt>
+                    <h3><span class="green-type">>>>&nbsp;</span>FEATURES</h3>
+                </dt>
+                    <ul>
+                        <li>HTML, CSS, JavaScript, jQuery, Bootstrap</li>
+                        <li>Fully-functional keyboard</li>
+                        <li>5 rounds</li>
+                        <li>Words Per Minute calculation</li>
+                    </ul>
+                
+                <dt>
+                    <h3><span class="green-type">>>>&nbsp;</span>SOURCE</h3>
+                    <dd>Download code from <strong><span class="green-type"><a class="underline-2" href="https://github.com/cssullivan4/full-stack-lab-05" target="_blank">GitHub</a></span></strong>.</dd>
+                </dt>
+            </dl>
+        </div>
+
+    </div>
+</div>

@@ -154,6 +154,7 @@ angular.module('myApp.controllers', [])
       console.log('Design Menu reporting for duty.');
       $scope.print = 'views/portfolio/nav-print.html';
     $scope.web = 'views/portfolio/nav-web.html';
+    $scope.stu = 'views/portfolio/nav-stu.html';
     // $scope.templates =
     //   [{ name: 'nav-print.html', url: 'views/portfolio/nav-print.html'},
     //    { name: 'nav-web.html', url: 'views/portfolio/nav-web.html'}];

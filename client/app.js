@@ -32,11 +32,31 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             controller: 'PagesCtrl'
         })
         .when('/a_developer/presenting_project/mckamey_volunteer_portal', {
-            templateUrl: 'views/proj-mvp.html',
+            templateUrl: 'views/portfolio/projects/proj-mvp.html',
             controller: 'PagesCtrl'
         })
         .when('/a_developer/presenting_project/covalence_store', {
-            templateUrl: 'views/proj-cov-store.html',
+            templateUrl: 'views/portfolio/projects/proj-cov-store.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_project/student_work', {
+            templateUrl: 'views/portfolio/projects/proj-stu.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_project/student_work/type', {
+            templateUrl: 'views/portfolio/projects/proj-stu-type.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_project/student_work/shape', {
+            templateUrl: 'views/portfolio/projects/proj-stu-shape.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_project/student_work/dice', {
+            templateUrl: 'views/portfolio/projects/proj-stu-dice.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_project/student_work/chirper', {
+            templateUrl: 'views/portfolio/projects/proj-stu-chirp.html',
             controller: 'PagesCtrl'
         })
         .when('/a_designer/showing/print', {
