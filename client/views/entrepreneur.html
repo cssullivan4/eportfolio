@@ -1,17 +1,24 @@
+<div class="container-fluid">
+        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+                <div id="header" ng-controller="NavMenu">
+                        <div ng-include="nav"></div>
+                </div>
+        </nav>
+</div>
 <!-- PAGE CONTENT  -->
 <div class="container-fluid">
     <!-- PICTURES  -->
     <div class="row">
-        <div class="col-md-12 col-sm-12 padding buffer white">
+        <div class="col-md-12 col-sm-12 col-xs-12 padding buffer white">
             <p class="lead text-center">I first heard of <em>social entrepreneur</em> in 2015 while serving on the leadership board with She's the First. The organization was looking inward at its efficiences, and I had the fortune to start dialogue with a brilliant woman named Tara Abrahams during this process. She told me that my aspirations made her think me a social entrepreneur, and it all clicked. In fact, the 2nd definition provided below was how she described it to me. I've run with it ever since.</p>
             <!-- <p class="lead text-center">Here will be much more of an intro leading into why this section exists, etc. I will define my take on social entrepreneur, so we will be on the same page. I will connect this interest into 4 specific recent experiences for takeaways and 1 reference to explore a history of participation and interest. Building up why I ascribe myself to this phrase.</p> -->
         
         </div>
-    <div class="row col-md-8 col-sm-9 padding buffer white blue-shadow pull-right card-right">
-        <div class="col-md-4 col-sm-4">
+    <div class="row col-md-8 col-sm-9 col-xs-12 padding buffer white blue-shadow pull-right card-right">
+        <div class="col-md-4 col-sm-4 col-xs-12">
             <img src="/images/icons/people-icon-c.svg" class="img-responsive img-size center-block"/>
         </div>
-        <div class="col-md-8 col-sm-8 pull-right card-right text-type">
+        <div class="col-md-8 col-sm-8 col-xs-12 text-type">
             <h3>SOCIAL ENTREPRENEUR <small>/ˈsōSHəl / ˌäntrəprəˈnər/ </small></h3>
             <p>noun</p>
             <ol>
@@ -23,10 +30,10 @@
     </div>
 </div>
     <div class="container-fluid">
-        <div class="row col-md-5 col-sm-7 blue black-shadow padding buffer pull-left card-left text-right">
+        <div class="row col-md-5 col-sm-7 col-xs-10 blue black-shadow padding buffer pull-left card-left text-right">
             <h1>#BACKGROUND</h1>
         </div>
-    <div class="row col-md-9 col-sm-11 white blue-shadow padding buffer pull-right card-right text-type">
+    <div class="row col-md-9 col-sm-11 col-xs-12 white blue-shadow padding buffer pull-right card-right text-type">
         <p class="lead text-center">The consummate over-committer, I have always found myself in numerous groups, organizations, and clubs from an early age. From serving on a county-wide youth advisory board for the department of education at 15, to founding a student organization at university at 20, to serving on a leadership board for the latter organization at 24...I've spent a lot of time working with others, honing my skills, and advancing what I see as good.</p>
         <p class="lead text-center">Much to the ire of my friends over the years, working & making an impact has been something I couldn't shake. As I've matured and begun my career, my past meandering through different spaces has lent me with quite a pronounced perspective. Impact is a lense I see through; it's a motivation, and it is innate.</p>
     </div>
@@ -35,8 +42,9 @@
     <div class="container-fluid padding buffer white text-type">
         <p class="lead text-center">The following are relevant examples of non-profit organizations I have worked or volunteered with to better give an idea of why I think myself a social entrepreneur. Each of these experiences will have marked skills or takeaways following them.</p><br>
         <!-- <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 text-center"> -->
+            <!-- NEED TO REDO SECTION, REMOVING CONFLICTING TAGS, DISPLAY W DATA BINDING -->
             <div class="row">
-                <div class="col-md-offset-2 col-md-8">
+                <div class="col-md-offset-2 col-md-8 col-sm-4 col-xs-4">
             <div class="wrap">
                 <a href="#STF"><div class="box">
                     <div class="box-inner">
@@ -113,11 +121,11 @@
 </div>
 <!-- END PICTURES  -->
 <!-- START STF  -->
-<div class="container-fluid" ng-controller="HeaderCtrl">
-    <div id="STF" class="row col-md-5 col-sm-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div class="container-fluid">
+    <div id="STF" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
         <h1>#SHE'S THE FIRST</h1>
     </div>
-    <div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type pull-right card-right">
+    <div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> UNIVERSITY <small>@ University of Tennessee, Knoxville / 2011-2014</small></h2>
         <ul>
             <li>Founded  Chapter:  assembled  exec  team,  drafted  constitution,  registered on campus, chartered nationally</li>
@@ -142,13 +150,13 @@
         </p> -->
         
     </div>
-    <a href="/a_politi#UN" ng-click="reload();">
-    <div class="row col-md-9 col-sm-11 white red-shadow buffer padding text-type card-right pull-right">
+    <a href="/a_politi#UN">
+    <div class="row col-md-9 col-sm-11 col-xs-11 white red-shadow buffer padding text-type card-right pull-right">
             <h2><span class="red-type">>>></span> XX SUMMIT <small>@ New York City / October 11, 2012</small></h2>
             <blockquote><em>Click through to read about participating in the XX Summit and the inaugural International Day of the Girl with the United Nations.</em></blockquote>
     </div>
     </a>
-    <div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type card-right pull-right">
+    <div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type card-right pull-right">
         <h2><span class="blue-type">>>></span> LEADERSHIP BOARD<small> Operations Chair / 2015 - 2017</small></h2>
         <ul>
         <li>Founding  member  charged  with  establishing  alumni  association,  creating  engagement, building   community   &   pipeline,   &   streaming   data   analytics   of   members</li>
@@ -165,21 +173,21 @@
     </div>
 <!-- END STF  -->
 <!-- START CCE -->
-<div id="CCE" class="row col-md-5 col-sm-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div id="CCE" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
     <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
 </div>
-<a href="/a_politi#CCE" ng-click="reload();">
-<div class="row col-md-9 col-sm-11 white red-shadow buffer padding text-type card-right pull-right">
+<a href="/a_politi#CCE">
+<div class="row col-md-9 col-sm-11 col-xs-11 white red-shadow buffer padding text-type card-right pull-right">
         <h2><span class="red-type">>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
         <blockquote><em>Click through to read about volunteering with the center to learn high schoolers across the state of Tennessee about international government, politics, systems - in the vein of the United Nations - and state government through the YMCA of Middle Tennessee.</em></blockquote>
 </div>
 </a>
 <!-- END CCE -->
 <!-- START CDM -->
-<div id="CDM" class="row col-md-5 col-sm-7 buffer blue black-shadow pull-left padding text-left card-left">
+<div id="CDM" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-left card-left">
     <h1>#CREATIVE DISCOVERY MUSEUM</h1>
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type card-right pull-right">
+<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type card-right pull-right">
         <h2><span class="blue-type">>>></span> MUSEUM EDUCATOR <small>@ Chattanooga, TN / 2014 - 2017</small></h2>
     <ul>
         <li>Floor Interpretation, including skill, developmental, & interest assessment</li>
@@ -223,10 +231,10 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
 </div>
 <!-- END CDM -->
 <!-- START ARTSBUILD -->
-<div id="ArtsBuild" class="row col-md-5 col-sm-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div id="ArtsBuild" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
     <h1>#ARTSBUILD</h1>
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type pull-right card-right">
+<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> Holmberg Arts Leadership Institute <small>@ Chattanooga, TN / 2015</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
     <!-- <p>Now this is a story all about how my life got twist, turned upside-down, and I'd like to take a moment. Just sit right there. I'll tell you all about how I became the Prince of Bel-Air. ***case study: houston museum***</p> -->
@@ -284,16 +292,16 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
     <br>
     <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type pull-right card-right">
+<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> CCC GRANTS<small> @ Chattanooga, TN / 2016</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
 </div>
 <!-- END ARTSBUILD -->
 <!-- START CULTURAL ATTRACTIONS COMMITTEE -->
-<div id="CAC" class="row col-md-5 col-sm-7 blue black-shadow buffer padding pull-left card-left text-right">
+<div id="CAC" class="row col-md-5 col-sm-7 col-xs-7 blue black-shadow buffer padding pull-left card-left text-right">
     <h1>#CULTURAL ATTRACTIONS COMMITTEE</h1>
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow buffer padding pull-right card-right text-type">
+<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding pull-right card-right text-type">
         <h2><span class="blue-type">>>></span> MEMBER <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
         <ul>
         <li>Plan,   contract,   promote,   program,   &   execute   relevant   cultural   events   on   campus   & downtown</li>
@@ -337,7 +345,7 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
     <h2> <span class="blue-type">>>></span> VOLUNTEER <small>/ 2011</small></h2>
     <!-- <h1 class="text-center"><strong>COMING SOON.</h1></strong> -->
 </div>
-<a href="/a_developer/presenting_project/mckamey_volunteer_portal" ng-click="reload();">
+<a href="/a_developer/presenting_project/mckamey_volunteer_portal">
 <div class="row col-md-9 col-sm-11 white green-shadow padding buffer text-type pull-right card-right">
         <h2> <span class="green-type">>>></span> PROJECT: VOLUNTEER PORTAL <small>/ 2017</small></h2>
         <blockquote><em>Click through to read about web app project in conjuction with McKamey Animal Center & Covalence.</em></blockquote>

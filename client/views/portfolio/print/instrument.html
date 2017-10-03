@@ -1,4 +1,11 @@
-<div ng-controller="DesignMenu">
+<div class="container-fluid">
+        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+                <div id="header" ng-controller="NavMenu">
+                        <div ng-include="nav"></div>
+                </div>
+        </nav>
+</div>
+<div ng-controller="NavMenu">
         <div ng-include="print"></div>
 </div>
     <div class="container-fluid row">

@@ -1,27 +1,41 @@
+<div class="container-fluid">
+        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+                <div id="header" ng-controller="NavMenu">
+                        <div ng-include="nav"></div>
+                </div>
+        </nav>
+</div>
 <div class="container-fluid white padding">
         <!-- PICTURES  -->
-        <div class="row col-md-offset-3 white col-sm-offset-3">
-            <div class="col-md-3 col-sm-3 text-center">
+        <div class="row col-md-offset-3">
+            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
                 <a href="#background">
                     <img src="/images/icons/about-logo-c.svg" class="img-responsive center-block img-size"/>
                 <h4>BACKGROUND</h4>
                 <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
-            <div class="col-md-3 col-sm-3 text-center">
-                <img src="/images/icons/code-icon-b.svg" class="img-responsive center-block img-size"/>
+            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
                 <a href="#code">
+                    <img src="/images/icons/code-icon-b.svg" class="img-responsive center-block img-size"/>
                     <h4>TECHNOLOGIES</h4>
                     <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
-            <div class="col-md-3 col-sm-3 text-center">
+            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
                 <a href="#projects">
                     <img src="/images/icons/portfolio-icon-b.svg" class="img-responsive center-block img-size"/>
                     <h4>PROJECTS PORTFOLIO</h4>
                     <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
+            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
+                    <a href="#works">
+                        <img src="/images/icons/takeaway-logo--c.svg" class="img-responsive center-block img-size"/>
+                        <h4>SELECTED WORKS</h4>
+                        <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+                    </a>
+                </div>
         </div>
 </div>
 <div class="container-fluid">
@@ -119,29 +133,42 @@
         <h1>#PROJECTS PORTFOLIO</h1>
     </div>
 </div>
-<div class="container-fluid buffer padding white text-type" ng-controller="HeaderCtrl">
+<div class="container-fluid buffer padding white text-type">
         <div class="col-md-3 col-sm-6 text-center">
-            <a href="/a_developer/presenting_project/mckamey_volunteer_portal" ng-click="reload();">
+            <a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
                 <img src="/images/projects/mvp/mvp-1.jpg" class="img-responsive center-cropped center-block img-tile"/>
                 <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;McKamey Volunteer Portal</p>
             </a>
         </div>
         <div class="col-md-3 col-sm-6 text-center">
-            <a href="/a_developer/presenting_project/covalence_store" ng-click="reload();">
+            <a href="/a_developer/presenting_project/covalence_store" target="_top">
                 <img src="/images/projects/shop/cov-welcome.png" class="img-responsive center-block img-size img-tile"/>
                 <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Covalence eCommerce Site</p>
             </a>
         </div>
         <div class="col-md-3 col-sm-6 text-center">
-            <a href="#">
+            <a href="#" target="top">
             <img src="/images/under-construction@1x.svg" class="img-responsive center-block img-size center-cropped img-tile"/>
             <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;ePortfolio</p>
             </a>
         </div>
         <div class="col-md-3 col-sm-6 text-center">
-                <a href="/a_developer/presenting_project/student_work" ng-click="reload();">
+                <a href="/a_developer/presenting_project/student_work" target="_top">
                 <img src="/images/developer/cov-badge.png" class="img-responsive center-block img-size center-cropped img-tile"/>
                 <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Student Projects</p>
                 </a>
             </div>
 </div>
+<div id="works" class="container-fluid">
+        <div class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">
+            <h1>#SELECTED WORKS</h1>
+        </div>
+    </div>
+    <div class="container-fluid buffer padding white text-type">
+            <div class="col-md-3 col-sm-6 text-center">
+                <a href="/a_developer/presenting_work/Sean_Wright" target="_top">
+                    <img src="/images/projects/smw-app/pg-3.png" class="img-responsive center-block img-tile" alt="Click to see selected work: Sean Wright">
+                    <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Sean Wright Promotional</p>
+                </a>
+            </div>
+    </div>

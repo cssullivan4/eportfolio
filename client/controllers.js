@@ -11,12 +11,12 @@ angular.module('myApp.controllers', [])
                 - $('#footer').height()
             ));
         }
-        if ($(window).width() < 960) {
-            alert('Current site build is not fully supportive of mobile views. Please view from a larger screen for best experience.');
-         }
-         else {
-            console.log('Your screen size is preferred for site build currently.');
-         }
+        // if ($(window).width() < 960) {
+        //     alert('Current site build is not fully supportive of mobile views. Please view from a larger screen for best experience.');
+        //  }
+        //  else {
+        //     console.log('Your screen size is preferred for site build currently.');
+        //  }
         // onDocumentReady function bind
         $(document).ready(function () {
             autoHeight();
@@ -42,45 +42,13 @@ angular.module('myApp.controllers', [])
     //         console.log('Your screen size is preferred for site build currently.');
     //      }
     // })
-    .controller('HeaderCtrl', function ($scope, $window, $location) {
-        console.log("I'm here, and I'm working.")
-        // $window.onload = pageSet();
-
-        // pageSet = function () {
-        //     $scope.currentPath = $location.path();
-        // }
-        $scope.currentPath = $location.path();
-        // $(document).ready(function () {
-        //     $location.reload();
-        // })
-        
-
-        // window.history.back()
-        // window.location.reload();
-        $scope.reload = function () {
-            location.reload();
-        }
-            // var viewId = $routeParams.id;
-            
-            // if(!viewId){
-            //   $window.msg = '/Welcome!';
-            // } else {
-            //   $window.msg = '/' + viewId;
-            // }
-        //         $scope.reloadRoute = function() {
-        //    $window.location.reload();
-        // }
-        // $window.location.reload();
-        // $scope.myBoolean = false;
-
-        // $scope.toggle = function() { $scope.myBoolean = !$scope.myBoolean; };
-
-        // $scope.checkToggle = function(){
-        // // replace "myBoolean" with the logic that checks the path
-        //     return $scope.myBoolean;
-        //   };
-    })
-
+.controller('HeaderCtrl', function ($scope, $window, $location) {
+    console.log("I'm here, and I'm working.");
+    $scope.currentPath = $location.path();
+    $scope.reload = function () {
+        location.reload();
+    }
+})
 .controller('PageUp', ['$scope', '$window', function ($scope,  $window) {
     console.log($window);
     $(window).scroll(function() {
@@ -150,15 +118,12 @@ angular.module('myApp.controllers', [])
         })
     })
   })
-  .controller('DesignMenu', ['$scope', '$compile', function($scope, $compile) {
-      console.log('Design Menu reporting for duty.');
-      $scope.print = 'views/portfolio/nav-print.html';
-    $scope.web = 'views/portfolio/nav-web.html';
-    $scope.stu = 'views/portfolio/nav-stu.html';
-    // $scope.templates =
-    //   [{ name: 'nav-print.html', url: 'views/portfolio/nav-print.html'},
-    //    { name: 'nav-web.html', url: 'views/portfolio/nav-web.html'}];
-    //    $scope.template = $scope.templates[0];
+    .controller('NavMenu', ['$scope', '$compile', function($scope, $compile) {
+        console.log('Nav is a go, captian.');
+        $scope.nav = 'views/nav/nav-welcome.html';
+        $scope.print = 'views/nav/nav-print.html';
+        $scope.web = 'views/nav/nav-web.html';
+        $scope.stu = 'views/nav/nav-stu.html';
   }])
   .controller('GalleryCtrl', function($scope){
     $(document).ready(function(){
@@ -182,6 +147,51 @@ angular.module('myApp.controllers', [])
     });
     console.log("Slider, get sliding!");
   }])
+  .controller('DevPopulation',function($scope){
+    $scope.images  = [
+        "/images/projects/smw-app/pg-1.png",
+        "/images/projects/smw-app/pg-2.png",
+        "/images/projects/smw-app/pg-3.png",
+        "/images/projects/smw-app/pg-4.png"
+    ];
+    $scope.projects = [
+        {
+            'id': 1,
+            'caption': 'Splash introduction',
+            'image': '/images/projects/smw-app/pg-1.png'
+        },
+        {
+            'id': 2,
+            'caption': 'Services',
+            'image': '/images/projects/smw-app/pg-2.png'
+        },
+        {
+            'id': 3,
+            'caption': 'Splash resume',
+            'image': '/images/projects/smw-app/pg-3.png'
+        },
+        {
+            'id': 4,
+            'caption': 'Resume item: Virginia Coordinated Campaign',
+            'image': '/images/projects/smw-app/pg-3-a.png'
+        },
+        {
+            'id': 5,
+            'caption': 'Resume item: Megan Barry for Mayor',
+            'image': '/images/projects/smw-app/pg-3-b.png'
+        },
+        {
+            'id': 6,
+            'caption': 'Resume item: Arkansas Coordinated Campaign',
+            'image': '/images/projects/smw-app/pg-3-c.png'
+        },
+        {
+            'id': 7,
+            'caption': 'Contact',
+            'image': '/images/projects/smw-app/pg-4.png'
+        }
+    ];
+})
 .controller('ContactCtrl', ['$scope', /*'SEOService',*/ '$location', function($scope, /*$SEOService,*/ $location) {
     console.log("I'm here");
     var myform = $("form#myform");
@@ -212,4 +222,5 @@ angular.module('myApp.controllers', [])
 //         url: $location.url(),
 //         description: 'Please contact me if you would like to talk, conect, or discuss working together.'
 // });
+
 }]);

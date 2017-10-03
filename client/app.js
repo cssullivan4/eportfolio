@@ -3,6 +3,10 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
     $locationProvider.html5Mode(true); //rids of hash-bang routing
     $routeProvider
         .when('/', {
+            templateUrl: 'views/portal.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/welcomes_you', {
             templateUrl: 'views/welcome.html',
             controller: 'PagesCtrl'
         })
@@ -37,6 +41,10 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
         })
         .when('/a_developer/presenting_project/covalence_store', {
             templateUrl: 'views/portfolio/projects/proj-cov-store.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_work/Sean_Wright', {
+            templateUrl: 'views/portfolio/projects/proj-sean.html',
             controller: 'PagesCtrl'
         })
         .when('/a_developer/presenting_project/student_work', {
