@@ -148,7 +148,7 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             controller: 'PagesCtrl'
         })
         .otherwise('/404', {
-            redirectTo: 'views/404.html',
+            redirectTo: '404.html',
             controller: 'PagesCtrl'
         });
 }]);
