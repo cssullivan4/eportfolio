@@ -43,11 +43,22 @@ angular.module('myApp.controllers', [])
     //      }
     // })
 .controller('HeaderCtrl', function ($scope, $window, $location) {
-    console.log("I'm here, and I'm working.");
     $scope.currentPath = $location.path();
     $scope.reload = function () {
         location.reload();
+        console.log("I'm here, and I'm working.");
     }
+        $('.dropdown-toggle').dropdown();
+        console.log("My album, 'My Album is Dropping' is dropping.");
+})
+.controller('ScrollCtrl', function($scope) {
+    $(function scrollTo() {
+        $('a[href*=\\#]').on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+        });
+      });
+      console.log("Test scroll");
 })
 .controller('PageUp', ['$scope', '$window', function ($scope,  $window) {
     console.log($window);
@@ -89,6 +100,7 @@ angular.module('myApp.controllers', [])
         if ($(document).scrollTop() > 50) {
           $('.navbar').addClass('shrink');
           $('.opener').addClass('shrink-p');
+          $('.opener-b').addClass('shrink-p-b');
           $('.brand-logo').addClass('shrink-img');
         } else {
           $('.navbar').removeClass('shrink');
@@ -141,12 +153,12 @@ angular.module('myApp.controllers', [])
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
     });
   })
-  .controller('PageSlider', ['$scope', function($scope) {
-    $(document).ready(function() {
-        $('#fullpage').fullpage();
-    });
-    console.log("Slider, get sliding!");
-  }])
+//   .controller('PageSlider', ['$scope', function($scope) {
+//     $(document).ready(function() {
+//         $('#fullpage').fullpage();
+//     });
+//     console.log("Slider, get sliding!");
+//   }])
   .controller('DevPopulation',function($scope){
     $scope.images  = [
         "/images/projects/smw-app/pg-1.png",
@@ -192,6 +204,58 @@ angular.module('myApp.controllers', [])
         }
     ];
 })
+.controller('TilePopulation', function($scope) {
+    $scope.aspirations = [
+        {
+            'id': 1,
+            'title': "She's the First 2012-2017",
+            'anchor': '#STF',
+            'image': '/images/se-grid/stf-bw.svg'
+        },
+        {
+            'id': 2,
+            'title': 'Center for Civic Engagement 2012-2017',
+            'anchor': '#CCE',
+            'image': '/images/se-grid/ymca-cce-bw.svg'
+        },
+        {
+            'id': 3,
+            'title': 'Creative Discovery Museum 2014-2017',
+            'anchor': '#CDM',
+            'image': '/images/se-grid/cdm-bw.svg'
+        },
+        {
+            'id': 4,
+            'title': 'ArtsBuild 2015-2016',
+            'anchor': '#ArtsBuild',
+            'image': '/images/se-grid/artsbuild-bw.svg'
+        },
+        {
+            'id': 5,
+            'title': 'Cultural Attractions Committee 2011-2013',
+            'anchor': '#CAC',
+            'image': '/images/se-grid/utk-cac-bw.svg'
+        },
+        {
+            'id': 6,
+            'title': 'Haiti Outreach Program of Knoxville 2011-2013',
+            'anchor': '#HOPOK',
+            'image': '/images/se-grid/hopok-bw.svg'
+        },
+        {
+            'id': 7,
+            'title': 'Chattanooga Theatre Centre 2008-2015',
+            'anchor': '#CTC',
+            'image': '/images/se-grid/cha-theatre-centre-bw.svg'
+        },
+        {
+            'id': 8,
+            'title': 'McKamey Animal Center 2011, 2017',
+            'anchor': '#MAS',
+            'image': '/images/se-grid/mckamey-bw.svg'
+        }
+    ]
+})
 .controller('ContactCtrl', ['$scope', /*'SEOService',*/ '$location', function($scope, /*$SEOService,*/ $location) {
     console.log("I'm here");
     var myform = $("form#myform");
@@ -217,7 +281,7 @@ angular.module('myApp.controllers', [])
       console.log("I'm not sure");
     });
 //     SEOService.setSEO({
-//         title: 'Contact Me',
+//         title :'Contact Me',
 //         image: 'http://' + $location.host() + '/images/contact-icon-b.svg',
 //         url: $location.url(),
 //         description: 'Please contact me if you would like to talk, conect, or discuss working together.'

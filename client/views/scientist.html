@@ -12,27 +12,27 @@
                         <p class="lead text-center">I pull this card to the table because I've spent dedicated time studying and working in different scientific fields. For a long time, science academia was an important part of my life. At university, I took my first steps with science before flexing to any other interests. While choosing to walk away, I hold these experiences, perspectives, and practices close. Despite this choice, I carry the moniker with me because once you sink your teeth into the discipline, it has a way of permeating into all you do and perceive. Because of this, I bring forth a very relevant side of who am I and how I think. <em>This is why I call in "scientist."</em></p>
                 </div>
             </div>
-    </div>
+</div>
     <!-- PAGE CONTENT  -->
-    <div class="container-fluid white padding">
+<div class="container-fluid white padding" ng-controller="ScrollCtrl">
         <!-- PICTURES  -->
         <div class="row col-md-offset-1 white col-sm-offset-1">
             <div class="col-md-2 col-sm-2 text-center">
-                <a href="#about">
+                <a href="#about" ng-click="scrollTo()">
                 <img src="/images/icons/about-logo-b.svg" class="img-responsive center-block img-size">
                 <h4>INTRODUCTION</h4>
                 <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
             <div class="col-md-2 col-sm-2 text-center">
-                <a href="#influences">
+                <a href="#influences" ng-click="scrollTo()">
                 <img src="/images/icons/influences-logo-b.svg" class="img-responsive center-block img-size">
                 <h4>INFLUENCES</h4>
                 <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
             <div class="col-md-2 col-sm-2 text-center">
-                <a href="#labs">
+                <a href="#labs" ng-click="scrollTo()">
                 <img src="/images/icons/labs-logo-b.svg" class="img-responsive center-block img-size">
                 <h4>LABORATORY</h4>
                 <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
@@ -46,18 +46,19 @@
                 </a>
             </div>
             <div class="col-md-2 col-sm-2 text-center">
-                <a href="#takeaways">
+                <a href="#takeaways" ng-click="scrollTo()">
                 <img src="/images/icons/takeaway-logo-b.svg" class="img-responsive center-block img-size">
                 <h4>TAKEAWAYS</h4>
                 <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
         </div>
+        <span id="about"></span>
     </div>
     <!-- END PICTURES  -->
 
 <div class="container-fluid">
-    <div id="about" class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
         <h1>#INTRODUCTION</h1>
     </div>
 </div>
@@ -72,12 +73,13 @@
                 <br>
                 <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
     </div>
+    <span id="influences"></span>
 </div>
 
     <!-- END ABOUT/INTRO  -->
 <div class="container-fluid">
     <!-- INFLUENCES  -->
-    <div id="influences" class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
         <h1>#INFLUENCES</h1>
     </div>
     <!-- <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer text-type"> -->
@@ -155,6 +157,7 @@
                     <br>
                 <!-- <kbd>*CognitiveEthology</kbd>&nbsp; <kbd>*CulturalAnthropology</kbd>&nbsp; <kbd>*Philosophy</kbd>&nbsp; <kbd>*Psychology</kbd> -->
                 </div>
+                <span id="labs"></span>
             </div>
                 
         <!-- <p>-Fields(permeates the most or can deduce most to or) -People -Books</p>
@@ -168,7 +171,7 @@
     <!-- END INFLUENCES  -->
 
     <!-- LABS -->
-    <div id="labs" class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left text-right padding">
+    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left text-right padding">
         <h1>#LABORATORY</h1>
     </div>
     <div class="row col-md-9 col-sm-11 card-right pull-right white purple-shadow buffer padding text-type">
@@ -208,6 +211,7 @@
             </ul>
             <br>
             <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+            <span id="takeaways"></span>
     </div>
     <!-- END LABS -->
 
@@ -235,7 +239,7 @@
     <!-- END APPLICATION -->
 
     <!-- TAKEAWAYS -->
-    <div id="takeaways" class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
         <h1>#TAKEAWAYS</h1>
     </div>
     <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer text-type">

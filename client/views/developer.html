@@ -5,131 +5,156 @@
                 </div>
         </nav>
 </div>
-<div class="container-fluid white padding">
+<div class="container-fluid white padding" ng-controller="ScrollCtrl">
         <!-- PICTURES  -->
         <div class="row col-md-offset-3">
             <div class="col-md-2 col-sm-6 col-xs-6 text-center">
-                <a href="#background">
-                    <img src="/images/icons/about-logo-c.svg" class="img-responsive center-block img-size"/>
+                <a href="#background" ng-click="scrollTo()">
+                    <img src="/images/icons/about-logo-c.svg" class="img-responsive center-block img-size" alt="Icon: Background">
                 <h4>BACKGROUND</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6 text-center">
-                <a href="#code">
-                    <img src="/images/icons/code-icon-b.svg" class="img-responsive center-block img-size"/>
+                <a href="#code" ng-click="scrollTo()">
+                    <img src="/images/icons/code-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Technologies">
                     <h4>TECHNOLOGIES</h4>
-                    <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6 text-center">
-                <a href="#projects">
-                    <img src="/images/icons/portfolio-icon-b.svg" class="img-responsive center-block img-size"/>
+                <a href="#proj" ng-click="scrollTo()">
+                    <img src="/images/icons/portfolio-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Projects Portfolio">
                     <h4>PROJECTS PORTFOLIO</h4>
-                    <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                 </a>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6 text-center">
-                    <a href="#works">
-                        <img src="/images/icons/takeaway-logo--c.svg" class="img-responsive center-block img-size"/>
+                    <a href="#works" ng-click="scrollTo()">
+                        <img src="/images/icons/takeaway-logo--c.svg" class="img-responsive center-block img-size" alt="Icon: Selected Works">
                         <h4>SELECTED WORKS</h4>
-                        <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
                     </a>
                 </div>
         </div>
 </div>
+<!-- START COMBO -->
 <div class="container-fluid">
-    <div id="background" class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left text-right card-left">
+    <div id="background" class="row col-lg-5 col-md-5 hidden-sm hidden-xs buffer padding green black-shadow pull-left text-right card-left">
         <h1>#BACKGROUND</h1>
     </div>
-</div>
-<div class="container-fluid white buffer padding black-shadow text-type">
-    <!-- <div class="col-md-2 pull-right thumbnail">
-        <img src="/images/developer/cov-headshot-bw.jpg" class="thumbnail-portrait"/>
-    </div> -->
-    <div class="col-md-10 pull-left">
-        <p>More information coming soon. Formally wrapped up a full-stack program in 2017. Projects can be viewed on <a href="https://github.com/cssullivan4" target="_blank" class="green">Github</a>. Projects are currently being migrated here for viewing convenience. Please contact me at <a href="mailto:cssullivan4@gmail.com?Subject=Let's&nbsp;Talk!" target="_top" class="green">cssullivan4@gmail.com</a> for any questions, comments, or conversation.</p>
-    </div>
-</div>
-<div id="code" class="container-fluid">
-    <div class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">
+    <div class="row col-md-5 hidden-sm hidden-xs buffer padding green black-shadow pull-right card-right text-left">
         <h1>#TECHNOLOGIES</h1>
     </div>
 </div>
-<div class="container-fluid padding buffer white text-type">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8">
-            <div class="wrap">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/developer/logo-HTML5.svg" class="img-responsive thumbnail">
-                        <div class="title-box-b">HTML5</div>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="box-inner-b">
-                    <img src="/images/developer/logo-css3.jpeg" class="img-responsive thumbnail">
-                    <div class="title-box-b">CSS3</div>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="box-inner-b">
-            <img src="/images/developer/logo-JavaScript.png" class="img-responsive center-cropped-c thumbnail">
-            <div class="title-box-b">Javascript</div>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="box-inner-b">
-            <img src="/images/developer/logo-jQuery.gif" class="img-responsive thumbnail">
-            <div class="title-box-b">jQuery</div>
-                    </div>
-                </div>
-                            <div class="box">
-                                <div class="box-inner-b">
-                        <img src="/images/developer/logo-nodejs.jpg" class="img-responsive thumbnail">
-                        <div class="title-box-b">NodeJS</div>
-                                </div></div>
-                <div class="box">
-                    <div class="box-inner-b">
-            <img src="/images/developer/logo-mysql-170x115.png" class="img-responsive center-cropped-c thumbnail">
-            <div class="title-box-b">MySQL</div>
-                    </div>
-                </div>
-                    <div class="box">
-                        <div class="box-inner-b">
-                <img src="/images/developer/logo-expressjs.jpg" class="img-responsive thumbnail">
-                <div class="title-box-b">ExpressJS</div>
-                        </div></div>
-                    <div class="box">
-                        <div class="box-inner-b">
-                <img src="/images/developer/logo-angular.svg" class="img-responsive thumbnail">
-                <div class="title-box-b">AngularJS</div>
-                        </div>
-                    </div>
-                    <div class="box">
-                            <div class="box-inner-b">
-                                <img src="/images/developer/logo-bootstrap-solid.svg" class="img-responsive thumbnail">
-                                <div class="title-box-b">Bootstrap</div>
-                            </div>
-                        </div>
-                        <div class="box">
-                                <div class="box-inner-b">
-                                    <img src="/images/developer/logo-SendGrid.png" class="img-responsive center-cropped-c thumbnail">
-                                    <div class="title-box-b">SendGrid</div>
-                                </div>
-                            </div>
-                            <div class="box">
-                                    <div class="box-inner-b">
-                                        <img src="/images/developer/logo-stripe.svg" class="img-responsive thumbnail">
-                                        <div class="title-box-b">Stripe</div>
-                                    </div>
-                                </div>
-        </div>
-                </div>
-            </div>
+<div class="container-fluid">
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs pull-left card-left buffer padding text-type white green-shadow">
+        <p>More information coming soon. Formally wrapped up a full-stack program in 2017. Projects can be viewed on <a href="https://github.com/cssullivan4" target="_blank" class="green">Github</a>. Projects are currently being migrated here for viewing convenience. Please contact me at <a href="mailto:cssullivan4@gmail.com?Subject=Let's&nbsp;Talk!" target="_top" class="green">cssullivan4@gmail.com</a> for any questions, comments, or conversation.</p>
+        <div id="code" class="hidden-sm hidden-xs"></div>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs pull-right card-right buffer padding text-type white green-shadow">
+            <dl class="dl-horizontal">
+                    <dt>
+                        LANGUAGE<span class="green-type">:</span>
+                    </dt>
+                    <dd>HTML, CSS, JavaScript&nbsp;<span class="green-type glyphicon glyphicon-list-alt"></span></dd>
+                    <dt>
+                        LIBRARY<span class="green-type">:</span>
+                    </dt>
+                        <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="green-type glyphicon glyphicon-refresh"></span></dd>
+                    <dt>
+                        FRAMEWORK<span class="green-type">:</span>
+                    </dt> 
+                    <dd>NodeJS, ExpressJS, AngularJS&nbsp;<span class="green-type glyphicon glyphicon-object-align-horizontal"></span></dd>
+                    <dt>
+                        DATABASE<span class="green-type">:</span>
+                    </dt>
+                    <dd>MySQL&nbsp;<span class="green-type glyphicon glyphicon-folder-open"></span></dd>
+                    <dt>
+                        SOFTWARE<span class="green-type">:</span>
+                    </dt>
+                    <dd>SendGrid, Stripe&nbsp;<span class="green-type glyphicon glyphicon-hdd"></span></dd>
+                    <dt>
+                        IDE<span class="green-type">:</span>
+                    </dt>
+                    <dd>Visual Code Studio&nbsp;<span class="green-type glyphicon glyphicon-pencil"></span></dd>
+                    <dt>
+                        OS<span class="green-type">:</span>
+                    </dt>
+                    <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="green-type glyphicon glyphicon-console"></span></dd>
+                    <dt>
+                        AGILE<span class="green-type">:</span>
+                    </dt>
+                    <dd>Trello&nbsp;<span class="green-type glyphicon glyphicon-calendar"></span></dd>
+                    <dt>
+                        HOST<span class="green-type">:</span>
+                    </dt>
+                    <dd>Amazon Web Services&nbsp;<span class="green-type glyphicon glyphicon-cloud"></span></dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>
+                        LEARNING<span class="green-type">:</span>
+                    </dt>
+                    <dd>TypeScript, LESS, Ionic, Apache Cordova&nbsp;<span class="green-type glyphicon glyphicon-cloud-download"></span></dd>
+                </dl>
+                <span id="projects" class="hidden-sm hidden-xs"></span>
+    </div>
 </div>
-<div id="projects" class="container-fluid">
-    <div class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">
+<!-- END BACKGROUND -->
+<!-- START TECH -->
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right"><div id="code" class="hidden-lg hidden-md"><span></span></div>
+        <h1>#TECHNOLOGIES</h1>
+    </div>
+</div>
+<div class="container-fluid hidden-lg hidden-md padding buffer white text-type">
+        <dl class="dl-horizontal">
+                <dt>
+                    LANGUAGE<span class="green-type">:</span>
+                </dt>
+                <dd>HTML, CSS, JavaScript&nbsp;<span class="green-type glyphicon glyphicon-list-alt"></span></dd>
+                <dt>
+                    LIBRARY<span class="green-type">:</span>
+                </dt>
+                    <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="green-type glyphicon glyphicon-refresh"></span></dd>
+                <dt>
+                    FRAMEWORK<span class="green-type">:</span>
+                </dt> 
+                <dd>NodeJS, ExpressJS, AngularJS&nbsp;<span class="green-type glyphicon glyphicon-modal-window"></span></dd>
+                <dt>
+                    DATABASE<span class="green-type">:</span>
+                </dt>
+                <dd>MySQL&nbsp;<span class="green-type glyphicon glyphicon-folder-open"></span></dd>
+                <dt>
+                    SOFTWARE<span class="green-type">:</span>
+                </dt>
+                <dd>SendGrid, Stripe&nbsp;<span class="green-type glyphicon glyphicon-hdd"></span></dd>
+                <dt>
+                    IDE<span class="green-type">:</span>
+                </dt>
+                <dd>Visual Code Studio&nbsp;<span class="green-type glyphicon glyphicon-pencil"></span></dd>
+                <dt>
+                    OS<span class="green-type">:</span>
+                </dt>
+                <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="green-type glyphicon glyphicon-console"></span></dd>
+                <dt>
+                    AGILE<span class="green-type">:</span>
+                </dt>
+                <dd>Trello&nbsp;<span class="green-type glyphicon glyphicon-calendar"></span></dd>
+                <dt>
+                    HOST<span class="green-type">:</span>
+                </dt>
+                <dd>Amazon Web Services&nbsp;<span class="green-type glyphicon glyphicon-cloud"></span></dd>
+            </dl>
+            <dl class="dl-horizontal">
+                    <dt>
+                        LEARNING<span class="green-type">:</span>
+                    </dt>
+                    <dd>TypeScript, LESS, Ionic, Apache Cordova&nbsp;<span class="green-type glyphicon glyphicon-cloud-download"></span></dd>
+                </dl>
+            <span id="projects" class="hidden-lg hidden-md"></span>
+</div>
+<!-- END TECH -->
+<!-- START PROJ -->
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right">
         <h1>#PROJECTS PORTFOLIO</h1>
     </div>
 </div>
@@ -158,9 +183,12 @@
                 <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Student Projects</p>
                 </a>
             </div>
+            <span id="works"></span>
 </div>
-<div id="works" class="container-fluid">
-        <div class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">
+<!-- END PROJ -->
+<!-- START WORK -->
+<div class="container-fluid">
+        <div class="row col-md-5 col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right">
             <h1>#SELECTED WORKS</h1>
         </div>
     </div>
@@ -172,3 +200,5 @@
                 </a>
             </div>
     </div>
+</div>
+<!-- END WORK -->

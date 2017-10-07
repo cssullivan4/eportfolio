@@ -1,51 +1,88 @@
 <div class="container-fluid row" ng-controller="HeaderCtrl">
-        <div class="col-md-6 col-sm-7 col-xs-8">
-            <p class="opener"><em><span class="cut-out" ng-if="currentPath === '/welcomes_you'" style="color: #1C1C1C">/WELCOME&nbsp;</span></em>
-                <em><span class="cut-out" ng-if="currentPath === '/reaching_out'" style="color: #1C1C1C">/REACH OUT&nbsp;</span></em>
-                <em><span class="blue" ng-if="currentPath === '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em>
-                <em><span class="purple" ng-if="currentPath === '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em>
-                <em><span class="red" ng-if="currentPath === '/a_politi'">/PRACTICED POLITI&nbsp;</span></em>
+        <!-- <a href="#" target="_top"> -->
+        <div class="col-md-6 col-sm-7 col-xs-8 dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="opener">
+                    <em><span class="cut-out" ng-if="currentPath === '/welcomes_you'" style="color: #1C1C1C">/WELCOME&nbsp;</span></em>
+                    <em><span class="cut-out" ng-if="currentPath === '/reaching_out'" style="color: #1C1C1C">/REACH OUT&nbsp;</span></em>
+                    <em><span class="blue" ng-if="currentPath === '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em>
+                    <em><span class="purple" ng-if="currentPath === '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em>
+                    <em><span class="red" ng-if="currentPath === '/a_politi'">/PRACTICED POLITI&nbsp;</span></em>
 
-                <!-- START DESIGNER -->
-                <em><span class="yellow" ng-if="currentPath === '/a_designer'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/icons_from_csamandme'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/tablet_doodles'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/country'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/ocean'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/misc'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/characters'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/alpha'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/portfolio'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/misc_designs'">/EMERGING DESIGNER&nbsp;</span></em>
-                <!-- <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'"><small>>>>PRINT WORK&nbsp;</small></span></em> -->
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/emoji_series'">/EMERGING DESIGNER&nbsp;
-                </span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/book_series'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/sphere_trio_series'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/woodland_series'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/instrument_series'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/relief'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/portrait'">/EMERGING DESIGNER&nbsp;</span></em>
-                <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/watercolor'">/EMERGING DESIGNER&nbsp;</span></em>
-                <!-- END DESIGNER -->
+                    <!-- START DESIGNER -->
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/icons_from_csamandme'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/tablet_doodles'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/country'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/ocean'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/misc'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/characters'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/mmorpg/alpha'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/portfolio'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/web/misc_designs'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <!-- <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'"><small>>>>PRINT WORK&nbsp;</small></span></em> -->
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/emoji_series'">/EMERGING DESIGNER&nbsp;
+                    </span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/book_series'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/sphere_trio_series'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/woodland_series'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/instrument_series'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/relief'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/portrait'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print/watercolor'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <!-- END DESIGNER -->
 
-                <!-- START DEVELOPER -->
-                <em><span class="green" ng-if="currentPath === '/a_developer'">/FRESH DEVELOPER&nbsp;</span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'"><small>./MCKAMEY VOLUNTEER PORTAL&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/covalence_store'"><small>./COVALENCE STORE&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_work/Sean_Wright'"><small>./SEAN WRIGHT&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/type'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/dice'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/shape'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
-                <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/chirper'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
-                <!-- END DEVELOPER -->
-                </p>
+                    <!-- START DEVELOPER -->
+                    <em><span class="green" ng-if="currentPath === '/a_developer'">/FRESH DEVELOPER&nbsp;</span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'"><small>./MCKAMEY VOLUNTEER PORTAL&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/covalence_store'"><small>./COVALENCE STORE&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_work/Sean_Wright'"><small>./SEAN WRIGHT&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/type'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/dice'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/shape'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
+                    <em><span class="green" ng-if="currentPath === '/a_developer/presenting_project/student_work/chirper'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
+                    <!-- END DEVELOPER -->
+                    </p>
+                </button>
+            <ul class="dropdown-content list-unstyled">
+                <!-- <p class="opener-b"> -->
+                    <li class="blue">
+                        <a href="/a_social_entrepreneur" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em></li>
+                        </a>
+                    <li class="purple">
+                        <a href="/a_scientist" target="_top">                                
+                        <em><span class="opener" ng-if="currentPath !== '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em></li>
+                    <li class="red">
+                        <a href="/a_politi" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/a_politi'">/PRACTICED POLITI&nbsp;</span></em>
+                        </a>
+                    </li>
+                    <li class="yellow">
+                        <a href="/a_designer" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/a_designer'">/EMERGING DESIGNER&nbsp;</span></em>
+                        </a>
+                    </li>
+                    <li class="green">
+                        <a href="/a_developer" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/a_developer'">/FRESH DEVELOPER&nbsp;</span></em>
+                        </a>
+                    </li>
+                    <!-- <li role="separator" class="divider"></li> -->
+                    <li class="cut-out">
+                        <a href="/reaching_out" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/reaching_out'" style="color: #1C1C1C">/REACH OUT&nbsp;</span></em>
+                        </a>
+                    </li>
+                <!-- </p> -->
+                  </ul>
+            <!-- </a> -->
         </div>
-        <div class="col-md-2 col-md-push-4 col-sm-push-1 col-sm-4 col-xs-3">
-            <a href="/welcomes_you" target="_top">
+        <div class="col-md-2 col-md-push-4 col-sm-push-1 col-sm-4 col-xs-3" ng-controller="ScrollCtrl">
+            <a href="/welcomes_you" ng-click="scrollTo()">
                 <img src="/images/icons/csamandme.tr.svg" class="brand-logo" ng-if="currentPath === '/welcomes_you'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.tr.svg" class="brand-logo" ng-if="currentPath === '/reaching_out'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.bl.svg" class="brand-logo" ng-if="currentPath === '/a_social_entrepreneur'" alt="Click logo to return to welcome page">

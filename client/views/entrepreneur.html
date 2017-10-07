@@ -29,7 +29,7 @@
     </div>
     </div>
 </div>
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row col-md-5 col-sm-7 col-xs-10 blue black-shadow padding buffer pull-left card-left text-right">
             <h1>#BACKGROUND</h1>
         </div>
@@ -38,94 +38,120 @@
         <p class="lead text-center">Much to the ire of my friends over the years, working & making an impact has been something I couldn't shake. As I've matured and begun my career, my past meandering through different spaces has lent me with quite a pronounced perspective. Impact is a lense I see through; it's a motivation, and it is innate.</p>
     </div>
 </div>
-
-    <div class="container-fluid padding buffer white text-type">
-        <p class="lead text-center">The following are relevant examples of non-profit organizations I have worked or volunteered with to better give an idea of why I think myself a social entrepreneur. Each of these experiences will have marked skills or takeaways following them.</p><br>
-        <!-- <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 text-center"> -->
+<!-- START PICTURES -->
+<div class="container-fluid padding buffer white text-type" style="
+padding-bottom: 3em;" ng-controller="ScrollCtrl">
+        <p class="lead text-center">The following are relevant examples of non-profit organizations I have worked or volunteered with to better give an idea of why I think myself a social entrepreneur. Each of these experiences will have marked skills or takeaways following them.</p><br>  
+        <div class="text-center col-md-offset-3" style="clear: right;" ng-controller="TilePopulation">
             <!-- NEED TO REDO SECTION, REMOVING CONFLICTING TAGS, DISPLAY W DATA BINDING -->
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 col-sm-4 col-xs-4">
-            <div class="wrap">
-                <a href="#STF"><div class="box">
+             <!-- <div class="row"> -->
+               <div class="col-md-2 col-sm-6 col-xs-6"ng-repeat="aspiro in aspirations | limitTo:4:0">
+                    <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
+                        <div class="img-box">
+                            <img src="{{ aspiro.image }}" alt="Avatar" class="image img-responsive thumbnail">
+                                <div class="overlay">
+                                    <div class="text">{{aspiro.title}}</div>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="row"> -->
+        <div class="text-center col-md-offset-3" style="clear: left;" ng-controller="TilePopulation">
+            <div class="col-md-2 col-sm-6 col-xs-6 white" ng-repeat="aspiro in aspirations | limitTo:8:4">
+                    <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
+                        <div class="img-box">
+                            <img src="{{ aspiro.image }}" alt="Avatar" class="image thumbnail img-responsive">
+                                <div class="overlay">
+                                    <div class="text">{{aspiro.title}}</div>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+            <!-- <div class="wrap">
+                <a href="#STF" ng-click="scrollTo()"><div class="box">
                     <div class="box-inner">
                         <img src="/images/se-grid/stf-bw.svg" class="img-responsive thumbnail">
                         <div class="title-box">She's the First 2012-2017</div>
                     </div>
                     </div>
-                </a>
+                </a> -->
         <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <a href="#CCE">
+            <!-- <a href="#CCE" ng-click="scrollTo()">
                 <div class="box">
                     <div class="box-inner">
                     <img src="/images/se-grid/ymca-cce-bw.svg" class="img-responsive thumbnail">
                     <div class="title-box">Center for Civic Engagement 2012-2017</div>
                     </div>
                 </div>
-            </a>
+            </a> -->
         <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <a href="#CDM">
+            <!-- <a href="#CDM" ng-click="scrollTo()">
                 <div class="box">
                     <div class="box-inner">
             <img src="/images/se-grid/cdm-bw.svg" class="img-responsive thumbnail">
             <div class="title-box">Creative Discovery Museum 2014-2017</div>
                     </div>
                 </div>
-            </a>
+            </a> -->
         <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <a href="#ArtsBuild">
+            <!-- <a href="#ArtsBuild" ng-click="scrollTo()">
                 <div class="box">
                     <div class="box-inner">
             <img src="/images/se-grid/artsbuild-bw.svg" class="img-responsive thumbnail">
             <div class="title-box">ArtsBuild 2015-2016</div>
                     </div>
                 </div>
-            </a>
+            </a> -->
         <!-- <div class="row"> -->
                 <!-- <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 text-center"> -->
-                        <a href="#CAC">
+                        <!-- <a href="#CAC" ng-click="scrollTo()">
                             <div class="box">
                                 <div class="box-inner">
                         <img src="/images/se-grid/utk-cac-bw.svg" class="img-responsive thumbnail">
                         <div class="title-box">Cultural Attractions Committee 2011-2013</div>
                                 </div></div>
-                        </a>
+                        </a> -->
         <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <a href="#HOPOK">
+            <!-- <a href="#HOPOK" ng-click="scrollTo()">
                 <div class="box">
                     <div class="box-inner">
             <img src="/images/se-grid/hopok-bw.svg" class="img-responsive thumbnail">
             <div class="title-box">Haiti Outreach Program of Knoxville 2011-2013</div>
                     </div>
                 </div>
-            </a>
+            </a> -->
         <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-                <a href="#CTC">
+                <!-- <a href="#CTC" ng-click="scrollTo()">
                     <div class="box">
                         <div class="box-inner">
                 <img src="/images/se-grid/cha-theatre-centre-bw.svg" class="img-responsive thumbnail">
                 <div class="title-box">Chattanooga Theatre Centre 2008-2015</div>
                         </div></div>
-                </a>
+                </a> -->
             <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-                <a href="#MAS">
+                <!-- <a href="#MAS" ng-click="scrollTo()">
                     <div class="box">
                         <div class="box-inner">
                 <img src="/images/se-grid/mckamey-bw.svg" class="img-responsive thumbnail">
                 <div class="title-box">McKamey Animal Center 2011, 2017</div>
                         </div>
                     </div>
-                </a>
+                </a> -->
         </div>
                 </div>
             </div>
+            <span id="STF"></span>
 </div>
 <!-- END PICTURES  -->
 <!-- START STF  -->
 <div class="container-fluid">
-    <div id="STF" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
+    <div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
         <h1>#SHE'S THE FIRST</h1>
     </div>
-    <div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
+    <div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> UNIVERSITY <small>@ University of Tennessee, Knoxville / 2011-2014</small></h2>
         <ul>
             <li>Founded  Chapter:  assembled  exec  team,  drafted  constitution,  registered on campus, chartered nationally</li>
@@ -170,24 +196,26 @@
             <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
             <br>
             <kbd>#DocumentDrafting</kbd> <kbd>#Communications</kbd> <kbd>#EventPlanning</kbd>
+            <span id="CCE"></span>
     </div>
 <!-- END STF  -->
 <!-- START CCE -->
-<div id="CCE" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
     <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
 </div>
 <a href="/a_politi#CCE">
-<div class="row col-md-9 col-sm-11 col-xs-11 white red-shadow buffer padding text-type card-right pull-right">
+<div class="row col-md-9 col-sm-12 col-xs-12 white red-shadow buffer padding text-type card-right pull-right">
         <h2><span class="red-type">>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
         <blockquote><em>Click through to read about volunteering with the center to learn high schoolers across the state of Tennessee about international government, politics, systems - in the vein of the United Nations - and state government through the YMCA of Middle Tennessee.</em></blockquote>
+        <span id="CDM"></span>
 </div>
 </a>
 <!-- END CCE -->
 <!-- START CDM -->
-<div id="CDM" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-left card-left">
+<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-left card-left">
     <h1>#CREATIVE DISCOVERY MUSEUM</h1>
 </div>
-<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type card-right pull-right">
+<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type card-right pull-right">
         <h2><span class="blue-type">>>></span> MUSEUM EDUCATOR <small>@ Chattanooga, TN / 2014 - 2017</small></h2>
     <ul>
         <li>Floor Interpretation, including skill, developmental, & interest assessment</li>
@@ -209,32 +237,16 @@
                         <div id="caption"></div>
                         </div>
       </div>
-      <!-- Trigger the Modal -->
-<!-- <img id="myImg" src="/images/modals/se/cdm-camp.jpg" alt="Photo from Extreme Science Camp 7/2015 of Diet Coke + Mentos demonstration outside the Creative Discovery
-Museum on the plaza. C. Sam is far right backing away from recently pulled trigger." width="160" height="auto"> -->
-
-<!-- The Modal -->
-<!-- <div id="myModal" class="modal"> -->
-
-  <!-- The Close Button -->
-  <!-- <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span> -->
-
-  <!-- Modal Content (The Image) -->
-  <!-- <img class="modal-content modalify"> -->
-
-  <!-- Modal Caption (Image Text) -->
-  <!-- <div id="caption"></div> -->
-<!-- </div> -->
         <br>
         <kbd>#BehavioralAssessment</kbd> <!--<kbd>#Problem Solving</kbd>--> <kbd>#Teaching</kbd> <kbd>#PublicSpeaking</kbd> <kbd>#Cooking</kbd> <br><kbd>#SpecialEducation</kbd> <kbd>#LaserCutter</kbd> <kbd>#CustomerService</kbd>
-
+        <span id="ArtsBuild"></span>
 </div>
 <!-- END CDM -->
 <!-- START ARTSBUILD -->
-<div id="ArtsBuild" class="row col-md-5 col-sm-7 col-xs-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
     <h1>#ARTSBUILD</h1>
 </div>
-<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
+<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> Holmberg Arts Leadership Institute <small>@ Chattanooga, TN / 2015</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
     <!-- <p>Now this is a story all about how my life got twist, turned upside-down, and I'd like to take a moment. Just sit right there. I'll tell you all about how I became the Prince of Bel-Air. ***case study: houston museum***</p> -->
@@ -242,66 +254,22 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
         
             <!-- start<a href="#" id="link1" data-toggle="modal" data-target="#myModal"> -->
                     <!-- start<img src="/images/modals/se/artsbuild-4.jpg" class="center-cropped" id="img" alt="Holmberg Class at Tennessee Arts Commission, Oct 2015 (Middle-Right, Second Row: C. Sam)"> -->
-                  <!-- start</a> -->
-                
-                  <!-- <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
-                    <img src="http://www.fondosanimados.com/wallpapers/animales/grandes_felinos/pumas/depredador_sin_igual/800x600_depredador_sin_igual.jpg" id="img2" class="img-responsive" width="250px">
-                  </a>
-                  <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
-                    <img src="http://www.muycurioso.net/sites/default/files/images/naturaleza/Mayo_2014/Animales%20blancos%20mas%20bonitos%20del%20mundo/02.jpg" id="img3" class="img-responsive" width="250px">
-                  </a>
-                  <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
-                    <img src="http://2.bp.blogspot.com/_kmCH50e9OWk/SsDSq_PIzzI/AAAAAAAAABI/r1WwWHFup5k/s1600/Loros.jpg" id="img4" class="img-responsive" width="250px">
-                  </a>           -->
-              <!-- start</div>   -->
-            
-              <!-- Modal -->
-              <!-- starthere<div class="modal fade" id="myModal" role="dialog"> -->
-                <!-- starthere<button type="button" class="close" data-dismiss="modal">&times;</button> -->
-                <!-- <div class="modal-dialog modal-lg"> -->
-                  <!-- Modal content-->
-                  <!-- <div class="modal-content"> -->
-                    <!-- <div class="modal-header"> -->
-                      
-                      <!-- <h4 class="modal-title">your image title here (can be dynamic) </h4> -->
-                    <!-- </div> -->
-                     <!-- starthere<div class="modal-content" id="showImg"> -->
-                      <!-- here we create the image dynamically -->
-                    <!-- starthere</div> -->
-                    <!-- Modal Caption (Image Text) -->
-                    <!-- starthere<div id="caption"></div> -->
-                    <!-- <div class="modal-footer"> -->
-                      <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-                    <!-- starthere</div> -->
-                  
             <!-- Trigger the Modal -->
       <!-- <img id="myImg" src="/images/modals/se/artsbuild-4.jpg" alt="Holmberg Class at Tennessee Arts Commission, Oct 2015 (Middle-Right, Second Row: C. Sam)" width="160" height="auto"> -->
-      
-      <!-- The Modal -->
-      <!-- <div id="myModal" class="modal"> -->
-      
-        <!-- The Close Button -->
-        <!-- <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span> -->
-      
-        <!-- Modal Content (The Image) -->
-        <!-- <img class="modal-content modalify"> -->
-      
-        <!-- Modal Caption (Image Text) -->
-        <!-- <div id="caption"></div> -->
-      
     <br>
     <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
 </div>
 <div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
         <h2><span class="blue-type">>>></span> CCC GRANTS<small> @ Chattanooga, TN / 2016</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
+        <span id="CAC"></span>
 </div>
 <!-- END ARTSBUILD -->
 <!-- START CULTURAL ATTRACTIONS COMMITTEE -->
-<div id="CAC" class="row col-md-5 col-sm-7 col-xs-7 blue black-shadow buffer padding pull-left card-left text-right">
+<div class="row col-md-5 col-sm-11 col-xs-11 blue black-shadow buffer padding pull-left card-left text-right">
     <h1>#CULTURAL ATTRACTIONS COMMITTEE</h1>
 </div>
-<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding pull-right card-right text-type">
+<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding pull-right card-right text-type">
         <h2><span class="blue-type">>>></span> MEMBER <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
         <ul>
         <li>Plan,   contract,   promote,   program,   &   execute   relevant   cultural   events   on   campus   & downtown</li>
@@ -310,13 +278,14 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
         </ul>
         <br>
         <kbd>#EventPlanning</kbd> <kbd>#DocumentDrafting</kbd> <kbd>#Promotion</kbd>
+        <span id="HOPOK"></span>
     </div>
 <!-- END CULTURAL ATTRACTIONS COMMITTEE -->
 <!-- START HAITI OUTREACH PROGRAM OF KNOXVILLE -->
-<div id="HOPOK" class="row col-md-5 col-sm-7 blue black-shadow padding buffer pull-left card-left text-right">
+<div class="row col-md-5 col-sm-11 col-xs-11 blue black-shadow padding buffer pull-left card-left text-right">
     <h1>#HAITI OUTREACH PROGRAM OF KNOXVILLE</h1>
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow buffer padding pull-right card-right text-type">
+<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding pull-right card-right text-type">
         <h2><span class="blue-type">>>></span> GIVE HAITI HOPE <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
         <ul>
         <li>Served on the advertising committee for the "Breaking Ground at Southbound" benefit concert in 2011</li>
@@ -327,26 +296,28 @@ Museum on the plaza. C. Sam is far right backing away from recently pulled trigg
     </ul>
     <br>
     <kbd>#PublicSpeaking</kbd> <kbd>#EventPlanning</kbd> <kbd>#Advertising</kbd>
+    <span id="CTC"></span>
 </div>
 <!-- END HAITI OUTREACH PROGRAM OF KNOXVILLE -->
 <!-- START CHA THEATRE CENTRE -->
-<div id="CTC" class="row col-md-5 col-sm-7 buffer padding pull-left card-left text-right blue black-shadow">
+<div class="row col-md-5 col-sm-11 col-xs-11 buffer padding pull-left card-left text-right blue black-shadow">
     <h1>#CHATTANOOGA THEATRE CENTRE</h1>
 </div>
-<div class="row col-md-9 col-sm-11 buffer padding white blue-shadow card-right pull-right text-type">
+<div class="row col-md-9 col-sm-12 col-xs-12 buffer padding white blue-shadow card-right pull-right text-type">
         <h2><span class="blue-type">>>></span> VOLUNTEER <small>/ 2008 - 2015</small></h2>
+        <span id="MAS"></span>
 </div>
 <!-- END CHA THEATRE CENTRE -->
 <!-- START MISC -->
-<div id="MAS" class="row col-md-5 col-sm-7 buffer blue black-shadow pull-left padding text-right card-left">
+<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
     <h1>#McKAMEY ANIMAL CENTER</h1>
 </div>
-<div class="row col-md-9 col-sm-11 white blue-shadow padding buffer text-type card-right pull-right">
+<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow padding buffer text-type card-right pull-right">
     <h2> <span class="blue-type">>>></span> VOLUNTEER <small>/ 2011</small></h2>
     <!-- <h1 class="text-center"><strong>COMING SOON.</h1></strong> -->
 </div>
-<a href="/a_developer/presenting_project/mckamey_volunteer_portal">
-<div class="row col-md-9 col-sm-11 white green-shadow padding buffer text-type pull-right card-right">
+<a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
+<div class="row col-md-9 col-sm-12 white green-shadow padding buffer text-type pull-right card-right">
         <h2> <span class="green-type">>>></span> PROJECT: VOLUNTEER PORTAL <small>/ 2017</small></h2>
         <blockquote><em>Click through to read about web app project in conjuction with McKamey Animal Center & Covalence.</em></blockquote>
     </div>
