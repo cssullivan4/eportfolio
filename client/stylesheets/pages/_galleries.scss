@@ -1,0 +1,64 @@
+.img {
+    &-icon {
+        @include respond-to('xxsmall') {
+            height: 6em;
+            margin-left: 0.25em;
+            margin-right: 0.25em;
+            width: auto;
+        }
+        @include respond-to('medium') {
+            height: 10em;
+            width: auto;
+        }
+    }
+    &-fix {
+        @include respond-to('xxsmall') {
+            width: 7.143rem;
+            height: auto;
+            margin-left: 0.25em;
+            margin-right: 0.25em;
+            margin-bottom: 0.25em;
+        }
+        @include respond-to('small') {
+            width: 8.571rem;
+            height: auto;
+        }
+        @include respond-to('medium') {
+            height: 10rem;
+            width: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+        @include respond-to('large') {
+            height: 11.429rem;
+            width: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    &-gallery { /* emoji, book, forest, instrument, portrait, trio, watercolor */
+        margin-left: 5%;
+        margin-right: 5%;
+
+        a img {
+            @include center-crop(false);
+
+            margin: 0 1em 1em 0;
+        }
+
+        a .alt { /* 3 icons */
+            @include center-crop(true);
+
+            margin: 0 1em 1em 0;
+        }
+    }
+    &-responsive {
+        min-width: 50%;
+    }
+    &-size {
+        @include respond-to('large') {
+            height: 9.1435em;
+            width: auto;
+        }
+    }
+}

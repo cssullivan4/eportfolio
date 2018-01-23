@@ -1,0 +1,203 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.return-to-top {
+    display: none;
+    z-index: 1100;
+    bottom: 20px;
+    right: 30px;
+    position: fixed;
+    height: 7.5%;
+    width: auto;
+    cursor: pointer;
+}
+
+/** 
+ * Navbar dropdown menu button 
+ * 
+ * Font & background controllers seem to be only factors here, with media query --> low priority
+ * Maybe there's a way to include show/hide to help with bulk, otherwise
+ * Choose font, have mixin for color? Extend? List?
+ * Colors https://benfrain.com/working-with-lists-and-each-loops-in-sass-with-the-index-and-nth-function/
+ * TODO: Test
+ * TODO: Add comments explaining
+ */
+
+ /* Button grab */
+p.opener-b {
+    display: none;
+    // position: relative;
+    font-family: $header;
+    background-color: $blue;
+    white-space: nowrap;
+
+    @include respond-to('xxsmall') {
+        @include trans-header;
+
+        display: block;
+        font-size: 0.913em;
+        // margin-top: 0.5em;
+        // margin-left: -0.25em;
+        // margin: 0.2em 0em -0.5em -9px;
+        &-shrink {
+            // font-size: 12px;
+            // margin-top: 0.95em;
+            // margin-left: -0.5em;
+            font-size: 0.8em;
+            // margin-top: 0.245em;
+            // margin-left: -0.25em;
+        }
+    }
+    @include respond-to('xsmall') {
+        @include trans-header;
+
+        display: block;
+        font-size: 1.5em;
+        margin: 3px 0 0 0;
+
+        &-shrink {
+            font-size: 1em;
+        }
+    }
+    // TODO small, medium
+    @include respond-to('large'){
+        @include trans-header;
+        display: block;
+        font-size: 3em;
+
+        &-shrink {
+            font-size: 1.5em;
+        }
+    }
+ }
+
+ /* Menu backsplash */
+.color {
+    &-blue {
+        background-color: $blue;
+
+        @include respond-to('xxsmall') {
+            display: none;
+        }
+        @include respond-to('xsmall') {
+            display: none;
+        }
+
+        &-2 { /* dropdown */
+            background-color: $blue;
+            display: block;
+        }
+    }
+    &-green {
+        background-color: $green;
+    }
+    &-purple {
+        background-color: $purple;
+    }
+    &-red {
+        background-color: $red;
+    }
+    &-trans {
+        background-color: $base;
+    }
+    &-yellow {
+        background-color: $yellow;
+    }
+}
+
+
+ /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    &-content { /* the dropped menu */
+        // margin-top: -0.85em;
+        // padding: 0 0 0 0.25em;
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 1;
+
+        @include respond-to('xxsmall') {
+            // margin-top: -0.95em;
+            margin-top: -0.65em;
+            margin-left: -0.18em;
+        }
+
+        @include respond-to('small') {
+            margin-top: -0.86em;
+        }
+        
+        @include respond-to('large') {
+            margin-top: 0.14em;
+        }
+    }
+    &-content a{
+        color: $black;
+        text-decoration: none;
+        display: block;
+        &:hover {
+            background-color: $base;
+        }
+    }
+    &:hover {
+        & .dropdown-content {
+            display: block;
+        }
+        button { /* Redundant? */
+            background-color: transparent;
+        }
+    }
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0.25em;
+    }
+}
+.dropbtn {
+    // margin-top: -0.688em;
+
+    @include respond-to('xxsmall') {
+        // margin: -0.5em 0.05em; /* Aspiring only */
+        margin: 0.5em 0.05em -0.25em -0.5em;
+    }
+    @include respond-to('xsmall') {
+        // margin: 0.5em 0.5em -0.1em 0.075em;
+    }
+    @include respond-to('small') {
+        // margin: 0.25em 0.25em;
+        margin: 1.1em 0em 0em 0em;
+    }
+    @include respond-to('medium') {
+        // TODO
+    }
+    @include respond-to('large') {
+        // margin: 0.5em 0.05em -0.25em -0.5em;
+        margin-top: 0.65em;
+        margin-bottom: -1em;
+        margin-left: -0.438em;
+    }
+}
+/**
+ * Emerging Designer - Section Header Tiles
+ * TODO: find way to have all tiles set, this way, but pagination
+ */
+.nav-tile {
+    background-color: $yellow;
+    color: $black;
+    text-align: center;
+
+    &:hover, &:hover a {
+        background-color: $gray;
+        color: $yellow;
+    }
+    &-selected {
+        background-color: $black;
+        color: $yellow;
+        text-align: center;
+    }
+}

@@ -1,0 +1,313 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+
+/** 
+ * Card shadows
+ * @param: named $variable colors
+ * TODO: reconcile variables for when want background color and to hover
+ */
+ @mixin box-shadow($hover, $direction, $color) {
+   @if $hover == true {
+     &:hover {
+      @if $direction == 'right' {
+        box-shadow: 8.5px 7.5px 0px 0px $color;
+      } @else if $direction == 'left' {
+        box-shadow: -8.5px 7.5px 0px 0px $color;
+      }       
+     }
+   } @else if $hover == false {
+    @if $direction == 'right' {
+      box-shadow: 8.5px 7.5px 0px 0px $color;
+    } @else if $direction == 'left' {
+      box-shadow: -8.5px 7.5px 0px 0px $color;
+    }
+   }
+ }
+
+ @mixin box-shadow-sm($color) {
+  box-shadow: 0px 7.5px 0px 0px $color;
+ }
+/**
+ * Card Direction
+ * Card in direction, pulled, and if tag, aligns text
+ * @param: true == header tag
+ * @type: negative pixels
+ */
+ @mixin card-pull($tag, $direction, $screen) {
+  @if $tag == true {
+   @if $direction == 'right' {
+     @if $screen == 'normal' {
+       float: right!important;
+       right: $right;
+       text-align: left;      
+     } @else if $screen == 'small' {
+      float: right!important;
+      right: 0;
+      text-align: left;       
+     }
+   }
+   @else if $direction == 'left' {
+     @if $screen =='normal' {
+      float: left!important;
+      left: $left;
+      text-align: right;
+     } @else if $screen == 'small' {
+      float: left!important;
+      left: 0;
+      text-align: right;
+     }
+   }
+  } @else if $tag == false {
+   @if $direction == 'right' {
+     @if $screen == 'normal' {
+      right: $right;
+      float: right!important;
+     } @else if $screen == 'small' {
+      right: 0;
+      float: right!important;
+     }
+   }
+   @else if $direction == 'left' {
+     @if $screen == 'normal' {
+      left: $left;
+      float: left!important;
+     } @else if $screen == 'small' {
+      left: 0;
+      float: left!important;
+     }
+   }
+  }
+}
+@mixin card-green {
+  span {
+    &::before {
+      @include text-wash(false, $green);
+    }
+    @include text-wash(false, $green);
+  }
+  background-color: $white;
+  font-size: $font-md;
+}
+
+@mixin card-red {
+  @include format-default($buffer-vertical, $padding);
+  
+  &:hover {
+    background-color: $red;
+  }
+  li {
+    @include text-wash(true, $white);
+  }
+  span {
+    @include text-wash(false, $red);
+  }
+  span.alt {
+    @include text-wash(false, $blue);
+  }
+
+  background-color: $white;
+  font-size: $font-md;
+}
+@mixin card-yellow {
+  @include format-default($buffer-vertical, $padding);
+  
+  &:hover {
+    background-color: $yellow;
+  }
+  li {
+    @include text-wash(true, $white);
+  }
+  span {
+    @include text-wash(false, $yellow);
+  }
+
+  background-color: $white;
+  font-size: $font-md;
+}
+/**
+ * Circle
+ * Used for sub-navigation > /designer, /stu-developer portfolio
+ */
+@mixin circle($color) {
+  background-color: $color;
+  border-radius: 50%;
+  height: 4.25em;
+  margin: auto;
+  text-align: center;
+  width: 4.25em;
+}
+@mixin border-circle($color) {
+  border: 0.25em solid $color;
+  // margin-bottom: 0.5em;
+}
+
+/**
+ * Center block
+ * Ripped from Bootstrap
+ */
+@mixin center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin center-crop($alt) {
+  @if $alt == true {
+      object-fit: contain;
+      object-position: center;
+      height: 200px;
+      width: 200px;
+  } @else if $alt == false {
+    object-fit: cover;
+    object-position: center;
+    height: 14.286em;
+    width: 14.286em;
+  }
+
+}
+/**
+ * Default format
+ */
+@mixin format-default($buffer, $padding) {
+  margin: $buffer;
+  padding: $padding;
+}
+
+
+/**
+ * Header Transition
+ */
+@mixin trans-header {
+  -moz-webkit-transition: all 0.325s ease;
+  -o-webkit-transition: all 0.325s ease;
+  -webkit-transition: all 0.325s ease;
+  transition: all 0.325s ease;
+}
+
+
+/**
+ * Image Responsiveness
+ * Gauging minimum size based around direction
+ * @type: Length / allows for 'auto'
+ */
+@mixin img-responsive($min, $horizontal, $width, $height) {
+  @if $min == true {
+    @if $horizontal == true {
+      min-width: $width;
+      height: $height;
+    } @else if $horizontal == false {
+      width: $width;
+      min-height: $height;
+    }
+  } @else if $min == false {
+    @if $horizontal == true {
+      max-width: $width;
+      height: $height;
+    } @else if $horizontal == false {
+      width: $width;
+      max-height: $height;
+    }
+  }
+}
+
+
+@mixin respond-to($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+
+  // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+/**
+ * Text Hover
+ */
+@mixin text-wash($hover, $color) {
+  @if $hover == true {
+    &:hover {
+      background-color: $color;
+    }
+  } @else if $hover == false {
+    color: $color
+  }
+}
+
+/**
+ * Text Span
+ * Do we need this?
+ */
+@mixin text-splash($span, $color) {
+  @if $span == true {
+    color: $color;
+  } @else if $span == false {
+    color: inherit;
+  }
+}
+
+@mixin text-backsplash($span, $color) {
+  @if $span == true {
+    background-color: $color;
+  } @else if $span == false {
+    color: inherit;
+  }
+}
+
+/**
+ * Text Underlines 
+ * @param: true == toggle underline on hover
+ * @style: dotted, wavy
+ */
+@mixin underline($hover, $style) {
+  @if $hover == true {
+      &:hover {
+      text-decoration-line: underline;
+      text-decoration-style: $style; 
+    }
+    // text-decoration-line: underline;
+    // text-decoration-style: $style;
+  } @else if $hover == false {
+    text-decoration-line: underline;
+    text-decoration-style: $style;
+  }
+
+}
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+    @if $self {
+      &,
+      &:hover,
+      &:active,
+      &:focus {
+        @content;
+      }
+    } @else {
+      &:hover,
+      &:active,
+      &:focus {
+        @content;
+      }
+    }
+  }
+  
+  /// Make a context based selector a little more friendly
+  /// @author Hugo Giraudel
+  /// @param {String} $context
+  @mixin when-inside($context) {
+    #{$context} & {
+      @content;
+    }
+  }

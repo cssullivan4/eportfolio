@@ -1,5 +1,5 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
@@ -7,130 +7,225 @@
 </div>
 <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 col-sm-12 padding text-type buffer white">
-                        <!-- <h1 class="text-center">WHY I CALL IN "SCIENTIST"</h1> -->
-                        <p class="lead text-center">I pull this card to the table because I've spent dedicated time studying and working in different scientific fields. For a long time, science academia was an important part of my life. At university, I took my first steps with science before flexing to any other interests. While choosing to walk away, I hold these experiences, perspectives, and practices close. Despite this choice, I carry the moniker with me because once you sink your teeth into the discipline, it has a way of permeating into all you do and perceive. Because of this, I bring forth a very relevant side of who am I and how I think. <em>This is why I call in "scientist."</em></p>
+                <div class="col-md-12 col-sm-12 card-intro">
+                        <p class="lead">I pull this card to the table because I've spent dedicated time studying and working in different scientific fields. For a long time, science academia was an important part of my life. At university, I took my first steps with science before flexing to any other interests. While choosing to walk away, I hold these experiences, perspectives, and practices close. Despite this choice, I carry the moniker with me because once you sink your teeth into the discipline, it has a way of permeating into all you do and perceive. Because of this, I bring forth a very relevant side of who I am and how I think. <em>This is why I call in "scientist."</em></p>
                 </div>
             </div>
 </div>
     <!-- PAGE CONTENT  -->
-<div class="container-fluid white padding" ng-controller="ScrollCtrl">
-        <!-- PICTURES  -->
-        <div class="row col-md-offset-1 white col-sm-offset-1">
-            <div class="col-md-2 col-sm-2 text-center">
-                <a href="#about" ng-click="scrollTo()">
-                <img src="/images/icons/about-logo-b.svg" class="img-responsive center-block img-size">
-                <h4>INTRODUCTION</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+<div class="container-fluid card-intro" ng-controller="ScrollCtrl">
+        <div class="alt">
+            <div>
+                <a href="#about" ng-click="scrollTo()" >
+                    <img src="/images/icons/about-logo-b.svg" class="center-block img-icon">
+                    <h4>INTRODUCTION</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-2 text-center">
+            <div>
                 <a href="#influences" ng-click="scrollTo()">
-                <img src="/images/icons/influences-logo-b.svg" class="img-responsive center-block img-size">
-                <h4>INFLUENCES</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+                    <img src="/images/icons/influences-logo-b.svg" class="center-block img-icon">
+                    <h4>INFLUENCES</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-2 text-center">
+            <div>
                 <a href="#labs" ng-click="scrollTo()">
-                <img src="/images/icons/labs-logo-b.svg" class="img-responsive center-block img-size">
-                <h4>LABORATORY</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+                    <img src="/images/icons/labs-logo-b.svg" class="center-block img-icon">
+                    <h4>LABORATORY</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-2 text-center">
+            <!-- <div>
                 <a href="#application">
-                <img src="/images/icons/app-logo-b.svg" id="sci-app-ico" class="img-responsive center-block img-size">
-                <h4>APPLICATION</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+                    <img src="/images/icons/app-logo-b.svg" id="sci-app-ico" class="center-block img-icon">
+                    <h4>APPLICATION</h4>
                 </a>
-            </div>
-            <div class="col-md-2 col-sm-2 text-center">
+            </div> -->
+            <div>
                 <a href="#takeaways" ng-click="scrollTo()">
-                <img src="/images/icons/takeaway-logo-b.svg" class="img-responsive center-block img-size">
-                <h4>TAKEAWAYS</h4>
-                <!-- <small>Sample text sample text wrapping sample text sample text sample text wrapping sample text sample text</small> -->
+                    <img src="/images/icons/takeaway-logo-b.svg" class="center-block img-icon">
+                    <h4>TAKEAWAYS</h4>
                 </a>
             </div>
         </div>
         <span id="about"></span>
-    </div>
+</div>
     <!-- END PICTURES  -->
 
 <div class="container-fluid">
-    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+    <div class="row col-md-5 col-sm-10 col-xs-10 tag-purple">
         <h1>#INTRODUCTION</h1>
     </div>
 </div>
-<div class="container">
+<div class="container-fluid card-purple-intro">
     <!-- ABOUT/INTRO  -->
-    <div class="white padding buffer text-type row">
-            <h2 class="text-center">Brief Background</h2>
-            <p>I was born the 4th child of 5 to grandchildren of immigrants with a strong family culture. My mother was a counseling psychologist in a mental health hospital working on severe, terminal cases for my adolescence while my father stayed at home.</p>
-            <p><strong>This structure, the dynamic, and my own identity formed my earliest approach to interpretation.</strong></p>
-            <p>Many children, when pushed on the playground or are at odds with their newly-minted BFF, run to their parents seeking to purge emotions and receive a calming, endorsing response. <em>"They did what? I'm so sorry. That's not right."</em> &nbsp;It elicits early validation for a young child with vague grasps of emotions, concepts, and an even vaguer sense of seriousness or time. From the start, my mother's reflex in these situations was always to pause. I was interrupted in my vents to pause and think about - to process - the contributing events. At age 4, I was taught to think about the other side of the story. <em>Did they mean to push me? Did I think they were happy to have done that? Did they feel bad for not sharing? Did I think they were going through something?</em> While less comforting as a child, it taught me to think, observe, perceive, and act differently from a young age. Most importantly, it seeded an early interest in behavior and how ethereal interconnectivity between people, cultures, and systems is.</p>
-            <p>Over time, this grew with an interest in animals, developing into my university track. From my first thesis in 7th grade, I put my flag firmly into the ground to learn more about cognition, which found its way to introducing me to my first true love, <strong>Ethology</strong>.</p>
-                <br>
-                <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-    </div>
+            <h2><span>//</span>&nbsp;BRIEF BACKGROUND</h2>
+            <p class="lead">I was born the 4th child of 5 to grandchildren of immigrants with a strong family culture. My mother was a counseling psychologist in a mental health hospital working on severe, terminal cases for my adolescence while my father stayed at home.</p>
+            <p class="lead"><strong>This structure, the dynamic, and my own identity formed my earliest approach to interpretation.</strong></p>
+            <p class="lead">Many children, when pushed on the playground or are at odds with their newly-minted BFF, run to their parents seeking to purge emotions and receive a calming, endorsing response. <em>"They did what? I'm so sorry. That's not right."</em> &nbsp;It elicits early validation for a young child with vague grasps of emotions, concepts, and an even vaguer sense of seriousness or time. From the start, my mother's reflex in these situations was always to pause. I was interrupted in my vents to pause and think about - to process - the contributing events. At age 4, I was taught to think about the other side of the story. <em>Did they mean to push me? Did I think they were happy to have done that? Did they feel bad for not sharing? Did I think they were going through something?</em> While less comforting as a child, it taught me to think, observe, perceive, and act differently from a young age. Most importantly, it seeded an early interest in behavior and how ethereal interconnectivity between people, cultures, and systems is.</p>
+            <p class="lead">Over time, this grew with an interest in animals, developing into my university track. From my first thesis in 7th grade, I put my flag firmly into the ground to learn more about cognition, which found its way to introducing me to my first true love, <strong>Ethology</strong>.</p>
     <span id="influences"></span>
 </div>
 
     <!-- END ABOUT/INTRO  -->
+
+<!-----------------------------------------------------------------------------
+    (1) EXPLAINER
+    (2) FIELDS
+    (3) PEOPLE
+    (4) BOOKS
+----------------------------------------------------------------------------- -->
+
 <div class="container-fluid">
-    <!-- INFLUENCES  -->
-    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-purple">
         <h1>#INFLUENCES</h1>
     </div>
-    <!-- <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer text-type"> -->
-        <!-- <div class="row"> -->
-            <!-- <div class="col-md-2 col-sm-2"> -->
-                <!-- <h3>&nbsp;<span class="purple-type">>>></span> FIELDS</h3> -->
-                <!-- <img src="/images/icons/influences-icon-b.svg" class="img-responsive center-block"/></div> -->
-            <!-- <div class="col-md-10 col-sm-10 text-center"> -->
-                    <!-- <h1><strong>COMING SOON.</strong></h1> -->
-                <!-- <dl>
-                    <dt>Cognitive Ethology</dt>
-                    <dd>text text text text</dd>
-                    <dt>Cultural Anthropology</dt>
-                    <dd>text text text text</dd>
-                </dl> -->
-            <!-- </div> -->
-        <!-- </div> -->
-    <!-- </div> -->
-    <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer">
-        <div class="col-md-2 col-sm-2">
-            <h3><span class="purple-type">>>></span> PEOPLE&nbsp;</h3>
-            <img src="/images/icons/people-icon-b.svg" class="img-responsive center-block"/></div>
-        
-        <div class="col-md-10 col-sm-10 buffer">
-            <!-- <div class="row">
-                <div class="col-md-6 col-sm-6 padding"> -->
-            <dl class="dl-horizontal">
-                <dt><a href="http://eeb.bio.utk.edu/people/gordon-burghardt/" target="_blank">Gordon M. Burghardt</a></dt>
-                <dd>For his insight on animal play with its deep affluence in sociality, and for his work in ethology elevating its approach, discipline, and reception.</dd>
-                <dt><a href="http://marcbekoff.com/" target="_blank">Marc Bekoff</a></dt>
-                <dd>For his perspectives with animals</dd>
-                <dt><a href="http://www.janegoodall.org/" target="_blank">Jane Goodall</a></dt>
-                <dd>For her ethics and approach to work with animals & respect to behavior</dd>
-                <dt><a href="https://profiles.stanford.edu/robert-sapolsky" target="_blank">Robert Sapolsky</a></dt>
-                <dd>For his approach to methods and a strong-hold on his work</dd>
-                <dt><a href="http://www.templegrandin.com/" target="_blank">Temple Grandin</a></dt>
-                <dd>For her deep & thorough contributions to animal industries, but also her mark on all-things autism today</dd>
-                <dt><a href="https://cbs.umn.edu/contacts/marlene-zuk" target="_blank">Marlene Zuk</a></dt>
-                <dd>For her perspective towards model approaches within evolutionary topics</dd>
-            </dl>                    
+</div>
+
+<!-- START INFLUENCES (sm) -->
+<!-- (1) -->
+<div class="container-fluid card-purple-intro hidden-lg hiden-md">
+    <div class="alt box">
+        <h3><span>>>></span>&nbsp;EXPLAINER</h3>
+        <p>The following had - and continues to have - a lot of influence over how I process, how I work, what drives my curiosity, and how I relate, both in and outside of scientific activities.</p>
+                <br>
+    </div>
+</div>
+<!-- (2) -->
+<div class="container-fluid card-purple-intro hidden-lg hidden-md">
+    <div class="row">
+        <div class="col-xs-4">
+            <img src="/images/icons/influences-icon-b.svg" class="img-icon center-block"/>
+        </div>
+        <div class="col-xs-8" style="text-align: center">
+            <h2><span>>>></span> FIELDS&nbsp;</h2>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>Cognitive Ethology</li>
+            <li>Cultural Anthropology</li>
+            <li>Philosophy</li>
+            <li>Psychology</li>
+        </ul>
+    </div>
+</div>
+<!-- (3) -->
+<div class="container-fluid card-purple-intro hidden-lg hidden-md">
+    <div class="row">
+        <div class="col-xs-4">
+            <img src="/images/icons/people-icon-b.svg" class="img-icon center-block"/>
+        </div>
+        <div class="col-xs-8" style="text-align: center">
+            <h2><span>>>></span> PEOPLE&nbsp;</h2>
+        </div>
+    </div>
+    <div style="font-size: 0.8em;">
+        <dl>
+            <dt><a href="http://eeb.bio.utk.edu/people/gordon-burghardt/" target="_blank">Gordon M. Burghardt</a></dt>
+            <dd>For his insight on animal play with its deep affluence in sociality, and for his work in ethology elevating its approach, discipline, and reception.</dd>
+            <dt><a href="http://marcbekoff.com/" target="_blank">Marc Bekoff</a></dt>
+            <dd>For his perspectives with animals</dd>
+            <dt><a href="http://www.janegoodall.org/" target="_blank">Jane Goodall</a></dt>
+            <dd>For her ethics and approach to work with animals & respect to behavior</dd>
+            <dt><a href="https://profiles.stanford.edu/robert-sapolsky" target="_blank">Robert Sapolsky</a></dt>
+            <dd>For his approach to methods and a strong-hold on his work</dd>
+            <dt><a href="http://www.templegrandin.com/" target="_blank">Temple Grandin</a></dt>
+            <dd>For her deep & thorough contributions to animal industries, but also her mark on all-things autism today</dd>
+            <dt><a href="https://cbs.umn.edu/contacts/marlene-zuk" target="_blank">Marlene Zuk</a></dt>
+            <dd>For her perspective towards model approaches within evolutionary topics</dd>
+        </dl>
+    </div>
+</div>
+<!-- (4) -->
+<div class="container-fluid card-purple-intro hidden-lg hidden-md">
+    <div class="row">
+        <div class="col-xs-4">
+            <img src="/images/icons/books-icon-b.svg" class="img-icon center-block"/>
+        </div>
+        <div class="col-xs-8" style="text-align: center">
+            <h2><span>>>></span> BOOKS&nbsp;</h2>
+        </div>
+    </div>    
+    <div style="font-size: 0.8em;">
+        <dl>
+            <dt>The Cognitive Animal: Empirical and Theoretical Perspectives on Animal Cognition</dt>
+            <dd><em>Marc Bekoff, Colin Allen, & Gordon M. Burghardt</em></dd>
+            <dt>Coevolution: Genes, Culture, and Human Diversity</dt>
+            <dd><em>William H. Durham</em></dd>
+            <dt>The Genesis of Animal Play: Testing the Limits</dt>
+            <dd><em>Gordon M. Burghardt</em></dd>
+            <dt>The Emotional Lives of Animals</dt>
+            <dd><em>Marc Bekoff</em></dd>
+            <dt>Sexual Selections: What We Can and Cannot Learn About Sex From Animals</dt>
+            <dd><em>Marlene Zuk</em></dd>
+            <dt>The Condition of Post-Modernity</dt>
+            <dd><em>David Harvey</em></dd>
+        </dl>
+    </div>
+</div>
+<!-- END INFLUENCES (sm) -->
+
+<!-- START INFLUENCES (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="col-md-4 card-purple-left">
+        <div class="alt box">
+            <br>
+            <h3><span>>>></span>&nbsp;EXPLAINER</h3>
+            <p>The following had - and continues to have - a lot of influence over how I process, how I work, what drives my curiosity, and how I relate, both in and outside of scientific activities.</p>
+            <br>
+        </div>
+    </div>
+    <div class="col-md-8 card-purple-right">
+        <div class="col-md-2">
+            <br><br>
+            <h3><span>>>></span> PEOPLE&nbsp;</h3>
+            <img src="/images/icons/people-icon-b.svg" class="img-responsive center-block"/>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-6"  style="font-size: 1em;">
+                    <dl>
+                            <dt><a href="http://eeb.bio.utk.edu/people/gordon-burghardt/" target="_blank">Gordon M. Burghardt</a></dt>
+                            <dd>For his insight on animal play with its deep affluence in sociality, and for his work in ethology elevating its approach, discipline, and reception.</dd>
+                            <dt><a href="http://marcbekoff.com/" target="_blank">Marc Bekoff</a></dt>
+                            <dd>For his perspectives with animals</dd>
+                            <dt><a href="http://www.janegoodall.org/" target="_blank">Jane Goodall</a></dt>
+                            <dd>For her ethics and approach to work with animals & respect to behavior</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6"  style="font-size: 1em;">
+                    <dl>
+                        <dt><a href="https://profiles.stanford.edu/robert-sapolsky" target="_blank">Robert Sapolsky</a></dt>
+                        <dd>For his approach to methods and a strong-hold on his work</dd>
+                        <dt><a href="http://www.templegrandin.com/" target="_blank">Temple Grandin</a></dt>
+                        <dd>For her deep & thorough contributions to animal industries, but also her mark on all-things autism today</dd>
+                        <dt><a href="https://cbs.umn.edu/contacts/marlene-zuk" target="_blank">Marlene Zuk</a></dt>
+                        <dd>For her perspective towards model approaches within evolutionary topics</dd>
+                    </dl>
                 </div>
             </div>
-        <!-- </div>
-        </div> -->
-        <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer">
+        </div>
+    </div>
+            <div class="col-md-4 card-purple-left">
+                    <div class="col-md-4">
+                        <h3>&nbsp;<span class="purple-type">>>></span> FIELDS</h3>
+                        <img src="/images/icons/influences-icon-b.svg" class="img-responsive center-block"/>
+                    </div><br>
+                    <div class="col-md-8">
+                        <ul>
+                            <li>Cognitive Ethology</li>
+                            <li>Cultural Anthropology</li>
+                            <li>Philosophy</li>
+                            <li>Psychology</li>
+                        </ul>
+                    </div>
+                </div>
+        <div class="col-md-8 col-sm-11 card-purple-right" style="font-size:1em;">
             <div class="col-md-2 col-sm-2">
-                <h3>&nbsp;<span class="purple-type">>>></span> BOOKS</h3>
+                <h3>&nbsp;<span>>>></span> BOOKS</h3>
                 <img src="/images/icons/books-icon-b.svg" class="img-responsive center-block"/></div>
                 <div class="col-md-10 col-sm-10">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 padding">
+                        <div class="col-md-6 col-sm-6">
                             <dl>
                                 <dt>The Cognitive Animal: Empirical and Theoretical Perspectives on Animal Cognition</dt>
                                 <dd><em>Marc Bekoff, Colin Allen, & Gordon M. Burghardt</em></dd>
@@ -140,7 +235,7 @@
                                 <dd><em>Gordon M. Burghardt</em></dd>
                             </dl>
                         </div>
-                        <div class="col-md-6 col-sm-6 padding">
+                        <div class="col-md-6 col-sm-6">
                             <dl>
                                 <dt>The Emotional Lives of Animals</dt>
                                 <dd><em>Marc Bekoff</em></dd>
@@ -152,31 +247,60 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <div style="clear: both">
-                    <br>
-                <!-- <kbd>*CognitiveEthology</kbd>&nbsp; <kbd>*CulturalAnthropology</kbd>&nbsp; <kbd>*Philosophy</kbd>&nbsp; <kbd>*Psychology</kbd> -->
-                </div>
-                <span id="labs"></span>
             </div>
-                
-        <!-- <p>-Fields(permeates the most or can deduce most to or) -People -Books</p>
-        <p>*Pop-over effect w/ any descriptors (like why I include this or that item); keep to list</p>
-            <p>Cognitive Ethology (behavioral interest > animal science touch)</p>
-            <p>Cultural Anthropology (continuation + human)</p>
-            <p>Codex between fields studied and figureheads or thoughtleaders</p>
-            <p>Burghardt, Mark ..., Jane Goodall, Robert Sapolsky, Temple Grandin, Sexual Selections author, Dr. from Anthro cult 130 & the mentor for a sec</p>
-            <p>Books? Genesis of Animal Play, Theoretical & Empirical Perspectives on Animal Cognition, Emotional Lives of Animals, Condition of Post-Modernity, Coevolution: Genes, Humans, and Cultural Diverisity</p>               -->
-                
-    <!-- END INFLUENCES  -->
+</div>
+<!-- END INFLUENCES (md)  -->
 
-    <!-- LABS -->
-    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left text-right padding">
+<!-- LABS -->
+<span id="labs"></span>
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-10 col-xs-10 tag-purple">
         <h1>#LABORATORY</h1>
     </div>
-    <div class="row col-md-9 col-sm-11 card-right pull-right white purple-shadow buffer padding text-type">
-        <!-- <div id="labs"> -->
-            <h2> <span class="purple-type">>>></span> Marine/Reptile Ethology Lab<small> @ University of Tennessee, Knoxville / 2012 - 2013</small></h2>
+</div>
+
+<!-- START LABS (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-purple-intro">
+    <h3> <span>>>></span> Marine/Reptile Ethology Lab<small> @ University of Tennessee, Knoxville / 2012 - 2013</small></h3>
+    <ul>
+        <li>Student Research Assistant</li>
+        <li>Under supervision of Dr. Gordon M Burghardt & Dr. Karen Davis</li>
+        <li>Lab Maintenance & Animal Husbandry, including cleaning cages, dishes, surfaces, bathing, temperature & humidity checks, record keeping, & providing diet, stimuli, & attention</li>
+        <li>Data Assimilation, from previous experiments & ranges from ethograms, coding, schematics, analysis, & consulting</li>
+        <li>Listed under Supervised Lab Research for Ecology & Evolutionary Biology, unpaid & class credit</li>
+    </ul>
+    <br>
+    <!-- <kbd>#animalhusbandry</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<div class="container-fluid hidden-lg hidden-md card-purple-intro">
+    <h3> <span>>>></span>&nbsp;Cultural Partners Program<small> @ University of Tennessee, Knoxville / 2011 - 2012</small></h3>    
+    <ul>
+        <li>Co-Coordinator</li>
+        <li>Coordinating Partners, from pairing students, to collecting journals, easing concerns, planning events, keeping program records, & serving as liaison between members & Dr. Brent Mallinckrodt</li>
+        <li>Listed as Undergraduate Research for Psychology, unpaid & class credit</li>
+        <li>The Cultural Partners Program was set up by Dr. Brent Mallinckrodt to help acclimate international students to campus life & its unique, regional cultural variabilities, to gain perspective from each member in a pairing, & to expose the native student to new cultures; each member in a pair is to learn from the other including language proficiency, with focus on English</li>
+    </ul>
+    <br>
+    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<div class="container-fluid hidden-lg hidden-md card-purple-intro">
+    <h3> <span>>>></span>&nbsp;Zooarchaeology Lab<small> @ University of Tennessee, Knoxville / 2012</small></h3>    
+    <ul>
+        <li>Student Volunteer</li>
+        <li>Under Dr. Walter Klippel & graduate assistants</li>
+        <li>Duties included reorganizing samples & collections, cleaning & stream-lining each</li>
+        <li>Purpose is to study homogeneity & phylogeny</li>
+        <li>Unpaid study under the Department of Anthropology</li>
+    </ul>
+    <br>
+    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<!-- END LABS (sm) -->
+<!-- START LABS (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-purple-right">
+        <span id="labs"></span>
+            <h2> <span>>>></span> Marine/Reptile Ethology Lab<small> @ University of Tennessee, Knoxville / 2012 - 2013</small></h2>
             <ul>
                 <li>Student Research Assistant</li>
                 <li>Under supervision of Dr. Gordon M Burghardt & Dr. Karen Davis</li>
@@ -186,11 +310,9 @@
             </ul>
             <br>
             <!-- <kbd>#animalhusbandry</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-        <!-- </div> -->
     </div>
-    
-    <div class="row col-md-9 col-sm-11 card-right pull-right white purple-shadow buffer padding text-type">
-            <h2> <span class="purple-type">>>></span>&nbsp;Cultural Partners Program<small> @ University of Tennessee, Knoxville / 2011 - 2012</small></h2>    
+    <div class="row col-md-9 card-purple-right">
+            <h2> <span>>>></span>&nbsp;Cultural Partners Program<small> @ University of Tennessee, Knoxville / 2011 - 2012</small></h2>    
             <ul>
                 <li>Co-Coordinator</li>
                 <li>Coordinating Partners, from pairing students, to collecting journals, easing concerns, planning events, keeping program records, & serving as liaison between members & Dr. Brent Mallinckrodt</li>
@@ -200,8 +322,8 @@
             <br>
             <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
     </div>
-    <div class="row col-md-9 col-sm-11 card-right pull-right white purple-shadow buffer padding text-type">
-            <h2> <span class="purple-type">>>></span>&nbsp;Zooarchaeology Lab<small> @ University of Tennessee, Knoxville / 2012</small></h2>    
+    <div class="row col-md-9 card-purple-right">
+            <h2> <span>>>></span>&nbsp;Zooarchaeology Lab<small> @ University of Tennessee, Knoxville / 2012</small></h2>    
             <ul>
                 <li>Student Volunteer</li>
                 <li>Under Dr. Walter Klippel & graduate assistants</li>
@@ -211,9 +333,9 @@
             </ul>
             <br>
             <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-            <span id="takeaways"></span>
     </div>
-    <!-- END LABS -->
+</div>
+<!-- END LABS (md) -->
 
     <!-- APPLICATION -->
     <!-- <div id="applications" class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right"> -->
@@ -238,13 +360,24 @@
     <!-- </div> -->
     <!-- END APPLICATION -->
 
-    <!-- TAKEAWAYS -->
-    <div class="row col-md-5 col-sm-7 card-left buffer purple black-shadow pull-left padding text-right">
+<span id="takeaways"></span>
+<!-- TAKEAWAYS -->
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-10 col-xs-10 tag-purple">
         <h1>#TAKEAWAYS</h1>
+
     </div>
-    <div class="row col-md-9 col-sm-11 card-right pull-right padding white purple-shadow buffer text-type">
+</div>
+<!-- START TAKEAWAYS (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-purple-intro">
+    <p>While I can't hold a candle to scientists today, and don't formally walking around declaring myself a scientist - I have been out of practice for far too long and have to much respect for the professionals and fields to claim to be a part of something where those practicing worked so hard and studied for so long to be where they are, my inclusion of /Trained Scientist is to offer insight into my background, highlight my applicable skills of which may be advantageous, and share my interest. You don't have to be a hardened science professional to incorporate its methods and practices into any facet of life or work.</p>
+    <br>
+    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<!-- END TAKEAWAY (sm) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-purple-right">
             <p>While I can't hold a candle to scientists today, and don't formally walking around declaring myself a scientist - I have been out of practice for far too long and have to much respect for the professionals and fields to claim to be a part of something where those practicing worked so hard and studied for so long to be where they are, my inclusion of /Trained Scientist is to offer insight into my background, highlight my applicable skills of which may be advantageous, and share my interest. You don't have to be a hardened science professional to incorporate its methods and practices into any facet of life or work.</p>
-        <br>
             <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
     </div>
     <!-- END TAKEAWAYS -->

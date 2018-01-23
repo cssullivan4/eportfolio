@@ -1,117 +1,234 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
         </nav>
 </div>
+
 <!-- PAGE CONTENT  -->
-<div class="container">
-    <!-- <div class="row"> -->
-        <div class="padding white text-type">
-            <p class="lead text-center">"<em>Politi</em>" is my reference to the space relating to all things <em>public policy</em>, <em>elected office</em>, and <em>activism</em>, and it is where I have increasingly found myself.
-                <!-- I have found myself increasingly in the <em>"politi"</em> space, which I use to refer to all things relating to public policy, elected office, and activism.  -->
-            I've been drawn towards the policy side for <em><span class="underline blue-type"><a href="/a_social_entrepreneur" target="_top">years</a></span></em>, but I have recently turned an eye towards action, like held office or organizing. 
-            <!-- From SGA at university to finding myself working at city hall to joining the political sphere, I can no longer deny this force in my life. -->
-        </p> 
-            <p class="lead texter-center">There is caution to be had with being open about  a penchant towards the political space, but as can be inferred from the contents of this site, my politics aren't <em>overt</em>. The draw for me is either socially motivated singularly or the draw is motivated by problem-solving (I enjoy development, systems, & contingencies). It is less motivated by self or party.</p>
-        </div>
-    <!-- </div> -->
-</div> 
-<div class="container-fluid white padding buffer" ng-controller="ScrollCtrl">
-    <p class="lead text-center">
-        Disclaimer out of the way, below you will find the over-reaching categories as I see fit. There is cross-over with <em><span class="underline blue-type"><a href="/a_social_entrepreneur" target="_top">/Aspiring Social Entrepreneur</a></span></em>, so you may find repeated information, links, or a change in scheme.
-    </p>
-    <div class="col-md-3 col-sm-6 col-xs-6 text-center text-type">
-        <a href="#">
-            <img src="/images/icons/civic-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Civic">
-            <h3>CIVIC</h3>
-        </a>
-        <!-- <small> -->
-        <ul class="list-unstyled">
-            <li><a href="#CHA" id="red" ng-click="scrollTo()"><span class="red-type">#</span>CITY OF CHATTANOOGA&nbsp;</a></li>
-                    <!-- <small><a href="#local" id="red"><span class="red-type">#</span>LOCALIZE.IT&nbsp;</a></small><br> -->
-            <li><a href="#CCE" id="red" ng-click="scrollTo()"><span class="red-type">#</span>CENTER FOR CIVIC ENGAGEMENT&nbsp;</a></li>
-        </ul>
-        <!-- </small> -->
+
+<!-- (sm) -->
+
+<!-- l: CIVIC -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro" ng-controller="ScrollCtrl">
+    <div class="col-xs-5">
+        <img class="img-responsive img-icon center-block" src="images/icons/civic-icon-b.svg"/>
+        <h3 class="text-center"><strong>CIVIC</strong></h3>
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-6 text-center text-type">
-                    <a href="#">
-                        <img src="/images/icons/policy-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Policy">
-                        <h3>POLICY</h3>
-                    </a>
-                    <!-- <small> -->
-                    <ul class="list-unstyled">
-                        <li><a href="#MCW" id="red" ng-click="scrollTo()"><span class="red-type">#</span>MAYOR'S COUNCIL FOR WOMEN&nbsp;</a></li>
-                        <li><a href="#UN" id="red" ng-click="scrollTo()"><span class="red-type">#</span>INAUGURAL INTERNATIONAL DAY OF THE GIRL&nbsp;</a></li>
-                        <li><a href="#TN" id="red" ng-click="scrollTo()"><span class="red-type">#</span>TN COUNCIL&nbsp;</a></li>
-                    </ul>
-                <!-- </small> -->
-                </div>
-    <div class="col-md-3 col-sm-6 col-xs-6 text-center text-type">
-                    <a href="#">
-                        <img src="/images/icons/campaign-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Campaign">
-                        <h3>CAMPAIGN</h3>
-                    </a>
-                    <!-- <small> -->
-                        <ul class="list-unstyled">
-                            <li><a href="#melody" id="red" ng-click="scrollTo()"><span class="red-type">#</span>MELODY SHEKARI FOR CONGRESS&nbsp;</a></li>
-                            </ul>
-                        <!-- </small> -->
-                </div>
-    <div class="col-md-3 col-sm-6 col-xs-6 text-center text-type">
-                    <a href="#">
-                        <img src="/images/icons/organizing-icon-b.svg" id="sci-app-ico" class="img-responsive center-block img-size" alt="Icon: Organizing">
-                        <h3>ORGANIZING</h3>
-                    </a>
-                    <!-- <small> -->
-                        <ul class="list-unstyled">
-                            <li><a href="#AR-fellow" id="red" ng-click="scrollTo()"><span class="red-type">#</span>ARKANSAS VICTORY FELLOWSHIP&nbsp;</a></li>
-                            <li><a href="#harvard" id="red"><span class="red-type" ng-click="scrollTo()">#</span>HARVARD WOMEN'S FORUM&nbsp;</a></li>
-                    <!-- </small> -->
-                </div>
+    <div class="col-xs-7 title">
+        <ul class="list-unstyled">
+            <br>
+            <li><a href="#CHA" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;CITY OF CHATTANOOGA&nbsp;</a></li>
+            <li><a href="#CCE" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;CENTER FOR CIVIC ENGAGEMENT&nbsp;</a></li>
+        </ul>
+    </div>
 </div>
-    
-<span id="CHA"></span>
-<div class="container-fluid">
-<!-- START CHA -->
-    <div class="row col-md-5 col-sm-7 col-xs-11 buffer red black-shadow pull-left padding text-right card-left">
-            <h1>#CITY OF CHATTANOOGA</h1>
+<!-- r: CAMPAIGN -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro" ng-controller="ScrollCtrl">
+    <div class="col-xs-7 title">
+        <ul class="list-unstyled">
+            <br><br>
+            <li><a href="#melody" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;MELODY SHEKARI FOR CONGRESS&nbsp;</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-5 text-center">
+        <img class="img-responsive img-icon center-block" src="images/icons/campaign-icon-b.svg"/>
+        <h3><strong>CAMPAIGN</strong></h3>
     </div>
 
-    <div class="row col-md-9 col-sm-11 pull-right card-right white red-shadow buffer padding text-type">
-                        <h2><span class="red-type">>>></span> OFFICE OF THE MAYOR <small>Internship / 2016</small></h2>
-                    <!-- <h3>&nbsp;<span class="red-type">>>></span>&nbsp;Office of the Mayor&nbsp;<small>Internship</small></h3><small>Jan 2016 - May 2016</small> -->
-                <ul>
-                    <li>Interact with, record, & communicate constituents' needs & messages to Mayor's Office</li>
-                    <li>Miscellaneous office work, i.e. making copies, stuffing envelopes, list checking</li>
-                </ul>
-                <!-- <p>* make clearer connection, flesh out, maybe back-info *</p> -->
-                <br>
-                <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-                <span id="CCE"></span>
+</div>
+<!-- l: POLICY -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro" ng-controller="ScrollCtrl">
+    <div class="col-xs-5 text-center">
+        <img class="img-responsive img-icon center-block" src="images/icons/policy-icon-b.svg"/>
+        <h3><strong>POLICY</strong></h3>
+    </div>
+    <div class="col-xs-7 title">
+        <ul class="list-unstyled">
+            <li><a href="#MCW" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;MAYOR'S COUNCIL FOR WOMEN&nbsp;</a></li>
+            <li><a href="#" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;INAUGURAL INT'L DAY OF THE GIRL&nbsp;</a></li>
+            <li><a href="#" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;TN COUNCIL&nbsp;</a></li>
+        </ul>
     </div>
 </div>
-<div class="container-fluid hidden-lg hidden-md white red-shadow buffer padding text-type">
-        <h2><span class="red-type">>>></span> OFFICE OF THE MAYOR <small>Internship / 2016</small></h2>
-        <!-- <h3>&nbsp;<span class="red-type">>>></span>&nbsp;Office of the Mayor&nbsp;<small>Internship</small></h3><small>Jan 2016 - May 2016</small> -->
+<!-- r: ORGANIZING -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro" ng-controller="ScrollCtrl">
+    <div class="col-xs-7 title">
+        <ul class="list-unstyled">
+            <br>
+            <li><a href="#AR" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;ARKANSAS VICTORY FELLOWSHIP&nbsp;</a></li>
+            <li><a href="#harvard" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;HARVARD WOMEN'S FORUM&nbsp;</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-5 text-center">
+        <img class="img-responsive img-icon center-block" src="images/icons/organizing-icon-b.svg"/>
+        <h3><strong>ORGANIZING</strong></h3>
+    </div>
+</div>
+
+<!-- (md) -->
+<div class="container-fluid row hidden-sm hidden-xs" ng-controller="ScrollCtrl">
+    <div class="col-md-6 card-red-left">
+        <div class="col-md-5">
+            <img class="img-responsive img-size center-block" src="images/icons/civic-icon-b.svg"/>
+        </div>
+        <div class="col-md-7">
+            <div class="row title">
+                <h1><strong>CIVIC</strong></h1>
+            </div>
+            <div>
+                <ul class="list-unstyled">
+                    <li><a href="#CHA" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;CITY OF CHATTANOOGA&nbsp;</a></li>
+                    <li><a href="#CCE" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;CENTER FOR CIVIC ENGAGEMENT&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-6 card-red-right">
+                <div class="col-md-7">
+                    <div class="row title">
+                        <h1><strong>CAMPAIGN</strong></h1>               
+                    </div>       
+                    <div>
+                        <ul class="list-unstyled">
+                            <li><a href="#melody" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;MELODY SHEKARI FOR CONGRESS&nbsp;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-responsive img-size center-block" src="images/icons/campaign-icon-b.svg"/>
+                </div>
+            </div>
+    </div>
+    
+    <div class="container-fluid row hidden-sm hidden-xs" ng-controller="ScrollCtrl">
+            <div class="col-md-6 card-red-left">
+                <div class="col-md-5">
+                    <img class="img-responsive img-size center-block" src="images/icons/policy-icon-b.svg"/>
+                </div>
+                <div class="col-md-7 col-sm-4">
+                    <div class="row title">
+                        <h1><strong>POLICY</strong></h1>
+                    </div>
+                    <div>
+                            <ul class="list-unstyled">
+                                    <li><a href="#MCW" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;MAYOR'S COUNCIL FOR WOMEN&nbsp;</a></li>
+                                    <li><a href="#" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;INAUGURAL INT'L DAY OF THE GIRL&nbsp;</a></li>
+                                    <li><a href="#" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;TN COUNCIL&nbsp;</a></li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-4 col-xs-6 card-red-right">
+                <div class="col-md-7 col-sm-4">
+                    <div class="row title">
+                    <h1><strong>ORGANIZING</strong></h1>                
+                    </div>       
+                    <div>
+                            <ul class="list-unstyled">
+                                <li><a href="#AR" ng-click="scrollTo()"><span>&nbsp;#</span>&nbsp;ARKANSAS VICTORY FELLOWSHIP&nbsp;</a></li>
+                                <li><a href="#harvard" ng-click="scrollTo()"><span class="alt">&nbsp;#</span>&nbsp;HARVARD WOMEN'S FORUM&nbsp;</a></li>
+                            </ul>
+                    </div>
+                </div>
+            <div class="col-md-5 col-sm-7">
+                    <img class="img-responsive img-size center-block" src="images/icons/organizing-icon-b.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- START DISCLAIMER -->
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-red">
+        <h1>#DISCLAIMER</h1>
+    </div>
+</div>
+<div class="container-fluid card-red-intro">
+        <p class="lead text-center">"<em>Politi</em>" is my reference to the space relating to all things <em>public policy</em>, <em>elected office</em>, and <em>activism</em>, and it is where I have increasingly found myself.
+                <!-- I have found myself increasingly in the <em>"politi"</em> space, which I use to refer to all things relating to public policy, elected office, and activism.  -->
+            I've been drawn towards the policy side for <em><span class="alt"><a href="/a_social_entrepreneur" target="_top">years</a></span></em>, but I have recently turned an eye towards action, like held office or organizing. 
+            <!-- From SGA at university to finding myself working at city hall to joining the political sphere, I can no longer deny this force in my life. -->
+        </p>
+        <div class="box">
+        <p class="lead">There is caution to be had with being open about  a penchant towards the political space, but as can be inferred from the contents of this site, my politics aren't <em>overt</em>. The draw for me is either socially motivated singularly or the draw is motivated by problem-solving (I enjoy development, systems, & contingencies). It is less motivated by self or party.</p>
+    </div>
+</div>
+<!-- END DISCLAIMER -->
+
+
+
+<!-- START CHA -->
+<span id="CHA"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-red">
+        <h2>#CITY OF CHATTANOOGA</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+            <h1>#CITY OF CHATTANOOGA</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <h2><span>>>></span> OFFICE OF THE MAYOR <small>Internship / 2016</small></h2>
     <ul>
         <li>Interact with, record, & communicate constituents' needs & messages to Mayor's Office</li>
         <li>Miscellaneous office work, i.e. making copies, stuffing envelopes, list checking</li>
     </ul>
-    <!-- <p>* make clearer connection, flesh out, maybe back-info *</p> -->
     <br>
     <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-    <span id="CCE"></span>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 col-sm-11 card-red">
+        <h2><span>>>></span> OFFICE OF THE MAYOR <small>Internship / 2016</small></h2>
+            <ul>
+                <li>Interact with, record, & communicate constituents' needs & messages to Mayor's Office</li>
+                <li>Miscellaneous office work, i.e. making copies, stuffing envelopes, list checking</li>
+            </ul>
+            <!-- <p>* make clearer connection, flesh out, maybe back-info *</p> -->
+            <br>
+            <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->  
+    </div>
 </div>
 <!-- END CHA -->
+
+
 <!-- START CCE -->
-    <div class="row col-md-5 col-sm-7 buffer red black-shadow pull-left padding text-right card-left">
-            <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
+<span id="CCE"></span> 
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-sm col-sm-7 col-xs-10 tag-red">
+        <h2>#CENTER FOR CIVIC ENGAGEMENT</h2>
     </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+        <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
         <a href="/a_social_entrepreneur#CCE">
-                <div class="row col-md-9 col-sm-11 white blue-shadow buffer padding text-type card-right pull-right">
-                        <h2><span class="blue-type">>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
+                    <h3><span>>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h3>
+                <ul>
+                    <li>Center for Civic Engagement is part of YMCA of Middle Tennessee</li>
+                    <li>Fall: Model United Nations, statewide conference</li>
+                    <li>Spring: Youth in Government, statewide conference</li>
+                    <li>Supervise high school participants</li>
+                    <li>Help programs stay on task, help keep students engaged, and help students remain respectful</li>
+                    <li>Supervise participants/programming by sitting in on hearings, council, and resolutions</li>
+                    <li>2-3 high school conferences per title; 700-900 student participants per conference</li>
+                </ul>
+                <br>
+                <kbd>#PublicSpeaking</kbd> <kbd>#Supervising</kbd> <kbd>#ProblemSolving</kbd>
+            <span id="MCW"></span>
+        </a>    
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+        <a href="/a_social_entrepreneur#CCE">
+                <div class="row col-md-9 card-blue-right">
+                        <h2><span>>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
                     <ul>
                         <li>Center for Civic Engagement is part of YMCA of Middle Tennessee</li>
                         <li>Fall: Model United Nations, statewide conference</li>
@@ -123,71 +240,106 @@
                     </ul>
                     <br>
                     <kbd>#PublicSpeaking</kbd> <kbd>#Supervising</kbd> <kbd>#ProblemSolving</kbd>
-                <span id="MCW"></span>
+                
                 </div>
             </a>
-<!-- END CHA -->
+        </div>
+<!-- END CCE -->
+
+
 <!-- START MCW -->
-        <div class="row col-md-5 col-sm-11 col-xs-11 buffer red black-shadow pull-left card-left padding text-right">
-                <h1>#MAYOR'S COUNCIL FOR WOMEN</h1>
-        </div>
-        <div class="row col-lg-9 col-md-9 hidden-sm hidden-12 pull-right card-right white red-shadow buffer padding text-type">
-                <h2><span class="red-type">>>></span> ECONOMIC OPPORTUNITY COMMITTEE <small>Internship - Volunteer / 2016</small></h2>
-                <!-- <strong>Economic Opportunity Committee</strong> <small>Jan 2016 - May 2016</small> -->
-                <ul>
-                    <li>Research statistics, assist with editing, & general aid towards goal of completing white paper</li>
-                    <li>Effectively help Mayor's Council for Women (MCW), Economic Opportunity committee communicate with Mayor's Office</li>
-                    <li>Collect raw data on area childcare facilities</li>
-                </ul>
-                <!-- <p>* make clearer connection, flesh out, fix dates, maybe back-info, docs at bottom, highlights *</p> -->
-                <br>
-                <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-                <span id="melody"></span>
-            </div>
-        <div class="row hidden-lg hidden-md container-fluid col-sm-12 col-xs-12 visible-sm visible-xs white red shadow buffer padding text-type">
-                    <h2><span class="red-type">>>></span> ECONOMIC OPPORTUNITY COMMITTEE <small>Internship - Volunteer / 2016</small></h2>
-            <!-- <strong>Economic Opportunity Committee</strong> <small>Jan 2016 - May 2016</small> -->
-            <ul>
-                <li>Research statistics, assist with editing, & general aid towards goal of completing white paper</li>
-                <li>Effectively help Mayor's Council for Women (MCW), Economic Opportunity committee communicate with Mayor's Office</li>
-                <li>Collect raw data on area childcare facilities</li>
-            </ul>
-            <!-- <p>* make clearer connection, flesh out, fix dates, maybe back-info, docs at bottom, highlights *</p> -->
-            <br>
-            <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-            <span id="melody"></span>
-        </div>
-        <!-- END MCW -->
-        <!-- START UN -->
+<span id="MCW"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-red">
+        <h2>#MAYOR'S COUNCIL FOR WOMEN</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+            <h1>#MAYOR'S COUNCIL FOR WOMEN</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <h3><span>>>></span> ECONOMIC OPPORTUNITY COMMITTEE <small>Internship - Volunteer / 2016</small></h3>
+    <!-- <strong>Economic Opportunity Committee</strong> <small>Jan 2016 - May 2016</small> -->
+    <ul>
+        <li>Research statistics, assist with editing, & general aid towards goal of completing white paper</li>
+        <li>Effectively help Mayor's Council for Women (MCW), Economic Opportunity committee communicate with Mayor's Office</li>
+        <li>Collect raw data on area childcare facilities</li>
+    </ul>
+    <!-- <p>* make clearer connection, flesh out, fix dates, maybe back-info, docs at bottom, highlights *</p> -->
+    <br>
+    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->    
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-red">
+        <h2><span>>>></span> ECONOMIC OPPORTUNITY COMMITTEE <small>Internship - Volunteer / 2016</small></h2>
+        <ul>
+            <li>Research statistics, assist with editing, & general aid towards goal of completing white paper</li>
+            <li>Effectively help Mayor's Council for Women (MCW), Economic Opportunity committee communicate with Mayor's Office</li>
+            <li>Collect raw data on area childcare facilities</li>
+        </ul>
+
+        <br>
+        <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+    </div>
+</div>
+<!-- END MCW -->
+
+<!-- START UN -->
         <!-- <div id="UN" class="row col-md-5 col-sm-7 red black-shadow padding buffer pull-left text-right card-left">
                 <h1>#INAUGURAL INT'L DAY OF THE GIRL</h1>
             </div>
             <div class="row col-md-9 col-sm-11 white red-shadow buffer padding text-type pull-right card-right">
             <h1 class="text-center"><strong>COMING SOON.</strong></h1>
             </div> -->
-        <!-- END UN -->
-        <!-- START TN COUNCIL -->
+<!-- END UN -->
+<!-- START TN COUNCIL -->
         <!-- <div id="TN" class="row col-md-5 col-sm-7 red black-shadow padding buffer pull-left text-right card-left">
                 <h1>#TN COUNCIL</h1>
             </div>
             <div class="row col-md-9 col-sm-11 white red-shadow buffer padding text-type pull-right card-right">
             <h1 class="text-center"><strong>COMING SOON.</strong></h1>
             </div> -->
-        <!-- END TN COUNCIL -->
-        <!-- END POLICY END POLICY END POLICY -->
-        <!-- START CAMPAIGN START CAMPAIGN START CAMPAIGN -->
-        <!-- START MELODY -->
-        <div class="row col-md-5 col-sm-7 buffer red black-shadow pull-left padding text-right">
-            <h1>#MELODY SHEKARI FOR CONGRESS</h1>
-        </div>
-        <div class="row col-md-9 col-sm-11 pull-right card-right white red-shadow buffer padding text-type">
-                <h2><span class="red-type">>>></span> DIRECTOR OF COMMUNICATIONS <small>TN Congressional District 3 / 2016</small></h2>
-                
-            <!-- <strong>Director of Communications</strong> <small>Apr 2017 - Nov 2017</small> -->
+<!-- END TN COUNCIL -->
+<!-- END POLICY END POLICY END POLICY -->
+
+<!-- START CAMPAIGN START CAMPAIGN START CAMPAIGN -->
+
+<!-- START MELODY -->
+<span id="melody"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-red">
+        <h2>#MELODY SHEKARI FOR CONGRESS</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+        <h1>#MELODY SHEKARI FOR CONGRESS</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <h3><span>>>></span> DIRECTOR OF COMMUNICATIONS <small>TN Congressional District 3 / 2016</small></h3>
+    <ul>
+        <li>Coordinate message, identity, & perception of candidate throughout district</li>
+        <li>Populate & oversee website, blog, newsletter, social media, & advertisements</li>
+        <li>Travel district talking with voters, taking photo & media</li>
+        <li>Produced promotional, informational videos and cut advertisements</li>
+        <li>Strategize best way to present candidate to voters</li>
+        <li>Oversee, direct, & compile opposition research</li>
+        <li>Oversee 4 interns</li>
+    </ul>
+    <br>
+    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+        <div class="row col-md-9 col-sm-11 card-red">
+                <h2><span>>>></span> DIRECTOR OF COMMUNICATIONS <small>TN Congressional District 3 / 2016</small></h2>
             <ul>
                 <li>Coordinate message, identity, & perception of candidate throughout district</li>
                 <li>Populate & oversee website, blog, newsletter, social media, & advertisements</li>
                 <li>Travel district talking with voters, taking photo & media</li>
+                <li>Produced promotional, informational videos and cut advertisements</li>
                 <li>Strategize best way to present candidate to voters</li>
                 <li>Oversee, direct, & compile opposition research</li>
                 <li>Oversee 4 interns</li>
@@ -197,17 +349,40 @@
             <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
             <span id="AR-fellow"></span>
         </div>
-        <!-- END MELODY -->
-    <!-- END CAMPAIGN END CAMPAIGN END CAMPAIGN -->
-    <!-- START ORGANIZING START ORGANIZING START ORGANIZING -->
-        <!-- START AR-fellow -->
-            <div class="row col-md-5 col-sm-7 buffer red black-shadow pull-left padding text-right">
-                <h1>#DEMOCRATIC PARTY OF ARKANSAS</h1>
-            </div>
-            <div class="row col-md-9 col-sm-11 pull-right card-right white red-shadow buffer padding text-type">
-                    <h2><span class="red-type">>>></span> ARKANSAS VICTORY FELLOW <small>@ Russellville, AR / 2014</small></h2>
-                    
-            <!-- <strong>Arkansas Victory Fellow</strong> <small>Oct 2014</small> -->
+</div>
+<!-- END MELODY -->
+
+<!-- END CAMPAIGN END CAMPAIGN END CAMPAIGN -->
+
+
+<!-- START ORGANIZING START ORGANIZING START ORGANIZING -->
+
+<!-- START AR-fellow -->
+<span id="AR"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-red">
+        <h2>#DEMOCRATIC PARTY OF ARKANSAS</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+        <h1>#DEMOCRATIC PARTY OF ARKANSAS</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <h3><span>>>></span> ARKANSAS VICTORY FELLOW <small>@ Russellville, AR / 2014</small></h3>  
+        <ul>
+            <li>Region 2, Pope County</li>
+            <li>Assistant to Field Organizer for Get Out the Vote (GOTV) initiative</li>
+            <li>Daily tasks include canvassing turf packets, informing the electorate of early voting dates, times, & location, strategizing for GOTV, analyzing given data, communication with team & projects, & coordinating with volunteers</li>
+            <li>Region 2 was one of the top performing regions in Arkansas, despite its rural location</li>
+        </ul>
+        <br>
+                <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+            <div class="row col-md-9 card-red">
+                    <h2><span>>>></span> ARKANSAS VICTORY FELLOW <small>@ Russellville, AR / 2014</small></h2>
                 <ul>
                     <li>Region 2, Pope County</li>
                     <li>Assistant to Field Organizer for Get Out the Vote (GOTV) initiative</li>
@@ -218,15 +393,49 @@
                 <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
             </div>
 </div>
-        <!-- END AR-fellow -->
-        <!-- START misc -->
-        <!-- <div id="harvard" class="row col-md-5 col-sm-7 buffer red black-shadow pull-left padding text-right">
-                <h1>#HARVARD WOMEN'S FORUM</h1>
-            </div>
-            <div class="row col-md-9 col-sm-11 card-right pull-right white red-shadow buffer padding text-type">
-                    <h1 class="text-center"><strong>COMING SOON.</strong></h1>
+<!-- END AR-fellow -->
+
+<!-- START HARVARD -->
+<span id="harvard"> </span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-red">
+        <h2>#HARVARD'S WOMEN'S FORUM</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-red">
+        <h1>#HARVARD WOMEN'S FORUM</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <a href="/a_social_entrepreneur#STF">
+        <h2><span>>>></span> PARTICIPANT <small>American University, Washington College of Law / 2017</small></h2>
+        <ul>
+            <li>Billed as "a private, non-partisan, and interactive forum to learn from the experts and discuss how to spend your time, money, and energy to make a difference furthering women's rights."</li>
+            <li>Extended invitation while on Leadership Board with She's the First</li>
+            <li>Attended and participated in the day immediately following the Women's March</li>
+            <li>Following forum, I have stayed abreast of relevant topics and issues while keeping an open line of communication with other attendees</li>
+            <li>Bringing locally: have spoken about and shared resources & what I learned with different bodies, including City of Chattanooga via Mayor's Council of Women and a dean of a local university</li>
+        </ul>
+        <br>
+        <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+    </a>
+</div>
+<!-- (md) -->
+<div class="container-fluid">
+            <a href="/a_social_entrepreneur#STF">
+            <div class="row col-md-9 hidden-sm hidden-xs card-blue-right">
+                    <h2><span>>>></span> PARTICIPANT <small>American University, Washington College of Law / 2017</small></h2>
+                    <ul>
+                        <li>Billed as "a private, non-partisan, and interactive forum to learn from the experts and discuss how to spend your time, money, and energy to make a difference furthering women's rights."</li>
+                        <li>Extended invitation while on Leadership Board with She's the First</li>
+                        <li>Attended and participated in the day immediately following the Women's March</li>
+                        <li>Following forum, I have stayed abreast of relevant topics and issues while keeping an open line of communication with other attendees</li>
+                        <li>Bringing locally: have spoken about and shared resources & what I learned with different bodies, including City of Chattanooga via Mayor's Council of Women and a dean of a local university</li>
+                    </ul>
                     <br>
-                    <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd>
-            </div> -->
-        <!-- END misc -->
+                    <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
+            </div>
+            </a>
+        </div>
+        <!-- END HARVARD -->
         <!-- END ORGANIZING END ORGANIZING END ORGANIZING -->
