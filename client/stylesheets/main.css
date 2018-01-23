@@ -1,0 +1,694 @@
+/**
+ * Anchor events
+ */
+/**
+ * Background Color
+ * Used mostly for name tags
+ */
+/** 
+ * Card shadows
+ * @param: named $variable colors
+ * TODO: reconcile variables for when want background color and to hover
+ */
+/**
+ * Card Direction
+ * Card in direction, pulled, and if tag, aligns text
+ * @param: true == header tag
+ * @type: negative pixels
+ */
+/**
+ * Circle
+ * Used for sub-navigation > /designer, /stu-developer portfolio
+ */
+/**
+ * Center block
+ * Ripped from Bootstrap
+ */
+/**
+ * Default format
+ */
+/**
+ * Image Responsiveness
+ * Gauging minimum size based around direction
+ * @type: Length / allows for 'auto'
+ */
+/**
+ * Text Hover
+ */
+/**
+ * Text Span
+ * Do we need this?
+ */
+/**
+ * Text Underlines 
+ * @param: true == toggle underline on hover
+ * @style: dotted, wavy
+ */
+/* Single property */
+html {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(0.57361vw + 12.16444px);
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Multiple properties with same values */
+h1, h2, h3, h4, h5 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+@media screen and (min-width: 20rem) {
+  h1, h2, h3, h4, h5 {
+    padding-top: calc(1vw - 0.2rem);
+    padding-bottom: calc(1vw - 0.2rem);
+  }
+}
+
+@media screen and (min-width: 70rem) {
+  h1, h2, h3, h4, h5 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/** Alternate method for handling media 
+* https://github.com/sass-mq/sass-mq
+*/
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+   * Make all elements from the DOM inherit from the parent box-sizing
+   * Since `*` has a specificity of 0, it does not override the `html` value
+   * making all elements inheriting from the root box-sizing value
+   * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+   */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+   * Basic styles for links
+   */
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+a:active, a :focus, a :hover, a :link, a :visited {
+  color: inherit;
+  text-decoration: inherit;
+  /* Look out for changes; resolve with 'none' */
+}
+
+/**
+ * Card Intro
+ * /entrepreneur.html, scientist.html, politi.html, contact.html
+ */
+.card-intro {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  text-align: center;
+}
+
+/**
+ * _PAGE: contact.html
+ */
+.tag-contact {
+  box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #1c1c1c;
+}
+
+/**
+ * _PAGE: designer.html
+ */
+.card-yellow {
+  right: -16px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+.card-yellow:hover {
+  box-shadow: -8.5px 7.5px 0px 0px #fffb00;
+}
+
+.card-yellow span {
+  color: #01bbef;
+}
+
+.tag-yellow {
+  box-shadow: 8.5px 7.5px 0px 0px white;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #fffb00;
+}
+
+/**
+ * _PAGE: developer.html
+ */
+.card-green {
+  box-shadow: -8.5px 7.5px 0px 0px #0df8ad;
+  right: -16px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+.card-green span {
+  color: #0df8ad;
+}
+
+.tag-green {
+  box-shadow: 8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #0df8ad;
+}
+
+/**
+ * _PAGE: entrepreneur.html
+ */
+.card-blue {
+  box-shadow: -8.5px 7.5px 0px 0px #01bbef;
+  right: -16px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+.card-blue span {
+  color: #01bbef;
+}
+
+.tag-blue {
+  box-shadow: 8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #01bbef;
+}
+
+/**
+ * _PAGE: politi.html
+ */
+.card-red {
+  box-shadow: -8.5px 7.5px 0px 0px #ff527a;
+  right: -16px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+.card-red span {
+  color: #ff527a;
+  /* Careful about multiple */
+}
+
+.tag-red {
+  box-shadow: 8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #ff527a;
+}
+
+/**
+ * _PAGE: scientist.html
+ */
+.card-purple {
+  box-shadow: -8.5px 7.5px 0px 0px #f0adff;
+  right: -16px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+}
+
+.card-purple span {
+  color: #f0adff;
+}
+
+.tag-purple {
+  box-shadow: 8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #f0adff;
+}
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font: normal 400 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif #1c1c1c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+}
+
+/**
+ * Span class to color individual text
+ * Limited, so copy and use as needed
+ * Try to use mixin inside larger class in child
+ */
+/**
+ * Span classes to color specifically
+ * re: navigation mess
+ */
+.text-wash-green {
+  background-color: #0df8ad;
+}
+
+.text-wash-yellow {
+  background-color: #fffb00;
+}
+
+/**
+ * Buffer
+ */
+.buffer {
+  margin: 1.5em 0em 1.5em 0em;
+}
+
+/**
+ * Center-block
+ * Ripped from Bootstrap
+ */
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/**
+ * Cards
+ */
+.card-right {
+  right: -16px;
+}
+
+.card-left {
+  left: -15px;
+}
+
+.blue {
+  background-color: #01BAEF;
+}
+
+.red {
+  background-color: #FD3B68;
+}
+
+.purple {
+  background-color: #F0ADFF;
+}
+
+.green {
+  background-color: #0BF8AB;
+}
+
+.yellow {
+  background-color: #FFF901;
+}
+
+.black {
+  background-color: #1C1C1C;
+}
+
+.cut-out {
+  background-color: #F2F2F2;
+}
+
+.see-through {
+  background-color: #F2F2F2;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: #727272;
+}
+
+/**
+ * Halfing
+ */
+.half-size {
+  width: 50%;
+  height: auto;
+}
+
+/**
+ * Padding
+ */
+.padding {
+  padding: 1em 1em;
+}
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/**
+   * Main content containers
+   * 1. Make the container full-width with a maximum width
+   * 2. Center it in the viewport
+   * 3. Leave some space on the edges, especially valuable on small screens
+   */
+/**
+   * Hide text while making it readable for screen readers
+   * 1. Needed in WebKit-based browsers because of an implementation bug;
+   *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+   */
+/**
+   * Hide element while making it readable for screen readers
+   * Shamelessly borrowed from HTML5Boilerplate:
+   * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+   */
+/**
+ * Main header
+ * Header found through 'learn' section
+ * 1. .navbar > div#header > div include="nav"
+ * 2. .dropdown div ( > button) // _buttons.scss
+ * 3. p .opener
+ * 3A. .shrink applied through $NavShrink
+ * 4. ul .dropdown-content > li > a > span .opener // _buttons.scss
+ * 5. div > a > img .brand-logo
+ * 5A. .shrink-img applied through $NavShrink
+ */
+.navbar {
+  min-height: 35px;
+  background-color: #1c1c1c;
+}
+
+.opener {
+  font-size: 3em;
+  margin-top: 0.5em;
+  -webkit-transition: all 0.325s ease;
+  transition: all 0.325s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+.brand-logo {
+  height: auto;
+  width: 90%;
+  -webkit-transition: all 0.325s ease;
+  transition: all 0.325s ease;
+}
+
+.shrink {
+  min-height: 25px;
+  opacity: 0.65;
+}
+
+.shrink-img {
+  width: 65%;
+  height: auto;
+  margin-top: 6%;
+  margin-left: 30%;
+}
+
+/**
+ * Emerging Designer secondary navigation
+ */
+.sub-navigation-yellow {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  text-align: center;
+}
+
+.sub-navigation-yellow a:hover {
+  background-color: #fffb00;
+}
+
+.sub-navigation-yellow span {
+  color: #fffb00;
+}
+
+.sub-navigation-yellow .circle {
+  border: 0.25em solid #fffb00;
+  margin-bottom: 0.5em;
+  background-color: #fffb00;
+  border-radius: 50%;
+  height: 4.25em;
+  margin: auto;
+  text-align: center;
+  width: 4.25em;
+}
+
+/** Footer 
+ * Sticky only because of 'fixed-bottom' 
+ * TODO: create own sticky footer without Bootstrap aid
+ * TODO: double-check style-guide and syntax
+ */
+.custom-bottom {
+  background-color: #1c1c1c;
+  bottom: 0;
+  width: 100;
+  margin-top: 7.5em;
+}
+
+.custom-bottom div {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  padding: 4.8rem;
+  text-align: center;
+}
+
+.custom-bottom div img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 50%;
+  height: auto;
+  padding: 1em 1em;
+}
+
+.custom-bottom ul svg {
+  border-radius: 50%;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  margin: auto;
+}
+
+.return-to-top {
+  display: none;
+  z-index: 1100;
+  bottom: 20px;
+  right: 30px;
+  position: fixed;
+  height: 7.5%;
+  width: auto;
+  cursor: pointer;
+}
+
+/** 
+ * Navbar dropdown menu button 
+ * 
+ * Font & background controllers seem to be only factors here, with media query --> low priority
+ * Maybe there's a way to include show/hide to help with bulk, otherwise
+ * Choose font, have mixin for color? Extend? List?
+ * Colors https://benfrain.com/working-with-lists-and-each-loops-in-sass-with-the-index-and-nth-function/
+ * TODO: Test
+ * TODO: Add comments explaining
+ */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #1c1c1c;
+}
+
+.dropdown-content {
+  margin-top: -0.9em;
+  padding: 0 0 0 0.45em;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #1c1c1c;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover button {
+  /* Redundant? */
+  background-color: #1c1c1c;
+}
+
+.dropdown button {
+  background-color: #1c1c1c;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/**
+ * Emerging Designer - Section Header Tiles
+ * TODO: find way to have all tiles set, this way, but pagination
+ */
+.nav-tile {
+  background-color: #fffb00;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.nav-tile:hover, .nav-tile:hover a {
+  background-color: #737373;
+  color: #fffb00;
+}
+
+.portal-block-b {
+  background-color: #f2f2f2;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1030;
+}
+
+.monologue {
+  font-size: 3.75em;
+  line-height: 2.5em;
+  margin-bottom: 1em;
+  /* may no longer be necessary */
+  padding: 0 1.25em;
+}
+
+.monologue a:nth-child(2) {
+  background-color: #01bbef;
+}
+
+.monologue a:nth-child(2):hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.monologue a:nth-child(3) {
+  background-color: #f0adff;
+}
+
+.monologue a:nth-child(3):hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.monologue a:nth-child(4) {
+  background-color: #ff527a;
+}
+
+.monologue a:nth-child(4):hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.monologue a:nth-child(5) {
+  background-color: #fffb00;
+}
+
+.monologue a:nth-child(5):hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.monologue a:nth-child(6) {
+  background-color: #0df8ad;
+}
+
+.monologue a:nth-child(6):hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.monologue a:nth-child(7) {
+  background-color: white;
+}
+
+.monologue a:nth-child(7):hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.monologue h1 {
+  font-size: 2.8em;
+  font-weight: 300;
+  margin: 23vh 0 29vh 0;
+  /* address */
+  text-align: center;
+}
+
+.monologue p:nth-child(2) {
+  text-align: center;
+}
+
+.monologue span {
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.monologue span:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+/*# sourceMappingURL=main.css.map */

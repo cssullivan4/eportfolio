@@ -1,0 +1,52 @@
+// --------------------------
+// DESIGNER
+// --------------------------
+
+
+
+// --------------------------
+// ENTREPRENEUR
+// --------------------------
+.card-blue p {
+    text-align: center;
+}
+
+
+// --------------------------
+// POLITI
+// --------------------------
+.card-helper-politi {
+    li {
+        font-family: $copy;
+    }
+    li a {
+        @include text-wash(true, $red);
+    }    
+    li span {
+        color: $red;
+    }
+    span {
+        @include underline(true, dotted);
+
+        color: $blue;
+    }
+
+    // background-color: $white;
+    font-size: $font-md;
+    // text-align: center;
+}
+
+
+// --------------------------
+// SCIENTIST
+// --------------------------
+/*
+ * Redo these because could be troublesome
+ */
+
+.card-intro h4 {
+    text-align: center;
+}
+.card-plain > h2 {
+    text-align: center;
+}

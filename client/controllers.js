@@ -100,11 +100,14 @@ angular.module('myApp.controllers', [])
         if ($(document).scrollTop() > 50) {
           $('.navbar').addClass('shrink');
           $('.opener').addClass('shrink-p');
-          $('.opener-b').addClass('shrink-p-b');
+          $('.dropbtn').addClass('shrink-btn');
+          $('.opener-b').addClass('opener-b-shrink');
           $('.brand-logo').addClass('shrink-img');
         } else {
           $('.navbar').removeClass('shrink');
           $('.opener').removeClass('shrink-p');
+          $('.dropbtn').removeClass('shrink-btn');
+          $('.opener-b').removeClass('opener-b-shrink');
           $('.brand-logo').removeClass('shrink-img');
         }
       });
@@ -153,12 +156,7 @@ angular.module('myApp.controllers', [])
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
     });
   })
-//   .controller('PageSlider', ['$scope', function($scope) {
-//     $(document).ready(function() {
-//         $('#fullpage').fullpage();
-//     });
-//     console.log("Slider, get sliding!");
-//   }])
+
   .controller('DevPopulation',function($scope){
     $scope.images  = [
         "/images/projects/smw-app/pg-1.png",
@@ -208,49 +206,64 @@ angular.module('myApp.controllers', [])
     $scope.aspirations = [
         {
             'id': 1,
-            'title': "She's the First 2012-2017",
+            'title': 'Spoken',
+            'date': '2017-2018',
+            'anchor': '#spoken',
+            'image': '/images/se-grid/spoken.png'
+        },
+        {
+            'id': 2,
+            'title': "She's the First",
+            'date': "2012-2017",
             'anchor': '#STF',
             'image': '/images/se-grid/stf-bw.svg'
         },
         {
-            'id': 2,
-            'title': 'Center for Civic Engagement 2012-2017',
+            'id': 3,
+            'title': 'Center for Civic Engagement',
+            'date': '2012-2017',
             'anchor': '#CCE',
             'image': '/images/se-grid/ymca-cce-bw.svg'
         },
         {
-            'id': 3,
-            'title': 'Creative Discovery Museum 2014-2017',
+            'id': 4,
+            'title': 'Creative Discovery Museum',
+            'date': '2014-2017',
             'anchor': '#CDM',
             'image': '/images/se-grid/cdm-bw.svg'
         },
         {
-            'id': 4,
-            'title': 'ArtsBuild 2015-2016',
+            'id': 5,
+            'title': 'ArtsBuild',
+            'date': '2015-2016',
             'anchor': '#ArtsBuild',
             'image': '/images/se-grid/artsbuild-bw.svg'
         },
         {
-            'id': 5,
-            'title': 'Cultural Attractions Committee 2011-2013',
+            'id': 6,
+            'title': 'Cultural Attractions Committee',
+            'date': '2011-2013',
             'anchor': '#CAC',
             'image': '/images/se-grid/utk-cac-bw.svg'
         },
         {
-            'id': 6,
-            'title': 'Haiti Outreach Program of Knoxville 2011-2013',
+            'id': 7,
+            'title': 'Haiti Outreach Program of Knoxville',
+            'date': '2011-2013',
             'anchor': '#HOPOK',
             'image': '/images/se-grid/hopok-bw.svg'
         },
         {
-            'id': 7,
-            'title': 'Chattanooga Theatre Centre 2008-2015',
+            'id': 8,
+            'title': 'Chattanooga Theatre Centre',
+            'date': '2008-2015',
             'anchor': '#CTC',
             'image': '/images/se-grid/cha-theatre-centre-bw.svg'
         },
         {
-            'id': 8,
-            'title': 'McKamey Animal Center 2011, 2017',
+            'id': 9,
+            'title': 'McKamey Animal Center',
+            'date': '2011, 2017',
             'anchor': '#MAS',
             'image': '/images/se-grid/mckamey-bw.svg'
         }

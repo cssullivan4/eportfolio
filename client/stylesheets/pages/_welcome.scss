@@ -1,0 +1,53 @@
+.portal-block-b {
+    background-color: $base;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1030;
+}
+.monologue {
+
+    a:nth-of-type(2) { @include underline(true, dotted); background-color: $purple; }
+    a:nth-of-type(3) { @include underline(true, dotted); background-color: $red; }
+    a:nth-of-type(4) { @include underline(true, dotted); background-color: $yellow; }
+    a:nth-of-type(5) { @include underline(true, dotted); background-color: $green; }
+    
+    h1 { 
+        font-size: 2.8em;
+        font-weight: 300;
+        margin: 23vh 0 29vh 0; /* address */
+        text-align: center;
+        
+        span {
+            @include respond-to('xsmall') {
+                letter-spacing: 0.1em;
+                margin: 2vh 0 29vh 0;
+                white-space: normal;
+            }
+        }
+    }
+    p:nth-of-type(1) a:nth-of-type(1) { 
+        @include underline(true, dotted);
+        background-color: $blue; 
+    }
+    p:nth-of-type(2) a { 
+        @include underline(true, wavy);
+        background-color: $white; 
+    }
+    p:nth-of-type(2) { text-align: center; }
+    span { @include underline(true, dotted); letter-spacing: 0.06em; white-space: nowrap; }
+
+    font-size: 3.75em;
+    line-height: 2.5em;
+    margin-bottom: 1em; /* may no longer be necessary */
+    padding: 0 1.25em;
+    
+    @include respond-to('xsmall') {
+        line-height: 2em;
+        font-size: 2em;
+        padding: 0 5%;
+        text-align: center;
+    }
+}
