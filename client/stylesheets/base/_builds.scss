@@ -164,7 +164,6 @@
         @include respond-to('xxsmall') {
             @include box-shadow-sm($green);
         }
-<<<<<<< HEAD
         &-naked-left {
             @include card-green;
             @include card-pull(false, left, normal);
@@ -179,8 +178,6 @@
                 float: left;
             }
         }
-=======
->>>>>>> 058336811b4ec318c8ff8515277c42ed751972db
         .alt {
             a {
                 @include underline(false, dotted);
@@ -246,7 +243,6 @@
 }
 
 /**
-<<<<<<< HEAD
  * _PAGE: contact.html
  */
 .tag-black {
@@ -261,8 +257,6 @@
 }
 
 /**
-=======
->>>>>>> 058336811b4ec318c8ff8515277c42ed751972db
  * _PAGE: entrepreneur.html
  */
 .card-blue {
@@ -404,10 +398,6 @@
 
     background-color: $red;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 058336811b4ec318c8ff8515277c42ed751972db
 /**
  * _PAGE: scientist.html
  */
@@ -484,13 +474,9 @@
     @include format-default($buffer-vertical, $padding);
 
     background-color: $purple;
-<<<<<<< HEAD
 }
 
 /**
  * _PAGE: reaching_out.html
  */
 
-=======
-}
->>>>>>> 058336811b4ec318c8ff8515277c42ed751972db
