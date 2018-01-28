@@ -1,55 +1,12 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
         </nav>
 </div>
-<div class="container-fluid row">
-        <div class="col-md-3 col-sm-3 text-center black">
-            <a href="/a_designer/showing/web">
-                <h1 class="yellow-type">WEB</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 text-center yellow nav-tile">
-            <a href="/a_designer/showing/print">
-                <h1>PRINT</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 text-center yellow nav-tile">
-            <a href="#">
-                <h1>BRAND</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 text-center yellow nav-tile">
-            <a href="#">
-                <h1>MAKER</h1>
-            </a>
-        </div>
-    </div>
-    <div class="container-fluid white buffer">
-        <div class="row col-md-12 col-sm-12 padding">
-                <div class="row col-md-2 col-sm-2 text-type text-center">
-                        <div class="circle yellow-border yellow ">
-                            <h3>PROJECT: RPG</h3>
-                        </div>
-                </div>
-            <div class="row col-md-2 col-sm-2 text-type text-center">
-                <a href="/a_designer/showing/web/mmorpg/country"><h3 id="yellow"><span class="yellow-type">#</span>&nbsp;COUNTRY&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2 text-type text-center">
-                <a href="/a_designer/showing/web/mmorpg/ocean"><h3 id="yellow"><span class="yellow-type">#</span>&nbsp;OCEAN&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2 text-type text-center">
-                <a href="/a_designer/showing/web/mmorpg/misc"><h3 id="yellow"><span class="yellow-type">#</span>&nbsp;MISC&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2 text-type text-center">
-                <a href="/a_designer/showing/web/mmorpg/characters"><h3 id="yellow"><span class="yellow-type">#</span>&nbsp;CHARACTERS&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2 text-type text-center">
-                <a href="/a_designer/showing/web/mmorpg/alpha"><h3 id="yellow"><span class="yellow-type">#</span>&nbsp;ALPHA&nbsp;</h3></a>
-            </div>
-    </div>
+<div ng-controller="NavMenu">
+        <div ng-include="web_b"></div>
 </div>
 <div class="container-fluid row">
     <div class="col-md-5 col-sm-9 col-xs-9 tag-yellow">

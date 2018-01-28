@@ -5,51 +5,8 @@
                 </div>
         </nav>
 </div>
-<div class="container-fluid row">
-        <div class="col-md-3 col-sm-3 nav-tile-selected">
-            <a href="/a_designer/showing/web">
-                <h1>WEB</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 nav-tile">
-            <a href="/a_designer/showing/print">
-                <h1>PRINT</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 nav-tile">
-            <a href="#">
-                <h1>BRAND</h1>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-3 nav-tile">
-            <a href="#">
-                <h1>MAKER</h1>
-            </a>
-        </div>
-    </div>
-    <div class="container-fluid sub-navigation-yellow">
-        <div class="row col-md-12 col-sm-12">
-                <div class="row col-md-2 col-sm-2">
-                        <div class="circle">
-                            <h3>PROJECT: RPG</h3>
-                        </div>
-                </div>
-            <div class="row col-md-2 col-sm-2">
-                <a href="/a_designer/showing/web/mmorpg/country"><h3><span>#</span>&nbsp;COUNTRY&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2">
-                <a href="/a_designer/showing/web/mmorpg/ocean"><h3><span>#</span>&nbsp;OCEAN&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2">
-                <a href="/a_designer/showing/web/mmorpg/misc"><h3><span>#</span>&nbsp;MISC&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2">
-                <a href="/a_designer/showing/web/mmorpg/characters"><h3><span>#</span>&nbsp;CHARACTERS&nbsp;</h3></a>
-            </div>
-            <div class="row col-md-2 col-sm-2">
-                <a href="/a_designer/showing/web/mmorpg/alpha"><h3><span>#</span>&nbsp;ALPHA&nbsp;</h3></a>
-            </div>
-    </div>
+<div ng-controller="NavMenu">
+        <div ng-include="web_b"></div>
 </div>
 <div class="container-fluid row">
     <div class="col-md-5 col-sm-9 col-xs-12 tag-yellow">

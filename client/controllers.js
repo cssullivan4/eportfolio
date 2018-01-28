@@ -11,12 +11,6 @@ angular.module('myApp.controllers', [])
                 - $('#footer').height()
             ));
         }
-        // if ($(window).width() < 960) {
-        //     alert('Current site build is not fully supportive of mobile views. Please view from a larger screen for best experience.');
-        //  }
-        //  else {
-        //     console.log('Your screen size is preferred for site build currently.');
-        //  }
         // onDocumentReady function bind
         $(document).ready(function () {
             autoHeight();
@@ -26,22 +20,7 @@ angular.module('myApp.controllers', [])
         $(window).resize(function () {
             autoHeight();
         });
-        // window.onload = function() {
-        //     if(!window.location.hash) {
-        //         window.location = window.location + '#loaded';
-        //         window.location.reload();
-        //     }
-        // }
-
     })
-    // .controller('MobileAlert', function($scope, $window) {
-    //     if ($(window).width() < 960) {
-    //         alert('Current site build is not fully supportive of mobile views. Recommend viewing on larger screen.');
-    //      }
-    //      else {
-    //         console.log('Your screen size is preferred for site build currently.');
-    //      }
-    // })
 .controller('HeaderCtrl', function ($scope, $window, $location) {
     $scope.currentPath = $location.path();
     $scope.reload = function () {
@@ -64,14 +43,10 @@ angular.module('myApp.controllers', [])
     console.log($window);
     $(window).scroll(function() {
         if ($(document).scrollTop() > 75) {
-            // $('#btn').removeClass('btn-there');
-            // $('#btn').addClass('btn-here');
             $('#btn').show();
         } else {
             $('#btn').hide();
-            // $('#btn').removeClass('btn-here');
-            // $('#btn').addClass('btn-there');
-            // animate fade in later
+            // TODO: animate fade in later
         }
     });
     $scope.scroll = function () {
@@ -133,12 +108,20 @@ angular.module('myApp.controllers', [])
         })
     })
   })
+  .controller('LinkTo', ['$scope', '$location', function($scope, $location) {
+    $scope.linkTo = function(id) {
+        $location.url(id);
+      };
+  }])
     .controller('NavMenu', ['$scope', '$compile', function($scope, $compile) {
         console.log('Nav is a go, captian.');
+        $scope.brand = 'views/nav/nav-brand.html';
+        $scope.maker = 'views/nav/nav-maker.html';
         $scope.nav = 'views/nav/nav-welcome.html';
         $scope.print = 'views/nav/nav-print.html';
-        $scope.web = 'views/nav/nav-web.html';
         $scope.stu = 'views/nav/nav-stu.html';
+        $scope.web = 'views/nav/nav-web.html';
+        $scope.web_b = 'views/nav/nav-web-b.html';
   }])
   .controller('GalleryCtrl', function($scope){
     $(document).ready(function(){

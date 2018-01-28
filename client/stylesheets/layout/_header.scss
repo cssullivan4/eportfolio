@@ -155,7 +155,6 @@
  * Emerging Designer secondary navigation
  */
 .sub-navigation-yellow {
-    // @include format-default($buffer-vertical, $padding);
     background-color: $white;
     font-size: $font-md;
     margin: $buffer-vertical;
@@ -167,12 +166,69 @@
     span {
         color: $yellow;
     }
-    div:nth-child(1) {
+    .alt {
+        @include respond-to('xxsmall') {
+            margin-left: 1em;
+        }
         padding: $padding;
     }
     .circle {
         @include border-circle($yellow);
         @include circle($yellow);
+
+        margin-bottom: 0.5em;
+    }
+}
+/**
+ * MMORPG sub-nagivation
+ */
+ .sub-navigation-yellow-b {
+    background-color: $white;
+    font-size: $font-md;
+    margin: $buffer-vertical;
+    text-align: center;
+
+    div a h3 {
+        @include text-wash(true, $yellow);
+    }
+    span {
+        color: $yellow;
+    }
+    .alt {
+        @include respond-to('xxsmall') {
+            margin-left: 1em;
+        }
+        padding: $padding;
+    }
+    .circle {
+        @include border-circle($yellow);
+        @include circle($yellow);
+
+        margin-bottom: 0.5em;
+    }
+}
+
+/**
+  * Developer sub-pages navigation
+  */
+.sub-navigation-green {
+    background-color: $white;
+    font-size: $font-md;
+    margin: $buffer-vertical;
+    text-align: center;
+
+    div a {
+        @include text-wash(true, $green);
+    }
+    span {
+        color: $green;
+    }
+    .alt {
+        padding: $padding;
+    }
+    .circle {
+        @include border-circle($green);
+        @include circle($green);
 
         margin-bottom: 0.5em;
     }

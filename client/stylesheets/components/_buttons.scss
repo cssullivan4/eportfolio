@@ -1,7 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-
+.return-page {
+    height: 7.5%;
+    width: auto;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    z-index: 99;
+    cursor: pointer;
+}
 .return-to-top {
     display: none;
     z-index: 1100;

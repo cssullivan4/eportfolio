@@ -1,72 +1,65 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
         </nav>
 </div>
+
 <div class="container" ng-controller="PageBack">
-<div class="container-fluid padding white buffer padding text-type">
-        <p class="lead text-center">"The McKamey Volunteer Portal (MVP) provides a centralized location for information on current adoptable animals to assist in training, care, and placement. The MVP is designed for use by McKamey volunteers and staff members."</p>
+
+
+ <!-- return button -->
+    <a href="/a_developer" target="_top">
+        <img src="/images/icons/b2p-btn.svg" id="btn-back" class="return-page" alt="Back to Fresh Developer" title="Back to Fresh Developer">
+    </a>
+   
+<div class="container-fluid card-intro">
+        <p class="lead">"The McKamey Volunteer Portal (MVP) provides a centralized location for information on current adoptable animals to assist in training, care, and placement. The MVP is designed for use by McKamey volunteers and staff members."</p>
 </div>
-<a href="/a_developer#projects"><img src="/images/icons/b2p-btn.svg" id="btn-back" alt="Back to Fresh Developer" title="Back to Fresh Developer"></a>
-<div class="container-fluid padding white buffer padding text-type">
-            <div class="wrap">
-                <a href="/images/projects/mvp/mvp-1.jpg" target="_blank">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/projects/mvp/mvp-1.jpg"/>
-                        <div class="title-box-b">Welcome Screen</div>
-                    </div>
-                </div></a>
-                <a href="/images/projects/mvp/mvp-2-1.jpg" target="_blank">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/projects/mvp/mvp-2-1.jpg"/>
-                        <div class="title-box-b">Donations</div>
-                    </div>
-                </div></a>
-                <a href="/images/projects/mvp/mvp-2.jpg" target="_blank">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/projects/mvp/mvp-2.jpg"/>
-                        <div class="title-box-b">User Landing Page</div>
-                    </div>
-                </div></a>
-                <a href="/images/projects/mvp/mvp-3.jpg" target="_blank">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/projects/mvp/mvp-3.jpg"/>
-                        <div class="title-box-b">View of Animal Profile</div>
-                    </div>
-                </div></a>
-            </div>
+
+
+<!-- IMG GALLERY (1) -->
+<div class="container-fluid card-intro" ng-controller="GalleryCtrl">
+    <div class="img-gallery" data-featherlight-gallery data-featherlight-filter="a">
+            <a class="gallery" href="/images/projects/mvp/mvp-1.jpg">
+                <img src="/images/projects/mvp/mvp-1.jpg" alt="Welcome Screen"/>
+            </a>
+            <a class="gallery" href="/images/projects/mvp/mvp-2-1.jpg">
+                <img src="/images/projects/mvp/mvp-2-1.jpg" alt="Donations"/>
+            </a>
+            <a class="gallery" href="/images/projects/mvp/mvp-2.jpg">
+                <img src="/images/projects/mvp/mvp-2.jpg" alt="User Landing Page"/>
+            </a>
+            <a class="gallery" href="/images/projects/mvp/mvp-3.jpg">
+                <img src="/images/projects/mvp/mvp-3.jpg" alt="View of Animal Profile"/>
+            </a>
         </div>
+</div>
+
+
 
 <div class="container-fluid">
-    <div class="col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">
+    <div class="col-md-5 col-sm-7 col-xs-10 tag-green-left">
         <h1>#STUDENT PROJECT</h1>
     </div>
-    <!-- <div class="col-md-3 col-sm-5 buffer padding green black-shadow pull-right card-right text-left">
-            <h1>#PROJECT</h1>
-        </div> -->
 </div>
-<div class="container-fluid">
-    <div class="row col-md-6 col-sm-6 col-xs-12 buffer padding text-type white pull-left card-left">
-            <dl>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>PROMPT</h3></dt>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <dl>
+                <dt><h3><span>>>>&nbsp;</span>PROMPT</h3></dt>
                 <dd>Create web app to be deployed and presented. No specifics given to what the build must contain, but that it must be forked.</dd>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>TIMEFRAME</h3></dt>
+                <dt><h3><span>>>>&nbsp;</span>TIMEFRAME</h3></dt>
                 <dd>2 weeks to deploy & 1 week to prepare for presentation</dd>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>IDEA</h3></dt> 
+                <dt><h3><span>>>>&nbsp;</span>IDEA</h3></dt> 
                 <dd>Create portal for volunteers at the McKamey Animal Center to share their observations of the animals for other volunteers and staff. This project would allow volunteers to effectively access all animals available for adoption. Keeping in mind the use would most likely occur at the center on phones, specific information is available for quick access. The site was built responsively, as well.</dd>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>TEAM MEMBERS</h3></dt>
+                <dt><h3><span>>>>&nbsp;</span>TEAM MEMBERS</h3></dt>
                 <dd>Rachael Adams, Patricia Bazemore, Will Hearn, <strong>C. Samuel Sullivan</strong></dd>
             </dl>
-        </div>
-    <div class="row col-md-6 col-sm-6 col-xs-12 buffer padding text-type white pull-right card-right">
-            <dl>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>FEATURES</h3></dt>
+</div>
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <dl>
+                <dt><h3><span>>>>&nbsp;</span>FEATURES</h3></dt>
                     <ul> 
                     <li>3 views (visitor, user session, admin session)</li>
                         <li>Search animal by shelter ID or any identifier</li>
@@ -76,83 +69,85 @@
                         <li>Donations page, powered by Stripe & SendGrid</li>
                     </ul>
 
-                <dt><h3><span class="green-type">>>>&nbsp;</span>ROLE</h3></dt>
+                <dt><h3><span>>>>&nbsp;</span>ROLE</h3></dt>
                 <dd>Front-end, Navigation/Footer toggle controller, UX, Lead architecture, Miscelleaneous collaboration throughout</dd>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>APPROACH</h3></dt>
+                <dt><h3><span>>>>&nbsp;</span>APPROACH</h3></dt>
                 <dd>Agile development using Trello, beginning an architecture led by me + several hand-drawn "wireframes." Team met goal of deploying fully-functional web-application within timeframe.</dd>
-                <dt><h3><span class="green-type">>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
+                <dt><h3><span>>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
+                <ul class="list-unstyled">
+                        <li>AngularJS, ExpressJS, jQuery, NodeJS, Bootstrap, Stripe, SendGrid, MySQL, Amazon Web Services</li>
+                    </ul>
+        </dl>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-6 card-green-intro-naked-left">
+            <dl>
+                <dt><h3><span>>>>&nbsp;</span>PROMPT</h3></dt>
+                <dd>Create web app to be deployed and presented. No specifics given to what the build must contain, but that it must be forked.</dd>
+                <dt><h3><span>>>>&nbsp;</span>TIMEFRAME</h3></dt>
+                <dd>2 weeks to deploy & 1 week to prepare for presentation</dd>
+                <dt><h3><span>>>>&nbsp;</span>IDEA</h3></dt> 
+                <dd>Create portal for volunteers at the McKamey Animal Center to share their observations of the animals for other volunteers and staff. This project would allow volunteers to effectively access all animals available for adoption. Keeping in mind the use would most likely occur at the center on phones, specific information is available for quick access. The site was built responsively, as well.</dd>
+                <dt><h3><span>>>>&nbsp;</span>TEAM MEMBERS</h3></dt>
+                <dd>Rachael Adams, Patricia Bazemore, Will Hearn, <strong>C. Samuel Sullivan</strong></dd>
+            </dl>
+        </div>
+    <div class="row col-md-6 card-green-intro-naked-right">
+            <dl>
+                <dt><h3><span>>>>&nbsp;</span>FEATURES</h3></dt>
+                    <ul> 
+                    <li>3 views (visitor, user session, admin session)</li>
+                        <li>Search animal by shelter ID or any identifier</li>
+                        <li>Comment, Delete, Flag on animal pages</li>
+                        <li>Create, Edit, Delete, View profiles</li>
+                        <li>Search user by any keyword or identifier</li>
+                        <li>Donations page, powered by Stripe & SendGrid</li>
+                    </ul>
+
+                <dt><h3><span>>>>&nbsp;</span>ROLE</h3></dt>
+                <dd>Front-end, Navigation/Footer toggle controller, UX, Lead architecture, Miscelleaneous collaboration throughout</dd>
+                <dt><h3><span>>>>&nbsp;</span>APPROACH</h3></dt>
+                <dd>Agile development using Trello, beginning an architecture led by me + several hand-drawn "wireframes." Team met goal of deploying fully-functional web-application within timeframe.</dd>
+                <dt><h3><span>>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
                 <ul class="list-unstyled">
                         <li>AngularJS, ExpressJS, jQuery, NodeJS, Bootstrap, Stripe, SendGrid, MySQL, Amazon Web Services</li>
                     </ul>
         </dl>
     </div>
 </div>
-
-<div class="container-fluid padding white buffer padding">
-    <div class="wrap">
-        <a href="/images/projects/mvp/mvp-4.jpg" target="_blank">
-            <div class="box">
-                <div class="box-inner-b">
-                    <img src="/images/projects/mvp/mvp-4.jpg"/>
-                    <div class="title-box-b">View User Profile</div>
-                </div>
-            </div>
-        </a>
-            <a href="/images/projects/mvp/mvp-5.jpg" target="_blank">
-                <div class="box">
-                    <div class="box-inner-b">
-                        <img src="/images/projects/mvp/mvp-5.jpg"/>
-                        <div class="title-box-b">Edit User Profile</div>
-                    </div>
-                </div>
-            </a>
-                <a href="/images/projects/mvp/mvp-6.jpg" target="_blank">
-                    <div class="box">
-                        <div class="box-inner-b">
-                            <img src="/images/projects/mvp/mvp-6.jpg"/>
-                            <div class="title-box-b">Admin Controls Page</div>
-                        </div>
-                    </div>
+<!-- IMG GALLERY (2) -->
+<div class="container-fluid card-intro" ng-controller="GalleryCtrl">
+        <div class="img-gallery" data-featherlight-gallery data-featherlight-filter="a">
+                <a class="gallery" href="/images/projects/mvp/mvp-4.jpg">
+                    <img src="/images/projects/mvp/mvp-4.jpg" alt="View User Profile"/>
                 </a>
-                    <a href="/images/projects/mvp/mvp-7.jpg" target="_blank">
-                        <div class="box">
-                            <div class="box-inner-b">
-                                <img src="/images/projects/mvp/mvp-7.jpg"/>
-                                <div class="title-box-b">Add animal to database</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/images/projects/mvp/mvp-8.jpg" target="_blank">
-                        <div class="box">
-                            <div class="box-inner-b">
-                                <img src="/images/projects/mvp/mvp-8.jpg"/>
-                                <div class="title-box-b">User List</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="/images/projects/mvp/mvp-arch.png" target="_blank">
-                        <div class="box">
-                            <div class="box-inner-b">
-                                <img src="/images/projects/mvp/mvp-arch.png"/>
-                                <div class="title-box-b">App architecture</div>
-                            </div>
-                        </div>
-                    </a>
-        </div>
-</div>
-<div class="container-fluid white padding buffer" ng-controller="GalleryCtrl">
-        <div class="auto" data-featherlight-gallery data-featherlight-filter="a">
-            <a class="gallery img-tile" href="/images/projects/mvp/mvp-group.jpg">
-                <img src="/images/projects/mvp/mvp-group.jpg" class="buffer-img center-cropped-b" alt="Team in front of early architecture (L-R: Rachael Adams, C. Samuel Sullivan, Patricia Bazemore, Will Hearn)"/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/mvp/treat-training.jpg">
-                <img src="/images/projects/mvp/treat-training.jpg" class="buffer-img center-cropped-b" alt="Talking to volunteers"/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/mvp/group-question.jpg">
-                <img src="/images/projects/mvp/group-question.jpg" class="buffer-img center-cropped-b" alt="Team talking to volunteers (L-R: Will Hearn, Patricia Bazemore, C. Samuel Sullivan)"/>
-            </a>
-        </div>
-</div>
+                <a class="gallery" href="/images/projects/mvp/mvp-5.jpg">
+                    <img src="/images/projects/mvp/mvp-5.jpg" alt="Edit User Profile"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/mvp-6.jpg">
+                    <img src="/images/projects/mvp/mvp-6.jpg" alt="Admin Controls Page"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/mvp-7.jpg">
+                    <img src="/images/projects/mvp/mvp-7.jpg" alt="Add animal to database"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/mvp-8.jpg">
+                    <img src="/images/projects/mvp/mvp-8.jpg" alt="User List"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/mvp-arch.png">
+                    <img src="/images/projects/mvp/mvp-arch.png" alt="App architecture"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/mvp-group.jpg">
+                    <img src="/images/projects/mvp/mvp-group.jpg" alt="Team in front of early architecture (L-R: Rachael Adams, C. Samuel Sullivan, Patricia Bazemore, Will Hearn)"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/treat-training.jpg">
+                    <img src="/images/projects/mvp/treat-training.jpg" alt="Talking to volunteers"/>
+                </a>
+                <a class="gallery" href="/images/projects/mvp/group-question.jpg">
+                    <img src="/images/projects/mvp/group-question.jpg" alt="Team talking to volunteers (L-R: Will Hearn, Patricia Bazemore, C. Samuel Sullivan)"/>
+                </a>
+            </div>
+    </div>
 </div>
 <!-- <div class="container-fluid">
     <div class="row col-md-5 col-sm-7 buffer padding green black-shadow pull-left card-left text-right">

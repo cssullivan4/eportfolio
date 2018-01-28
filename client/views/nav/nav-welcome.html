@@ -15,6 +15,8 @@
                     <!-- START DESIGNER -->
                     <span class="color-yellow">
                     <em><span ng-if="currentPath === '/a_designer'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span ng-if="currentPath === '/a_designer/showing/branding'">/EMERGING DESIGNER&nbsp;</span></em>
+                    <em><span ng-if="currentPath === '/a_designer/showing/makerism'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span ng-if="currentPath === '/a_designer/showing/web'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span ng-if="currentPath === '/a_designer/showing/web/icons_from_csamandme'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span ng-if="currentPath === '/a_designer/showing/web/tablet_doodles'">/EMERGING DESIGNER&nbsp;</span></em>
@@ -25,7 +27,6 @@
                     <em><span ng-if="currentPath === '/a_designer/showing/web/mmorpg/alpha'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span ng-if="currentPath === '/a_designer/showing/web/portfolio'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span  ng-if="currentPath === '/a_designer/showing/web/misc_designs'">/EMERGING DESIGNER&nbsp;</span></em>
-                    <!-- <em><span class="yellow" ng-if="currentPath === '/a_designer/showing/print'"><small>>>>PRINT WORK&nbsp;</small></span></em> -->
                     <em><span ng-if="currentPath === '/a_designer/showing/print'">/EMERGING DESIGNER&nbsp;</span></em>
                     <em><span ng-if="currentPath === '/a_designer/showing/print/emoji_series'">/EMERGING DESIGNER&nbsp;
                     </span></em>
@@ -89,7 +90,7 @@
             <!-- </a> -->
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6" ng-controller="ScrollCtrl">
-            <a href="/welcomes_you" ng-click="scrollTo()">
+            <a href="/welcomes_you">
                 <img src="/images/icons/csamandme.tr.svg" class="brand-logo" ng-if="currentPath === '/welcomes_you'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.tr.svg" class="brand-logo" ng-if="currentPath === '/reaching_out'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.bl.svg" class="brand-logo" ng-if="currentPath === '/a_social_entrepreneur'" alt="Click logo to return to welcome page">
@@ -97,6 +98,8 @@
                 <img src="/images/icons/csamandme.rd.svg" class="brand-logo" ng-if="currentPath === '/a_politi'" alt="Click logo to return to welcome page">
                 <!-- START DESIGNER -->
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer'" alt="Click logo to return to welcome page">
+                <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/branding'" alt="Click logo to return to welcome page">
+                <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/makerism'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/icons_from_csamandme'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/tablet_doodles'" alt="Click logo to return to welcome page">
@@ -106,7 +109,7 @@
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/mmorpg/characters'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/mmorpg/alpha'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/portfolio'" alt="Click logo to return to welcome page">
-                <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/misc_design'" alt="Click logo to return to welcome page">
+                <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/web/misc_designs'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/print'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/print/emoji_series'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.yw.svg" class="brand-logo" ng-if="currentPath === '/a_designer/showing/print/book_series'" alt="Click logo to return to welcome page">
@@ -119,7 +122,6 @@
                 <!-- END DESIGNER -->
 
                 <!-- START DEVELOPER -->
-                <!-- <img src="/images/icons/csamandme.gr.svg" class="brand-logo" ng-if="currentPath === '/a_developer' || '/a_developer/presenting_project/mckamey_volunteer_portal' && '/a_developer/presenting_project/covalence_store' && '/a_developer/presenting_work/Sean_Wright' && '/a_developer/presenting_project/student_work'"> -->
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" ng-if="currentPath === '/a_developer'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.gr.svg" alt="Click logo to return to welcome page" class="brand-logo" ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'">
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" alt="Click logo to return to welcome page" ng-if="currentPath === '/a_developer/presenting_project/covalence_store'">

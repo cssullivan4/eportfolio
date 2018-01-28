@@ -137,10 +137,6 @@
             outline-style: dashed;
         }
         font-family: $copy;
-
-        // @include respond-to('xxsmall') {
-        //     @include card-pull(false, right, small);
-        // }
     }
 
     &-left {
@@ -167,6 +163,20 @@
         @include format-default($buffer-vertical, $padding);
         @include respond-to('xxsmall') {
             @include box-shadow-sm($green);
+        }
+        &-naked-left {
+            @include card-green;
+            @include card-pull(false, left, normal);
+            @include format-default($buffer-vertical, 1em 1em 1em 1.5em);
+        }
+        &-naked-right {
+            @include card-green;
+            @include card-pull(false, right, normal);
+            @include format-default($buffer-vertical, $padding); 
+            
+            a img {
+                float: left;
+            }
         }
         .alt {
             a {
@@ -230,6 +240,20 @@
     background-color: $green;       
     }
 
+}
+
+/**
+ * _PAGE: contact.html
+ */
+.tag-black {
+    &-left {
+        @include box-shadow(false, right, $green);
+        @include card-pull(true, left, normal);
+        @include format-default($buffer-vertical, $padding);
+    
+        background-color: $black;
+        color: white;
+    }
 }
 
 /**
@@ -374,6 +398,7 @@
 
     background-color: $red;
 }
+
 /**
  * _PAGE: scientist.html
  */
@@ -451,3 +476,8 @@
 
     background-color: $purple;
 }
+
+/**
+ * _PAGE: reaching_out.html
+ */
+
