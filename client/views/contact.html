@@ -5,26 +5,54 @@
                 </div>
         </nav>
 </div>
+
+
 <div class="container white">
-<div class="row col-md-offset-2 col-md-3 col-sm-10 col-xs-offset-1 col-xs-10 padding">
+<div class="row col-md-offset-2 col-md-3 col-sm-10 col-xs-offset-1 col-xs-10">
     <br><br><img src="/images/icons/contact-icon-b.svg" alt="Icon: Contact Me" class="img-responsive center-block">
 </div>
-<div class="col-md-5 hidden-sm hidden-xs text-center text-type buffer padding">
+
+<div class="col-md-5 hidden-sm hidden-xs text-center card-plain">
     <h2><strong>PUT ME TO WORK</strong></h2>
     <p class="lead">Maybe you want to collaborate? Maybe you are interested in work? Did you want to hire me? Or maybe you just want to reach out and say hi. For whatever you need, you can reach me below!</p>
-    <!-- <p>If <em>requesting</em> a resume or CV, please note in the area below.</p> -->
 </div>
-<div class="row hidden-lg hidden-md col-sm-5 col-xs-12 text-center text-type buffer padding">
+<div class="row hidden-lg hidden-md col-sm-5 col-xs-12 card-intro">
         <h2><strong>PUT ME TO WORK</strong></h2>
         <p class="lead">Maybe you want to collaborate? Maybe you are interested in work? Did you want to hire me? Or maybe you just want to reach out and say hi. For whatever you need, you can reach me below!</p>
-        <!-- <p>If <em>requesting</em> a resume or CV, please note in the area below.</p> -->
     </div>
 </div>
-<div class="container-fluid" ng-controller="ContactCtrl">
-    <div class="row col-md-5 col-sm-11 col-xs-11 black green-shadow pull-left card-left white-type text-right buffer padding">
+
+
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-black-left">
         <h1>#CONTACT</h1>
     </div>
-    <div class="row col-md-8 col-sm-12 col-xs-12 white green-shadow pull-right card-right type-text buffer padding">
+</div>
+
+<!-- (sm) -->
+<div class="container-fluid" ng-controller="ContactCtrl">
+    <div class="row hidden-lg hidden-md card-green-intro">
+        <form id="myform" method="post" class="my-form">
+                <div class="form-group center-block">
+                    <p class="lead"><em>Your Name*</em></p>
+                    <input class="form-control ask" type="text" name="from_name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <p class="lead"><em>What's your Email?*</em></p>
+                    <input class="form-control ask" type="email" name="reply_to" name="from_name" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <p class="lead"><em>What do you want to say?*</em></p>
+                    <textarea class="form-control ask" type="text" name="message_html" placeholder="Message" rows="4"></textarea>
+                </div>
+                <div class="center-block"><h2><input class="green btn btn-lg" style="color: white;" type="submit" value="SEND"></h2></div>
+            </form>
+    </div>
+</div>
+
+<!-- (md) -->
+<div class="container-fluid" ng-controller="ContactCtrl">
+    <div class="row col-md-8 hidden-sm hidden-xs card-green-right">
     <form id="myform" method="post" class="my-form">
         <div class="form-group center-block">
             <p class="lead"><em>Your Name*</em></p>
@@ -38,7 +66,7 @@
             <p class="lead"><em>What do you want to say?*</em></p>
             <textarea class="form-control ask" type="text" name="message_html" placeholder="Message" rows="4"></textarea>
         </div>
-        <div class="center-block"><h2><input class="green white-type btn btn-lg" type="submit" value="SEND"></h2></div>
+        <div class="center-block"><h2><input class="green btn btn-lg" style="color: white;" type="submit" value="SEND"></h2></div>
     </form>
 </div>
 </div>

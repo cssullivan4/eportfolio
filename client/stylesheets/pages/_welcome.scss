@@ -1,0 +1,124 @@
+.portal-block {
+    z-index: 1030;
+    background-color: white;
+    // height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    text-align: center;
+
+    h1 {
+        font-size: 2em;
+    }
+    img {
+        height: 10%;
+        width: 10%;
+    }
+    div p {
+        @include underline(true, wavy);
+    }
+
+    @include respond-to('xxsmall') {
+        margin-bottom: 10em;
+    }
+}
+.work-block {
+    div {
+        &-hover {
+            background-image: url(/images/icons/portfolio-icon-b.svg);
+            background-size: contain;
+            height: 17.5rem;
+            width: 17.5rem;
+        }
+        background-image: url(/images/icons/portfolio-icon-bw.svg);
+        background-size: contain;
+        height: 17.5rem;
+        width: 17.5rem;
+    }
+
+}
+
+.learn-block {
+        &-hover {
+            background-image: url(/images/icons/about-logo-c.svg);
+            background-size: contain;
+            height: 16rem;
+            width: 16rem;
+        }
+        background-image: url(/images/icons/about-logo-bw.svg);
+        background-size: contain;
+        height: 16rem;
+        width: 16rem;     
+}
+
+
+
+.portal-block-b {
+    background-color: $base;
+    z-index: 1030;
+}
+.section-1 {
+    height: 100vh;
+
+    h1 {
+        text-align: center;
+        font-weight: 300;
+        white-space: normal;
+
+        @include respond-to('xxsmall') {
+            font-size: 7em;
+        }
+        @include respond-to('medium') {
+            font-size: 10em;
+        }
+    }
+    span {
+        @include underline(true, dotted);
+
+        @include respond-to('xsmall') {
+            letter-spacing: 0.1em;
+            margin: 2vh 0 29vh 0;
+            white-space: normal;
+        }
+    }
+
+    @include respond-to('xxsmall') {
+        height: 100vh;
+    }
+}
+.section-2 {
+    width: 100vw;
+    height: 100%;
+
+    a:nth-of-type(2) { @include underline(true, dotted); background-color: $purple; }
+    a:nth-of-type(3) { @include underline(true, dotted); background-color: $red; }
+    a:nth-of-type(4) { @include underline(true, dotted); background-color: $yellow; }
+    a:nth-of-type(5) { @include underline(true, dotted); background-color: $green; }
+
+    p:nth-of-type(1) a:nth-of-type(1) { 
+        @include underline(true, dotted);
+        background-color: $blue; 
+    }
+    p:nth-of-type(2) a { 
+        @include underline(true, wavy);
+        background-color: $white; 
+    }
+    p:nth-of-type(2) { text-align: center; }
+    span { @include underline(true, dotted); letter-spacing: 0.06em; white-space: nowrap; }
+    
+    @include respond-to('xxsmall') {
+
+        line-height: 2em;
+        font-size: 2em;
+        padding: 0 5%;
+        text-align: center;
+    }
+    @include respond-to('medium') {
+        font-size: 3.75em;
+        line-height: 2.5em;
+        padding: 0 1.25em;
+        text-align: left;
+    }
+}

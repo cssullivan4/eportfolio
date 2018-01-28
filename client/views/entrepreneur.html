@@ -1,5 +1,5 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
@@ -7,20 +7,36 @@
 </div>
 <!-- PAGE CONTENT  -->
 <div class="container-fluid">
-    <!-- PICTURES  -->
     <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12 padding buffer white">
-            <p class="lead text-center">I first heard of <em>social entrepreneur</em> in 2015 while serving on the leadership board with She's the First. The organization was looking inward at its efficiences, and I had the fortune to start dialogue with a brilliant woman named Tara Abrahams during this process. She told me that my aspirations made her think me a social entrepreneur, and it all clicked. In fact, the 2nd definition provided below was how she described it to me. I've run with it ever since.</p>
-            <!-- <p class="lead text-center">Here will be much more of an intro leading into why this section exists, etc. I will define my take on social entrepreneur, so we will be on the same page. I will connect this interest into 4 specific recent experiences for takeaways and 1 reference to explore a history of participation and interest. Building up why I ascribe myself to this phrase.</p> -->
-        
+        <div class="card-intro">
+            <p class="lead">I first heard of <em>social entrepreneur</em> in 2015 while serving on the leadership board with She's the First. The organization was looking inward at its efficiences, and I had the fortune to start dialogue with a brilliant woman named Tara Abrahams during this process. She told me that my aspirations made her think me a social entrepreneur, and it all clicked. In fact, the 2nd definition provided below was how she described it to me. I've run with it ever since.</p>
         </div>
-    <div class="row col-md-8 col-sm-9 col-xs-12 padding buffer white blue-shadow pull-right card-right">
-        <div class="col-md-4 col-sm-4 col-xs-12">
+    <!-- SOC (sm) -->
+    <div class="card-blue-intro hidden-lg hidden-md">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="/images/icons/people-icon-c.svg" class="img-icon center-block"/>
+            </div>
+            <div class="col-xs-8">
+                <h3>SOCIAL ENTREPRENEUR <small>/ˈsōSHəl / ˌäntrəprəˈnər/ </small></h3>
+                <em>noun</em>
+            </div>
+        </div>
+        <div>
+                <ol>
+                    <li>A person who establishes an enterprise with the aim of solving social problems or effecting social change.</li>
+                    <li>A person responding to the rate at which social change is happening.</li>
+                </ol><br>
+        </div>
+    </div>
+    <!-- SOC (md) -->
+    <div class="row col-md-8 hidden-sm hidden-xs card-blue-right">
+        <div class="col-md-4">
             <img src="/images/icons/people-icon-c.svg" class="img-responsive img-size center-block"/>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-12 text-type">
+        <div class="col-md-8">
             <h3>SOCIAL ENTREPRENEUR <small>/ˈsōSHəl / ˌäntrəprəˈnər/ </small></h3>
-            <p>noun</p>
+            <em>noun</em>
             <ol>
                 <li>A person who establishes an enterprise with the aim of solving social problems or effecting social change.</li>
                 <li>A person responding to the rate at which social change is happening.</li>
@@ -30,129 +46,144 @@
     </div>
 </div>
 <div class="container-fluid">
-        <div class="row col-md-5 col-sm-7 col-xs-10 blue black-shadow padding buffer pull-left card-left text-right">
-            <h1>#BACKGROUND</h1>
-        </div>
-    <div class="row col-md-9 col-sm-11 col-xs-12 white blue-shadow padding buffer pull-right card-right text-type">
-        <p class="lead text-center">The consummate over-committer, I have always found myself in numerous groups, organizations, and clubs from an early age. From serving on a county-wide youth advisory board for the department of education at 15, to founding a student organization at university at 20, to serving on a leadership board for the latter organization at 24...I've spent a lot of time working with others, honing my skills, and advancing what I see as good.</p>
-        <p class="lead text-center">Much to the ire of my friends over the years, working & making an impact has been something I couldn't shake. As I've matured and begun my career, my past meandering through different spaces has lent me with quite a pronounced perspective. Impact is a lense I see through; it's a motivation, and it is innate.</p>
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-blue">
+        <h1>#BACKGROUND</h1>
     </div>
 </div>
+
+<!-- BKGD (sm) -->
+<div class="container-fluid card-blue-intro hidden-lg hidden-md">    
+    <p class="lead">The consummate over-committer, I have always found myself in numerous groups, organizations, and clubs from an early age. From serving on a county-wide youth advisory board for the department of education at 15, to founding a student organization at university at 20, to serving on a leadership board for the latter organization at 24...I've spent a lot of time working with others, honing my skills, and advancing what I see as good.</p>
+    <p class="lead">Much to the ire of my friends over the years, working & making an impact has been something I couldn't shake. As I've matured and begun my career, my past meandering through different spaces has lent me with quite a pronounced perspective. Impact is a lense I see through; it's a motivation, and it is innate.</p>
+</div>
+
+<!-- BKGD (md) -->
+<div class="container-fluid hidden-sm hidden-xs">    
+    <div class="row col-md-9 hidden-sm hidden-xs card-blue-right">
+        <p class="lead">The consummate over-committer, I have always found myself in numerous groups, organizations, and clubs from an early age. From serving on a county-wide youth advisory board for the department of education at 15, to founding a student organization at university at 20, to serving on a leadership board for the latter organization at 24...I've spent a lot of time working with others, honing my skills, and advancing what I see as good.</p>
+        <p class="lead">Much to the ire of my friends over the years, working & making an impact has been something I couldn't shake. As I've matured and begun my career, my past meandering through different spaces has lent me with quite a pronounced perspective. Impact is a lense I see through; it's a motivation, and it is innate.</p>
+    </div>
+</div>
+
 <!-- START PICTURES -->
-<div class="container-fluid padding buffer white text-type" style="
-padding-bottom: 3em;" ng-controller="ScrollCtrl">
-        <p class="lead text-center">The following are relevant examples of non-profit organizations I have worked or volunteered with to better give an idea of why I think myself a social entrepreneur. Each of these experiences will have marked skills or takeaways following them.</p><br>  
-        <div class="text-center col-md-offset-3" style="clear: right;" ng-controller="TilePopulation">
-            <!-- NEED TO REDO SECTION, REMOVING CONFLICTING TAGS, DISPLAY W DATA BINDING -->
-             <!-- <div class="row"> -->
-               <div class="col-md-2 col-sm-6 col-xs-6"ng-repeat="aspiro in aspirations | limitTo:4:0">
+<div class="container-fluid card-intro" style="padding-bottom: 3em;" ng-controller="ScrollCtrl">
+        <p class="lead text-center">The following are relevant examples of non-profit organizations I have worked or volunteered with to better give an idea of why I think myself a social entrepreneur. Each of these experiences will have marked skills or takeaways following them.</p>
+        <br>
+    <div class="alt hidden-lg hidden-md" ng-controller="TilePopulation">
+        <div ng-repeat="aspiro in aspirations">
+            <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
+                <div class="row col-md-12">
+                    <img src="{{ aspiro.image }}" class="img-fix">
+                </div>  
+            </a>
+        </div>
+    </div>
+    <!-- ROW 1 (md)--> 
+        <div class="text-center col-md-offset-2 row hidden-sm hidden-xs" ng-controller="TilePopulation">
+               <div class="col-md-2 "ng-repeat="aspiro in aspirations | limitTo:5:0">
                     <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
                         <div class="img-box">
-                            <img src="{{ aspiro.image }}" alt="Avatar" class="image img-responsive thumbnail">
-                                <div class="overlay">
-                                    <div class="text">{{aspiro.title}}</div>
+                            <img src="{{ aspiro.image }}" alt="Avatar" class="img-fix img-responsive thumbnail">
+                                <div class="text">
+                                    <h4>{{ aspiro.title }}</h4>
+                                    <small>{{ aspiro.date }}</small>
                                 </div>
                         </div>
                     </a>
                 </div>
             </div>
-            <!-- <div class="row"> -->
-        <div class="text-center col-md-offset-3" style="clear: left;" ng-controller="TilePopulation">
-            <div class="col-md-2 col-sm-6 col-xs-6 white" ng-repeat="aspiro in aspirations | limitTo:8:4">
-                    <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
-                        <div class="img-box">
-                            <img src="{{ aspiro.image }}" alt="Avatar" class="image thumbnail img-responsive">
-                                <div class="overlay">
-                                    <div class="text">{{aspiro.title}}</div>
-                                </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-            <!-- <div class="wrap">
-                <a href="#STF" ng-click="scrollTo()"><div class="box">
-                    <div class="box-inner">
-                        <img src="/images/se-grid/stf-bw.svg" class="img-responsive thumbnail">
-                        <div class="title-box">She's the First 2012-2017</div>
-                    </div>
-                    </div>
-                </a> -->
-        <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <!-- <a href="#CCE" ng-click="scrollTo()">
-                <div class="box">
-                    <div class="box-inner">
-                    <img src="/images/se-grid/ymca-cce-bw.svg" class="img-responsive thumbnail">
-                    <div class="title-box">Center for Civic Engagement 2012-2017</div>
-                    </div>
-                </div>
-            </a> -->
-        <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <!-- <a href="#CDM" ng-click="scrollTo()">
-                <div class="box">
-                    <div class="box-inner">
-            <img src="/images/se-grid/cdm-bw.svg" class="img-responsive thumbnail">
-            <div class="title-box">Creative Discovery Museum 2014-2017</div>
-                    </div>
-                </div>
-            </a> -->
-        <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <!-- <a href="#ArtsBuild" ng-click="scrollTo()">
-                <div class="box">
-                    <div class="box-inner">
-            <img src="/images/se-grid/artsbuild-bw.svg" class="img-responsive thumbnail">
-            <div class="title-box">ArtsBuild 2015-2016</div>
-                    </div>
-                </div>
-            </a> -->
-        <!-- <div class="row"> -->
-                <!-- <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 text-center"> -->
-                        <!-- <a href="#CAC" ng-click="scrollTo()">
-                            <div class="box">
-                                <div class="box-inner">
-                        <img src="/images/se-grid/utk-cac-bw.svg" class="img-responsive thumbnail">
-                        <div class="title-box">Cultural Attractions Committee 2011-2013</div>
-                                </div></div>
-                        </a> -->
-        <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-            <!-- <a href="#HOPOK" ng-click="scrollTo()">
-                <div class="box">
-                    <div class="box-inner">
-            <img src="/images/se-grid/hopok-bw.svg" class="img-responsive thumbnail">
-            <div class="title-box">Haiti Outreach Program of Knoxville 2011-2013</div>
-                    </div>
-                </div>
-            </a> -->
-        <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-                <!-- <a href="#CTC" ng-click="scrollTo()">
-                    <div class="box">
-                        <div class="box-inner">
-                <img src="/images/se-grid/cha-theatre-centre-bw.svg" class="img-responsive thumbnail">
-                <div class="title-box">Chattanooga Theatre Centre 2008-2015</div>
-                        </div></div>
-                </a> -->
-            <!-- <div class="col-md-2 col-sm-2 text-center"> -->
-                <!-- <a href="#MAS" ng-click="scrollTo()">
-                    <div class="box">
-                        <div class="box-inner">
-                <img src="/images/se-grid/mckamey-bw.svg" class="img-responsive thumbnail">
-                <div class="title-box">McKamey Animal Center 2011, 2017</div>
-                        </div>
-                    </div>
-                </a> -->
+    <!-- ROW 2 (md) -->
+    <div class="text-center col-md-offset-3 row hidden-sm hidden-xs" ng-controller="TilePopulation">
+            <div class="col-md-2"ng-repeat="aspiro in aspirations | limitTo:10:5">
+                 <a href="{{ aspiro.anchor }}" ng-click="scrollTo()">
+                     <div class="img-box">
+                         <img src="{{ aspiro.image }}" alt="Avatar" class="img-fix img-responsive thumbnail">
+                             <div class="text">
+                                 <h4>{{ aspiro.title }}</h4>
+                                 <small>{{ aspiro.date }}</small>
+                             </div>
+                     </div>
+                 </a>
+             </div>
+         </div>
+     </div>
         </div>
                 </div>
             </div>
-            <span id="STF"></span>
 </div>
 <!-- END PICTURES  -->
-<!-- START STF  -->
+
+<!-- START SPOKEN -->
+<span id="spoken"></span>
 <div class="container-fluid">
-    <div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-blue">
+        <h1>#SPOKEN</h1>
+    </div>
+</div>
+
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> COACH <small>2017-Present</small></h2>
+    <ul>
+        <li>Spoken is a service using technology to make English instruction & acquisition not only more accessible for those in low income countries, it is tailored to help people of all-levels become more proficient in the spoken & written language</li>
+        <li>Over 100+ hours of instruction and guided lessons</li>
+    </ul>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="col-md-9 card-blue-right">
+        <h2><span>>>></span> COACH <small>2017-Present</small></h2>
+        <ul>
+            <li>Spoken is a service using technology to make English instruction & acquisition not only more accessible for those in low income countries, it is tailored to help people of all-levels become more proficient in the spoken & written language</li>
+            <li>Over 100+ hours of instruction and guided lessons</li>
+        </ul>
+    </div>
+</div>
+<!-- END SPOKEN -->
+
+<!-- START STF  -->
+<span id="STF"></span>
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-7 col-xs-10 tag-blue">
         <h1>#SHE'S THE FIRST</h1>
     </div>
-    <div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type pull-right card-right">
-        <h2><span class="blue-type">>>></span> UNIVERSITY <small>@ University of Tennessee, Knoxville / 2011-2014</small></h2>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> UNIVERSITY <small>@ University of Tennessee, Knoxville / 2011-2014</small></h2>
+    <ul>
+        <li>Founded  Chapter:  assembled  exec  team,  drafted  constitution,  registered on campus, chartered nationally</li>
+        <li>Established  local identity   &   culture;   Recruitment;   &   Increase   exposure,   program   relative   events,   &   promote mission   &   issues</li>
+        <li>Awarded "Social Butterfly" in 2013 for outstanding social media presences, beating out all other chapters on campuses across the country
+        <li>Consulted   with   staff   at   the   national   level   on   gender-neutral   branding   initiatives</li>
+        <li>Delivered presentation with vice president about recruitment, retention, & messaging concerning gender at national summit in 2014</li>
+        <li>Help moderate breakout session on gender inclusivity at national summit in 2015</li>  
+    </ul>
+    <br>
+    <kbd>#EventPlanning</kbd> <kbd>#PublicSpeaking</kbd> <kbd>#SocialMedia</kbd> <kbd>#Branding&Identity</kbd> <kbd>#DocumentDrafting</kbd>
+</div>
+<a href="/a_politi#UN">
+    <div class="container-fluid hidden-lg hidden-md card-red-intro">
+        <h2><span>>>></span> XX SUMMIT <small>@ New York City / October 11, 2012</small></h2>
+        <blockquote><em>Click through to read about participating in the XX Summit and the inaugural International Day of the Girl with the United Nations.</em></blockquote>
+    </div>
+</a>
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> LEADERSHIP BOARD<small> Operations Chair / 2015 - 2017</small></h2>
+    <ul>
+        <li>Founding  member  charged  with  establishing  alumni  association,  creating  engagement, building   community   &   pipeline,   &   streaming   data   analytics   of   members</li>
+        <li>Assist in authoring by-laws</li>
+        <li>Served as Chair of Operations for 2 terms, including documenting, keeping records, communicating between board & organization, & researching best practices</li>
+        <li>Engagement & community building consisted of programming events, newsletters, </li>
+    </ul>
+    <br>
+    <kbd>#DocumentDrafting</kbd> <kbd>#Communications</kbd> <kbd>#EventPlanning</kbd>
+</div>
+
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 col-sm-12 col-xs-12 card-blue-right">
+        <h2><span>>>></span> UNIVERSITY <small>@ University of Tennessee, Knoxville / 2011-2014</small></h2>
         <ul>
             <li>Founded  Chapter:  assembled  exec  team,  drafted  constitution,  registered on campus, chartered nationally</li>
             <li>Established  local identity   &   culture;   Recruitment;   &   Increase   exposure,   program   relative   events,   &   promote mission   &   issues</li>
@@ -176,54 +207,106 @@ padding-bottom: 3em;" ng-controller="ScrollCtrl">
         </p> -->
         
     </div>
+
     <a href="/a_politi#UN">
-    <div class="row col-md-9 col-sm-11 col-xs-11 white red-shadow buffer padding text-type card-right pull-right">
-            <h2><span class="red-type">>>></span> XX SUMMIT <small>@ New York City / October 11, 2012</small></h2>
+    <div class="row col-md-9 col-sm-11 col-xs-11 card-red">
+            <h2><span>>>></span> XX SUMMIT <small>@ New York City / October 11, 2012</small></h2>
             <blockquote><em>Click through to read about participating in the XX Summit and the inaugural International Day of the Girl with the United Nations.</em></blockquote>
     </div>
     </a>
-    <div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type card-right pull-right">
-        <h2><span class="blue-type">>>></span> LEADERSHIP BOARD<small> Operations Chair / 2015 - 2017</small></h2>
+    <div class="row col-md-9 col-sm-11 col-xs-11 card-blue-right">
+        <h2><span>>>></span> LEADERSHIP BOARD<small> Operations Chair / 2015 - 2017</small></h2>
         <ul>
         <li>Founding  member  charged  with  establishing  alumni  association,  creating  engagement, building   community   &   pipeline,   &   streaming   data   analytics   of   members</li>
-        <li>Assit in authoring by-laws</li>
+        <li>Assist in authoring by-laws</li>
         <li>Served as Chair of Operations for 2 terms, including documenting, keeping records, communicating between board & organization, & researching best practices</li>
         <li>Engagement & community building consisted of programming events, newsletters, </li>
         </ul>
-            <!-- <p>Now this is a story all about how my life got twist, turned upside-down, and I'd like to take a moment. Just sit right there. I'll tell you all about how I became the Prince of Bel-Air.
-                * tara abrahams * moderate talk * salesforce w/ katie * ideas concepts for events * constitution etc * work across things * programmatic * media collab *
-            </p> -->
-            <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
             <br>
             <kbd>#DocumentDrafting</kbd> <kbd>#Communications</kbd> <kbd>#EventPlanning</kbd>
-            <span id="CCE"></span>
     </div>
+</div>
 <!-- END STF  -->
+
+
 <!-- START CCE -->
-<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
-    <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
+<span id="CCE"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-10 col-xs-10 tag-blue">
+        <h2>#CENTER FOR CIVIC ENGAGEMENT</h3>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#CENTER FOR CIVIC ENGAGEMENT</h1>
+    </div>
 </div>
-<a href="/a_politi#CCE">
-<div class="row col-md-9 col-sm-12 col-xs-12 white red-shadow buffer padding text-type card-right pull-right">
-        <h2><span class="red-type">>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-red-intro">
+    <a href="/a_politi#CCE">
+        <h3><span>>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
         <blockquote><em>Click through to read about volunteering with the center to learn high schoolers across the state of Tennessee about international government, politics, systems - in the vein of the United Nations - and state government through the YMCA of Middle Tennessee.</em></blockquote>
-        <span id="CDM"></span>
+    </a>    
 </div>
-</a>
+
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <a href="/a_politi#CCE">
+        <div class="row col-md-9 card-red">
+            <h2><span>>>></span> CONFERENCE STAFF/COMPONENT LEADER <small>@ Nashville, TN / 2012 - Present</small></h2>
+            <blockquote><em>Click through to read about volunteering with the center to learn high schoolers across the state of Tennessee about international government, politics, systems - in the vein of the United Nations - and state government through the YMCA of Middle Tennessee.</em></blockquote>
+        </div>
+    </a>   
+</div>
+
 <!-- END CCE -->
+
+
 <!-- START CDM -->
-<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-left card-left">
-    <h1>#CREATIVE DISCOVERY MUSEUM</h1>
+<span id="CDM"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-10 col-xs-10 tag-blue">
+        <h2>#CREATIVE DISCOVERY MUSEUM</h3>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#CREATIVE DISCOVERY MUSEUM</h1>
+    </div>    
 </div>
-<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type card-right pull-right">
-        <h2><span class="blue-type">>>></span> MUSEUM EDUCATOR <small>@ Chattanooga, TN / 2014 - 2017</small></h2>
+
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> MUSEUM EDUCATOR <small>@ Chattanooga, TN / 2014 - 2017</small></h2>
     <ul>
         <li>Floor Interpretation, including skill, developmental, & interest assessment</li>
         <li>Curriculum-based Lessons, ranging skill levels across arts, literature, cooking, & science</li>
         <li>Exhibit Maintenance & Design, from cleaning & updating to sewing, painting, building</li>
-        <li>Special Programming, camps execution, special events, & special needs event instruction & assistance</li>
+        <li>Special Programming, camps execution, special events, & special education <em>(see below)</em> event instruction & assistance</li>
         <li>Creative Discovery is a nationally ranked Top 10 children's museum</li>
     </ul>
+    <img class="img-icon img-responsive center-block" src="/images/modals/se/cdm-camp.jpg" alt="Photo from Extreme Science Camp 7/2015 of Diet Coke + Mentos demonstration outside the Creative Discovery Museum on the plaza. C. Sam is far right backing away from recently pulled trigger.">
+    <br>
+    <kbd>#BehavioralAssessment</kbd> <!--<kbd>#Problem Solving</kbd>--> <kbd>#Teaching</kbd> <kbd>#PublicSpeaking</kbd> <kbd>#Cooking</kbd> <br> <kbd>#LaserCutter</kbd> <kbd>#CustomerService</kbd>
+</div>
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> Club Discovery <small>@ Chattanooga, TN / 2015 - Present</small></h2>
+    <ul>
+        <li>Club Discovery is a low-sensory, after hours, free-to-the-public program for not-typically-developing (including disabilities) children ages 5-12 + peers</li>
+        <li>Educational assistant & lead, 2015-2017</li>
+        <li>Volunteer at-large, 2017-present</li>
+        <li>Participated in IronKids (of IronMan triatholon) races 2015-2016</li>
+    </ul>
+    <br>
+    <kbd>#ProgramLead</kbd> <kbd>#Mentorship</kbd> <kbd>#SpecialEducation</kbd>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-blue-right">
+        <h2><span>>>></span> MUSEUM EDUCATOR <small>@ Chattanooga, TN / 2014 - 2017</small></h2>
+        <ul>
+            <li>Floor Interpretation, including skill, developmental, & interest assessment</li>
+            <li>Curriculum-based Lessons, ranging skill levels across arts, literature, cooking, & science</li>
+            <li>Exhibit Maintenance & Design, from cleaning & updating to sewing, painting, building</li>
+            <li>Special Programming, camps execution, special events, & special education <em>(see below)</em> event instruction & assistance</li>
+            <li>Creative Discovery is a nationally ranked Top 10 children's museum</li>
+        </ul>
       
       <div ng-controller="Modal">
             <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
@@ -238,16 +321,41 @@ padding-bottom: 3em;" ng-controller="ScrollCtrl">
                         </div>
       </div>
         <br>
-        <kbd>#BehavioralAssessment</kbd> <!--<kbd>#Problem Solving</kbd>--> <kbd>#Teaching</kbd> <kbd>#PublicSpeaking</kbd> <kbd>#Cooking</kbd> <br><kbd>#SpecialEducation</kbd> <kbd>#LaserCutter</kbd> <kbd>#CustomerService</kbd>
-        <span id="ArtsBuild"></span>
+        <kbd>#BehavioralAssessment</kbd> <!--<kbd>#Problem Solving</kbd>--> <kbd>#Teaching</kbd> <kbd>#PublicSpeaking</kbd> <kbd>#Cooking</kbd> <br> <kbd>#LaserCutter</kbd> <kbd>#CustomerService</kbd>
+    </div>
+    <div class="row col-md-9 card-blue-right">
+            <h2><span>>>></span> Club Discovery <small>@ Chattanooga, TN / 2015 - Present</small></h2>
+        <ul>
+            <li>Club Discovery is a low-sensory, after hours, free-to-the-public program for not-typically-developing (including disabilities) children ages 5-12 + peers</li>
+            <li>Educational assistant & lead, 2015-2017</li>
+            <li>Volunteer at-large, 2017-present</li>
+            <li>Participated in IronKids (of IronMan triatholon) races 2015-2016</li>
+        </ul>
+            <br>
+            <kbd>#ProgramLead</kbd> <kbd>#Mentorship</kbd> <kbd>#SpecialEducation</kbd>
+    </div>
 </div>
 <!-- END CDM -->
+
+
 <!-- START ARTSBUILD -->
-<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
-    <h1>#ARTSBUILD</h1>
+<span id="ArtsBuild"></span>
+<div class="container-fluid">
+    <div class="row col-md-5 col-sm-10 col-xs-10 tag-blue">
+        <h1>#ARTSBUILD</h1>
+    </div>
 </div>
-<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding text-type pull-right card-right">
-        <h2><span class="blue-type">>>></span> Holmberg Arts Leadership Institute <small>@ Chattanooga, TN / 2015</small></h2>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> Holmberg Arts Leadership Institute <small>@ Chattanooga, TN / 2015</small></h2>
+</div>
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> CCC GRANTS<small> @ Chattanooga, TN / 2016</small></h2>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-blue-right">
+        <h2><span>>>></span> Holmberg Arts Leadership Institute <small>@ Chattanooga, TN / 2015</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
     <!-- <p>Now this is a story all about how my life got twist, turned upside-down, and I'd like to take a moment. Just sit right there. I'll tell you all about how I became the Prince of Bel-Air. ***case study: houston museum***</p> -->
     <!-- start<div ng-controller="Modal"> -->
@@ -258,19 +366,40 @@ padding-bottom: 3em;" ng-controller="ScrollCtrl">
       <!-- <img id="myImg" src="/images/modals/se/artsbuild-4.jpg" alt="Holmberg Class at Tennessee Arts Commission, Oct 2015 (Middle-Right, Second Row: C. Sam)" width="160" height="auto"> -->
     <br>
     <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
-</div>
-<div class="row col-md-9 col-sm-11 col-xs-11 white blue-shadow buffer padding text-type pull-right card-right">
-        <h2><span class="blue-type">>>></span> CCC GRANTS<small> @ Chattanooga, TN / 2016</small></h2>
+    </div>
+    <div class="row col-md-9 col-sm-11 col-xs-11 card-blue-right">
+        <h2><span>>>></span> CCC GRANTS<small> @ Chattanooga, TN / 2016</small></h2>
         <!-- <h1 class="text-center"><strong>COMING SOON.</strong></h1> -->
-        <span id="CAC"></span>
+    </div>
 </div>
 <!-- END ARTSBUILD -->
+
+
 <!-- START CULTURAL ATTRACTIONS COMMITTEE -->
-<div class="row col-md-5 col-sm-11 col-xs-11 blue black-shadow buffer padding pull-left card-left text-right">
-    <h1>#CULTURAL ATTRACTIONS COMMITTEE</h1>
+<span id="CAC"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-blue">
+        <h3>#CULTURAL ATTRACTIONS COMMITTEE</h3>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#CULTURAL ATTRACTIONS COMMITTEE</h1>
+    </div>    
 </div>
-<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding pull-right card-right text-type">
-        <h2><span class="blue-type">>>></span> MEMBER <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> MEMBER <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
+    <ul>
+        <li>Plan,   contract,   promote,   program,   &   execute   relevant   cultural   events   on   campus   & downtown</li>
+        <li>Balanced   a   $250k   budget   keeping   in   mind   demographics   &   interests   of   student   body</li>
+        <li>Contribute to earning the 2012 Charles R. Burchett Extraordinary Contributions to Campus Life presented to Central Programming Council</li>
+    </ul>
+    <br>
+    <kbd>#EventPlanning</kbd> <kbd>#DocumentDrafting</kbd> <kbd>#Promotion</kbd>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 col-sm-12 col-xs-12 card-blue-right">
+        <h2><span>>>></span> MEMBER <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
         <ul>
         <li>Plan,   contract,   promote,   program,   &   execute   relevant   cultural   events   on   campus   & downtown</li>
         <li>Balanced   a   $250k   budget   keeping   in   mind   demographics   &   interests   of   student   body</li>
@@ -278,16 +407,25 @@ padding-bottom: 3em;" ng-controller="ScrollCtrl">
         </ul>
         <br>
         <kbd>#EventPlanning</kbd> <kbd>#DocumentDrafting</kbd> <kbd>#Promotion</kbd>
-        <span id="HOPOK"></span>
     </div>
-<!-- END CULTURAL ATTRACTIONS COMMITTEE -->
-<!-- START HAITI OUTREACH PROGRAM OF KNOXVILLE -->
-<div class="row col-md-5 col-sm-11 col-xs-11 blue black-shadow padding buffer pull-left card-left text-right">
-    <h1>#HAITI OUTREACH PROGRAM OF KNOXVILLE</h1>
 </div>
-<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow buffer padding pull-right card-right text-type">
-        <h2><span class="blue-type">>>></span> GIVE HAITI HOPE <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
-        <ul>
+<!-- END CULTURAL ATTRACTIONS COMMITTEE -->
+
+
+<!-- START HAITI OUTREACH PROGRAM OF KNOXVILLE -->
+<span id="HOPOK"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-blue">
+        <h3>#HAITI OUTREACH PROGRAM OF KNOXVILLE</h3>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#HAITI OUTREACH PROGRAM OF KNOXVILLE</h1>
+    </div>    
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> GIVE HAITI HOPE <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
+    <ul>
         <li>Served on the advertising committee for the "Breaking Ground at Southbound" benefit concert in 2011</li>
         <li>Served on the planning committee for "Fierce & Fancy Formals Fashion Show & Dress Sale" (F&F) gala in 2012</li>
         <li>Served as Chair of Membership on executive board 2012, charged with recruitment & retention</li>
@@ -295,32 +433,81 @@ padding-bottom: 3em;" ng-controller="ScrollCtrl">
         <li>Spent a lot time programming events, advertising by speaking to organizations across campus at their meetings</li>
     </ul>
     <br>
-    <kbd>#PublicSpeaking</kbd> <kbd>#EventPlanning</kbd> <kbd>#Advertising</kbd>
-    <span id="CTC"></span>
+    <kbd>#PublicSpeaking</kbd> <kbd>#EventPlanning</kbd> <kbd>#Advertising</kbd>    
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 card-blue-right">
+        <h2><span>>>></span> GIVE HAITI HOPE <small>@ University of Tennessee, Knoxville / 2011 - 2013</small></h2>
+        <ul>
+            <li>Served on the advertising committee for the "Breaking Ground at Southbound" benefit concert in 2011</li>
+            <li>Served on the planning committee for "Fierce & Fancy Formals Fashion Show & Dress Sale" (F&F) gala in 2012</li>
+            <li>Served as Chair of Membership on executive board 2012, charged with recruitment & retention</li>
+            <li>Volunteered time additionally with Haiti Outreach Program of Knoxville for the F&F gala in 2013</li>
+            <li>Spent a lot time programming events, advertising by speaking to organizations across campus at their meetings</li>
+        </ul>
+        <br>
+        <kbd>#PublicSpeaking</kbd> <kbd>#EventPlanning</kbd> <kbd>#Advertising</kbd>
+    </div>
 </div>
 <!-- END HAITI OUTREACH PROGRAM OF KNOXVILLE -->
-<!-- START CHA THEATRE CENTRE -->
-<div class="row col-md-5 col-sm-11 col-xs-11 buffer padding pull-left card-left text-right blue black-shadow">
-    <h1>#CHATTANOOGA THEATRE CENTRE</h1>
+
+
+<!-- START CHA THEATRE CENTRE -->    
+<span id="CTC"></span>
+<div class="container-fluid">
+    <div class="row hidden-lg hidden-md col-sm-7 col-xs-10 tag-blue">
+        <h2>#CHATTANOOGA THEATRE CENTRE</h2>
+    </div>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#CHATTANOOGA THEATRE CENTRE</h1>
+    </div>
 </div>
-<div class="row col-md-9 col-sm-12 col-xs-12 buffer padding white blue-shadow card-right pull-right text-type">
-        <h2><span class="blue-type">>>></span> VOLUNTEER <small>/ 2008 - 2015</small></h2>
-        <span id="MAS"></span>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+    <h2><span>>>></span> VOLUNTEER <small>/ 2008 - 2015</small></h2>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 col-sm-12 col-xs-12 card-blue-right">
+        <h2><span>>>></span> VOLUNTEER <small>/ 2008 - 2015</small></h2>
+        
+    </div>
 </div>
 <!-- END CHA THEATRE CENTRE -->
+
+
 <!-- START MISC -->
-<div class="row col-md-5 col-sm-11 col-xs-11 buffer blue black-shadow pull-left padding text-right card-left">
-    <h1>#McKAMEY ANIMAL CENTER</h1>
-</div>
-<div class="row col-md-9 col-sm-12 col-xs-12 white blue-shadow padding buffer text-type card-right pull-right">
-    <h2> <span class="blue-type">>>></span> VOLUNTEER <small>/ 2011</small></h2>
-    <!-- <h1 class="text-center"><strong>COMING SOON.</h1></strong> -->
-</div>
-<a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
-<div class="row col-md-9 col-sm-12 white green-shadow padding buffer text-type pull-right card-right">
-        <h2> <span class="green-type">>>></span> PROJECT: VOLUNTEER PORTAL <small>/ 2017</small></h2>
-        <blockquote><em>Click through to read about web app project in conjuction with McKamey Animal Center & Covalence.</em></blockquote>
+<span id="MAS"></span>
+<div class="container-fluid">
+    <div class="hidden-lg hidden-md col-sm-7 col-xs-10 tag-blue">
+        <h2>#McKAMEY ANIMAL CENTER</h2>
     </div>
-</a>
+    <div class="row col-md-5 hidden-sm hidden-xs tag-blue">
+        <h1>#McKAMEY ANIMAL CENTER</h1>
+    </div>
+</div>
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-blue-intro">
+        <h2> <span>>>></span> VOLUNTEER <small>/ 2011</small></h2>
+</div>
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+    <a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
+        <h2> <span>>>></span> PROJECT: VOLUNTEER PORTAL <small>/ 2017</small></h2>
+        <blockquote><em>Click through to read about web app project in conjuction with McKamey Animal Center & Covalence.</em></blockquote>
+    </a>
+</div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-9 col-sm-12 col-xs-12 card-blue-right">
+        <h2> <span>>>></span> VOLUNTEER <small>/ 2011</small></h2>
+        <!-- <h1 class="text-center"><strong>COMING SOON.</h1></strong> -->
+    </div>
+    <a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
+        <div class="row col-md-9 col-sm-12 card-green-right">
+            <h2> <span>>>></span> PROJECT: VOLUNTEER PORTAL <small>/ 2017</small></h2>
+            <blockquote><em>Click through to read about web app project in conjuction with McKamey Animal Center & Covalence.</em></blockquote>
+        </div>
+    </a>
 </div>
 <!-- END MISC -->

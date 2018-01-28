@@ -1,16 +1,48 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
         </nav>
 </div>
+
 <div class="container" ng-controller="PageBack">
-    <div class="container-fluid padding white buffer text-type">
-            <p class="lead text-center">Visit <a href="http://www.seanwright.pro/" class="underline" target="_blank">SeanWright.pro</a> to explore client's services & quick resume.</p>
+
+    <!-- return button -->
+    <a href="/a_developer">
+        <img src="/images/icons/b2p-btn.svg" id="btn-back" class="return-page" alt="Back to Fresh Developer" title="Back to Fresh Developer">
+    </a>
+
+    <div class="container-fluid card-green-intro">
+            <h2>Visit <span class="alt"><a href="http://www.seanwright.pro/" target="_blank">SeanWright.pro</a></span> to explore client's services & quick resume.</h2>
     </div>
-    <a href="/a_developer#projects"><img src="/images/icons/b2p-btn.svg" id="btn-back" alt="Back to Fresh Developer" title="Back to Fresh Developer"></a>
-    <div class="container center-block margin-bottom-neg white padding text-type" ng-controller="DevPopulation">    
+<!-- <div class="container-fluid card-intro">
+    <div class="text-center col-md-offset-2 row hidden-sm hidden-xs" ng-controller="TilePopulation">
+            <div class="col-md-2 "ng-repeat="proj in projects | limitTo:5:0">
+                 <a href="{{ proj.image }}" ng-click="scrollTo()">
+                     <div class="img-box">
+                         <img src="{{ proj.image }}" alt="{{ proj.caption }}" class="img-fix img-responsive thumbnail">
+                             <div class="text">
+                                 <h4>{{ aspiro.title }}</h4>
+                                 <small>{{ aspiro.date }}</small>
+                             </div>
+                     </div>
+                 </a>
+             </div>
+         </div>
+        </div>
+    <div class="container-fluid card-intro" ng-controller="GalleryCtrl">
+        <div ng-controller="DevPopulation">
+        <div class="img-gallery" data-featherlight-gallery data-featherlight-filter="a" ng-repeat="proj in projects | limitTo:5:0">
+                <a class="gallery" href="{{ proj.image }}">
+                    <img src="{{ proj.image }}" alt="{{ proj.caption }}"/>
+                </a>
+            </div>
+        </div>
+    <div class="container card-intro" ng-controller="DevPopulation">
+        
+        
+
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin-bottom-xl" ng-repeat="proj in projects">
                     <div class="row">
                         <a href="{{ proj.image }}" target="_blank">
@@ -18,11 +50,11 @@
                         </a>
                     
                     <div class="row text-center type-gray type-cap _075 text-type margin-top-md">
-                        <p>{{proj.caption}}</p>
+                        <p>{{ proj.caption }}</p>
                     </div>
                 </div>
         </div>
-    </div>
+    </div> -->
         <!-- <div class="container-fluid padding white padding text-type" ng-controller="DevPopulation">
                 <div class="wrap col-md-2 col-sm-6 col-xs-6" ng-repeat="proj in projects">
                     <a href="{{ proj.image }}" target="_blank">
@@ -34,29 +66,55 @@
                     </div></a>
                 </div>
         </div> -->
-    
-        <div class="container-fluid">
-                <div class="col-md-5 col-sm-7 col-xs-12 buffer padding green black-shadow pull-left card-left text-right">
-                    <h1>#PROMOTIONAL SITE</h1>
-                </div>
-                <!-- <div class="col-md-3 col-sm-5 buffer padding green black-shadow pull-right card-right text-left">
-                        <h1>#PROJECT</h1>
-                    </div> -->
-            </div>
-            <div class="container-fluid">
-                <div class="row col-md-6 col-sm-12 col-xs-12 buffer padding text-type white pull-left card-left">
+
+<div class="container-fluid">
+    <div class="col-md-5 col-sm-7 col-xs-10 tag-green-left">
+        <h1>#PROMOTIONAL SITE</h1>
+    </div>
+</div>
+
+    <!-- (sm) -->
+    <div class="container-fluid hidden-lg hidden-md card-green-intro">
+            <dl>
+                    <dt><h3><span>>>>&nbsp;</span>ASK</h3></dt>
+                    <dd>Create promotional site narrow in scope that can be utilized with mouse, track pad, arrow keys, and touch while being optimized across screen sizes.</dd>
+                    <dt><h3><span>>>>&nbsp;</span>TIMEFRAME</h3></dt>
+                    <dd>5-day build from scratch.</dd>
+                    <dt><h3><span>>>>&nbsp;</span>APPROACH</h3></dt>
+                    <dd>The challenge beyond building & deploying within a week's time was deciding the design direction as the client's industry does not lean on promotional sites for work; there were few examples to look towards or show client. Deciding to narrow the scope to 1) seeking work and 2) on a campaign, and after few phone calls & email exchanges with the client, the site came together quite fast. </dd>
+                </dl>
+    </div>
+    <div class="container-fluid hidden-lg hidden-md card-green-intro">
+            <dl>
+                    <dt><h3><span>>>>&nbsp;</span>FEATURES</h3></dt>
+                        <ul> 
+                            <li>Full-page slides</li>
+                            <li>Mouse, track pad, arrow keys, touch to maneuver site</li>
+                            <li>Contact & connection buttons</li>
+                            <li>Custom design, including vector portrait, Parthenon, TN flag, and different states.</li>
+
+                        </ul>
+                    <dt><h3><span>>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
+                    <ul class="list-unstyled">
+                            <li>AngularJS, ExpressJS, jQuery, NodeJS, Bootstrap, Fullpage.js, Amazon Web Services, Figma</li>
+                        </ul>
+            </dl>
+    </div>
+    <!-- (md) -->
+            <div class="container-fluid hidden-sm hidden-xs">
+                <div class="row col-md-6 card-green-intro-naked-left">
                         <dl>
-                            <dt><h3><span class="green-type">>>>&nbsp;</span>ASK</h3></dt>
+                            <dt><h3><span>>>>&nbsp;</span>ASK</h3></dt>
                             <dd>Create promotional site narrow in scope that can be utilized with mouse, track pad, arrow keys, and touch while being optimized across screen sizes.</dd>
-                            <dt><h3><span class="green-type">>>>&nbsp;</span>TIMEFRAME</h3></dt>
+                            <dt><h3><span>>>>&nbsp;</span>TIMEFRAME</h3></dt>
                             <dd>5-day build from scratch.</dd>
-                            <dt><h3><span class="green-type">>>>&nbsp;</span>APPROACH</h3></dt>
+                            <dt><h3><span>>>>&nbsp;</span>APPROACH</h3></dt>
                             <dd>The challenge beyond building & deploying within a week's time was deciding the design direction as the client's industry does not lean on promotional sites for work; there were few examples to look towards or show client. Deciding to narrow the scope to 1) seeking work and 2) on a campaign, and after few phone calls & email exchanges with the client, the site came together quite fast. </dd>
                         </dl>
                     </div>
-                <div class="row col-md-6 col-sm-12 col-xs-12 buffer padding text-type white pull-right card-right">
+                <div class="row col-md-6 card-green-intro-naked-right">
                         <dl>
-                            <dt><h3><span class="green-type">>>>&nbsp;</span>FEATURES</h3></dt>
+                            <dt><h3><span>>>>&nbsp;</span>FEATURES</h3></dt>
                                 <ul> 
                                     <li>Full-page slides</li>
                                     <li>Mouse, track pad, arrow keys, touch to maneuver site</li>
@@ -64,7 +122,7 @@
                                     <li>Custom design, including vector portrait, Parthenon, TN flag, and different states.</li>
 
                                 </ul>
-                            <dt><h3><span class="green-type">>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
+                            <dt><h3><span>>>>&nbsp;</span>TECHNOLOGIES</h3></dt>
                             <ul class="list-unstyled">
                                     <li>AngularJS, ExpressJS, jQuery, NodeJS, Bootstrap, Fullpage.js, Amazon Web Services, Figma</li>
                                 </ul>

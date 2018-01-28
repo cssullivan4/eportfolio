@@ -1,5 +1,5 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
@@ -9,52 +9,30 @@
         <div ng-include="stu"></div>
 </div>
 <div class="container" ng-controller="PageBack">
-    <a href="/a_developer#projects"><img src="/images/icons/b2p-btn.svg" id="btn-back" alt="Back to Fresh Developer" title="Back to Fresh Developer"/></a>
+
+     <!-- return button -->
+     <a href="/a_developer" target="_top">
+        <img src="/images/icons/b2p-btn.svg" id="btn-back" class="return-page" alt="Back to Fresh Developer" title="Back to Fresh Developer">
+    </a>
     
+
     <div class="container-fluid row">
-        <div class="col-md-5 col-md-7 green white-shadow padding buffer pull-left text-right">
+        <div class="col-md-5 col-sm-7 col-xs-10 tag-green-left">
             <h1>#TWITTER CLONE</h1>
         </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row col-md-6 col-sm-6 buffer padding text-type white pull-right card-right" ng-controller="GalleryCtrl">
-        <div class="auto" data-featherlight-gallery data-featherlight-filter="a">
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-1.png">
-                <img src="/images/projects/stu/chirp-1.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-2.png">
-                <img src="/images/projects/stu/chirp-2.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-3.png">
-                <img src="/images/projects/stu/chirp-3.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-4.png">
-                <img src="/images/projects/stu/chirp-4.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-5.png">
-                <img src="/images/projects/stu/chirp-5.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-6.png">
-                <img src="/images/projects/stu/chirp-6.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-7.png">
-                <img src="/images/projects/stu/chirp-7.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-            <a class="gallery img-tile" href="/images/projects/stu/chirp-8.png">
-                <img src="/images/projects/stu/chirp-8.png" class="buffer-img center-cropped-b" alt=""/>
-            </a>
-        </div>
-        </div>
-        <div class="row col-md-6 col-sm-6 buffer padding text-type white pull-left card-left">
-            <dl>
+    </div> 
+
+<!-- (sm) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <dl>
                 <dt>
-                    <h3><span class="green-type">>>>&nbsp;</span>IDEA</h3>
+                    <h3><span>>>>&nbsp;</span>IDEA</h3>
                 </dt>
                 <dd>
                     Create clone of Twitter using database to make CRUD-worthy.
                 </dd>
                 <dt>
-                    <h3><span class="green-type">>>>&nbsp;</span>FEATURES</h3>
+                    <h3><span>>>>&nbsp;</span>FEATURES</h3>
                 </dt>
                     <ul>
                         <li>HTML, CSS, JavaScript, jQuery, ExpressJS, MySQL</li>
@@ -63,8 +41,107 @@
                     </ul>
                 
                 <dt>
-                    <h3><span class="green-type">>>>&nbsp;</span>SOURCE</h3>
-                    <dd>Download code from <strong><span class="green-type"><a class="underline-2" href="https://github.com/cssullivan4/full-stack-lab-16" target="_blank">GitHub</a></span></strong>.</dd>
+                    <h3><span>>>>&nbsp;</span>SOURCE</h3>
+                    <dd>Download code from <strong><span><a href="https://github.com/cssullivan4/full-stack-lab-16" target="_blank">GitHub</a></span></strong>.</dd>
+                </dt>
+            </dl>
+</div>
+<div class="container-fluid hidden-lg hidden-md">
+        <div class="card-green-intro" ng-controller="GalleryCtrl">
+                <div class="img-gallery" data-featherlight-gallery data-featherlight-filter="a">
+                    <a class="gallery" href="/images/projects/stu/chirp-1.png">
+                        <img src="/images/projects/stu/chirp-1.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-2.png">
+                        <img src="/images/projects/stu/chirp-2.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-3.png">
+                        <img src="/images/projects/stu/chirp-3.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-4.png">
+                        <img src="/images/projects/stu/chirp-4.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-5.png">
+                        <img src="/images/projects/stu/chirp-5.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-6.png">
+                        <img src="/images/projects/stu/chirp-6.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-7.png">
+                        <img src="/images/projects/stu/chirp-7.png" alt=""/>
+                    </a>
+                    <a class="gallery" href="/images/projects/stu/chirp-8.png">
+                        <img src="/images/projects/stu/chirp-8.png" alt=""/>
+                    </a>
+                </div>
+            </div>
+        </div>
+<!-- (md) -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="row col-md-6 card-green-intro-naked-right" ng-controller="GalleryCtrl">
+        <div class="img-gallery" data-featherlight-gallery data-featherlight-filter="a">
+            <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-1.png">
+                <img src="/images/projects/stu/chirp-1.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-2.png">
+                <img src="/images/projects/stu/chirp-2.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-3.png">
+                <img src="/images/projects/stu/chirp-3.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-4.png">
+                <img src="/images/projects/stu/chirp-4.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-5.png">
+                <img src="/images/projects/stu/chirp-5.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-6.png">
+                <img src="/images/projects/stu/chirp-6.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-7.png">
+                <img src="/images/projects/stu/chirp-7.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <a class="gallery" href="/images/projects/stu/chirp-8.png">
+                <img src="/images/projects/stu/chirp-8.png" alt=""/>
+            </a>
+        </div>
+    </div>
+</div>
+        <div class="row col-md-6 card-green-intro-naked-left">
+            <dl>
+                <dt>
+                    <h3><span>>>>&nbsp;</span>IDEA</h3>
+                </dt>
+                <dd>
+                    Create clone of Twitter using database to make CRUD-worthy.
+                </dd>
+                <dt>
+                    <h3><span>>>>&nbsp;</span>FEATURES</h3>
+                </dt>
+                    <ul>
+                        <li>HTML, CSS, JavaScript, jQuery, ExpressJS, MySQL</li>
+                        <li>Choose user to post as</li>
+                        <li>Select "chirp," edit, or delete.</li>
+                    </ul>
+                
+                <dt>
+                    <h3><span>>>>&nbsp;</span>SOURCE</h3>
+                    <dd>Download code from <strong><span><a href="https://github.com/cssullivan4/full-stack-lab-16" target="_blank">GitHub</a></span></strong>.</dd>
                 </dt>
             </dl>
         </div>

@@ -67,6 +67,14 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             templateUrl: 'views/portfolio/projects/proj-stu-chirp.html',
             controller: 'PagesCtrl'
         })
+        .when('/a_designer/showing/branding', {
+            templateUrl: 'views/portfolio/brand.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_designer/showing/makerism', {
+            templateUrl: 'views/portfolio/maker.html',
+            controller: 'PagesCtrl'
+        })
         .when('/a_designer/showing/print', {
             templateUrl: 'views/portfolio/print.html',
             controller: 'PagesCtrl'

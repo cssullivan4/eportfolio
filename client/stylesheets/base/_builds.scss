@@ -1,0 +1,483 @@
+// -----------------------------------------------------------------------------
+// This file contains basic builds, like divs, boxes, containers.
+// -----------------------------------------------------------------------------
+
+/**
+ * Card Intro
+ * /entrepreneur.html, scientist.html, politi.html, contact.html
+ */
+.card-intro {
+    @include format-default($buffer-vertical, $padding);
+
+    .alt {
+        @include respond-to('xxsmall') {
+            h4 {
+                font-size: 0.85em;
+                text-align: center;
+            }
+        }
+        @include respond-to('medium') {
+            h4 {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        margin: 0 auto;
+
+        // width: 75%;
+        div {
+            display: inline-block;
+        }
+
+        
+    }
+    background-color: $white;
+    clear: both;
+    font-family: $copy-alternate;
+    text-align: center;
+}
+
+.card-plain {
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $white;
+    font-size: $font-md;
+}
+
+/**
+ * _PAGE: contact.html
+ */
+
+.tag-contact {
+    @include box-shadow(false, right, $green);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $black;
+}
+
+/**
+ * _PAGE: designer.html
+ */
+
+ .card-yellow {
+    &-plain {
+        @include box-shadow(false, right, $yellow);
+        @include box-shadow(true, right, $white);
+        @include card-pull(false, right, normal);
+        @include format-default($buffer-vertical, $padding);
+
+        background-color: white;
+        font-size: $font-md;
+    }
+    &-right {
+        @include box-shadow(false, right, $yellow);
+        @include box-shadow(true, right, $white);
+        @include card-pull(false, right, normal);
+        @include card-yellow;
+        
+        .title {
+            padding: $padding;
+            text-align: left;
+            // breakpoint for small: text-center
+        }
+    }
+    &-left {
+        @include box-shadow(false, left, $yellow);
+        @include box-shadow(true, left, $white);
+        @include card-pull(false, left, normal);
+        @include card-yellow;
+        
+        .title {
+            padding: $padding;
+            text-align: right;
+        // breakpoint for small: text-center
+        }
+    }
+}
+
+
+
+.tag-yellow {
+    @include box-shadow(false, left, $white);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $yellow;
+}
+
+/**
+ * _PAGE: developer.html
+ */
+
+ .card-green {
+
+    &-right {
+        @include box-shadow(false, right, $green);
+        @include card-green;
+        @include card-pull(false, right, normal);
+        @include format-default($buffer-vertical, $padding);
+        
+        .alt {
+            a {
+                @include underline(false, dotted);
+                text-decoration-color: $green;
+            }
+            dl dt {
+                margin-left: 1em;
+            }
+            dl dd {
+                margin-left: 3em;
+            }
+        }
+        .box {
+            margin-right: 0.7em;
+            padding: 0.5em;
+            outline-color: #0df8ad;
+            outline-style: dashed;
+        }
+        font-family: $copy;
+    }
+
+    &-left {
+        @include box-shadow(false, right, $green);
+        @include card-green;
+        @include card-pull(false, left, normal);
+        @include format-default($buffer-vertical, 1em 1em 1em 1.5em);
+
+        .alt a {
+            @include underline(false, dotted);
+            text-decoration-color: $green;
+        }
+        .box {
+            margin-left: 0.7em;
+            padding: 0.5em;
+            outline-color: #0df8ad;
+            outline-style: dashed;
+        }
+    }
+
+    &-intro {
+        @include box-shadow(false, right, $green);
+        @include card-green;
+        @include format-default($buffer-vertical, $padding);
+        @include respond-to('xxsmall') {
+            @include box-shadow-sm($green);
+        }
+        &-naked-left {
+            @include card-green;
+            @include card-pull(false, left, normal);
+            @include format-default($buffer-vertical, 1em 1em 1em 1.5em);
+        }
+        &-naked-right {
+            @include card-green;
+            @include card-pull(false, right, normal);
+            @include format-default($buffer-vertical, $padding); 
+            
+            a img {
+                float: left;
+            }
+        }
+        .alt {
+            a {
+                @include underline(false, dotted);
+                text-decoration-color: $green;
+            }
+            dl dt {
+                margin-left: 1em;
+            }
+            dl dd {
+                margin-left: 3em;
+            }
+        }
+        .box {
+            @include respond-to('xxsmall') {
+                padding: $padding;
+            }
+            outline-color: #0df8ad;
+            outline-style: dashed;
+        }
+        .title {
+            padding: $padding;
+            text-align: center;
+            // breakpoint for small: text-center
+        }
+        kbd {
+            white-space: nowrap;
+        }
+        background-color: $white;
+        font-size: $font-md;
+    }
+    p {
+        &:hover {
+            @include text-wash(true, $green);
+        }
+        font-size: $font-md;
+    }
+    p span::before {
+        @include text-backsplash(true, $green);
+        font-style: italic;
+    }
+
+    font-family: $copy;
+}
+
+.tag-green {
+
+    &-left {
+    @include box-shadow(false, left, $black);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $green;       
+    }
+
+    &-right {
+    @include box-shadow(false, left, $black);
+    @include card-pull(true, right, normal);
+    @include format-default($buffer-vertical, $padding);
+    
+    background-color: $green;       
+    }
+
+}
+
+/**
+ * _PAGE: contact.html
+ */
+.tag-black {
+    &-left {
+        @include box-shadow(false, right, $green);
+        @include card-pull(true, left, normal);
+        @include format-default($buffer-vertical, $padding);
+    
+        background-color: $black;
+        color: white;
+    }
+}
+
+/**
+ * _PAGE: entrepreneur.html
+ */
+.card-blue {
+    &-intro {
+        @include format-default($buffer-vertical, $padding);
+        @include respond-to('xxsmall') {
+            @include box-shadow-sm($blue);
+        }
+        .alt {
+            margin-left: 0.7em;
+            padding: 0.5em;
+            
+            p {
+                text-align: center;
+            } 
+        }
+        .box {
+            @include respond-to('xxsmall') {
+                padding: $padding;
+            }
+            outline-color: $blue;
+            outline-style: dashed;
+        }
+        span {
+            @include text-wash(false, $blue);
+        }
+
+        background-color: $white;
+        font-size: $font-md;
+    }
+    &-right {
+        @include box-shadow(false, right, $blue);
+        @include card-pull(false, right, normal);
+        @include format-default($buffer-vertical, $padding);
+    
+        span {
+            @include text-wash(false, $blue);
+        }
+        background-color: $white;
+        font-size: $font-md;
+    }
+}
+
+.tag-blue {
+    @include box-shadow(false, left, $black);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $blue;
+}
+
+/**
+ * _PAGE: politi.html
+ */
+ .card-red {
+    &-intro {
+        @include format-default($buffer-vertical, $padding);
+        @include respond-to('xxsmall') {
+            @include box-shadow-sm($red);
+        }
+        .alt {
+            @include respond-to('xxsmall') {
+                @include text-wash(false, $blue);
+                margin-left: 0;
+                padding: 0;
+            }
+            
+            margin-left: 0.7em;
+            padding: 0.5em;
+            
+            p {
+                text-align: center;
+            } 
+        }
+        .box {
+            @include respond-to('xxsmall') {
+                padding: $padding;
+            }
+            outline-color: $red;
+            outline-style: dashed;
+
+            span {
+                @include text-wash(false, $blue);
+            }
+        }
+        span {
+            @include text-wash(false, $red);
+        }
+
+        background-color: $white;
+        font-size: $font-md;
+    }
+    @include box-shadow(false, right, $red);
+    @include card-pull(false, right, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    span {
+        @include text-wash(false, $red); /* Careful about multiple */
+    }
+    background-color: $white;
+    font-size: $font-md;
+}
+.card-red {
+    &-plain {
+        @include box-shadow(false, right, $red);
+        @include box-shadow(true, right, $black);
+        @include card-pull(false, right, normal);
+        @include format-default($buffer-vertical, $padding);
+
+        background-color: white;
+        font-size: $font-md;
+    }
+    &-right {
+        @include box-shadow(false, right, $red);
+        @include box-shadow(true, right, $black);
+        @include card-pull(false, right, normal);
+        @include card-red;
+        
+
+        
+    }
+    &-left {
+        @include box-shadow(false, left, $red);
+        @include box-shadow(true, left, $black);
+        @include card-pull(false, left, normal);
+        @include card-red;
+        
+        .title {
+            padding: $padding;
+            text-align: center;
+        // breakpoint for small: text-center
+        }
+    }
+}
+.tag-red {
+    @include box-shadow(false, left, $black);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $red;
+}
+
+/**
+ * _PAGE: scientist.html
+ */
+.card-purple {
+    &-intro {
+        @include format-default($buffer-vertical, $padding);
+        @include respond-to('xxsmall') {
+            @include box-shadow-sm($purple);
+        }
+        .alt {
+            margin-left: 0.7em;
+            padding: 0.5em;
+            
+            p {
+                text-align: center;
+            } 
+        }
+        .box {
+            @include respond-to('xxsmall') {
+                padding: $padding;
+            }
+            outline-color: #f0adfe;;
+            outline-style: dashed;
+        }
+        h2 {
+            text-align: center;
+        }
+        span {
+            @include text-wash(false, $purple);
+        }
+
+        background-color: $white;
+        font-size: $font-md;
+    }
+    &-left {
+        @include box-shadow(false, right, $purple);
+        @include card-pull(false, left, normal);
+        @include format-default($buffer-vertical, $padding);
+        .alt {
+            margin-left: 0.7em;
+            padding: 0.5em;
+            
+            p {
+                text-align: center;
+            }
+        }
+        .box {
+            outline-color: #f0adfe; 
+            outline-style: dashed;
+        }
+        span {
+            @include text-wash(false, $purple);
+        }
+        background-color: $white;
+        font-size: $font-md; 
+    }
+    &-right {
+        @include box-shadow(false, right, $purple);
+        @include card-pull(false, right, normal);
+        @include format-default($buffer-vertical, $padding);
+
+        span {
+            @include text-wash(false, $purple);
+        }
+        background-color: $white;
+        font-size: $font-md;        
+    }
+
+}
+
+.tag-purple {
+    @include box-shadow(false, left, $black);
+    @include card-pull(true, left, normal);
+    @include format-default($buffer-vertical, $padding);
+
+    background-color: $purple;
+}
+
+/**
+ * _PAGE: reaching_out.html
+ */
+

@@ -1,0 +1,1257 @@
+/** 
+ * Card shadows
+ * @param: named $variable colors
+ * TODO: reconcile variables for when want background color and to hover
+ */
+/**
+ * Card Direction
+ * Card in direction, pulled, and if tag, aligns text
+ * @param: true == header tag
+ * @type: negative pixels
+ */
+/**
+ * Circle
+ * Used for sub-navigation > /designer, /stu-developer portfolio
+ */
+/**
+ * Center block
+ * Ripped from Bootstrap
+ */
+/**
+ * Default format
+ */
+/**
+ * Header Transition
+ */
+/**
+ * Image Responsiveness
+ * Gauging minimum size based around direction
+ * @type: Length / allows for 'auto'
+ */
+/**
+ * Text Hover
+ */
+/**
+ * Text Span
+ * Do we need this?
+ */
+/**
+ * Text Underlines 
+ * @param: true == toggle underline on hover
+ * @style: dotted, wavy
+ */
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box; }
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  color: #1c1c1c; }
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:visited, a:link, a:active, a:focus, a:hover, a:focus {
+  color: inherit;
+  text-decoration: none; }
+
+/**
+ * Card Intro
+ * /entrepreneur.html, scientist.html, politi.html, contact.html
+ */
+.card-intro {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  clear: both;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+  text-align: center; }
+  .card-intro .alt {
+    margin: 0 auto; }
+    @media (min-width: 20em) {
+      .card-intro .alt h4 {
+        font-size: 0.85em;
+        text-align: center; } }
+    @media (min-width: 62em) {
+      .card-intro .alt h4 {
+        font-size: 18px;
+        text-align: center; } }
+    .card-intro .alt div {
+      display: inline-block; }
+
+.card-plain {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+
+/**
+ * _PAGE: contact.html
+ */
+.tag-contact {
+  box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #1c1c1c; }
+
+/**
+ * _PAGE: designer.html
+ */
+.card-yellow-plain {
+  box-shadow: 8.5px 7.5px 0px 0px #fffb00;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-yellow-plain:hover {
+    box-shadow: 8.5px 7.5px 0px 0px white; }
+.card-yellow-right {
+  box-shadow: 8.5px 7.5px 0px 0px #fffb00;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-yellow-right:hover {
+    box-shadow: 8.5px 7.5px 0px 0px white; }
+  .card-yellow-right:hover {
+    background-color: #fffb00; }
+  .card-yellow-right li:hover {
+    background-color: white; }
+  .card-yellow-right span {
+    color: #fffb00; }
+  .card-yellow-right .title {
+    padding: 1em 1em;
+    text-align: left; }
+.card-yellow-left {
+  box-shadow: -8.5px 7.5px 0px 0px #fffb00;
+  left: -15px;
+  float: left !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-yellow-left:hover {
+    box-shadow: -8.5px 7.5px 0px 0px white; }
+  .card-yellow-left:hover {
+    background-color: #fffb00; }
+  .card-yellow-left li:hover {
+    background-color: white; }
+  .card-yellow-left span {
+    color: #fffb00; }
+  .card-yellow-left .title {
+    padding: 1em 1em;
+    text-align: right; }
+
+.tag-yellow {
+  box-shadow: -8.5px 7.5px 0px 0px white;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #fffb00; }
+
+/**
+ * _PAGE: developer.html
+ */
+.card-green {
+  font-family: "Open Sans", sans-serif; }
+  .card-green-right {
+    box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+    background-color: white;
+    font-size: 1.25em;
+    right: -15px;
+    float: right !important;
+    margin: 1.5em 0;
+    padding: 1em 1em;
+    font-family: "Open Sans", sans-serif; }
+    .card-green-right span {
+      color: #0df8ad; }
+      .card-green-right span::before {
+        color: #0df8ad; }
+    .card-green-right .alt a {
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: #0df8ad; }
+    .card-green-right .alt dl dt {
+      margin-left: 1em; }
+    .card-green-right .alt dl dd {
+      margin-left: 3em; }
+    .card-green-right .box {
+      margin-right: 0.7em;
+      padding: 0.5em;
+      outline-color: #0df8ad;
+      outline-style: dashed; }
+  .card-green-left {
+    box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+    background-color: white;
+    font-size: 1.25em;
+    left: -15px;
+    float: left !important;
+    margin: 1.5em 0;
+    padding: 1em 1em 1em 1.5em; }
+    .card-green-left span {
+      color: #0df8ad; }
+      .card-green-left span::before {
+        color: #0df8ad; }
+    .card-green-left .alt a {
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: #0df8ad; }
+    .card-green-left .box {
+      margin-left: 0.7em;
+      padding: 0.5em;
+      outline-color: #0df8ad;
+      outline-style: dashed; }
+  .card-green-intro {
+    box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+    background-color: white;
+    font-size: 1.25em;
+    margin: 1.5em 0;
+    padding: 1em 1em;
+    background-color: white;
+    font-size: 1.25em; }
+    .card-green-intro span {
+      color: #0df8ad; }
+      .card-green-intro span::before {
+        color: #0df8ad; }
+    @media (min-width: 20em) {
+      .card-green-intro {
+        box-shadow: 0px 7.5px 0px 0px #0df8ad; } }
+    .card-green-intro-naked-left {
+      background-color: white;
+      font-size: 1.25em;
+      left: -15px;
+      float: left !important;
+      margin: 1.5em 0;
+      padding: 1em 1em 1em 1.5em; }
+      .card-green-intro-naked-left span {
+        color: #0df8ad; }
+        .card-green-intro-naked-left span::before {
+          color: #0df8ad; }
+    .card-green-intro-naked-right {
+      background-color: white;
+      font-size: 1.25em;
+      right: -15px;
+      float: right !important;
+      margin: 1.5em 0;
+      padding: 1em 1em; }
+      .card-green-intro-naked-right span {
+        color: #0df8ad; }
+        .card-green-intro-naked-right span::before {
+          color: #0df8ad; }
+      .card-green-intro-naked-right a img {
+        float: left; }
+    .card-green-intro .alt a {
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: #0df8ad; }
+    .card-green-intro .alt dl dt {
+      margin-left: 1em; }
+    .card-green-intro .alt dl dd {
+      margin-left: 3em; }
+    .card-green-intro .box {
+      outline-color: #0df8ad;
+      outline-style: dashed; }
+      @media (min-width: 20em) {
+        .card-green-intro .box {
+          padding: 1em 1em; } }
+    .card-green-intro .title {
+      padding: 1em 1em;
+      text-align: center; }
+    .card-green-intro kbd {
+      white-space: nowrap; }
+  .card-green p {
+    font-size: 1.25em; }
+    .card-green p:hover:hover {
+      background-color: #0df8ad; }
+  .card-green p span::before {
+    background-color: #0df8ad;
+    font-style: italic; }
+
+.tag-green-left {
+  box-shadow: -8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #0df8ad; }
+.tag-green-right {
+  box-shadow: -8.5px 7.5px 0px 0px #1c1c1c;
+  float: right !important;
+  right: -15px;
+  text-align: left;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #0df8ad; }
+
+/**
+ * _PAGE: contact.html
+ */
+.tag-black-left {
+  box-shadow: 8.5px 7.5px 0px 0px #0df8ad;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #1c1c1c;
+  color: white; }
+
+/**
+ * _PAGE: entrepreneur.html
+ */
+.card-blue-intro {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  @media (min-width: 20em) {
+    .card-blue-intro {
+      box-shadow: 0px 7.5px 0px 0px #01bbef; } }
+  .card-blue-intro .alt {
+    margin-left: 0.7em;
+    padding: 0.5em; }
+    .card-blue-intro .alt p {
+      text-align: center; }
+  .card-blue-intro .box {
+    outline-color: #01bbef;
+    outline-style: dashed; }
+    @media (min-width: 20em) {
+      .card-blue-intro .box {
+        padding: 1em 1em; } }
+  .card-blue-intro span {
+    color: #01bbef; }
+.card-blue-right {
+  box-shadow: 8.5px 7.5px 0px 0px #01bbef;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-blue-right span {
+    color: #01bbef; }
+
+.tag-blue {
+  box-shadow: -8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #01bbef; }
+
+/**
+ * _PAGE: politi.html
+ */
+.card-red {
+  box-shadow: 8.5px 7.5px 0px 0px #ff527a;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-red-intro {
+    margin: 1.5em 0;
+    padding: 1em 1em;
+    background-color: white;
+    font-size: 1.25em; }
+    @media (min-width: 20em) {
+      .card-red-intro {
+        box-shadow: 0px 7.5px 0px 0px #ff527a; } }
+    .card-red-intro .alt {
+      margin-left: 0.7em;
+      padding: 0.5em; }
+      @media (min-width: 20em) {
+        .card-red-intro .alt {
+          color: #01bbef;
+          margin-left: 0;
+          padding: 0; } }
+      .card-red-intro .alt p {
+        text-align: center; }
+    .card-red-intro .box {
+      outline-color: #ff527a;
+      outline-style: dashed; }
+      @media (min-width: 20em) {
+        .card-red-intro .box {
+          padding: 1em 1em; } }
+      .card-red-intro .box span {
+        color: #01bbef; }
+    .card-red-intro span {
+      color: #ff527a; }
+  .card-red span {
+    color: #ff527a;
+    /* Careful about multiple */ }
+
+.card-red-plain {
+  box-shadow: 8.5px 7.5px 0px 0px #ff527a;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-red-plain:hover {
+    box-shadow: 8.5px 7.5px 0px 0px #1c1c1c; }
+.card-red-right {
+  box-shadow: 8.5px 7.5px 0px 0px #ff527a;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-red-right:hover {
+    box-shadow: 8.5px 7.5px 0px 0px #1c1c1c; }
+  .card-red-right:hover {
+    background-color: #ff527a; }
+  .card-red-right li:hover {
+    background-color: white; }
+  .card-red-right span {
+    color: #ff527a; }
+  .card-red-right span.alt {
+    color: #01bbef; }
+.card-red-left {
+  box-shadow: -8.5px 7.5px 0px 0px #ff527a;
+  left: -15px;
+  float: left !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-red-left:hover {
+    box-shadow: -8.5px 7.5px 0px 0px #1c1c1c; }
+  .card-red-left:hover {
+    background-color: #ff527a; }
+  .card-red-left li:hover {
+    background-color: white; }
+  .card-red-left span {
+    color: #ff527a; }
+  .card-red-left span.alt {
+    color: #01bbef; }
+  .card-red-left .title {
+    padding: 1em 1em;
+    text-align: center; }
+
+.tag-red {
+  box-shadow: -8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #ff527a; }
+
+/**
+ * _PAGE: scientist.html
+ */
+.card-purple-intro {
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  @media (min-width: 20em) {
+    .card-purple-intro {
+      box-shadow: 0px 7.5px 0px 0px #f1aefe; } }
+  .card-purple-intro .alt {
+    margin-left: 0.7em;
+    padding: 0.5em; }
+    .card-purple-intro .alt p {
+      text-align: center; }
+  .card-purple-intro .box {
+    outline-color: #f0adfe;
+    outline-style: dashed; }
+    @media (min-width: 20em) {
+      .card-purple-intro .box {
+        padding: 1em 1em; } }
+  .card-purple-intro h2 {
+    text-align: center; }
+  .card-purple-intro span {
+    color: #f1aefe; }
+.card-purple-left {
+  box-shadow: 8.5px 7.5px 0px 0px #f1aefe;
+  left: -15px;
+  float: left !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-purple-left .alt {
+    margin-left: 0.7em;
+    padding: 0.5em; }
+    .card-purple-left .alt p {
+      text-align: center; }
+  .card-purple-left .box {
+    outline-color: #f0adfe;
+    outline-style: dashed; }
+  .card-purple-left span {
+    color: #f1aefe; }
+.card-purple-right {
+  box-shadow: 8.5px 7.5px 0px 0px #f1aefe;
+  right: -15px;
+  float: right !important;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: white;
+  font-size: 1.25em; }
+  .card-purple-right span {
+    color: #f1aefe; }
+
+.tag-purple {
+  box-shadow: -8.5px 7.5px 0px 0px #1c1c1c;
+  float: left !important;
+  left: -15px;
+  text-align: right;
+  margin: 1.5em 0;
+  padding: 1em 1em;
+  background-color: #f1aefe; }
+
+/**
+ * _PAGE: reaching_out.html
+ */
+/**
+ * Basic typography style for copy text
+ */
+body {
+  background-color: #f2f2f2;
+  color: #1c1c1c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-top: 8%;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif; }
+
+/**
+ * Span class to color individual text
+ * Limited, so copy and use as needed
+ * Try to use mixin inside larger class in child
+ */
+/**
+ * Span classes to color specifically
+ * re: navigation mess
+ */
+.text-wash-green {
+  background-color: #0df8ad; }
+
+.text-wash-yellow {
+  background-color: #fffb00; }
+
+/**
+ * Buffer
+ */
+.buffer {
+  margin: 1.5em 0em 1.5em 0em; }
+
+/**
+ * Cards
+ */
+.card-right {
+  right: -16px; }
+
+.card-left {
+  left: -15px; }
+
+.blue {
+  background-color: #01BAEF; }
+
+.red {
+  background-color: #FD3B68; }
+
+.purple {
+  background-color: #F0ADFF; }
+
+.green {
+  background-color: #0BF8AB; }
+
+.yellow {
+  background-color: #FFF901; }
+
+.black {
+  background-color: #1C1C1C; }
+
+.cut-out {
+  background-color: #F2F2F2; }
+
+.see-through {
+  background-color: #F2F2F2; }
+
+.white {
+  background-color: white; }
+
+.gray {
+  background-color: #727272; }
+
+/**
+ * Halfing
+ */
+.half-size {
+  width: 50%;
+  height: auto; }
+
+/**
+ * Image Responsive Size
+ */
+.thumbnail {
+  border: 0 solid transparent; }
+
+/**
+ * Padding
+ */
+.padding {
+  padding: 1em 1em; }
+
+/**
+ * Underline
+ * Custom class for /welcome.html since <span> won't work due to refusal of tech at large
+ */
+.underline:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dotted; }
+
+/**
+ * Clear inner floats
+ */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table; }
+
+/**
+ * Main content containers
+ * 1. Make the container full-width with a maximum width
+ * 2. Center it in the viewport
+ * 3. Leave some space on the edges, especially valuable on small screens
+ */
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+/**
+ * Main header
+ * Header found through 'learn' section
+ * 1. .navbar > div#header > div include="nav"
+ * 2. .dropdown div ( > button) // _buttons.scss
+ * 3. p .opener
+ * 3A. .shrink applied through $NavShrink
+ * 4. ul .dropdown-content > li > a > span .opener // _buttons.scss
+ * 5. div > a > img .brand-logo
+ * 5A. .shrink-img applied through $NavShrink
+ */
+.navbar {
+  background-color: #1c1c1c;
+  min-height: 35px; }
+
+.opener {
+  -moz-webkit-transition: all 0.325s ease;
+  -o-webkit-transition: all 0.325s ease;
+  -webkit-transition: all 0.325s ease;
+  transition: all 0.325s ease;
+  font-family: "Oswald", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+  font-size: 3em;
+  white-space: nowrap; }
+  @media (min-width: 20em) {
+    .opener {
+      /* 1/13 */
+      font-size: 1.5em; } }
+  @media (min-width: 31.25em) {
+    .opener {
+      /* 1/13 */
+      font-size: 2em; } }
+  @media (min-width: 47.928em) {
+    .opener {
+      font-size: 2.45em; } }
+  @media (min-width: 62em) {
+    .opener {
+      font-size: 2.75em; } }
+  @media (min-width: 75em) {
+    .opener {
+      /* TODO: size down everything */
+      font-size: 3em; } }
+
+.brand-logo {
+  -moz-webkit-transition: all 0.325s ease;
+  -o-webkit-transition: all 0.325s ease;
+  -webkit-transition: all 0.325s ease;
+  transition: all 0.325s ease;
+  height: auto;
+  float: right;
+  width: 80%;
+  margin: 1em 1em; }
+  @media (min-width: 20em) {
+    .brand-logo {
+      width: 10rem; } }
+  @media (min-width: 31.25em) {
+    .brand-logo {
+      margin: 1.25em 1em;
+      width: 12rem; } }
+  @media (min-width: 47.928em) {
+    .brand-logo {
+      margin: 1.7em;
+      width: 13.5em;
+      /* TODO correct with *REM */ } }
+  @media (min-width: 62em) {
+    .brand-logo {
+      margin-top: 12%; } }
+  @media (min-width: 75em) {
+    .brand-logo {
+      margin-top: 6%;
+      margin-bottom: 3%;
+      width: 16rem; } }
+
+.shrink {
+  border: 0;
+  min-height: 1.563em;
+  /* 25px */
+  opacity: 0.65; }
+  .shrink-btn {
+    margin-top: 0; }
+  @media (min-width: 20em) {
+    .shrink-img {
+      margin: 1em 1.25em;
+      width: 7rem; } }
+  @media (min-width: 31.25em) {
+    .shrink-img {
+      margin: 1em;
+      width: 8rem; } }
+  @media (min-width: 47.928em) {
+    .shrink-img {
+      width: 11.5rem;
+      margin: 1.1em 1em 1em 1em; } }
+  @media (min-width: 62em) {
+    .shrink-img {
+      margin-top: 8%; } }
+  @media (min-width: 75em) {
+    .shrink-img {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      width: 10rem; } }
+  @media (min-width: 20em) {
+    .shrink-p {
+      font-size: 1em; } }
+  @media (min-width: 31.25em) {
+    .shrink-p {
+      font-size: 1em; } }
+  @media (min-width: 47.928em) {
+    .shrink-p {
+      font-size: 1.75em;
+      margin: -0.45em; } }
+  @media (min-width: 75em) {
+    .shrink-p {
+      font-size: 1.5em;
+      margin: 0 0 0 0; } }
+  @media (min-width: 20em) {
+    .shrink-too {
+      font-size: 12px; } }
+  @media (min-width: 20em) {
+    .shrink {
+      min-height: 1.25em; } }
+
+/**
+ * Emerging Designer secondary navigation
+ */
+.sub-navigation-yellow {
+  background-color: white;
+  font-size: 1.25em;
+  margin: 1.5em 0;
+  text-align: center; }
+  .sub-navigation-yellow div a:hover {
+    background-color: #fffb00; }
+  .sub-navigation-yellow span {
+    color: #fffb00; }
+  .sub-navigation-yellow .alt {
+    padding: 1em 1em; }
+    @media (min-width: 20em) {
+      .sub-navigation-yellow .alt {
+        margin-left: 1em; } }
+  .sub-navigation-yellow .circle {
+    border: 0.25em solid #fffb00;
+    background-color: #fffb00;
+    border-radius: 50%;
+    height: 4.25em;
+    margin: auto;
+    text-align: center;
+    width: 4.25em;
+    margin-bottom: 0.5em; }
+
+/**
+ * MMORPG sub-nagivation
+ */
+.sub-navigation-yellow-b {
+  background-color: white;
+  font-size: 1.25em;
+  margin: 1.5em 0;
+  text-align: center; }
+  .sub-navigation-yellow-b div a h3:hover {
+    background-color: #fffb00; }
+  .sub-navigation-yellow-b span {
+    color: #fffb00; }
+  .sub-navigation-yellow-b .alt {
+    padding: 1em 1em; }
+    @media (min-width: 20em) {
+      .sub-navigation-yellow-b .alt {
+        margin-left: 1em; } }
+  .sub-navigation-yellow-b .circle {
+    border: 0.25em solid #fffb00;
+    background-color: #fffb00;
+    border-radius: 50%;
+    height: 4.25em;
+    margin: auto;
+    text-align: center;
+    width: 4.25em;
+    margin-bottom: 0.5em; }
+
+/**
+  * Developer sub-pages navigation
+  */
+.sub-navigation-green {
+  background-color: white;
+  font-size: 1.25em;
+  margin: 1.5em 0;
+  text-align: center; }
+  .sub-navigation-green div a:hover {
+    background-color: #0df8ad; }
+  .sub-navigation-green span {
+    color: #0df8ad; }
+  .sub-navigation-green .alt {
+    padding: 1em 1em; }
+  .sub-navigation-green .circle {
+    border: 0.25em solid #0df8ad;
+    background-color: #0df8ad;
+    border-radius: 50%;
+    height: 4.25em;
+    margin: auto;
+    text-align: center;
+    width: 4.25em;
+    margin-bottom: 0.5em; }
+
+/** Footer 
+ * Sticky only because of 'fixed-bottom' 
+ * TODO: create own sticky footer without Bootstrap aid
+ * TODO: double-check style-guide and syntax
+ */
+.custom-bottom {
+  background-color: #1c1c1c;
+  bottom: 0;
+  width: 100vw; }
+  .custom-bottom div {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    padding: 4.8rem;
+    text-align: center; }
+  .custom-bottom div img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 50%;
+    height: auto;
+    padding: 1em 1em; }
+  .custom-bottom ul svg {
+    border-radius: 50%;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    margin: auto; }
+  @media (max-width: 50em) {
+    .custom-bottom {
+      margin-top: 20%; } }
+
+.return-page {
+  height: 7.5%;
+  width: auto;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  z-index: 99;
+  cursor: pointer; }
+
+.return-to-top {
+  display: none;
+  z-index: 1100;
+  bottom: 20px;
+  right: 30px;
+  position: fixed;
+  height: 7.5%;
+  width: auto;
+  cursor: pointer; }
+
+/** 
+ * Navbar dropdown menu button 
+ * 
+ * Font & background controllers seem to be only factors here, with media query --> low priority
+ * Maybe there's a way to include show/hide to help with bulk, otherwise
+ * Choose font, have mixin for color? Extend? List?
+ * Colors https://benfrain.com/working-with-lists-and-each-loops-in-sass-with-the-index-and-nth-function/
+ * TODO: Test
+ * TODO: Add comments explaining
+ */
+/* Button grab */
+p.opener-b {
+  display: none;
+  font-family: "Oswald", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Verdana", sans-serif;
+  background-color: #01bbef;
+  white-space: nowrap; }
+  @media (min-width: 20em) {
+    p.opener-b {
+      -moz-webkit-transition: all 0.325s ease;
+      -o-webkit-transition: all 0.325s ease;
+      -webkit-transition: all 0.325s ease;
+      transition: all 0.325s ease;
+      display: block;
+      font-size: 0.913em; }
+      p.opener-b-shrink {
+        font-size: 0.8em; } }
+  @media (min-width: 31.25em) {
+    p.opener-b {
+      -moz-webkit-transition: all 0.325s ease;
+      -o-webkit-transition: all 0.325s ease;
+      -webkit-transition: all 0.325s ease;
+      transition: all 0.325s ease;
+      display: block;
+      font-size: 1.5em;
+      margin: 3px 0 0 0; }
+      p.opener-b-shrink {
+        font-size: 1em; } }
+  @media (min-width: 75em) {
+    p.opener-b {
+      -moz-webkit-transition: all 0.325s ease;
+      -o-webkit-transition: all 0.325s ease;
+      -webkit-transition: all 0.325s ease;
+      transition: all 0.325s ease;
+      display: block;
+      font-size: 3em; }
+      p.opener-b-shrink {
+        font-size: 1.5em; } }
+
+/* Menu backsplash */
+.color-blue {
+  background-color: #01bbef; }
+  @media (min-width: 20em) {
+    .color-blue {
+      display: none; } }
+  @media (min-width: 31.25em) {
+    .color-blue {
+      display: none; } }
+  .color-blue-2 {
+    /* dropdown */
+    background-color: #01bbef;
+    display: block; }
+.color-green {
+  background-color: #0df8ad; }
+.color-purple {
+  background-color: #f1aefe; }
+.color-red {
+  background-color: #ff527a; }
+.color-trans {
+  background-color: #f2f2f2; }
+.color-yellow {
+  background-color: #fffb00; }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+  .dropdown-content {
+    /* the dropped menu */
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1; }
+    @media (min-width: 20em) {
+      .dropdown-content {
+        margin-top: -0.65em;
+        margin-left: -0.18em; } }
+    @media (min-width: 47.928em) {
+      .dropdown-content {
+        margin-top: -0.86em; } }
+    @media (min-width: 75em) {
+      .dropdown-content {
+        margin-top: 0.14em; } }
+  .dropdown-content a {
+    color: #1c1c1c;
+    text-decoration: none;
+    display: block; }
+    .dropdown-content a:hover {
+      background-color: #f2f2f2; }
+  .dropdown:hover .dropdown-content {
+    display: block; }
+  .dropdown:hover button {
+    /* Redundant? */
+    background-color: transparent; }
+  .dropdown button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0.25em; }
+
+@media (min-width: 20em) {
+  .dropbtn {
+    margin: 0.5em 0.05em -0.25em -0.5em; } }
+@media (min-width: 47.928em) {
+  .dropbtn {
+    margin: 1.1em 0em 0em 0em; } }
+@media (min-width: 75em) {
+  .dropbtn {
+    margin-top: 0.65em;
+    margin-bottom: -1em;
+    margin-left: -0.438em; } }
+
+/**
+ * Emerging Designer - Section Header Tiles
+ * TODO: find way to have all tiles set, this way, but pagination
+ */
+.nav-tile {
+  background-color: #fffb00;
+  color: #1c1c1c;
+  text-align: center; }
+  .nav-tile:hover, .nav-tile:hover a {
+    background-color: #737373;
+    color: #fffb00; }
+  .nav-tile-selected {
+    background-color: #1c1c1c;
+    color: #fffb00;
+    text-align: center; }
+
+.card-blue p {
+  text-align: center; }
+
+.card-helper-politi {
+  font-size: 1.25em; }
+  .card-helper-politi li {
+    font-family: "Open Sans", sans-serif; }
+  .card-helper-politi li a:hover {
+    background-color: #ff527a; }
+  .card-helper-politi li span {
+    color: #ff527a; }
+  .card-helper-politi span {
+    color: #01bbef; }
+    .card-helper-politi span:hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+
+/*
+ * Redo these because could be troublesome
+ */
+.card-intro h4 {
+  text-align: center; }
+
+.card-plain > h2 {
+  text-align: center; }
+
+@media (min-width: 20em) {
+  .img-icon {
+    height: 6em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    width: auto; } }
+@media (min-width: 62em) {
+  .img-icon {
+    height: 10em;
+    width: auto; } }
+@media (min-width: 20em) {
+  .img-fix {
+    width: 7.143rem;
+    height: auto;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.25em; } }
+@media (min-width: 47.928em) {
+  .img-fix {
+    width: 8.571rem;
+    height: auto; } }
+@media (min-width: 62em) {
+  .img-fix {
+    height: 10rem;
+    width: auto;
+    object-fit: contain;
+    object-position: center; } }
+@media (min-width: 75em) {
+  .img-fix {
+    height: 11.429rem;
+    width: auto;
+    object-fit: contain;
+    object-position: center; } }
+.img-gallery {
+  /* emoji, book, forest, instrument, portrait, trio, watercolor */
+  margin-left: 5%;
+  margin-right: 5%; }
+  .img-gallery a img {
+    object-fit: cover;
+    object-position: center;
+    height: 14.286em;
+    width: 14.286em;
+    margin: 0 1em 1em 0; }
+  .img-gallery a .alt {
+    /* 3 icons */
+    object-fit: contain;
+    object-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 0 1em 1em 0; }
+.img-responsive {
+  min-width: 50%; }
+@media (min-width: 75em) {
+  .img-size {
+    height: 9.1435em;
+    width: auto; } }
+
+.portal-block {
+  z-index: 1030;
+  background-color: white;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10%;
+  text-align: center; }
+  .portal-block h1 {
+    font-size: 2em; }
+  .portal-block img {
+    height: 10%;
+    width: 10%; }
+  .portal-block div p:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy; }
+  @media (min-width: 20em) {
+    .portal-block {
+      margin-bottom: 10em; } }
+
+.work-block div {
+  background-image: url(/images/icons/portfolio-icon-bw.svg);
+  background-size: contain;
+  height: 17.5rem;
+  width: 17.5rem; }
+  .work-block div-hover {
+    background-image: url(/images/icons/portfolio-icon-b.svg);
+    background-size: contain;
+    height: 17.5rem;
+    width: 17.5rem; }
+
+.learn-block {
+  background-image: url(/images/icons/about-logo-bw.svg);
+  background-size: contain;
+  height: 16rem;
+  width: 16rem; }
+  .learn-block-hover {
+    background-image: url(/images/icons/about-logo-c.svg);
+    background-size: contain;
+    height: 16rem;
+    width: 16rem; }
+
+.portal-block-b {
+  background-color: #f2f2f2;
+  z-index: 1030; }
+
+.section-1 {
+  height: 100vh; }
+  .section-1 h1 {
+    text-align: center;
+    font-weight: 300;
+    white-space: normal; }
+    @media (min-width: 20em) {
+      .section-1 h1 {
+        font-size: 7em; } }
+    @media (min-width: 62em) {
+      .section-1 h1 {
+        font-size: 10em; } }
+  .section-1 span:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted; }
+  @media (min-width: 31.25em) {
+    .section-1 span {
+      letter-spacing: 0.1em;
+      margin: 2vh 0 29vh 0;
+      white-space: normal; } }
+  @media (min-width: 20em) {
+    .section-1 {
+      height: 100vh; } }
+
+.section-2 {
+  width: 100vw;
+  height: 100%; }
+  .section-2 a:nth-of-type(2) {
+    background-color: #f1aefe; }
+    .section-2 a:nth-of-type(2):hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  .section-2 a:nth-of-type(3) {
+    background-color: #ff527a; }
+    .section-2 a:nth-of-type(3):hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  .section-2 a:nth-of-type(4) {
+    background-color: #fffb00; }
+    .section-2 a:nth-of-type(4):hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  .section-2 a:nth-of-type(5) {
+    background-color: #0df8ad; }
+    .section-2 a:nth-of-type(5):hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  .section-2 p:nth-of-type(1) a:nth-of-type(1) {
+    background-color: #01bbef; }
+    .section-2 p:nth-of-type(1) a:nth-of-type(1):hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  .section-2 p:nth-of-type(2) a {
+    background-color: white; }
+    .section-2 p:nth-of-type(2) a:hover {
+      text-decoration-line: underline;
+      text-decoration-style: wavy; }
+  .section-2 p:nth-of-type(2) {
+    text-align: center; }
+  .section-2 span {
+    letter-spacing: 0.06em;
+    white-space: nowrap; }
+    .section-2 span:hover {
+      text-decoration-line: underline;
+      text-decoration-style: dotted; }
+  @media (min-width: 20em) {
+    .section-2 {
+      line-height: 2em;
+      font-size: 2em;
+      padding: 0 5%;
+      text-align: center; } }
+  @media (min-width: 62em) {
+    .section-2 {
+      font-size: 3.75em;
+      line-height: 2.5em;
+      padding: 0 1.25em;
+      text-align: left; } }
+
+/*# sourceMappingURL=new-styles.css.map */

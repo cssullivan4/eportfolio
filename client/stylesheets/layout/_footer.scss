@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+/** Footer 
+ * Sticky only because of 'fixed-bottom' 
+ * TODO: create own sticky footer without Bootstrap aid
+ * TODO: double-check style-guide and syntax
+ */
+.custom-bottom {
+    background-color: $black;
+    bottom: 0;
+    width: 100vw;
+    // margin-top: 7.5em;
+
+    div {
+        display: block;
+        font-size: 0;
+        list-style: none;
+        padding: 4.8rem;
+        text-align: center;
+    }
+    div img {
+        @include center-block;
+        @include img-responsive(true,true,$img-md,auto);
+        padding: $padding;
+    }
+    ul svg {
+        border-radius: 50%;
+        color: $white;
+        height: 3rem;
+        width: 3rem;
+        margin: auto;
+    }
+
+    @include respond-to('small-b') {
+        // margin-top: 70%;
+        margin-top: 20%;
+    }
+}

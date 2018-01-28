@@ -11,12 +11,6 @@ angular.module('myApp.controllers', [])
                 - $('#footer').height()
             ));
         }
-        // if ($(window).width() < 960) {
-        //     alert('Current site build is not fully supportive of mobile views. Please view from a larger screen for best experience.');
-        //  }
-        //  else {
-        //     console.log('Your screen size is preferred for site build currently.');
-        //  }
         // onDocumentReady function bind
         $(document).ready(function () {
             autoHeight();
@@ -26,22 +20,7 @@ angular.module('myApp.controllers', [])
         $(window).resize(function () {
             autoHeight();
         });
-        // window.onload = function() {
-        //     if(!window.location.hash) {
-        //         window.location = window.location + '#loaded';
-        //         window.location.reload();
-        //     }
-        // }
-
     })
-    // .controller('MobileAlert', function($scope, $window) {
-    //     if ($(window).width() < 960) {
-    //         alert('Current site build is not fully supportive of mobile views. Recommend viewing on larger screen.');
-    //      }
-    //      else {
-    //         console.log('Your screen size is preferred for site build currently.');
-    //      }
-    // })
 .controller('HeaderCtrl', function ($scope, $window, $location) {
     $scope.currentPath = $location.path();
     $scope.reload = function () {
@@ -64,14 +43,10 @@ angular.module('myApp.controllers', [])
     console.log($window);
     $(window).scroll(function() {
         if ($(document).scrollTop() > 75) {
-            // $('#btn').removeClass('btn-there');
-            // $('#btn').addClass('btn-here');
             $('#btn').show();
         } else {
             $('#btn').hide();
-            // $('#btn').removeClass('btn-here');
-            // $('#btn').addClass('btn-there');
-            // animate fade in later
+            // TODO: animate fade in later
         }
     });
     $scope.scroll = function () {
@@ -100,11 +75,14 @@ angular.module('myApp.controllers', [])
         if ($(document).scrollTop() > 50) {
           $('.navbar').addClass('shrink');
           $('.opener').addClass('shrink-p');
-          $('.opener-b').addClass('shrink-p-b');
+          $('.dropbtn').addClass('shrink-btn');
+          $('.opener-b').addClass('opener-b-shrink');
           $('.brand-logo').addClass('shrink-img');
         } else {
           $('.navbar').removeClass('shrink');
           $('.opener').removeClass('shrink-p');
+          $('.dropbtn').removeClass('shrink-btn');
+          $('.opener-b').removeClass('opener-b-shrink');
           $('.brand-logo').removeClass('shrink-img');
         }
       });
@@ -130,12 +108,20 @@ angular.module('myApp.controllers', [])
         })
     })
   })
+  .controller('LinkTo', ['$scope', '$location', function($scope, $location) {
+    $scope.linkTo = function(id) {
+        $location.url(id);
+      };
+  }])
     .controller('NavMenu', ['$scope', '$compile', function($scope, $compile) {
         console.log('Nav is a go, captian.');
+        $scope.brand = 'views/nav/nav-brand.html';
+        $scope.maker = 'views/nav/nav-maker.html';
         $scope.nav = 'views/nav/nav-welcome.html';
         $scope.print = 'views/nav/nav-print.html';
-        $scope.web = 'views/nav/nav-web.html';
         $scope.stu = 'views/nav/nav-stu.html';
+        $scope.web = 'views/nav/nav-web.html';
+        $scope.web_b = 'views/nav/nav-web-b.html';
   }])
   .controller('GalleryCtrl', function($scope){
     $(document).ready(function(){
@@ -153,12 +139,7 @@ angular.module('myApp.controllers', [])
 		galleryFadeOut: 100          /* fadeOut speed before slide is loaded */
     });
   })
-//   .controller('PageSlider', ['$scope', function($scope) {
-//     $(document).ready(function() {
-//         $('#fullpage').fullpage();
-//     });
-//     console.log("Slider, get sliding!");
-//   }])
+
   .controller('DevPopulation',function($scope){
     $scope.images  = [
         "/images/projects/smw-app/pg-1.png",
@@ -208,49 +189,64 @@ angular.module('myApp.controllers', [])
     $scope.aspirations = [
         {
             'id': 1,
-            'title': "She's the First 2012-2017",
+            'title': 'Spoken',
+            'date': '2017-2018',
+            'anchor': '#spoken',
+            'image': '/images/se-grid/spoken.png'
+        },
+        {
+            'id': 2,
+            'title': "She's the First",
+            'date': "2012-2017",
             'anchor': '#STF',
             'image': '/images/se-grid/stf-bw.svg'
         },
         {
-            'id': 2,
-            'title': 'Center for Civic Engagement 2012-2017',
+            'id': 3,
+            'title': 'Center for Civic Engagement',
+            'date': '2012-2017',
             'anchor': '#CCE',
             'image': '/images/se-grid/ymca-cce-bw.svg'
         },
         {
-            'id': 3,
-            'title': 'Creative Discovery Museum 2014-2017',
+            'id': 4,
+            'title': 'Creative Discovery Museum',
+            'date': '2014-2017',
             'anchor': '#CDM',
             'image': '/images/se-grid/cdm-bw.svg'
         },
         {
-            'id': 4,
-            'title': 'ArtsBuild 2015-2016',
+            'id': 5,
+            'title': 'ArtsBuild',
+            'date': '2015-2016',
             'anchor': '#ArtsBuild',
             'image': '/images/se-grid/artsbuild-bw.svg'
         },
         {
-            'id': 5,
-            'title': 'Cultural Attractions Committee 2011-2013',
+            'id': 6,
+            'title': 'Cultural Attractions Committee',
+            'date': '2011-2013',
             'anchor': '#CAC',
             'image': '/images/se-grid/utk-cac-bw.svg'
         },
         {
-            'id': 6,
-            'title': 'Haiti Outreach Program of Knoxville 2011-2013',
+            'id': 7,
+            'title': 'Haiti Outreach Program of Knoxville',
+            'date': '2011-2013',
             'anchor': '#HOPOK',
             'image': '/images/se-grid/hopok-bw.svg'
         },
         {
-            'id': 7,
-            'title': 'Chattanooga Theatre Centre 2008-2015',
+            'id': 8,
+            'title': 'Chattanooga Theatre Centre',
+            'date': '2008-2015',
             'anchor': '#CTC',
             'image': '/images/se-grid/cha-theatre-centre-bw.svg'
         },
         {
-            'id': 8,
-            'title': 'McKamey Animal Center 2011, 2017',
+            'id': 9,
+            'title': 'McKamey Animal Center',
+            'date': '2011, 2017',
             'anchor': '#MAS',
             'image': '/images/se-grid/mckamey-bw.svg'
         }

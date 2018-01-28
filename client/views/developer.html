@@ -1,204 +1,636 @@
 <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top black" role="navigation" ng-controller="NavShrink">
+        <nav class="navbar navbar-fixed-top" role="navigation" ng-controller="NavShrink">
                 <div id="header" ng-controller="NavMenu">
                         <div ng-include="nav"></div>
                 </div>
         </nav>
 </div>
-<div class="container-fluid white padding" ng-controller="ScrollCtrl">
-        <!-- PICTURES  -->
-        <div class="row col-md-offset-3">
-            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
+
+<div class="container-fluid card-intro" ng-controller="ScrollCtrl">
+        <div class="alt">
+            <div>
                 <a href="#background" ng-click="scrollTo()">
-                    <img src="/images/icons/about-logo-c.svg" class="img-responsive center-block img-size" alt="Icon: Background">
+                    <img src="/images/icons/about-logo-c.svg" class="center-block img-icon" alt="Icon: Background">
                 <h4>BACKGROUND</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
-                <a href="#code" ng-click="scrollTo()">
-                    <img src="/images/icons/code-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Technologies">
+            <div>
+                <a href="#tech" ng-click="scrollTo()">
+                    <img src="/images/icons/code-icon-b.svg" class="center-block img-icon" alt="Icon: Technologies">
                     <h4>TECHNOLOGIES</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
+            <div>
+                <a href="#jobs" ng-click="scrollTo()">
+                    <img src="/images/icons/app-logo-c.svg" class="center-block img-icon" alt="Icon: Vitae">
+                    <h4>VITAE</h4>
+                </a>
+            </div>
+            <div>
                 <a href="#proj" ng-click="scrollTo()">
-                    <img src="/images/icons/portfolio-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Projects Portfolio">
+                    <img src="/images/icons/portfolio-icon-b.svg" class="center-block img-icon" alt="Icon: Projects Portfolio">
                     <h4>PROJECTS PORTFOLIO</h4>
                 </a>
             </div>
-            <div class="col-md-2 col-sm-6 col-xs-6 text-center">
+            <div>
                     <a href="#works" ng-click="scrollTo()">
-                        <img src="/images/icons/takeaway-logo--c.svg" class="img-responsive center-block img-size" alt="Icon: Selected Works">
+                        <img src="/images/icons/takeaway-logo--c.svg" class="center-block img-icon" alt="Icon: Selected Works">
                         <h4>SELECTED WORKS</h4>
                     </a>
                 </div>
         </div>
 </div>
-<!-- START COMBO -->
+
+
+<!--- START #BACKGROUND -!- START #BACKGROUND -->
+<!-- 1) The Start (r: Ed)                     -->
+<!-- 2) Continuing (r: Comm)                  -->
+<!-- 3) Education                             -->
+<!-- 4) Community                             -->
+                <!--    -!-    -->
+
+<span id="background"></span> 
 <div class="container-fluid">
-    <div id="background" class="row col-lg-5 col-md-5 hidden-sm hidden-xs buffer padding green black-shadow pull-left text-right card-left">
+    <div class="row col-lg-5 col-md-5 col-sm-7 col-xs-10 tag-green-left">
         <h1>#BACKGROUND</h1>
     </div>
-    <div class="row col-md-5 hidden-sm hidden-xs buffer padding green black-shadow pull-right card-right text-left">
+</div>
+<!-- START SM -!- START SM -!- START SM -->
+    <!-- (1) -->
+    <div class="hidden-lg hidden-md card-green-intro">
+        <h2> <span>>>></span> THE START<small> Middle School, 2003</small></h2>
+        <p>
+            Enamored by the way anything works, the draw to development was a natural course for me in my adolescance, especially after receiving my own computer at age 12. Always the painter, I explored the digital side making raster images with <em>Jasc Paint Shop Pro 8</em> & GIFs (frame by frame!) with <em>Animation Shop</em>. My curiosity grew, and it wasn't long until I was learning then-<span>HTML3</span> on <span>Windows NotePads</span> creating pages for my virtual pet websites, soon followed by <span>XHTML</span>, <span>CSS</span>, <span>JavaScript</span>.
+        </p>
+        <p>
+            A hiatus fell in after my first year of high school. When I picked up developing again, it was again visually inspired, but this time lending to <span>Flash</span> programming, specifically <span>Action-</span> & <span>Dynamic-Script</span>. I learned through making vector images, creating animated, interactive pictures (think Harry Potter), and by making games, applications, and websites.
+        </p>
+    </div>
+    <!-- (2) -->
+    <div class="hidden-lg hidden-md card-green-intro">
+        <h2><span>>>></span> CONTINUING<small> Seeking formal instruction</small></h2>
+        <p>Again with the demand of higher education, I fell out of development & programming my first year of university. I continued to design when I could, but while "coding" waned, the interest never did.</p>
+        <p>It wasn't until 2017 when I was able to put my life on hold to pivot towards formal instruction with the post-graduate program, <em>Covalence</em>, firmly committing to become a developer.</p>
+    </div>
+    <!-- (3) -->
+    <div class="hidden-lg hidden-md card-green-intro">
+        <div>  
+            <h2> <span>>>></span> EDUCATION<br><small>@ Chattanooga, TN - 2017</small></h2>
+                <dl>
+                    <dt>COVALENCE<span>:</span> Certificate</dt>
+                    <ul>
+                        <li>Full Stack Web Development <em>(M*EAN)</em></li>
+                    </ul>
+                    <dt>SELF-STUDY<span>:</span> Independent learning</dt>
+                    <ul>
+                        <li>I am of the few who prefer to read books<span>*</span></li>
+                        <li>Scouring provided docs</li>
+                        <li>I will utilize <em>CLI</em> if available for practice</li>
+                        <li>Instructive practice online, among many: CodeAcademy, Epicodus</li>
+                        <li>I will admit to using <em>Stack Overflow</em> & <em>YouTube</em>, too</li>
+                    </ul>
+                    <dt><span>*</span> BOOKS<span>:</span></dt>
+                    <ul>
+                        <li><em>HTML & CSS</em> and <em>JavaScript & jQuery</em> by Jon Duckett</li>
+                        <li><em>The Design of Everyday Things</em> by Don Norman</li>
+                    </ul>
+                </dl>
+        </div>
+    </div>
+    <!-- (4) -->
+    <div class="hidden-lg hidden-md card-green-intro">
+        <h2><span>>>></span> COMMUNITY<small> Chattanooga, TN</small></h2>
+        <p>I feel it's important - as a junior developer especially - to interact with other developers, especially in smaller markets like Chattanooga. Here are a list of groups & events I participate in or attend on a semi-regular basis.</p>
+        <ul>
+            <li>Chadev Lunch with <a href="http://chadev.com/" target="_blank">Chattanooga Developers</a></li>
+            <li>Hack Nights at <em>Carbon Five</em></li>
+            <li>CodeXX</li>
+            <li>Startup Week</li>
+        </ul>        
+    </div>
+<!-- END SM -!- END SM -!- END SM -->
+
+<!-- START MD -!- START MD -!- START MD -->
+<div class="container-fluid">
+    <!-- (1) -->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs card-green-left">
+            <h2> <span>>>></span> THE START<small> Middle School, 2003</small></h2>
+            <p>
+                Enamored by the way anything works, the draw to development was a natural course for me in my adolescance, especially after receiving my own computer at age 12. Always the painter, I explored the digital side making raster images with <em>Jasc Paint Shop Pro 8</em> & GIFs (frame by frame!) with <em>Animation Shop</em>. My curiosity grew, and it wasn't long until I was learning then-<span>HTML3</span> on <span>Windows NotePads</span> creating pages for my virtual pet websites, soon followed by <span>XHTML</span>, <span>CSS</span>, <span>JavaScript</span>.
+            </p>
+            <p>
+                A hiatus fell in after my first year of high school. When I picked up developing again, it was again visually inspired, but this time lending to <span>Flash</span> programming, specifically <span>Action-</span> & <span>Dynamic-Script</span>. I learned through making vector images, creating animated, interactive pictures (think Harry Potter), and by making games, applications, and websites.
+            </p>
+            <!-- <p>
+                My adolescance saw a sweeping change in technology. Marrying my interest in painting, drawing with an interest in technology, I found myself making rastor images and .gifs (frame by frame!) in those early days while a curiosity of "how things work" crept in. With a pension for creative pursuits, it wasn't long until I was learning then-HTML3 on Windows NotePads creating pages for my virtual pet websites. XHTML, CSS, JavaScript soon followed, then hiatus. Several years passed, and I picked developing up again, only this time with Flash, specifically Action- & Dynamic-Script. I played around making games, applications, websites for a year, then left everything all-together in college.
+            </p> -->
+                <!-- <dt>CONTINUED<span>:</span></dt>
+                <dd>CodeAcademy(*find better relation), Maybe Books, etc</dd> -->
+            <!-- </ul> -->
+            
+        <!-- <p>More information coming soon. Formally wrapped up a full-stack program in 2017. Projects can be viewed on <a href="https://github.com/cssullivan4" target="_blank" class="green">Github</a>. Projects are currently being migrated here for viewing convenience. Please contact me at <a href="mailto:cssullivan4@gmail.com?Subject=Let's&nbsp;Talk!" target="_top" class="green">cssullivan4@gmail.com</a> for any questions, comments, or conversation.</p> -->
+    </div>
+    <!-- (3) -->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs card-green-right">
+        <div class="alt">  
+            <h2> <span>>>></span> EDUCATION<small> Chattanooga, TN 2017</small></h2>
+                <dl>
+                    <dt>&#9675; COVALENCE<span>:</span> Certificate of Completion</dt>
+                    <dd>&#9679; Full Stack Web Development <em>(M*EAN)</em></dd>
+                    <dt>&#9675; SELF-STUDY<span>:</span> Independent learning</dt>
+                    <dd>&#9679; I am of the few who prefer to read books<span>*</span></dd>
+                    <dd>&#9679; Scouring provided docs</dd>
+                    <dd>&#9679; I will utilize <em>CLI</em> if available for practice</dd>
+                    <dd>&#9679; Instructive practice online, among many: CodeAcademy, Epicodus</dd>
+                    <dd>&#9679; I will admit to using <em>Stack Overflow</em> & <em>YouTube</em>, too</dd>
+                    <dt><span>*</span> BOOKS<span>:</span></dt>
+                    <dd>&#9679; <em>HTML & CSS</em> and <em>JavaScript & jQuery</em> by Jon Duckett</dd>
+                    <dd>&#9679; <em>The Design of Everyday Things</em> by Don Norman</dd>
+                </dl>
+        </div>
+    </div>
+</div>
+
+<!-- START CONTINUING + COMMUNITY -->
+<!-- (2) -->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs card-green-left">
+        <h2><span>>>></span> CONTINUING<small> Seeking formal instruction</small></h2>
+        <p>Again with the demand of higher education, I fell out of development & programming my first year of university. I continued to design when I could, but while "coding" waned, the interest never did.</p>
+        <p>It wasn't until 2017 when I was able to put my life on hold to pivot towards formal instruction with the post-graduate program, <em>Covalence</em>, firmly committing to become a developer.</p>
+    </div>
+    <!-- (4) -->
+    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs card-green-right">
+        <h2><span>>>></span> COMMUNITY<small> Chattanooga, TN</small></h2>
+        <p>I feel it's important - as a junior developer especially - to interact with other developers, especially in smaller markets like Chattanooga. Here are a list of groups & events I participate in or attend on a semi-regular basis.</p>
+        <ul>
+            <li>Chadev Lunch with <a href="http://chadev.com/" target="_blank">Chattanooga Developers</a></li>
+            <li>Hack Nights at <em>Carbon Five</em></li>
+            <li>CodeXX</li>
+            <li>Startup Week</li>
+        </ul>
+    </div>    
+<!-- END CONTINUNING + COMMUNITY -->
+<!-- END MD -!- END MD -!- END MD -->
+
+<!-- END #BACKGROUND -!- END #BACKGROUND-->
+
+
+
+<!-- START TECH -!- START TECH -->
+<span id="tech"></span>
+<div class="container-fluid">
+    <div class="row col-lg-5 col-md-5 col-sm-10 col-xs-10 tag-green-left">
         <h1>#TECHNOLOGIES</h1>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs pull-left card-left buffer padding text-type white green-shadow">
-        <p>More information coming soon. Formally wrapped up a full-stack program in 2017. Projects can be viewed on <a href="https://github.com/cssullivan4" target="_blank" class="green">Github</a>. Projects are currently being migrated here for viewing convenience. Please contact me at <a href="mailto:cssullivan4@gmail.com?Subject=Let's&nbsp;Talk!" target="_top" class="green">cssullivan4@gmail.com</a> for any questions, comments, or conversation.</p>
-        <div id="code" class="hidden-sm hidden-xs"></div>
-    </div>
-    
-    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs pull-right card-right buffer padding text-type white green-shadow">
-            <dl class="dl-horizontal">
+<!-- START SM -!- START SM -!- START SM -->
+<div class="container-fluid card-green-intro hidden-lg hidden-md">
+    <dl class="dl-horizontal">
+        <dt>
+            LANGUAGE<span>:</span>
+        </dt>
+        <dd>HTML, CSS, JavaScript, Sass&nbsp;<span class="glyphicon glyphicon-list-alt"></span></dd>
+        <dt>
+            LIBRARY<span>:</span>
+        </dt>
+        <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="glyphicon glyphicon-refresh"></span></dd>
+        <dt>
+            RAMEWORK<span>:</span>
+        </dt> 
+        <dd>NodeJS, ExpressJS, AngularX, Ionic&nbsp;<span class="glyphicon glyphicon-cutlery"></span></dd>
+         <dt>
+             DATABASE<span>:</span>
+        </dt>
+                        <dd>MySQL, Cloud Firestore&nbsp;<span class="glyphicon glyphicon-folder-open"></span></dd>
+                        <dt>
+                            SOFTWARE<span>:</span>
+                        </dt>
+                        <dd>SendGrid, Stripe&nbsp;<span class="glyphicon glyphicon-hdd"></span></dd>
+                        <dt>
+                            IDE<span>:</span>
+                        </dt>
+                        <dd>Visual Code Studio&nbsp;<span class="glyphicon glyphicon-pencil"></span></dd>
+                        <dt>
+                            OS<span>:</span>
+                        </dt>
+                        <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="glyphicon glyphicon-console"></span></dd>
+                        <dt>
+                            AGILE<span>:</span>
+                        </dt>
+                        <dd>Trello, Jira&nbsp;<span class="glyphicon glyphicon-calendar"></span></dd>
+                        <dt>
+                            HOST<span>:</span>
+                        </dt>
+                        <dd>Amazon Web Services&nbsp;<span class="glyphicon glyphicon-cloud"></span></dd>
+                    </dl>
+                    <!-- <span id="projects" class="hidden-sm hidden-xs"></span> -->
+                <br>
+                <div class="box">
+                    <br>
+                <dl class="dl-horizontal">
                     <dt>
-                        LANGUAGE<span class="green-type">:</span>
+                        EXPERIENCE<span>:</span>
                     </dt>
-                    <dd>HTML, CSS, JavaScript&nbsp;<span class="green-type glyphicon glyphicon-list-alt"></span></dd>
-                    <dt>
-                        LIBRARY<span class="green-type">:</span>
-                    </dt>
-                        <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="green-type glyphicon glyphicon-refresh"></span></dd>
-                    <dt>
-                        FRAMEWORK<span class="green-type">:</span>
-                    </dt> 
-                    <dd>NodeJS, ExpressJS, AngularJS&nbsp;<span class="green-type glyphicon glyphicon-object-align-horizontal"></span></dd>
-                    <dt>
-                        DATABASE<span class="green-type">:</span>
-                    </dt>
-                    <dd>MySQL&nbsp;<span class="green-type glyphicon glyphicon-folder-open"></span></dd>
-                    <dt>
-                        SOFTWARE<span class="green-type">:</span>
-                    </dt>
-                    <dd>SendGrid, Stripe&nbsp;<span class="green-type glyphicon glyphicon-hdd"></span></dd>
-                    <dt>
-                        IDE<span class="green-type">:</span>
-                    </dt>
-                    <dd>Visual Code Studio&nbsp;<span class="green-type glyphicon glyphicon-pencil"></span></dd>
-                    <dt>
-                        OS<span class="green-type">:</span>
-                    </dt>
-                    <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="green-type glyphicon glyphicon-console"></span></dd>
-                    <dt>
-                        AGILE<span class="green-type">:</span>
-                    </dt>
-                    <dd>Trello&nbsp;<span class="green-type glyphicon glyphicon-calendar"></span></dd>
-                    <dt>
-                        HOST<span class="green-type">:</span>
-                    </dt>
-                    <dd>Amazon Web Services&nbsp;<span class="green-type glyphicon glyphicon-cloud"></span></dd>
+                    <dd>Junior&nbsp;<span class="glyphicon glyphicon-user"></span></dd>
                 </dl>
                 <dl class="dl-horizontal">
                     <dt>
-                        LEARNING<span class="green-type">:</span>
+                        STRENGTHS<span>:</span>
                     </dt>
-                    <dd>TypeScript, LESS, Ionic, Apache Cordova&nbsp;<span class="green-type glyphicon glyphicon-cloud-download"></span></dd>
+                    <dd>Front-End, Wireframe, Responsive&nbsp;<span class="glyphicon glyphicon-flash"></span></dd>
                 </dl>
-                <span id="projects" class="hidden-sm hidden-xs"></span>
+                <dl class="dl-horizontal">
+                    <dt>
+                        LEARNING<span>:</span>
+                    </dt>
+                    <dd>&nbsp;TypeScript, Dwolla, Apache Cordova&nbsp;<span class="glyphicon glyphicon-cloud-download"></span></dd>
+                </dl>
+
+        </div>
     </div>
-</div>
-<!-- END BACKGROUND -->
-<!-- START TECH -->
-<div class="container-fluid">
-    <div class="row hidden-lg hidden-md col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right"><div id="code" class="hidden-lg hidden-md"><span></span></div>
-        <h1>#TECHNOLOGIES</h1>
-    </div>
-</div>
-<div class="container-fluid hidden-lg hidden-md padding buffer white text-type">
-        <dl class="dl-horizontal">
-                <dt>
-                    LANGUAGE<span class="green-type">:</span>
-                </dt>
-                <dd>HTML, CSS, JavaScript&nbsp;<span class="green-type glyphicon glyphicon-list-alt"></span></dd>
-                <dt>
-                    LIBRARY<span class="green-type">:</span>
-                </dt>
-                    <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="green-type glyphicon glyphicon-refresh"></span></dd>
-                <dt>
-                    FRAMEWORK<span class="green-type">:</span>
-                </dt> 
-                <dd>NodeJS, ExpressJS, AngularJS&nbsp;<span class="green-type glyphicon glyphicon-modal-window"></span></dd>
-                <dt>
-                    DATABASE<span class="green-type">:</span>
-                </dt>
-                <dd>MySQL&nbsp;<span class="green-type glyphicon glyphicon-folder-open"></span></dd>
-                <dt>
-                    SOFTWARE<span class="green-type">:</span>
-                </dt>
-                <dd>SendGrid, Stripe&nbsp;<span class="green-type glyphicon glyphicon-hdd"></span></dd>
-                <dt>
-                    IDE<span class="green-type">:</span>
-                </dt>
-                <dd>Visual Code Studio&nbsp;<span class="green-type glyphicon glyphicon-pencil"></span></dd>
-                <dt>
-                    OS<span class="green-type">:</span>
-                </dt>
-                <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="green-type glyphicon glyphicon-console"></span></dd>
-                <dt>
-                    AGILE<span class="green-type">:</span>
-                </dt>
-                <dd>Trello&nbsp;<span class="green-type glyphicon glyphicon-calendar"></span></dd>
-                <dt>
-                    HOST<span class="green-type">:</span>
-                </dt>
-                <dd>Amazon Web Services&nbsp;<span class="green-type glyphicon glyphicon-cloud"></span></dd>
-            </dl>
+<!-- END SM -!- END SM -!- END SM -->
+
+<!-- START MD -!- START MD -!- START MD -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 card-green-right">
+        <div class="col-md-6 col-sm-12 col-xs-12">
             <dl class="dl-horizontal">
                     <dt>
-                        LEARNING<span class="green-type">:</span>
+                        LANGUAGE<span>:</span>
                     </dt>
-                    <dd>TypeScript, LESS, Ionic, Apache Cordova&nbsp;<span class="green-type glyphicon glyphicon-cloud-download"></span></dd>
+                    <dd>HTML, CSS, JavaScript, Sass&nbsp;<span class="glyphicon glyphicon-list-alt"></span></dd>
+                    <dt>
+                        LIBRARY<span>:</span>
+                    </dt>
+                    <dd>jQuery, Bootstrap, Featherlight, fullPage&nbsp;<span class="glyphicon glyphicon-refresh"></span></dd>
+                    <dt>
+                        FRAMEWORK<span>:</span>
+                    </dt> 
+                    <dd>NodeJS, ExpressJS, AngularX, Ionic&nbsp;<span class="glyphicon glyphicon-cutlery"></span></dd>
+                    <dt>
+                        DATABASE<span>:</span>
+                    </dt>
+                    <dd>MySQL, Cloud Firestore&nbsp;<span class="glyphicon glyphicon-folder-open"></span></dd>
+                    <dt>
+                        SOFTWARE<span>:</span>
+                    </dt>
+                    <dd>SendGrid, Stripe&nbsp;<span class="glyphicon glyphicon-hdd"></span></dd>
+                    <dt>
+                        IDE<span>:</span>
+                    </dt>
+                    <dd>Visual Code Studio&nbsp;<span class="glyphicon glyphicon-pencil"></span></dd>
+                    <dt>
+                        OS<span>:</span>
+                    </dt>
+                    <dd>Mac OS Sierra, Ubuntu&nbsp;<span class="glyphicon glyphicon-console"></span></dd>
+                    <dt>
+                        AGILE<span>:</span>
+                    </dt>
+                    <dd>Trello, Jira&nbsp;<span class="glyphicon glyphicon-calendar"></span></dd>
+                    <dt>
+                        HOST<span>:</span>
+                    </dt>
+                    <dd>Amazon Web Services&nbsp;<span class="glyphicon glyphicon-cloud"></span></dd>
                 </dl>
-            <span id="projects" class="hidden-lg hidden-md"></span>
+
+                <span id="projects" class="hidden-sm hidden-xs"></span>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <br>
+            <div class="box">
+                <br>
+            <dl class="dl-horizontal">
+                <dt>
+                    EXPERIENCE<span>:</span>
+                </dt>
+                <dd>Junior&nbsp;<span class="glyphicon glyphicon-user"></span></dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt>
+                    STRENGTHS<span>:</span>
+                </dt>
+                <dd>Front-End, Wireframe, Responsive&nbsp;<span class="glyphicon glyphicon-flash"></span></dd>
+            </dl>
+            <dl class="dl-horizontal">
+                <dt>
+                    LEARNING<span>:</span>
+                </dt>
+                <dd>&nbsp;TypeScript, Dwolla, Apache Cordova&nbsp;<span class="glyphicon glyphicon-cloud-download"></span></dd>
+            </dl>
+            <br>
+        </div>
+        </div>
+    </div>
 </div>
-<!-- END TECH -->
-<!-- START PROJ -->
+<!-- END MD -!- END MD -!- END MD -->
+
+<!-- END TECH -!- END TECH -->
+
+
+
+<!-- START JOBS -!- START JOBS -->
+<span id="jobs"><span>
 <div class="container-fluid">
-    <div class="row col-md-5 col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right">
+    <div class="col-md-5 col-sm-10 col-xs-10 tag-green-left">
+        <h1>#VITAE</h1>
+    </div>
+</div>
+
+<!-- START SM -!- START SM -!- START SM -->
+<div class="container-fluid card-green-intro hidden-lg hidden-md">
+        <h2> <span>>>></span>&nbsp;Freelance<small> @ Chattanooga 2017 - Present</small></h2>  
+        <ul>
+            <li>Services rendered include: consulting, wireframing, concept proofing, user mapping, web app build</li>
+            <li>Big fan of creative projects, often indulging in any level of production</li>
+            <li>Friends, family, and organizations have known me to offer services pro bono or quid pro quo</li>
+        </ul>
+        <br>
+        <kbd>#Collaboration</kbd> <kbd>#Project Management</kbd> <kbd>#Wireframe</kbd>
+</div>
+<div class="container-fluid card-green-intro hidden-lg hidden-md">
+        <h2> <span>>>></span>&nbsp;Software Developer<small> @ Stakd / 2017</small></h2>  
+        <ul>
+            <li>Intern brought on to help 1) convert original product to new infrastructures and 2) build out MVP of mobile application</li>
+            <li>Front-end work included stubbing out UI, refactoring legacy code, custom validation creation & testing</li>
+            <li>Back-end work included setting up webhooks, refactoring & connecting email templates, and user testing</li>
+            <li>Miscellaneous contributions including social media, product flow, blog content</li>
+            <li>Ask about technologies used</li>
+            <li>Built in production environment using agile development</li>
+            <li>Worked remotely with peer-programmer in 1 city, CTO & CIO in 1 city, and CEO & COO in 1 city</li>
+        </ul>
+        <br>
+        <kbd>#Agile</kbd>  <kbd>#Custom Validation</kbd> <kbd>#Mobile Devleopment</kbd> <kbd>#Refactor</kbd> <kbd>#Remote Work</kbd> 
+</div>
+<!-- END SM -!- END SM -!- END SM -->
+
+<!-- START MD -!- START MD -!- START MD -->
+<div class="container-fluid hidden-sm hidden-xs">
+    <div class="col-md-9 card-green-right">
+            <h2> <span>>>></span>&nbsp;Freelance<small> @ Chattanooga 2017 - Present</small></h2>  
+            <ul>
+                <li>Services rendered include: consulting, wireframing, concept proofing, user mapping, web app build</li>
+                <li>Big fan of creative projects, often indulging in any level of production</li>
+                <li>Friends, family, and organizations have known me to offer services pro bono or quid pro quo</li>
+            </ul>
+            <br>
+            <kbd>#Collaboration</kbd> <kbd>#Project Management</kbd> <kbd>#Wireframe</kbd>
+    </div>
+    <span id="jobs"></span>
+    <div class="col-md-9 col-sm-12 col-xs-12 card-green-right">
+            <h2> <span>>>></span>&nbsp;Software Developer<small> @ Stakd / 2017</small></h2>  
+            <ul>
+                <li>Intern brought on to help 1) convert original product to new infrastructures and 2) build out MVP of mobile application</li>
+                <li>Front-end work included stubbing out UI, refactoring legacy code, custom validation creation & testing</li>
+                <li>Back-end work included setting up webhooks, refactoring & connecting email templates, and user testing</li>
+                <li>Miscellaneous contributions including social media, product flow, blog content</li>
+                <li>Ask about technologies used</li>
+                <li>Built in production environment using agile development</li>
+                <li>Worked remotely with peer-programmer in 1 city, CTO & CIO in 1 city, and CEO & COO in 1 city</li>
+            </ul>
+            <br>
+            <kbd>#Agile</kbd>  <kbd>#Custom Validation</kbd> <kbd>#Mobile Devleopment</kbd> <kbd>#Refactor</kbd> <kbd>#Remote Work</kbd>
+    </div>
+</div>
+<!-- END MD -!- END MD -!- END MD -->
+
+<!-- END JOBS -!- END JOBS -->
+
+
+
+<!--- START #PORTW -!- START #PORTW -->
+<!-- 1) PROJ PORT (r: SEL WORKS)                     -->
+<!-- 2) Purpose (r: Note)                  -->
+<!-- 3) Stu Proj (r: ePort)                             -->
+<!-- 4) In Prog (r: Sean)                            -->
+<!-- 5) SEL WORKS
+<!-- 6) Note -->
+<!-- 7) ePort -->
+<!-- 8) Sean -->
+                <!--    -!-    -->
+
+<!-- PORT TAGS -->
+<span id="proj"></span>
+<span id="works"></span>
+<div class="container-fluid hidden-sm hidden-xs">
+    <!-- (1) -->
+    <div class="col-md-5 tag-green-left">
         <h1>#PROJECTS PORTFOLIO</h1>
     </div>
-</div>
-<div class="container-fluid buffer padding white text-type">
-        <div class="col-md-3 col-sm-6 text-center">
-            <a href="/a_developer/presenting_project/mckamey_volunteer_portal" target="_top">
-                <img src="/images/projects/mvp/mvp-1.jpg" class="img-responsive center-cropped center-block img-tile"/>
-                <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;McKamey Volunteer Portal</p>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center">
-            <a href="/a_developer/presenting_project/covalence_store" target="_top">
-                <img src="/images/projects/shop/cov-welcome.png" class="img-responsive center-block img-size img-tile"/>
-                <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Covalence eCommerce Site</p>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center">
-            <a href="#" target="top">
-            <img src="/images/under-construction@1x.svg" class="img-responsive center-block img-size center-cropped img-tile"/>
-            <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;ePortfolio</p>
-            </a>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center">
-                <a href="/a_developer/presenting_project/student_work" target="_top">
-                <img src="/images/developer/cov-badge.png" class="img-responsive center-block img-size center-cropped img-tile"/>
-                <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Student Projects</p>
-                </a>
-            </div>
-            <span id="works"></span>
-</div>
-<!-- END PROJ -->
-<!-- START WORK -->
-<div class="container-fluid">
-        <div class="row col-md-5 col-sm-11 col-xs-11 buffer padding green black-shadow pull-left card-left text-right">
-            <h1>#SELECTED WORKS</h1>
-        </div>
-    </div>
-    <div class="container-fluid buffer padding white text-type">
-            <div class="col-md-3 col-sm-6 text-center">
-                <a href="/a_developer/presenting_work/Sean_Wright" target="_top">
-                    <img src="/images/projects/smw-app/pg-3.png" class="img-responsive center-block img-tile" alt="Click to see selected work: Sean Wright">
-                    <p class="green-back"><span class="green-type">&nbsp;#</span>&nbsp;Sean Wright Promotional</p>
-                </a>
-            </div>
+    <!-- (5) -->
+    <div class="col-md-5 tag-green-right">
+        <h1>#SELECTED WORK</h1>
     </div>
 </div>
-<!-- END WORK -->
+<!-- START SM -!- START SM -!- START SM -->
+<!-- (1) -->
+<div class="container-fluid hidden-lg hidden-md">
+    <div class="col-sm-7 col-xs-10 tag-green-left">
+        <h2>#PROJECTS PORTFOLIO</h2>
+    </div>
+</div>
+<!-- (2) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+    <div class="box">
+    <h3><span>>>></span> PURPOSE</h3>
+    <ul>
+        <li>With exception to student projects, those projects going forward have the intended purpose to both learn new skills and become more proficient in old.</li>
+    </ul>
+    </div>
+</div>
+<!-- (3) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+    <div class="row">
+        <div class="col-xs-5">
+            <img class="img-responsive img-size center-block" src="/images/developer/cov-badge.png"/>
+        </div>
+        <div class="col-xs-7 title">
+            <a href="#"><h1><strong>STUDENT PROJECTS</strong></h1></a>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="list-unstyled">
+            <li><a href="/a_developer/presenting_project/mckamey_volunteer_portal"><span>&nbsp;#</span>&nbsp;McKAMEY VOLUNTEER PORTAL&nbsp;</a></li>
+            <li><a href="/a_developer/presenting_project/covalence_store"><span class="alt">&nbsp;#</span>&nbsp;eCOMMERCE SITE&nbsp;</a></li>
+            <li><a href="/a_developer/presenting_project/student_work"><span class="alt">&nbsp;#</span>&nbsp;MISCELLANEOUS PROJECTS&nbsp;</a></li>
+        </ul>
+    </div>
+</div>
+<!-- (4) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <div class="row">
+            <div class="col-xs-5">
+                <img class="img-responsive img-size center-block" src="/images/icons/web-icon-d.svg"/>
+            </div>
+            <div class="col-xs-7 title">
+                <a href="/a_designer/showing/web"><h3><strong>"IN PROGRESS"</strong></h3></a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <ul class="list-unstyled">
+                    <li><a href="/reaching_out"><span>&nbsp;>>></span>&nbsp;Reach out to me if you'd like to learn more&nbsp;</li></a>
+                    <li><a href="/a_designer/showing/print"><span>&nbsp;#</span>&nbsp;Custom Social Data Recorder App&nbsp;</a></li>
+                    <li><a href="/a_designer/showing/print/relief"><span class="alt">&nbsp;#</span>&nbsp;Custom Scheduler&nbsp;</a></li>
+            </ul>
+        </div>
+</div>
+<!-- (5) -->
+<div class="container-fluid hidden-lg hidden-md">
+    <div class="col-sm-7 col-xs-10 tag-green-left">
+        <h2>#SELECTED WORKS</h2>
+    </div>
+</div>
+<!-- (6) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+    <div class="box">
+    <h3><span>>>></span> NOTE</h3>
+    <ul>
+        <li>These included here have the express permission to be shared.</li>
+        <li>Those not included may be inquired about, but may not be able to be shared in its entirety.</li>
+    </ul>
+    </div>
+</div>
+<!-- (7) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <div class="row">
+            <div class="col-xs-6">
+                <br>
+                <img class="img-responsive img-size center-block" src="/images/under-construction@1x.svg"/>
+            </div>
+            <div class="col-xs-6 title">
+                <a href="#"><h2><strong>ePORTFOLIO</strong></h2></a>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-unstyled">
+                    <li><a href="#"><span>&nbsp;>>></span>&nbsp;The very site you're on!&nbsp;</a></li>
+                    <li><span>&nbsp;#</span>&nbsp;Click here to explore the technologies&nbsp;</li>
+                    <li><span>&nbsp;#</span>&nbsp;Click here to explore the icons used&nbsp;</li>
+                    <li><span>&nbsp;#</span>&nbsp;Click here to explore the brand&nbsp;</li>
+            </ul>
+        </div>
+</div>
+<!-- (8) -->
+<div class="container-fluid hidden-lg hidden-md card-green-intro">
+        <div class="row">
+            <div class="col-xs-5">
+                <img class="img-responsive img-size center-block" src="/images/developer/Sean.svg"/>
+            </div>
+            <div class="col-xs-7 title">
+                <a href="#"><h1><strong>HIRE SEAN</strong></h1></a>
+            </div>
+        </div><br>
+        <div class="row">
+            <ul class="list-unstyled">
+                    <li><span>&nbsp;>>></span>&nbsp;Fun new take on personal sites&nbsp;</li>
+                    <li><a href="/a_developer/presenting_work/Sean_Wright"><span class="alt">&nbsp;#</span>&nbsp;Click here to explore the technologies&nbsp;</a></li>
+                    <li><span>&nbsp;#</span>&nbsp;Click here to explore the brand&nbsp;</li>
+            </ul>
+        </div>
+</div>
+<!-- END SM -!- END SM -!- END SM -->
+
+<!-- START MD -!- START MD -!- START MD -->
+<div class="container-fluid row hidden-sm hidden-xs">
+    <!-- (2) -->
+    <div class="col-md-5 card-green-left">
+        <div class="box">
+            <h2><span>>>></span> PURPOSE<small> </small></h2>
+            <ul>
+                <li>With exception to student projects, those projects going forward have the intended purpose to both learn new skills and become more proficient in old.</li>
+            </ul>
+    </div>
+    </div>
+    <div class="col-md-5 card-green-right">
+        <!-- (6) -->
+        <div class="box">
+            <h2><span>>>></span> NOTE </h2>
+            <ul>
+                <li>These included here have the express permission to be shared.</li>
+                <li>Those not included may be inquired about, but may not be able to be shared in its entirety.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid row hidden-sm hidden-xs">
+    <!-- (3) -->
+        <div class="col-md-6 card-green-left">
+            <div class="col-md-5">
+                <img class="img-responsive img-size center-block" src="/images/developer/cov-badge.png"/>
+            </div>
+            <div class="col-md-7">
+                <div class="row title">
+                    <a href="#"><h2><strong>STUDENT PROJECTS</strong></h2></a>
+                </div>
+                <div>
+                    <ul class="list-unstyled">
+                        <li><a href="/a_developer/presenting_project/mckamey_volunteer_portal"><span>&nbsp;#</span>&nbsp;McKAMEY VOLUNTEER PORTAL&nbsp;</a></li>
+                        <li><a href="/a_developer/presenting_project/covalence_store"><span class="alt">&nbsp;#</span>&nbsp;eCOMMERCE SITE&nbsp;</a></li>
+                        <li><a href="/a_developer/presenting_project/student_work"><span class="alt">&nbsp;#</span>&nbsp;MISCELLANEOUS PROJECTS&nbsp;</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- (7) -->
+        <div class="col-md-6 hidden-sm hidden-xs card-green-right">
+            <div class="col-md-7 col-sm-4"> 
+                <div class="row title">
+                    <a href="#"><h2><strong>ePORTFOLIO</strong></h2></a>           
+                </div>     
+                <div>
+                    <ul class="list-unstyled">
+                        <li><span>&nbsp;>>></span>&nbsp;The very site you're on!&nbsp;</li>
+                        <li><span>&nbsp;#</span>&nbsp;Click here to explore the technologies&nbsp;</li>
+                        <li><a href="/a_designer/showing/web/icons_from_csamandme" target="_top"><span>&nbsp;#</span>&nbsp;Click here to explore the icons used&nbsp;</li></a>
+                        <li><span>&nbsp;#</span>&nbsp;Click here to explore the brand&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-7">
+                <img class="img-responsive img-size center-block" src="/images/under-construction@1x.svg"/>
+            </div>
+        </div>
+    </div>
+    <!-- (4) -->
+    <div class="container-fluid row hidden-sm hidden-xs">
+        <div class="col-md-6 card-green-left">
+            <div class="col-md-5">
+                <img class="img-responsive img-size center-block" src="/images/icons/web-icon-d.svg"/>
+            </div>
+            <div class="col-md-7">
+                <div class="row title">
+                    <a href="/a_designer/showing/#"><h2><strong>"IN PROGRESS"</strong></h2></a>
+                </div>
+            <div>
+                <ul class="list-unstyled">
+                    <li><a href="/reaching_out"><span>&nbsp;>>></span>&nbsp;Reach out to me if you'd like to learn more&nbsp;</li></a>
+                    <li><a href="#"><span>&nbsp;#</span>&nbsp;Custom Social Data Recorder App&nbsp;</a></li>
+                    <li><a href="#"><span class="alt">&nbsp;#</span>&nbsp;Custom Scheduler&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- (8) -->
+            <div class="col-md-6 hidden-sm hidden-xs card-green-right">
+                <div class="col-md-7">
+                    <div class="row title">
+                    <a href="#"><h2><strong>HIRE SEAN WRIGHT</strong></h2></a>                
+                    </div>       
+                    <div>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span>&nbsp;>>></span>&nbsp;Fun new take on personal sites&nbsp;</a></li>
+                                <li><a href="/a_developer/presenting_work/Sean_Wright" target="_top"><span class="alt">&nbsp;#</span>&nbsp;Click here to explore the technologies&nbsp;</a></li>
+                                <li><span>&nbsp;#</span>&nbsp;Click here to explore the brand&nbsp;</li>
+                            </ul>
+                    </div>
+                </div>
+            <div class="col-md-5">
+                <img class="img-responsive img-size center-block" src="/images/developer/Sean.svg"/>
+            </div>
+        </div>
+    </div>
+
+<!-- END MD -!- END MD -!- END MD -->
+
+<!-- END PORTW -!- END PORTW -->
