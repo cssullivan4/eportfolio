@@ -96,7 +96,6 @@
     a:nth-of-type(3) { @include underline(true, dotted); background-color: $red; }
     a:nth-of-type(4) { @include underline(true, dotted); background-color: $yellow; }
     a:nth-of-type(5) { @include underline(true, dotted); background-color: $green; }
-
     p:nth-of-type(1) a:nth-of-type(1) { 
         @include underline(true, dotted);
         background-color: $blue; 
