@@ -155,6 +155,13 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             templateUrl: 'views/portfolio/web/designs.html',
             controller: 'PagesCtrl'
         })
+        // -------------------------------------------------
+        //                  WORK SECTION
+        // -------------------------------------------------
+        .when('/resume_at_scroll', {
+            templateUrl: 'views/work/cards.html',
+            controller: 'PagesCtrl'
+        })
         .otherwise('/404', {
             redirectTo: '404.html',
             controller: 'PagesCtrl'
