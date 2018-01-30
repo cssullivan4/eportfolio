@@ -35,6 +35,9 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             templateUrl: 'views/contact.html',
             controller: 'PagesCtrl'
         })
+        // -------------------------------------------------
+        //               DEVELOPER SECTION
+        // -------------------------------------------------
         .when('/a_developer/presenting_project/mckamey_volunteer_portal', {
             templateUrl: 'views/portfolio/projects/proj-mvp.html',
             controller: 'PagesCtrl'
@@ -45,6 +48,10 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
         })
         .when('/a_developer/presenting_work/Sean_Wright', {
             templateUrl: 'views/portfolio/projects/proj-sean.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_developer/presenting_work/ePortfolio', {
+            templateUrl: 'views/portfolio/projects/eport.html',
             controller: 'PagesCtrl'
         })
         .when('/a_developer/presenting_project/student_work', {
@@ -67,6 +74,9 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             templateUrl: 'views/portfolio/projects/proj-stu-chirp.html',
             controller: 'PagesCtrl'
         })
+        // -------------------------------------------------
+        //                DESIGNER SECTION
+        // -------------------------------------------------
         .when('/a_designer/showing/branding', {
             templateUrl: 'views/portfolio/brand.html',
             controller: 'PagesCtrl'
@@ -158,6 +168,18 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
         // -------------------------------------------------
         //                  WORK SECTION
         // -------------------------------------------------
+        .when('/welcomes_you_to_work', {
+            templateUrl: 'views/work/welcome.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_design_selection', {
+            templateUrl: 'views/work/design.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/a_development_selection', {
+            templateUrl: 'views/work/dev.html',
+            controller: 'PagesCtrl'
+        })
         .when('/resume_at_scroll', {
             templateUrl: 'views/work/cards.html',
             controller: 'PagesCtrl'

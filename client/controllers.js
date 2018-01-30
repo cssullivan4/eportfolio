@@ -74,12 +74,14 @@ angular.module('myApp.controllers', [])
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
           $('.navbar').addClass('shrink');
+          $('.navbar-work').addClass('shrink');
           $('.opener').addClass('shrink-p');
           $('.dropbtn').addClass('shrink-btn');
           $('.opener-b').addClass('opener-b-shrink');
           $('.brand-logo').addClass('shrink-img');
         } else {
           $('.navbar').removeClass('shrink');
+          $('.navbar-work').removeClass('shrink');
           $('.opener').removeClass('shrink-p');
           $('.dropbtn').removeClass('shrink-btn');
           $('.opener-b').removeClass('opener-b-shrink');
@@ -122,6 +124,7 @@ angular.module('myApp.controllers', [])
         $scope.stu = 'views/nav/nav-stu.html';
         $scope.web = 'views/nav/nav-web.html';
         $scope.web_b = 'views/nav/nav-web-b.html';
+        $scope.welcome = 'views/nav/nav-welcome-work.html';
   }])
   .controller('GalleryCtrl', function($scope){
     $(document).ready(function(){

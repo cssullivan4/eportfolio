@@ -17,6 +17,10 @@
     background-color: $black;
     min-height: 35px;
     // Everything else lives inside navbar
+    &-work {
+        background-color: $base;
+        min-height:35px;
+    }
 } 
 .opener {
     @include trans-header;

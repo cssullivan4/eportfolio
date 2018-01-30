@@ -531,9 +531,6 @@ a:visited, a:link, a:active, a:focus, a:hover, a:focus {
   background-color: #f1aefe; }
 
 /**
- * _PAGE: reaching_out.html
- */
-/**
  * Basic typography style for copy text
  */
 body {
@@ -672,6 +669,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   background-color: #1c1c1c;
   min-height: 35px; }
+  .navbar-work {
+    background-color: #f2f2f2;
+    min-height: 35px; }
 
 .opener {
   -moz-webkit-transition: all 0.325s ease;
@@ -1254,6 +1254,16 @@ p.opener-b {
       padding: 0 1.25em;
       text-align: left; } }
 
+.section-3 {
+  height: 100%;
+  line-height: 2em;
+  margin: 1.5em 0;
+  padding: 0 2em;
+  width: 100vw;
+  text-align: left; }
+  .section-3 p {
+    font-size: 2em; }
+
 .toppers-blue {
   text-align: center;
   float: left;
@@ -1266,6 +1276,20 @@ p.opener-b {
       margin: 1em 0; } }
   @media (min-width: 62em) {
     .toppers-blue {
+      width: 32%;
+      margin: 1em 0; } }
+.toppers-green {
+  text-align: center;
+  float: left;
+  margin: 0 0.5em; }
+  .toppers-green span {
+    color: #0df8ad; }
+  @media (min-width: 20em) {
+    .toppers-green {
+      width: 100%;
+      margin: 1em 0; } }
+  @media (min-width: 62em) {
+    .toppers-green {
       width: 32%;
       margin: 1em 0; } }
 .toppers-purple {
@@ -1339,6 +1363,92 @@ p.opener-b {
         margin-top: 0; }
       .work-card-blue .work-section-red span {
         color: #ff527a; }
+.work-card-gray {
+  box-shadow: 0px 7.5px 0px 0px #737373;
+  background-color: white;
+  float: left;
+  margin: 0 0.5em;
+  margin-bottom: 2em; }
+  @media (min-width: 20em) {
+    .work-card-gray {
+      width: 100%; } }
+  @media (min-width: 62em) {
+    .work-card-gray {
+      width: 32%; } }
+  .work-card-gray .work-header {
+    background-color: #737373;
+    padding: 1em 1em; }
+  .work-card-gray .work-section {
+    box-shadow: 0px 7.5px 0px 0px #737373;
+    border: 2px solid #737373;
+    font-size: 1.15em;
+    padding: 1em 1em; }
+    .work-card-gray .work-section h3 span::before {
+      color: #0df8ad; }
+    .work-card-gray .work-section h3:nth-of-type(1) {
+      margin-top: 0; }
+    .work-card-gray .work-section img {
+      height: 10em;
+      width: auto; }
+    .work-card-gray .work-section span {
+      color: #737373; }
+.work-card-green {
+  box-shadow: 0px 7.5px 0px 0px #0df8ad;
+  background-color: white;
+  float: left;
+  margin: 0 0.5em;
+  margin-bottom: 2em; }
+  @media (min-width: 20em) {
+    .work-card-green {
+      width: 100%; } }
+  @media (min-width: 62em) {
+    .work-card-green {
+      width: 32%; } }
+  .work-card-green .work-header {
+    background-color: #0df8ad;
+    padding: 1em 1em; }
+  .work-card-green .work-section {
+    box-shadow: 0px 7.5px 0px 0px #0df8ad;
+    border: 2px solid #0df8ad;
+    font-size: 1.15em;
+    padding: 1em 1em; }
+    .work-card-green .work-section h3:nth-of-type(1) {
+      margin-top: 0; }
+    .work-card-green .work-section span {
+      color: #0df8ad; }
+  .work-card-green-alt {
+    background-color: white;
+    font-size: 1.25em;
+    box-shadow: 0px 7.5px 0px 0px #0df8ad;
+    background-color: white;
+    float: left;
+    margin: 0 0.5em;
+    margin-bottom: 2em; }
+    .work-card-green-alt span {
+      color: #0df8ad; }
+      .work-card-green-alt span::before {
+        color: #0df8ad; }
+    @media (min-width: 20em) {
+      .work-card-green-alt {
+        width: 100%; } }
+    @media (min-width: 62em) {
+      .work-card-green-alt {
+        width: 32%; } }
+    .work-card-green-alt .work-header {
+      background-color: #0df8ad;
+      padding: 1em 1em; }
+    .work-card-green-alt .work-section {
+      border: 2px solid #0df8ad;
+      font-size: 0.95em;
+      text-align: left; }
+    .work-card-green-alt .box {
+      border-top: 2px dashed #0df8ad; }
+      @media (min-width: 20em) {
+        .work-card-green-alt .box {
+          padding: 1em 1em; } }
+      @media (min-width: 62em) {
+        .work-card-green-alt .box {
+          padding: 0.25em 0.25em; } }
 .work-card-purple {
   box-shadow: 0px 7.5px 0px 0px #f1aefe;
   background-color: white;

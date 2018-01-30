@@ -1,5 +1,4 @@
 <div class="container-fluid row" ng-controller="HeaderCtrl">
-        <!-- <a href="#" target="_top"> -->
         <div class="col-md-6 col-sm-6 col-xs-6 dropdown">
             <button class="dropbtn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <p class="opener-b" ng-if="currentPath === '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</p>
@@ -46,6 +45,7 @@
                     <em><span ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'"><small>./MCKAMEY VOLUNTEER PORTAL&nbsp;</small></span></em>
                     <em><span ng-if="currentPath === '/a_developer/presenting_project/covalence_store'"><small>./COVALENCE STORE&nbsp;</small></span></em>
                     <em><span ng-if="currentPath === '/a_developer/presenting_work/Sean_Wright'"><small>./SEAN WRIGHT&nbsp;</small></span></em>
+                    <em><span ng-if="currentPath === '/a_developer/presenting_work/ePortfolio'"><small>+ ePortfolio&nbsp;</small></span></em>
                     <em><span ng-if="currentPath === '/a_developer/presenting_project/student_work'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
                     <em><span ng-if="currentPath === '/a_developer/presenting_project/student_work/type'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
                     <em><span ng-if="currentPath === '/a_developer/presenting_project/student_work/dice'"><small>./STUDENT PROJECTS&nbsp;</small></span></em>
@@ -56,11 +56,10 @@
                     </p>
                 </button>
             <ul class="dropdown-content list-unstyled">
-                <!-- <p class="opener-b"> -->
                     <li class="color-blue-2">
                         <a href="/a_social_entrepreneur" target="_top">
-                        <em><span class="opener" ng-if="currentPath !== '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em></li>
-                        </a>
+                        <em><span class="opener" ng-if="currentPath !== '/a_social_entrepreneur'">/ASPIRING SOCIAL ENTREPRENEUR&nbsp;</span></em></a>
+                    </li>    
                     <li class="color-purple">
                         <a href="/a_scientist" target="_top">                                
                         <em><span class="opener" ng-if="currentPath !== '/a_scientist'">/TRAINED SCIENTIST&nbsp;</span></em></li>
@@ -79,15 +78,12 @@
                         <em><span class="opener" ng-if="currentPath !== '/a_developer'">/FRESH DEVELOPER&nbsp;</span></em>
                         </a>
                     </li>
-                    <!-- <li role="separator" class="divider"></li> -->
                     <a href="/reaching_out" target="_top"><li class="color-trans">
                         
                         <em><span class="opener" ng-if="currentPath !== '/reaching_out'" style="color: #1C1C1C">/REACH OUT&nbsp;</span></em>
                     
                     </li></a>
-                <!-- </p> -->
                   </ul>
-            <!-- </a> -->
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6" ng-controller="ScrollCtrl">
             <a href="/welcomes_you">
@@ -126,6 +122,7 @@
                 <img src="/images/icons/csamandme.gr.svg" alt="Click logo to return to welcome page" class="brand-logo" ng-if="currentPath === '/a_developer/presenting_project/mckamey_volunteer_portal'">
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" alt="Click logo to return to welcome page" ng-if="currentPath === '/a_developer/presenting_project/covalence_store'">
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" alt="Click logo to return to welcome page" ng-if="currentPath === '/a_developer/presenting_work/Sean_Wright'">
+                <img src="/images/icons/csamandme.gr.svg" class="brand-logo" alt="Click logo to return to welcome page" ng-if="currentPath === '/a_developer/presenting_work/ePortfolio'">
                 <img src="/images/icons/csamandme.gr.svg" alt="Click logo to return to welcome page" class="brand-logo" ng-if="currentPath === '/a_developer/presenting_project/student_work'">
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" ng-if="currentPath === '/a_developer/presenting_project/student_work/type'" alt="Click logo to return to welcome page">
                 <img src="/images/icons/csamandme.gr.svg" class="brand-logo" ng-if="currentPath === '/a_developer/presenting_project/student_work/dice'" alt="Click logo to return to welcome page">

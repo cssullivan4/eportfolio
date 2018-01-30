@@ -16,6 +16,23 @@
             margin: 1em 0;
         }
     }
+    &-green {
+        text-align: center;
+        span { color: $green;  }
+
+        float: left;
+        // font-size: 2em;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+            margin: 1em 0;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+            margin: 1em 0;
+        }
+    }
     &-purple {
         text-align: center;
         span { color: $purple;  }
@@ -110,6 +127,119 @@
                 span {
                     @include text-wash(false, $red);
                 }
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  GRAY GRAY GRAY GRAY GRAY
+    // ----------------------------------------------------------
+    &-gray {
+        @include box-shadow-sm($gray);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        margin-bottom: 2em;
+
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $gray;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($gray);
+            border: 2px solid $gray;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3 span::before {
+                color: $green;
+            }
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            img {
+                height: 10em;
+                width: auto;
+            }
+            span {
+                @include text-wash(false, $gray);
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  GREEN GREEN GREEN GREEN
+    // ----------------------------------------------------------
+    &-green {
+        @include box-shadow-sm($green);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        margin-bottom: 2em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $green;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($green);
+            border: 2px solid $green;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            span {
+                @include text-wash(false, $green);
+            }
+        }
+        &-alt {
+            @include card-green;
+            @include box-shadow-sm($green);
+
+            background-color: $white;
+
+            float: left;
+            margin: 0 0.5em;
+            margin-bottom: 2em;
+            
+            @include respond-to('xxsmall') {
+                width: 100%;
+            }
+            @include respond-to('medium') {
+                width: 32%;
+            }
+            .work-header {
+                background-color: $green;
+                padding: $padding;
+            }
+            .work-section {
+                border: 2px solid $green;
+                font-size: 0.95em;
+                text-align: left;
+                // padding: $padding;
+            }
+            .box {
+                @include respond-to('xxsmall') {
+                    padding: $padding;
+                }
+                @include respond-to('medium') {
+                    padding: 0.25em 0.25em;
+                }
+                border-top: 2px dashed $green;
             }
         }
     }

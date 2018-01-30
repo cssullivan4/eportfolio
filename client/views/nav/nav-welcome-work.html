@@ -1,0 +1,41 @@
+<div class="container-fluid row" ng-controller="HeaderCtrl">
+        <div class="col-md-6 col-sm-6 col-xs-6 dropdown">
+            <button class="dropbtn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="opener">
+                    <em><span ng-if="currentPath === '/welcomes_you_to_work'">/ welcome</span></em>
+                    <span ng-if="currentPath === '/a_development_selection'"><em>/ development&nbsp;</em></span>
+                    <em><span ng-if="currentPath === '/a_design_selection'">/ design&nbsp;</span></em>
+                    <em><span ng-if="currentPath === '/resume_at_scroll'">/ other experiences&nbsp;</span></em>
+                </p>
+            </button>
+            <ul class="dropdown-content list-unstyled">
+                    <li class="color-trans">
+                        <a href="/a_development_selection" target="_top">
+                        <em><span class="opener work-green" ng-if="currentPath !== '/a_development_selection'">+ development&nbsp;</span></em></a>
+                    </li>    
+                    <li class="color-trans">
+                        <a href="/a_design_selection" target="_top">                                
+                        <em><span class="opener" ng-if="currentPath !== '/a_design_selection'">+ design&nbsp;</span></em>
+                        </a>
+                    </li>
+                    <li class="color-trans">
+                        <a href="/resume_at_scroll" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/resume_at_scroll'">+ other experiences&nbsp;</span></em>
+                        </a>
+                    </li>
+                    <li class="color-trans">
+                        <a href="/reaching_out" target="_top">
+                        <em><span class="opener" ng-if="currentPath !== '/reaching_out'" style="color: #1C1C1C">+ reach me&nbsp;</span></em>
+                        </a>
+                    </li>
+                <!-- </p> -->
+                  </ul>
+            <!-- </a> -->
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6" ng-controller="ScrollCtrl">
+            <a href="/welcomes_you_to_work">
+                <img src="/images/icons/csamandme.bw.svg" class="brand-logo" alt="Click logo to return to welcome page">
+            </a>
+        </div>
+
+    </div>
