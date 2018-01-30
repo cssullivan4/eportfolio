@@ -1,0 +1,329 @@
+.toppers {
+    &-blue {
+        text-align: center;
+        span { color: $blue;  }
+
+        float: left;
+        // font-size: 2em;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+            margin: 1em 0;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+            margin: 1em 0;
+        }
+    }
+    &-green {
+        text-align: center;
+        span { color: $green;  }
+
+        float: left;
+        // font-size: 2em;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+            margin: 1em 0;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+            margin: 1em 0;
+        }
+    }
+    &-purple {
+        text-align: center;
+        span { color: $purple;  }
+
+        float: left;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+            margin: 2.5em 0 1em 0;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+            margin: 1em 0;
+        }
+    }
+    &-red {
+        text-align: center;
+        span { color: $red;  }
+
+        float: left;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+            margin: 2.5em 0 1em 0;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+            margin: 1em 0;
+        }
+    }
+}
+
+.work-card {
+    // ----------------------------------------------------------
+    //                  BLUE BLUE BLUE BLUE BLUE
+    // ----------------------------------------------------------
+    &-blue {
+        @include box-shadow-sm($blue);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $blue;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($blue);
+            border: 2px solid $blue;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            span {
+                @include text-wash(false, $blue);
+            }
+            &-green {
+                @include box-shadow-sm($green);
+                border-left: 2px dashed $green;
+                border-right: 2px dashed $green;
+                font-size: 1.15em;
+                padding: $padding;
+    
+                h3:nth-of-type(1) {
+                    margin-top: 0;
+                }
+                span {
+                    @include text-wash(false, $green);
+                }
+            }
+            &-red {
+                border-left: 2px dashed $red;
+                border-right: 2px dashed $red;
+                font-size: 1.15em;
+                padding: $padding;
+                
+    
+                h3:nth-of-type(1) {
+                    margin-top: 0;
+                }
+                span {
+                    @include text-wash(false, $red);
+                }
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  GRAY GRAY GRAY GRAY GRAY
+    // ----------------------------------------------------------
+    &-gray {
+        @include box-shadow-sm($gray);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        margin-bottom: 2em;
+
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $gray;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($gray);
+            border: 2px solid $gray;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3 span::before {
+                color: $green;
+            }
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            img {
+                height: 10em;
+                width: auto;
+            }
+            span {
+                @include text-wash(false, $gray);
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  GREEN GREEN GREEN GREEN
+    // ----------------------------------------------------------
+    &-green {
+        @include box-shadow-sm($green);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        margin-bottom: 2em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $green;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($green);
+            border: 2px solid $green;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            span {
+                @include text-wash(false, $green);
+            }
+        }
+        &-alt {
+            @include card-green;
+            @include box-shadow-sm($green);
+
+            background-color: $white;
+
+            float: left;
+            margin: 0 0.5em;
+            margin-bottom: 2em;
+            
+            @include respond-to('xxsmall') {
+                width: 100%;
+            }
+            @include respond-to('medium') {
+                width: 32%;
+            }
+            .work-header {
+                background-color: $green;
+                padding: $padding;
+            }
+            .work-section {
+                border: 2px solid $green;
+                font-size: 0.95em;
+                text-align: left;
+                // padding: $padding;
+            }
+            .box {
+                @include respond-to('xxsmall') {
+                    padding: $padding;
+                }
+                @include respond-to('medium') {
+                    padding: 0.25em 0.25em;
+                }
+                border-top: 2px dashed $green;
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  PURPLE PURPLE PURPLE
+    // ----------------------------------------------------------
+    &-purple {
+        @include box-shadow-sm($purple);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $purple;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($purple);
+            border: 2px solid $purple;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            span {
+                @include text-wash(false, $purple);
+            }
+        }
+    }
+    // ----------------------------------------------------------
+    //                  RED RED RED RED RED RED
+    // ----------------------------------------------------------
+    &-red {
+        @include box-shadow-sm($red);
+
+        background-color: $white;
+        float: left;
+        margin: 0 0.5em;
+        
+        @include respond-to('xxsmall') {
+            width: 100%;
+        }
+        @include respond-to('medium') {
+            width: 32%;
+        }
+        .work-header {
+            background-color: $red;
+            padding: $padding;
+        }
+        .work-section {
+            @include box-shadow-sm($red);
+            border: 2px solid $red;
+            font-size: 1.15em;
+            padding: $padding;
+
+            h3:nth-of-type(1) {
+                margin-top: 0;
+            }
+            span {
+                @include text-wash(false, $red);
+            }
+            &-blue {
+                @include box-shadow-sm($blue);
+                border-left: 2px dashed $blue;
+                border-right: 2px dashed $blue;
+                font-size: 1.15em;
+                // margin-top: 0.5em;
+                padding: $padding;
+    
+                h3:nth-of-type(1) {
+                    margin-top: 0;
+                }
+                span {
+                    @include text-wash(false, $blue);
+                }
+            }
+        }
+    }
+}

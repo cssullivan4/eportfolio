@@ -1,4 +1,47 @@
 <div class="container-fluid">
+        <nav class="navbar-work navbar-fixed-top" role="navigation" ng-controller="NavShrink">
+                <div id="header" ng-controller="NavMenu">
+                        <div ng-include="welcome"></div>
+                </div>
+        </nav>
+</div>
+<div class="container-fluid">
+    <div class="container-fluid card-plain">
+        <p class="lead">
+            Experiences outside of development & design are to show more fully the background from which I come. These are organized by interests, and have either occured during or after university.
+        </p>
+    </div>
+</div>
+<!-- MENU -->
+<div class="container-fluid">
+    <div class="toppers-blue">
+        <a href="/a_social_entrepreneur" target="_top">
+            <p class="lead">
+                <span>//</span>&nbsp;I am a social entrepreneur&nbsp;
+                <span>...</span>
+            </p>
+        </a>
+    </div>
+    <div class="toppers-purple hidden-sm hidden-xs">
+        <a href="/a_scientist" target="_top">
+            <p class="lead">
+                <span>//</span>&nbsp;I am a trained scientist&nbsp;
+                <span>...</span>
+            </p>
+        </a>
+    </div>
+    <div class="toppers-red hidden-sm hidden-xs">
+        <a href="/a_politi" target="_top">
+            <p class="lead">
+                <span>//</span>&nbsp;I am a practiced politi&nbsp;
+                <span>...</span>
+            </p>
+        </a>
+    </div>
+    <br>
+</div>
+
+<div class="container-fluid">
 
         <!-- BLUE CARD BLUE CARD BLUE CARD -->
         <div class="work-card-blue">
@@ -66,7 +109,7 @@
                 <kbd>#Branding&Identity</kbd>
                 <kbd>#DocumentDrafting</kbd>
             </div>
-            <div class="work-section-red">
+            <!-- <div class="work-section-red">
                 <h3>
                     <span>>>></span> XX SUMMIT
                     <small>@ New York City / October 11, 2012</small>
@@ -75,10 +118,10 @@
                     <em>Click through to read about participating in the XX Summit and the inaugural International Day of the Girl
                         with the United Nations.</em>
                 </blockquote>
-            </div>
+            </div> -->
     
             <!-- CCE -->
-            <div class="work-header" id="cce-b">
+            <!-- <div class="work-header" id="cce-b">
                 <h2>#CENTER FOR CIVIC ENGAGEMENT</h2>
             </div>
             <div class="work-section-red">
@@ -91,7 +134,7 @@
                             Tennessee about international government, politics, systems - in the vein of the United Nations -
                             and state government through the YMCA of Middle Tennessee.</em>
                     </blockquote>
-            </div>
+            </div> -->
     
             <!-- CDM -->
             <div class="work-header" id="cdm">
@@ -366,61 +409,4 @@
                 <!-- <kbd>#skill1</kbd> <kbd>#skill2</kbd> <kbd>#skill3</kbd> -->
             </div>
         </div>
-    </div>
-
-
-
-<!-- old politi -->
-<div class="container-fluid card-intro card-helper-politi" ng-controller="ScrollCtrl">
-        <p class="lead">
-            Disclaimer out of the way, below you will find the over-reaching categories as I see fit. There is cross-over with <em><span><a href="/a_social_entrepreneur" target="_top">/Aspiring Social Entrepreneur</a></span></em>, so you may find repeated information, links, or a change in scheme.
-        </p>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-            <a href="#">
-                <img src="/images/icons/civic-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Civic">
-                <h3>CIVIC</h3>
-            </a>
-            <!-- <small> -->
-            <ul class="list-unstyled">
-                <li><a href="#CHA" id="red" ng-click="scrollTo()"><span>#</span>CITY OF CHATTANOOGA&nbsp;</a></li>
-                        <!-- <small><a href="#local" id="red"><span>#</span>LOCALIZE.IT&nbsp;</a></small><br> -->
-                <li><a href="#CCE" id="red" ng-click="scrollTo()"><span>#</span>CENTER FOR CIVIC ENGAGEMENT&nbsp;</a></li>
-            </ul>
-            <!-- </small> -->
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a href="#">
-                            <img src="/images/icons/policy-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Policy">
-                            <h3>POLICY</h3>
-                        </a>
-                        <!-- <small> -->
-                        <ul class="list-unstyled">
-                            <li><a href="#MCW" ng-click="scrollTo()"><span>#</span>MAYOR'S COUNCIL FOR WOMEN&nbsp;</a></li>
-                            <li><a href="#UN" ng-click="scrollTo()"><span>#</span>INAUGURAL INTERNATIONAL DAY OF THE GIRL&nbsp;</a></li>
-                            <li><a href="#TN" ng-click="scrollTo()"><span>#</span>TN COUNCIL&nbsp;</a></li>
-                        </ul>
-                    <!-- </small> -->
-                    </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a href="#">
-                            <img src="/images/icons/campaign-icon-b.svg" class="img-responsive center-block img-size" alt="Icon: Campaign">
-                            <h3>CAMPAIGN</h3>
-                        </a>
-                        <!-- <small> -->
-                            <ul class="list-unstyled">
-                                <li><a href="#melody" ng-click="scrollTo()"><span>#</span>MELODY SHEKARI FOR CONGRESS&nbsp;</a></li>
-                                </ul>
-                            <!-- </small> -->
-                    </div>
-        <div class="col-md-3 col-sm-6 col-xs-6">
-                        <a href="#">
-                            <img src="/images/icons/organizing-icon-b.svg" id="sci-app-ico" class="img-responsive center-block img-size" alt="Icon: Organizing">
-                            <h3>ORGANIZING</h3>
-                        </a>
-                        <!-- <small> -->
-                            <ul class="list-unstyled">
-                                <li><a href="#AR-fellow" ng-click="scrollTo()"><span>#</span>ARKANSAS VICTORY FELLOWSHIP&nbsp;</a></li>
-                                <li><a href="#harvard"><span ng-click="scrollTo()">#</span>HARVARD WOMEN'S FORUM&nbsp;</a></li>
-                        <!-- </small> -->
-                    </div>
-    </div>
+</div>
