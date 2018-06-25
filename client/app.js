@@ -215,43 +215,43 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             templateUrl: 'views/copy/sorted.html',
             controller: 'PagesCtrl'
         })
-        .when('/here_are_sorted_examples/melody_shekari_for_congress', {
+        .when('/here_are_sorted_examples/Melody_Shekari_for_Congress', {
             templateUrl: 'views/copy/sorted/melody.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/hakeem_for_house', {
+        .when('here_are_sorted_examples/Hakeem_for_House', {
             templateUrl: 'views/copy/sorted/hakeem.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/katie_king_law', {
+        .when('here_are_sorted_examples/Katie_King_Law', {
             templateUrl: 'views/copy/sorted/katie.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/writing_on_the_wall', {
+        .when('here_are_sorted_examples/Writing_on_the_Wall', {
             templateUrl: 'views/copy/sorted/writing.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/stfaa', {
+        .when('here_are_sorted_examples/STFAA', {
             templateUrl: 'views/copy/sorted/stfaa.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/hire_sean_wright', {
+        .when('here_are_sorted_examples/Hire_Sean_Wright', {
             templateUrl: 'views/copy/sorted/sean.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/spotme', {
+        .when('here_are_sorted_examples/Spotme', {
             templateUrl: 'views/copy/sorted/spotme.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/mayors_council_for_women', {
+        .when('here_are_sorted_examples/Mayors_Council_for_Women', {
             templateUrl: 'views/copy/sorted/mcw.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/artsbuild', {
+        .when('here_are_sorted_examples/ArtsBuild', {
             templateUrl: 'views/copy/sorted/artsbuild.html',
             controller: 'PagesCtrl'
         })
-        .when('here_are_sorted_examples/velo', {
+        .when('here_are_sorted_examples/Velo', {
             templateUrl: 'views/copy/sorted/velo.html',
             controller: 'PagesCtrl'
         })
