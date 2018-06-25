@@ -166,7 +166,7 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
             controller: 'PagesCtrl'
         })
         // -------------------------------------------------
-        //                  WORK SECTION
+        //                  WORK (DEV) SECTION
         // -------------------------------------------------
         .when('/welcomes_you_to_work', {
             templateUrl: 'views/work/welcome.html',
@@ -182,6 +182,109 @@ angular.module('myApp', ['myApp.controllers', /*'myApp.services',*/ /*'myApp.dir
         })
         .when('/resume_at_scroll', {
             templateUrl: 'views/work/cards.html',
+            controller: 'PagesCtrl'
+        })
+        // -------------------------------------------------
+        //                  WORK (COPYWRITE) SECTION
+        // -------------------------------------------------
+        .when('/hire_him_vaynermedia', {
+            templateUrl: 'views/copy/welcome.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_collegiate_examples', {
+            templateUrl: 'views/copy/collegiate.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_collegiate_examples/STF_UTK', {
+            templateUrl: 'views/copy/collegiate/stf_utk.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_collegiate_examples/give_haiti_hope', {
+            templateUrl: 'views/copy/collegiate/ghh.html',
+            controller: 'PagesCtrl',
+        })
+        .when('/here_are_collegiate_examples/TN_council', {
+            templateUrl: 'views/copy/collegiate/tncouncil.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_collegiate_examples', {
+            templateUrl: 'views/copy/collegiate/IDOG.html',
+            controller: 'PagesCtrl',
+        })
+        .when('/here_are_sorted_examples', {
+            templateUrl: 'views/copy/sorted.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_sorted_examples/melody_shekari_for_congress', {
+            templateUrl: 'views/copy/sorted/melody.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/hakeem_for_house', {
+            templateUrl: 'views/copy/sorted/hakeem.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/katie_king_law', {
+            templateUrl: 'views/copy/sorted/katie.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/writing_on_the_wall', {
+            templateUrl: 'views/copy/sorted/writing.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/stfaa', {
+            templateUrl: 'views/copy/sorted/stfaa.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/hire_sean_wright', {
+            templateUrl: 'views/copy/sorted/sean.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/spotme', {
+            templateUrl: 'views/copy/sorted/spotme.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/mayors_council_for_women', {
+            templateUrl: 'views/copy/sorted/mcw.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/artsbuild', {
+            templateUrl: 'views/copy/sorted/artsbuild.html',
+            controller: 'PagesCtrl'
+        })
+        .when('here_are_sorted_examples/velo', {
+            templateUrl: 'views/copy/sorted/velo.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works', {
+            templateUrl: 'views/copy/projects.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/localize_it', {
+            templateUrl: 'views/copy/projects/localize.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/chatt_tv', {
+            templateUrl: 'views/copy/projects/chatttv.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/tn_woodworks', {
+            templateUrl: 'views/copy/projects/tnwoodworks.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/mckamey_volunteer_portal', {
+            templateUrl: 'views/copy/projects/mvp.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/c_grimey', {
+            templateUrl: 'views/copy/projects/cgrimey.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/cool_food_story', {
+            templateUrl: 'views/copy/projects/coolfoodstory.html',
+            controller: 'PagesCtrl'
+        })
+        .when('/here_are_projects_in_the_works/bessie_smith_cultural_center', {
+            templateUrl: 'views/copy/projects/bessie.html',
             controller: 'PagesCtrl'
         })
         .otherwise('/404', {
